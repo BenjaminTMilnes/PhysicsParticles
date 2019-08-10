@@ -1,25 +1,25 @@
 {
     "Particles": [
         {
-            "WikipediaURL": "https://en.wikipedia.org/wiki/Electron",
+            "Mass": "9.10938356 \\times 10^{-31} kg",
+            "Spin": "1/2",
             "DiscoveredBy": "J. J. Thomson",
-            "URLReference": "electron",
-            "RelativeCharge": "-1",
-            "Symbol": "e^{-}",
-            "Antiparticle": "Positron",
             "MagneticMoment": "-1.00115965218091 \\mu_{B}",
-            "YearDiscovered": "1897",
+            "Symbol": "e^{-}",
+            "Reference": "Electron",
             "Classes": [
                 "lepton",
                 "charged lepton",
                 "fermion",
                 "matter"
             ],
+            "YearDiscovered": "1897",
+            "URLReference": "electron",
+            "Antiparticle": "Positron",
+            "MeanLifetime": "stable",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Electron",
             "Name": "Electron",
-            "Spin": "1/2",
-            "Mass": "9.10938356 \\times 10^{-31} kg",
-            "Reference": "Electron",
-            "MeanLifetime": "stable"
+            "RelativeCharge": "-1"
         }
     ]
 }

@@ -73,7 +73,12 @@ class Compiler (object):
         page = template
 
         page = page.replace("[Name]", particle["Name"])
+        page = page.replace("[Symbol]", particle["Symbol"])
+        page = page.replace("[Mass]", particle["Mass"])
         page = page.replace("[RelativeCharge]", particle["RelativeCharge"])
+        page = page.replace("[Spin]", particle["Spin"])
+        page = page.replace("[MagneticMoment]", particle["MagneticMoment"])
+        page = page.replace("[MeanLifetime]", particle["MeanLifetime"])
 
         with open(os.path.join("../web/particles", particle["URLReference"] + ".html"), "w") as fileObject:
             fileObject.write(page)
