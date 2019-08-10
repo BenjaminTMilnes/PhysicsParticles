@@ -73,8 +73,9 @@ class Compiler (object):
         page = template
 
         page = page.replace("[Name]", particle["Name"])
+        page = page.replace("[RelativeCharge]", particle["RelativeCharge"])
 
-        with open(os.path.join("../web/particles", particle["URLReference"]), "w") as fileObject:
+        with open(os.path.join("../web/particles", particle["URLReference"] + ".html"), "w") as fileObject:
             fileObject.write(page)
 
     def compile(self):
