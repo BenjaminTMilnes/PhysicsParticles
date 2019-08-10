@@ -56,7 +56,10 @@ class Compiler (object):
 
             lines = lines[4:]
 
-            for line in lines:                
+            for line in lines:                   
+                if line.startswith("other names:"):
+                    particle["OtherNames"] = line[12:].strip()
+
                 if line.startswith("mass:"):
                     particle["Mass"] = line[5:].strip()
 
@@ -112,6 +115,7 @@ class Compiler (object):
         page = page.replace("[Reference]", particle["Reference"])
         page = page.replace("[Name]", particle["Name"])
         page = page.replace("[Symbol]", particle["Symbol"])
+        page = page.replace("[OtherNames]", particle["OtherNames"])
         page = page.replace("[Mass]", self.convertLaTeXToHTML( particle["Mass"]))
         page = page.replace("[RelativeCharge]", self.convertLaTeXToHTML( particle["RelativeCharge"]))
         page = page.replace("[Spin]", particle["Spin"])
