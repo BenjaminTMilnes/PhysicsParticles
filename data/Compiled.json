@@ -1,25 +1,82 @@
 {
     "Particles": [
         {
-            "Mass": "9.10938356 \\times 10^{-31} kg",
-            "Spin": "1/2",
-            "DiscoveredBy": "J. J. Thomson",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Electron",
             "MagneticMoment": "-1.00115965218091 \\mu_{B}",
-            "Symbol": "e^{-}",
+            "URLReference": "electron",
+            "DiscoveredBy": "J. J. Thomson",
+            "Name": "Electron",
+            "Mass": "9.10938356 \\times 10^{-31} kg",
             "Reference": "Electron",
+            "Spin": "1/2",
+            "Symbol": "e^{-},\\\\, \\\\beta^{-}",
+            "AntiparticleReference": "Positron",
+            "MeanLifetime": "stable",
             "Classes": [
                 "lepton",
                 "charged lepton",
                 "fermion",
                 "matter"
             ],
-            "YearDiscovered": "1897",
-            "URLReference": "electron",
-            "Antiparticle": "Positron",
+            "RelativeCharge": "-1",
+            "URL": "electron.html",
+            "Antiparticle": {
+                "URL": "positron.html",
+                "Name": "Positron"
+            },
+            "YearDiscovered": "1897"
+        },
+        {
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Muon",
+            "MagneticMoment": "",
+            "URLReference": "muon",
+            "DiscoveredBy": "Carl D. Anderson, Seth Neddermeyer",
+            "Name": "Muon",
+            "Mass": "",
+            "Reference": "Muon",
+            "Spin": "1/2",
+            "Symbol": "\\\\mu^{-}",
+            "AntiparticleReference": "Antimuon",
+            "MeanLifetime": "2.1969811 \\times 10^{-6} s",
+            "Classes": [
+                "lepton",
+                "charged lepton",
+                "fermion",
+                "matter"
+            ],
+            "RelativeCharge": "-1",
+            "URL": "muon.html",
+            "Antiparticle": {
+                "URL": "",
+                "Name": ""
+            },
+            "YearDiscovered": "1936"
+        },
+        {
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Positron",
+            "MagneticMoment": "",
+            "URLReference": "positron",
+            "DiscoveredBy": "Carl D. Anderson",
+            "Name": "Positron",
+            "Mass": "9.10938356 \\times 10^{-31} kg",
+            "Reference": "Positron",
+            "Spin": "1/2",
+            "Symbol": "e^{+},\\\\, \\\\beta^{+}",
+            "AntiparticleReference": "Electron",
             "MeanLifetime": "stable",
-            "WikipediaURL": "https://en.wikipedia.org/wiki/Electron",
-            "Name": "Electron",
-            "RelativeCharge": "-1"
+            "Classes": [
+                "lepton",
+                "charged lepton",
+                "fermion",
+                "antimatter"
+            ],
+            "RelativeCharge": "+1",
+            "URL": "positron.html",
+            "Antiparticle": {
+                "URL": "electron.html",
+                "Name": "Electron"
+            },
+            "YearDiscovered": "1932"
         }
     ]
 }

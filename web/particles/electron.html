@@ -18,12 +18,15 @@
 
     <link type="text/css" rel="stylesheet" href="../style.css" />
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css"
+        integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js"
+        integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ"
+        crossorigin="anonymous"></script>
 
     <script type="text/javascript">
 
-        var particleSymbol = "e^{-}";
+        var particleSymbol = "e^{-},\\, \\beta^{-}";
 
         function renderMaths() {
             var element = document.getElementById("particlesymbol");
@@ -31,8 +34,8 @@
             katex.render(particleSymbol, element);
         }
 
-        window.addEventListener("DOMContentLoaded", (event) =>{
-                 renderMaths();
+        window.addEventListener("DOMContentLoaded", (event) => {
+            renderMaths();
         });
 
     </script>
@@ -48,11 +51,11 @@
         <table class="particleproperties">
             <tr>
                 <th>Mass:</th>
-                <td>9.10938356 \times 10^{-31} kg</td>
+                <td>9.10938356 &times; 10<sup>&minus;31</sup> kg</td>
             </tr>
             <tr>
                 <th>Relative Charge:</th>
-                <td>-1</td>
+                <td>&minus;1</td>
             </tr>
             <tr>
                 <th>Charge:</th>
@@ -64,7 +67,7 @@
             </tr>
             <tr>
                 <th>Magnetic Moment:</th>
-                <td>-1.00115965218091 \mu_{B}</td>
+                <td>&minus;1.00115965218091 &mu;<sub>B</sub></td>
             </tr>
             <tr>
                 <th>Mean Lifetime:</th>
@@ -72,9 +75,18 @@
             </tr>
             <tr>
                 <th>Antiparticle:</th>
-                <td><a href="[Antiparticle_URL]" title="[Antiparticle_Name]">[Antiparticle_Name]</a></td>
+                <td><a href="positron.html" title="Positron">Positron</a></td>
             </tr>
         </table>
+
+        <h3>See more</h3>
+        <ul>
+            <li>Wikipedia - <a href="https://en.wikipedia.org/wiki/Electron" title="Wikipedia" target="_blank">https://en.wikipedia.org/wiki/Electron</a></li>
+        </ul>
+        <p>The original .particle file that this page was generated from can be viewed at <a
+                href="https://github.com/BenjaminTMilnes/PhysicsParticles/blob/master/data/Electron.particle"
+                target="_blank">https://github.com/BenjaminTMilnes/PhysicsParticles/blob/master/data/Electron.particle</a>
+        </p>
     </div>
 </body>
 
