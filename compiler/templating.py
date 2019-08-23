@@ -49,6 +49,10 @@ class Templater (object):
             if section["Type"] == "Literal":
                 output += section["Content"]
             elif section["Type"] == "Code":
-                output += exec(section["Content"], {"Model": Model})
+                sectionOutput = ""
+                
+                exec( "sectionOutput = " +  section["Content"])
+
+                output += sectionOutput
 
         return output
