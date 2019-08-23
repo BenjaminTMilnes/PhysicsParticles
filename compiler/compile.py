@@ -1,7 +1,6 @@
 import os
 import json
 import re
-import templating
 
 class MeasuredValue (object):
     def __init__(self, significand = 0, exponent = 0, units = ""):
@@ -90,14 +89,6 @@ class Compiler (object):
 
             return particle
 
-    def removeParticlePages(self):
-
-        if not os.path.isdir("../web/particles"):
-            os.mkdir("../web/particles")
-
-        for a in os.listdir("../web/particles"):
-            os.remove(os.path.join("../web/particles", a))
-
     def convertLaTeXToHTML(self, latex):
 
         html = latex
@@ -108,27 +99,6 @@ class Compiler (object):
         html = re.sub(r"_\{(.+)\}", r"<sub>\g<1></sub>", html)
 
         return html
-
-    def makeParticlePage(self, template, particle):
-
-        page = template
-
-        page = page.replace("[[Reference]]", particle["Reference"])
-        page = page.replace("[[Name]]", particle["Name"])
-        page = page.replace("[[Symbol]]", particle["Symbol"])
-        page = page.replace("[[OtherNames]]", particle["OtherNames"])
-        page = page.replace("[[Mass]]", self.convertLaTeXToHTML( particle["Mass"]))
-        page = page.replace("[[RelativeCharge]]", self.convertLaTeXToHTML( particle["RelativeCharge"]))
-        page = page.replace("[[Spin]]", particle["Spin"])
-        page = page.replace("[[MagneticMoment]]", self.convertLaTeXToHTML( particle["MagneticMoment"]))
-        page = page.replace("[[MeanLifetime]]", self.convertLaTeXToHTML( particle["MeanLifetime"]))
-        page = page.replace("[[WikipediaURL]]", particle["WikipediaURL"])
-
-        page = page.replace("[[Antiparticle_Name]]", particle["Antiparticle"]["Name"])
-        page = page.replace("[[Antiparticle_URL]]", particle["Antiparticle"]["URL"])
-
-        with open(os.path.join("../web/particles", particle["URLReference"] + ".html"), "w") as fileObject:
-            fileObject.write(page)
 
     def compile(self):
 
@@ -161,15 +131,6 @@ class Compiler (object):
         with open("../web/particles.json", "w") as  fileObject:
             json.dump(data, fileObject, indent = 4)
 
-        return
-
-        self.removeParticlePages()
-
-        with open("../web-templates/particle.html", "r") as fileObject:
-            particlePageTemplate = fileObject.read()
-
-        for particle in particles:
-            self.makeParticlePage(particlePageTemplate, particle)
 
 if __name__ == "__main__":
     compiler = Compiler()
