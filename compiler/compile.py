@@ -1,6 +1,7 @@
 import os
 import json
 import re
+import templating
 
 class MeasuredValue (object):
     def __init__(self, significand = 0, exponent = 0, units = ""):
@@ -112,19 +113,19 @@ class Compiler (object):
 
         page = template
 
-        page = page.replace("[Reference]", particle["Reference"])
-        page = page.replace("[Name]", particle["Name"])
-        page = page.replace("[Symbol]", particle["Symbol"])
-        page = page.replace("[OtherNames]", particle["OtherNames"])
-        page = page.replace("[Mass]", self.convertLaTeXToHTML( particle["Mass"]))
-        page = page.replace("[RelativeCharge]", self.convertLaTeXToHTML( particle["RelativeCharge"]))
-        page = page.replace("[Spin]", particle["Spin"])
-        page = page.replace("[MagneticMoment]", self.convertLaTeXToHTML( particle["MagneticMoment"]))
-        page = page.replace("[MeanLifetime]", self.convertLaTeXToHTML( particle["MeanLifetime"]))
-        page = page.replace("[WikipediaURL]", particle["WikipediaURL"])
+        page = page.replace("[[Reference]]", particle["Reference"])
+        page = page.replace("[[Name]]", particle["Name"])
+        page = page.replace("[[Symbol]]", particle["Symbol"])
+        page = page.replace("[[OtherNames]]", particle["OtherNames"])
+        page = page.replace("[[Mass]]", self.convertLaTeXToHTML( particle["Mass"]))
+        page = page.replace("[[RelativeCharge]]", self.convertLaTeXToHTML( particle["RelativeCharge"]))
+        page = page.replace("[[Spin]]", particle["Spin"])
+        page = page.replace("[[MagneticMoment]]", self.convertLaTeXToHTML( particle["MagneticMoment"]))
+        page = page.replace("[[MeanLifetime]]", self.convertLaTeXToHTML( particle["MeanLifetime"]))
+        page = page.replace("[[WikipediaURL]]", particle["WikipediaURL"])
 
-        page = page.replace("[Antiparticle_Name]", particle["Antiparticle"]["Name"])
-        page = page.replace("[Antiparticle_URL]", particle["Antiparticle"]["URL"])
+        page = page.replace("[[Antiparticle_Name]]", particle["Antiparticle"]["Name"])
+        page = page.replace("[[Antiparticle_URL]]", particle["Antiparticle"]["URL"])
 
         with open(os.path.join("../web/particles", particle["URLReference"] + ".html"), "w") as fileObject:
             fileObject.write(page)
@@ -170,3 +171,6 @@ if __name__ == "__main__":
 
     compiler.compile()
 
+    templater = templating.Templater()
+
+    print(templater.applyModelToTemplate(templater.getTemplateSections("This is the template. [[2 + 2]] Here is the next part."), {"Here":"something"}))
