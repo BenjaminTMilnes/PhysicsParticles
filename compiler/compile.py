@@ -50,7 +50,7 @@ class Compiler (object):
 
             particle["Reference"] = lines[0]
             particle["URLReference"] = particle["Reference"].lower()
-            particle["URL"] = particle["URLReference"] + ".html"
+            particle["URL"] = particle["URLReference"]
             particle["Name"] = lines[1]
             particle["Symbol"] = lines[2]
             particle["Classes"] = [c.strip() for c in  lines[3].split(",")]
@@ -158,6 +158,11 @@ class Compiler (object):
         with open("../data/Compiled.json", "w") as  fileObject:
             json.dump(data, fileObject, indent = 4)
 
+        with open("../web/particles.json", "w") as  fileObject:
+            json.dump(data, fileObject, indent = 4)
+
+        return
+
         self.removeParticlePages()
 
         with open("../web-templates/particle.html", "r") as fileObject:
@@ -170,7 +175,3 @@ if __name__ == "__main__":
     compiler = Compiler()
 
     compiler.compile()
-
-    templater = templating.Templater()
-
-    print(templater.applyModelToTemplate(templater.getTemplateSections("This is the template. [[2 + 2]] Here is the next part."), {"Here":"something"}))
