@@ -86,6 +86,10 @@ class Compiler (object):
                     
                 if line.startswith("wikipedia:"):
                     particle["WikipediaURL"] = line[10:].strip()
+                    
+                if line.startswith("colour:"):
+                    particle["BackgroundColour"] = line[7:].strip().split(",")[0].strip()
+                    particle["BorderColour"] = line[7:].strip().split(",")[1].strip()
 
             return particle
 

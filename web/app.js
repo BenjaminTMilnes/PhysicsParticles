@@ -82,6 +82,16 @@ application.factory("dataService", ["$http", function ($http) {
     return dataService;
 }]);
 
+application.directive("particle", function () {
+    return {
+        restrict: "E",
+        templateUrl: "particle-block.html",
+        scope: {
+            particle: "=data"
+        }
+    };
+});
+
 application.controller("TableController", ["$scope", "$routeParams", "dataService", "$rootScope", function TableController($scope, $routeParams, dataService, $rootScope) {
 
     dataService.getData().then(function (data) {
