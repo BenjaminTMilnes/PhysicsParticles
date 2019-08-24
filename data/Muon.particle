@@ -3,6 +3,7 @@ Muon
 Muon
 
 \mu^{-}
+\mu^{-}
 
 lepton, charged lepton, fermion, matter
 
@@ -13,6 +14,7 @@ spin: 1/2
 magnetic moment:
 antiparticle: Antimuon
 mean lifetime: 2.1969811 \times 10^{-6} s
+colour: #def7ff, #91e4ff, #1298c4
 
 year discovered: 1936
 discovered by: Carl D. Anderson, Seth Neddermeyer 

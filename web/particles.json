@@ -1,166 +1,338 @@
 {
     "Particles": [
         {
-            "Antiparticle": {
-                "URL": "muon",
-                "Name": "Muon"
-            },
-            "URL": "antimuon",
-            "RelativeCharge": "+1",
-            "WikipediaURL": "https://en.wikipedia.org/wiki/Muon",
-            "Name": "Antimuon",
+            "BackgroundColour": "#ffd4da",
+            "MainSymbol": "\\mu^{+}",
+            "FontColour": "#de1834",
             "OtherNames": "mu antilepton, anti mu",
-            "Symbol": "\\mu^{+}",
-            "Classes": [
-                "lepton",
-                "charged lepton",
-                "fermion",
-                "antimatter"
-            ],
-            "Mass": "",
-            "MagneticMoment": "",
-            "MeanLifetime": "2.1969811 \\times 10^{-6} s",
+            "Antiparticle": {
+                "Name": "Muon",
+                "URL": "muon"
+            },
+            "URLReference": "antimuon",
+            "Spin": "1/2",
             "AntiparticleReference": "Muon",
             "Reference": "Antimuon",
-            "Spin": "1/2",
-            "URLReference": "antimuon"
-        },
-        {
-            "Antiparticle": {
-                "URL": "tauon",
-                "Name": "Tauon"
-            },
-            "URL": "antitauon",
+            "Symbol": "\\mu^{+}",
+            "MagneticMoment": "",
+            "URL": "antimuon",
             "RelativeCharge": "+1",
-            "WikipediaURL": "https://en.wikipedia.org/wiki/Tau_(particle)",
-            "Name": "Antitauon",
-            "OtherNames": "tau antilepton, tau antiparticle, anti-tau",
-            "Symbol": "\\tau^{+}",
-            "YearDiscovered": "1975",
+            "Name": "Antimuon",
             "Classes": [
                 "lepton",
                 "charged lepton",
                 "fermion",
                 "antimatter"
             ],
+            "BorderColour": "#ff7d90",
+            "MeanLifetime": "2.1969811 \\times 10^{-6} s",
             "Mass": "",
-            "DiscoveredBy": "Martin Lewis Perl et al.",
-            "MagneticMoment": "",
-            "MeanLifetime": "2.903 \\times 10^{-13} s",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Muon"
+        },
+        {
+            "BackgroundColour": "#ffd4da",
+            "MainSymbol": "\\tau^{+}",
+            "FontColour": "#de1834",
+            "OtherNames": "tau antilepton, tau antiparticle, anti-tau",
+            "Antiparticle": {
+                "Name": "Tauon",
+                "URL": "tauon"
+            },
+            "URLReference": "antitauon",
+            "Spin": "1/2",
             "AntiparticleReference": "Tauon",
             "Reference": "Antitauon",
-            "Spin": "1/2",
-            "URLReference": "antitauon"
-        },
-        {
-            "BorderColour": "#91e4ff",
-            "BackgroundColour": "#def7ff",
-            "URL": "electron",
-            "RelativeCharge": "-1",
-            "WikipediaURL": "https://en.wikipedia.org/wiki/Electron",
-            "Antiparticle": {
-                "URL": "positron",
-                "Name": "Positron"
-            },
-            "Name": "Electron",
-            "OtherNames": "beta particle",
-            "Symbol": "e^{-},\\, \\beta^{-}",
-            "YearDiscovered": "1897",
-            "Classes": [
-                "lepton",
-                "charged lepton",
-                "fermion",
-                "matter"
-            ],
-            "Mass": "9.10938356 \\times 10^{-31} kg",
-            "DiscoveredBy": "J. J. Thomson",
-            "MagneticMoment": "-1.00115965218091 \\mu_{B}",
-            "MeanLifetime": "stable",
-            "AntiparticleReference": "Positron",
-            "Reference": "Electron",
-            "Spin": "1/2",
-            "URLReference": "electron"
-        },
-        {
-            "Antiparticle": {
-                "URL": "antimuon",
-                "Name": "Antimuon"
-            },
-            "URL": "muon",
-            "RelativeCharge": "-1",
-            "WikipediaURL": "https://en.wikipedia.org/wiki/Muon",
-            "Name": "Muon",
-            "OtherNames": "mu lepton, mu",
-            "Symbol": "\\mu^{-}",
-            "YearDiscovered": "1936",
-            "Classes": [
-                "lepton",
-                "charged lepton",
-                "fermion",
-                "matter"
-            ],
-            "Mass": "",
-            "DiscoveredBy": "Carl D. Anderson, Seth Neddermeyer",
+            "Symbol": "\\tau^{+}",
+            "DiscoveredBy": "Martin Lewis Perl et al.",
             "MagneticMoment": "",
-            "MeanLifetime": "2.1969811 \\times 10^{-6} s",
-            "AntiparticleReference": "Antimuon",
-            "Reference": "Muon",
-            "Spin": "1/2",
-            "URLReference": "muon"
-        },
-        {
-            "Antiparticle": {
-                "URL": "electron",
-                "Name": "Electron"
-            },
-            "URL": "positron",
+            "URL": "antitauon",
             "RelativeCharge": "+1",
-            "WikipediaURL": "https://en.wikipedia.org/wiki/Positron",
-            "Name": "Positron",
-            "OtherNames": "antielectron",
-            "Symbol": "e^{+},\\, \\beta^{+}",
-            "YearDiscovered": "1932",
+            "Name": "Antitauon",
             "Classes": [
                 "lepton",
                 "charged lepton",
                 "fermion",
                 "antimatter"
             ],
-            "Mass": "9.10938356 \\times 10^{-31} kg",
-            "DiscoveredBy": "Carl D. Anderson",
-            "MagneticMoment": "",
-            "MeanLifetime": "stable",
-            "AntiparticleReference": "Electron",
-            "Reference": "Positron",
-            "Spin": "1/2",
-            "URLReference": "positron"
+            "BorderColour": "#ff7d90",
+            "MeanLifetime": "2.903 \\times 10^{-13} s",
+            "Mass": "",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Tau_(particle)",
+            "YearDiscovered": "1975"
         },
         {
+            "BackgroundColour": "#def7ff",
+            "MainSymbol": "e^{-}",
+            "FontColour": "#1298c4",
+            "OtherNames": "beta particle",
             "Antiparticle": {
-                "URL": "antitauon",
-                "Name": "Antitauon"
+                "Name": "Positron",
+                "URL": "positron"
             },
-            "URL": "tauon",
+            "URLReference": "electron",
+            "Spin": "1/2",
+            "AntiparticleReference": "Positron",
+            "Reference": "Electron",
+            "Symbol": "e^{-},\\, \\beta^{-}",
+            "DiscoveredBy": "J. J. Thomson",
+            "MagneticMoment": "-1.00115965218091 \\mu_{B}",
+            "URL": "electron",
             "RelativeCharge": "-1",
-            "WikipediaURL": "https://en.wikipedia.org/wiki/Tau_(particle)",
-            "Name": "Tauon",
-            "OtherNames": "tau lepton, tau particle, tau",
-            "Symbol": "\\tau^{-}",
-            "YearDiscovered": "1975",
+            "Name": "Electron",
             "Classes": [
                 "lepton",
                 "charged lepton",
                 "fermion",
                 "matter"
             ],
-            "Mass": "",
-            "DiscoveredBy": "Martin Lewis Perl et al.",
+            "BorderColour": "#91e4ff",
+            "MeanLifetime": "stable",
+            "Mass": "9.10938356 \\times 10^{-31} kg",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Electron",
+            "YearDiscovered": "1897"
+        },
+        {
+            "BackgroundColour": "#dfffd6",
+            "MainSymbol": "\\bar{\\nu}_{e}",
+            "FontColour": "#3d702e",
+            "OtherNames": "",
+            "Antiparticle": {
+                "Name": "Electron Neutrino",
+                "URL": "electronneutrino"
+            },
+            "URLReference": "electronantineutrino",
+            "Spin": "1/2",
+            "AntiparticleReference": "ElectronNeutrino",
+            "Reference": "ElectronAntineutrino",
+            "Symbol": "\\bar{\\nu}_{e}",
             "MagneticMoment": "",
-            "MeanLifetime": "2.903 \\times 10^{-13} s",
+            "URL": "electronantineutrino",
+            "RelativeCharge": "0",
+            "Name": "Electron Antineutrino",
+            "Classes": [
+                "lepton",
+                "neutral lepton",
+                "neutrino",
+                "fermion",
+                "antimatter"
+            ],
+            "BorderColour": "#98ed82",
+            "MeanLifetime": "",
+            "Mass": "",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Neutrino#Antineutrinos"
+        },
+        {
+            "BackgroundColour": "#dfffd6",
+            "MainSymbol": "\\nu_{e}",
+            "FontColour": "#3d702e",
+            "OtherNames": "",
+            "Antiparticle": {
+                "Name": "Electron Antineutrino",
+                "URL": "electronantineutrino"
+            },
+            "URLReference": "electronneutrino",
+            "Spin": "1/2",
+            "AntiparticleReference": "ElectronAntineutrino",
+            "Reference": "ElectronNeutrino",
+            "Symbol": "\\nu_{e}",
+            "MagneticMoment": "",
+            "URL": "electronneutrino",
+            "RelativeCharge": "0",
+            "Name": "Electron Neutrino",
+            "Classes": [
+                "lepton",
+                "neutral lepton",
+                "neutrino",
+                "fermion",
+                "matter"
+            ],
+            "BorderColour": "#98ed82",
+            "MeanLifetime": "",
+            "Mass": "",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Electron_neutrino"
+        },
+        {
+            "BackgroundColour": "#def7ff",
+            "MainSymbol": "\\mu^{-}",
+            "FontColour": "#1298c4",
+            "OtherNames": "mu lepton, mu",
+            "Antiparticle": {
+                "Name": "Antimuon",
+                "URL": "antimuon"
+            },
+            "URLReference": "muon",
+            "Spin": "1/2",
+            "AntiparticleReference": "Antimuon",
+            "Reference": "Muon",
+            "Symbol": "\\mu^{-}",
+            "DiscoveredBy": "Carl D. Anderson, Seth Neddermeyer",
+            "MagneticMoment": "",
+            "URL": "muon",
+            "RelativeCharge": "-1",
+            "Name": "Muon",
+            "Classes": [
+                "lepton",
+                "charged lepton",
+                "fermion",
+                "matter"
+            ],
+            "BorderColour": "#91e4ff",
+            "MeanLifetime": "2.1969811 \\times 10^{-6} s",
+            "Mass": "",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Muon",
+            "YearDiscovered": "1936"
+        },
+        {
+            "BackgroundColour": "#dfffd6",
+            "MainSymbol": "\\bar{\\nu}_{\\mu}",
+            "FontColour": "#3d702e",
+            "OtherNames": "",
+            "Antiparticle": {
+                "Name": "Muon Neutrino",
+                "URL": "muonneutrino"
+            },
+            "URLReference": "muonantineutrino",
+            "Spin": "1/2",
+            "AntiparticleReference": "MuonNeutrino",
+            "Reference": "MuonAntineutrino",
+            "Symbol": "\\bar{\\nu}_{\\mu}",
+            "MagneticMoment": "",
+            "URL": "muonantineutrino",
+            "RelativeCharge": "0",
+            "Name": "Muon Antineutrino",
+            "Classes": [
+                "lepton",
+                "neutral lepton",
+                "neutrino",
+                "fermion",
+                "antimatter"
+            ],
+            "BorderColour": "#98ed82",
+            "MeanLifetime": "",
+            "Mass": "",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Neutrino#Antineutrinos"
+        },
+        {
+            "BackgroundColour": "#dfffd6",
+            "MainSymbol": "\\nu_{\\mu}",
+            "FontColour": "#3d702e",
+            "OtherNames": "mu neutrino",
+            "Antiparticle": {
+                "Name": "Muon Antineutrino",
+                "URL": "muonantineutrino"
+            },
+            "URLReference": "muonneutrino",
+            "Spin": "1/2",
+            "AntiparticleReference": "MuonAntineutrino",
+            "Reference": "MuonNeutrino",
+            "Symbol": "\\nu_{\\mu}",
+            "MagneticMoment": "",
+            "URL": "muonneutrino",
+            "RelativeCharge": "0",
+            "Name": "Muon Neutrino",
+            "Classes": [
+                "lepton",
+                "neutral lepton",
+                "neutrino",
+                "fermion",
+                "matter"
+            ],
+            "BorderColour": "#98ed82",
+            "MeanLifetime": "",
+            "Mass": "",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Muon_neutrino"
+        },
+        {
+            "BackgroundColour": "#ffd4da",
+            "MainSymbol": "e^{+}",
+            "FontColour": "#de1834",
+            "OtherNames": "antielectron",
+            "Antiparticle": {
+                "Name": "Electron",
+                "URL": "electron"
+            },
+            "URLReference": "positron",
+            "Spin": "1/2",
+            "AntiparticleReference": "Electron",
+            "Reference": "Positron",
+            "Symbol": "e^{+},\\, \\beta^{+}",
+            "DiscoveredBy": "Carl D. Anderson",
+            "MagneticMoment": "",
+            "URL": "positron",
+            "RelativeCharge": "+1",
+            "Name": "Positron",
+            "Classes": [
+                "lepton",
+                "charged lepton",
+                "fermion",
+                "antimatter"
+            ],
+            "BorderColour": "#ff7d90",
+            "MeanLifetime": "stable",
+            "Mass": "9.10938356 \\times 10^{-31} kg",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Positron",
+            "YearDiscovered": "1932"
+        },
+        {
+            "BackgroundColour": "#def7ff",
+            "MainSymbol": "\\tau^{-}",
+            "FontColour": "#1298c4",
+            "OtherNames": "tau lepton, tau particle, tau",
+            "Antiparticle": {
+                "Name": "Antitauon",
+                "URL": "antitauon"
+            },
+            "URLReference": "tauon",
+            "Spin": "1/2",
             "AntiparticleReference": "Antitauon",
             "Reference": "Tauon",
+            "Symbol": "\\tau^{-}",
+            "DiscoveredBy": "Martin Lewis Perl et al.",
+            "MagneticMoment": "",
+            "URL": "tauon",
+            "RelativeCharge": "-1",
+            "Name": "Tauon",
+            "Classes": [
+                "lepton",
+                "charged lepton",
+                "fermion",
+                "matter"
+            ],
+            "BorderColour": "#91e4ff",
+            "MeanLifetime": "2.903 \\times 10^{-13} s",
+            "Mass": "",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Tau_(particle)",
+            "YearDiscovered": "1975"
+        },
+        {
+            "BackgroundColour": "#dfffd6",
+            "MainSymbol": "\\nu_{\\tau}",
+            "FontColour": "#3d702e",
+            "OtherNames": "tau neutrino",
+            "Antiparticle": {
+                "Name": "",
+                "URL": ""
+            },
+            "URLReference": "tauonneutrino",
             "Spin": "1/2",
-            "URLReference": "tauon"
+            "AntiparticleReference": "",
+            "Reference": "TauonNeutrino",
+            "Symbol": "\\nu_{\\tau}",
+            "MagneticMoment": "",
+            "URL": "tauonneutrino",
+            "RelativeCharge": "0",
+            "Name": "Tauon Neutrino",
+            "Classes": [
+                "lepton",
+                "neutral lepton",
+                "neutrino",
+                "fermion",
+                "matter"
+            ],
+            "BorderColour": "#98ed82",
+            "MeanLifetime": "",
+            "Mass": "",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Tau_neutrino"
         }
     ]
 }

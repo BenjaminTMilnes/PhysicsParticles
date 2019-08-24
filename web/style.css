@@ -87,12 +87,29 @@ a:hover {
    .particle{
               border:1px solid rgba(0,0,0, 0.1);
                     border-radius: 1px;
-                       font-family: "Bodoni MT", Didot, serif;
-                   padding: 20px;}
+                   padding: 20px;
+                     height: 100%;
+                       position: relative;
+                          box-sizing: border-box;
+              }
+
+               .particle-relativecharge{
+                     position: absolute;
+                       left: 10px;
+                         bottom: 10px;
+                         font-size: 1em;
+               }
 
 
                              .particle-name{
                                     display: block;
-                                      font-size: 2em;
+                                          font-size: 1em;
                                         text-align: center;
+                             }
+
+                             .particle-symbol{
+                                display: block;
+                                  font-size: 2em;
+                                    text-align: center;
+
                              }

@@ -3,6 +3,7 @@ Antitauon
 Antitauon
 
 \tau^{+}
+\tau^{+}
 
 lepton, charged lepton, fermion, antimatter
 
@@ -13,6 +14,7 @@ spin: 1/2
 magnetic moment:
 antiparticle: Tauon
 mean lifetime: 2.903 \times 10^{-13} s
+colour: #ffd4da, #ff7d90, #de1834
 
 year discovered: 1975
 discovered by: 	Martin Lewis Perl et al.

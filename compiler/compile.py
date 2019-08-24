@@ -51,10 +51,11 @@ class Compiler (object):
             particle["URLReference"] = particle["Reference"].lower()
             particle["URL"] = particle["URLReference"]
             particle["Name"] = lines[1]
-            particle["Symbol"] = lines[2]
-            particle["Classes"] = [c.strip() for c in  lines[3].split(",")]
+            particle["MainSymbol"] = lines[2]
+            particle["Symbol"] = lines[3]
+            particle["Classes"] = [c.strip() for c in  lines[4].split(",")]
 
-            lines = lines[4:]
+            lines = lines[5:]
 
             for line in lines:                   
                 if line.startswith("other names:"):
@@ -88,8 +89,16 @@ class Compiler (object):
                     particle["WikipediaURL"] = line[10:].strip()
                     
                 if line.startswith("colour:"):
-                    particle["BackgroundColour"] = line[7:].strip().split(",")[0].strip()
-                    particle["BorderColour"] = line[7:].strip().split(",")[1].strip()
+                    colours =  line[7:].split(",")
+
+                    if len(colours) > 0:
+                        particle["BackgroundColour"] = colours[0].strip()
+                        
+                    if len(colours) > 1:
+                        particle["BorderColour"] = colours[1].strip()
+                        
+                    if len(colours) > 2:
+                        particle["FontColour"] = colours[2].strip()
 
             return particle
 
