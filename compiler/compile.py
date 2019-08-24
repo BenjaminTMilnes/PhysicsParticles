@@ -99,9 +99,9 @@ class Compiler (object):
                 particle["FontColour"] = "#d15417"
                 
             if particle["RelativeCharge"] == "+1/3":
-                particle["BackgroundColour"] = ""                        
-                particle["BorderColour"] = ""                        
-                particle["FontColour"] = ""
+                particle["BackgroundColour"] = "#ffe6c4"                        
+                particle["BorderColour"] = "#ffc069"                        
+                particle["FontColour"] = "#d68518"
                 
             if particle["RelativeCharge"] == "0":
                 particle["BackgroundColour"] = "#dfffd6"                        
@@ -109,14 +109,14 @@ class Compiler (object):
                 particle["FontColour"] = "#3d702e"
                 
             if particle["RelativeCharge"] == "-1/3":
-                particle["BackgroundColour"] = ""                        
-                particle["BorderColour"] = ""                        
-                particle["FontColour"] = ""
+                particle["BackgroundColour"] = "#ccfffb"                        
+                particle["BorderColour"] = "#7afff4"                        
+                particle["FontColour"] = "#14ccbe"
                 
             if particle["RelativeCharge"] == "-2/3":
-                particle["BackgroundColour"] = ""                        
-                particle["BorderColour"] = ""                        
-                particle["FontColour"] = ""
+                particle["BackgroundColour"] = "#cff4ff"                        
+                particle["BorderColour"] = "#7de1ff"                        
+                particle["FontColour"] = "#1596bd"
                 
             if particle["RelativeCharge"] == "-1":
                 particle["BackgroundColour"] = "#d1deff"                        
