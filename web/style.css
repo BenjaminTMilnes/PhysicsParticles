@@ -117,4 +117,7 @@ a:hover {
                              .generationheader{
                                    text-align: center;
                                      justify-items: center;
-                             }
+                                       font-weight: normal;
+
+                                          font-size: 14px;
+                                    }

@@ -87,18 +87,41 @@ class Compiler (object):
                     
                 if line.startswith("wikipedia:"):
                     particle["WikipediaURL"] = line[10:].strip()
-                    
-                if line.startswith("colour:"):
-                    colours =  line[7:].split(",")
 
-                    if len(colours) > 0:
-                        particle["BackgroundColour"] = colours[0].strip()
-                        
-                    if len(colours) > 1:
-                        particle["BorderColour"] = colours[1].strip()
-                        
-                    if len(colours) > 2:
-                        particle["FontColour"] = colours[2].strip()
+            if particle["RelativeCharge"] == "+1":
+                particle["BackgroundColour"] = "#ffd4da"                        
+                particle["BorderColour"] = "#ff7d90"                        
+                particle["FontColour"] = "#de1834"
+                
+            if particle["RelativeCharge"] == "+2/3":
+                particle["BackgroundColour"] = "#ffe2d4"                        
+                particle["BorderColour"] = "#ffa375"                        
+                particle["FontColour"] = "#d15417"
+                
+            if particle["RelativeCharge"] == "+1/3":
+                particle["BackgroundColour"] = ""                        
+                particle["BorderColour"] = ""                        
+                particle["FontColour"] = ""
+                
+            if particle["RelativeCharge"] == "0":
+                particle["BackgroundColour"] = "#dfffd6"                        
+                particle["BorderColour"] = "#98ed82"                        
+                particle["FontColour"] = "#3d702e"
+                
+            if particle["RelativeCharge"] == "-1/3":
+                particle["BackgroundColour"] = ""                        
+                particle["BorderColour"] = ""                        
+                particle["FontColour"] = ""
+                
+            if particle["RelativeCharge"] == "-2/3":
+                particle["BackgroundColour"] = ""                        
+                particle["BorderColour"] = ""                        
+                particle["FontColour"] = ""
+                
+            if particle["RelativeCharge"] == "-1":
+                particle["BackgroundColour"] = "#d1deff"                        
+                particle["BorderColour"] = "#688ff2"                        
+                particle["FontColour"] = "#183fa1"
 
             return particle
 
