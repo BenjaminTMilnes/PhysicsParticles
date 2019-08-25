@@ -99,6 +99,46 @@ application.controller("TableController", ["$scope", "$routeParams", "dataServic
 
         $scope.particles = database.tableData;
     });
+
+    $scope.getChargeHue = function (charge) {
+        if (charge == "+1") {
+            return 355;
+        }
+        if (charge == "+2/3") {
+            return 15;
+        }
+        if (charge == "+1/3") {
+            return 35;
+        }
+        if (charge == "0") {
+            return 120;
+        }
+        if (charge == "-1/3") {
+            return 180;
+        }
+        if (charge == "-2/3") {
+            return 205;
+        }
+        if (charge == "-1") {
+            return 235;
+        }
+    }
+
+    $scope.getBackgroundColourForCharge = function (charge) {
+        return "hsl(" + $scope.getChargeHue(charge) + ", 100%, 95%)";
+    }
+
+    $scope.getBorderColourForCharge = function (charge) {
+        return "hsl(" + $scope.getChargeHue(charge) + ", 100%, 85%)";
+    }
+
+    $scope.getFontColourForCharge = function (charge) {
+        return "hsl(" + $scope.getChargeHue(charge) + ", 65%, 40%)";
+    }
+
+    $scope.getColourPropertiesForCharge = function (charge) {
+        return "background-color: " + $scope.getBackgroundColourForCharge(charge) + "; border-color: " + $scope.getBorderColourForCharge(charge) + "; color: " + $scope.getFontColourForCharge(charge) + ";";
+    }
 }]);
 
 application.controller("ParticleController", ["$scope", "$routeParams", "dataService", "$rootScope", function ParticleController($scope, $routeParams, dataService, $rootScope) {

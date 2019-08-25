@@ -1,8 +1,6 @@
-<div class="particle"
-    style="background-color: {{particle.BackgroundColour}}; border: 1px solid {{particle.BorderColour}}; color: {{particle.FontColour}}">
+<div class="particle"  style="{{$parent.getColourPropertiesForCharge(particle.RelativeCharge)}}">
     <span class="particle-name">{{particle.Name}}</span>
     <span class="particle-mass">
-        <mathematics content="{{particle.Mass}}" type="latex"></mathematics>
     </span>
     <span class="particle-relativecharge">
         <mathematics content="{{particle.RelativeCharge}}" type="latex"></mathematics>

@@ -136,46 +136,7 @@ class Compiler (object):
                     
                 if line.startswith("wikipedia:"):
                     particle["WikipediaURL"] = line[10:].strip()
-
-            if particle["RelativeCharge"] == "+1":
-                particle["BackgroundColour"] = "#ffd4da"                        
-                particle["BorderColour"] = "#ff7d90"                        
-                particle["FontColour"] = "#de1834"
                 
-            if particle["RelativeCharge"] == "+2/3":
-                particle["RelativeCharge"] = "+\\frac{2}{3}"
-                particle["BackgroundColour"] = "#ffe2d4"                        
-                particle["BorderColour"] = "#ffa375"                        
-                particle["FontColour"] = "#d15417"
-                
-            if particle["RelativeCharge"] == "+1/3":
-                particle["RelativeCharge"] = "+\\frac{1}{3}"
-                particle["BackgroundColour"] = "#ffe6c4"                        
-                particle["BorderColour"] = "#ffc069"                        
-                particle["FontColour"] = "#d68518"
-                
-            if particle["RelativeCharge"] == "0":
-                particle["BackgroundColour"] = "#dfffd6"                        
-                particle["BorderColour"] = "#98ed82"                        
-                particle["FontColour"] = "#3d702e"
-                
-            if particle["RelativeCharge"] == "-1/3":
-                particle["RelativeCharge"] = "-\\frac{1}{3}"
-                particle["BackgroundColour"] = "#ccfffb"                        
-                particle["BorderColour"] = "#7afff4"                        
-                particle["FontColour"] = "#14ccbe"
-                
-            if particle["RelativeCharge"] == "-2/3":
-                particle["RelativeCharge"] = "-\\frac{2}{3}"
-                particle["BackgroundColour"] = "#cff4ff"                        
-                particle["BorderColour"] = "#7de1ff"                        
-                particle["FontColour"] = "#1596bd"
-                
-            if particle["RelativeCharge"] == "-1":
-                particle["BackgroundColour"] = "#d1deff"                        
-                particle["BorderColour"] = "#688ff2"                        
-                particle["FontColour"] = "#183fa1"
-
             return particle
 
     def convertLaTeXToHTML(self, latex):
