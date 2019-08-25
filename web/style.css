@@ -7,7 +7,6 @@ body {
     color: #202020;
 }
 
-
 .mainpage {
     padding: 70px;
 }
@@ -16,7 +15,6 @@ body {
     max-width: 1000px;
     margin: 0px auto;
 }
-
 
 .relatedwebsites {
     padding: 20px 20px 40px 20px;
@@ -36,7 +34,7 @@ h1 {
     margin: 0px;
 }
 
-.particlename{
+.particlename {
     font-size: 55px;
     text-align: center;
     margin: 70px 0px;
@@ -83,41 +81,57 @@ a:hover {
     text-align: left;
 }
 
+.particle {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 1px;
+    padding: 20px;
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
 
-   .particle{
-              border:1px solid rgba(0,0,0, 0.1);
-                    border-radius: 1px;
-                   padding: 20px;
-                     height: 100%;
-                       position: relative;
-                          box-sizing: border-box;
-              }
+.particle-mass {
+    position: absolute;
+    left: 12px;
+    top: 10px;
+    font-size: 1em;
+}
 
-               .particle-relativecharge{
-                     position: absolute;
-                       left: 10px;
-                         bottom: 10px;
-                         font-size: 1em;
-               }
+.particle-relativecharge {
+    position: absolute;
+    left: 12px;
+    bottom: 10px;
+    font-size: 0.8em;
+}
 
+.particle-name {
+    display: block;
+    font-size: 1em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    position: absolute;
+    left: 0px;
+    top: 90px;
+    width: 100%;
+    box-sizing: border-box;
+}
 
-                             .particle-name{
-                                    display: block;
-                                          font-size: 1em;
-                                        text-align: center;
-                             }
+.particle-symbol {
+    display: block;
+    font-size: 2em;
+    text-align: center;
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
 
-                             .particle-symbol{
-                                display: block;
-                                  font-size: 2em;
-                                    text-align: center;
-
-                             }
-
-                             .generationheader{
-                                   text-align: center;
-                                     justify-items: center;
-                                       font-weight: normal;
-
-                                          font-size: 14px;
-                                    }
+.generationheader {
+    text-align: center;
+    justify-items: center;
+    font-weight: normal;
+    font-size: 14px;
+}
