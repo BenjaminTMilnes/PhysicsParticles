@@ -100,12 +100,40 @@ application.controller("TableController", ["$scope", "$routeParams", "dataServic
         $scope.particles = database.tableData;
     });
 
-    $scope.getParticleSymbol = function(particle){
-                   return (!particle)?"": "<mathematics content-type=\"latex\" content=\"" + particle.MainSymbol + "\"></mathematics>"
+    $scope.getParticleSymbol = function (particle) {
+        return (!particle) ? "" : "<mathematics content-type=\"latex\" content=\"" + particle.MainSymbol + "\"></mathematics>"
     }
-    
-      $scope.getParticleCharge= function(particle){
-                   return (!particle)?"": "<mathematics content-type=\"latex\" content=\"" + particle.RelativeCharge + "\"></mathematics>"
+
+    $scope.getParticleMass = function (particle) {
+        if (!particle) { return ""; }
+
+        var mass = particle.Mass.filter(m => m.UnitClass == "eV")[0];
+
+        return parseFloat(mass.Significand).toPrecision(3) + ((parseInt(mass.Exponent) != 0) ? " &times; 10<sup>" + mass.Exponent + "</sup>" : "") + " " + mass.UnitsHTML;
+    }
+
+    $scope.getParticleCharge = function (particle) {
+        if (particle.RelativeCharge == "+1") {
+            return "+1";
+        }
+        if (particle.RelativeCharge == "+2/3") {
+            return "+2/3";
+        }
+        if (particle.RelativeCharge == "+1/3") {
+            return "+1/3";
+        }
+        if (particle.RelativeCharge == "0") {
+            return "0";
+        }
+        if (particle.RelativeCharge == "-1/3") {
+            return "&minus;1/3";
+        }
+        if (particle.RelativeCharge == "-2/3") {
+            return "&minus;2/3";
+        }
+        if (particle.RelativeCharge == "-1") {
+            return "&minus;1";
+        }
     }
 
     $scope.getChargeHue = function (charge) {
@@ -148,7 +176,7 @@ application.controller("TableController", ["$scope", "$routeParams", "dataServic
         return "background-color: " + $scope.getBackgroundColourForCharge(charge) + "; border-color: " + $scope.getBorderColourForCharge(charge) + "; color: " + $scope.getFontColourForCharge(charge) + ";";
     }
 
-    $scope.goToParticlePage = function (particle){
+    $scope.goToParticlePage = function (particle) {
         $location.url("/particle/" + particle.URLReference);
     }
 }]);

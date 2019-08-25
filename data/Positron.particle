@@ -14,8 +14,11 @@ spin: 1/2
 magnetic moment:
 antiparticle: Electron
 mean lifetime: stable
+generation: 1
 
 year discovered: 1932
 discovered by: Carl D. Anderson
 
 wikipedia: https://en.wikipedia.org/wiki/Positron
+
+rating: *****

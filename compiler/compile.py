@@ -86,26 +86,26 @@ class Compiler (object):
                         o =  int( math.floor(float( mevc2.log10())))
 
                         unitsLaTeX = "\\frac{eV}{c^{2}}"
-                        unitsHTML = "eV / c<sup>2</sup>"
+                        unitsHTML = "eV / <span style=\"font-style: italic;\">c</span><sup>2</sup>"
 
-                        if o > 3 and o <= 6:
+                        if o >= 3 and o < 6:
                             unitsLaTeX = "\\frac{keV}{c^{2}}"
-                            unitsHTML = "keV / c<sup>2</sup>"
+                            unitsHTML = "k" + unitsHTML
                             mevc2 = mevc2 / Decimal(10**3)
                             
-                        if o > 6 and o <= 9:
+                        if o >= 6 and o < 9:
                             unitsLaTeX = "\\frac{MeV}{c^{2}}"
-                            unitsHTML = "MeV / c<sup>2</sup>"
+                            unitsHTML = "M" + unitsHTML
                             mevc2 = mevc2 / Decimal(10**6)
                             
-                        if o > 9 and o <= 12:
+                        if o >= 9 and o < 12:
                             unitsLaTeX = "\\frac{GeV}{c^{2}}"
-                            unitsHTML = "GeV / c<sup>2</sup>"
+                            unitsHTML = "G" + unitsHTML
                             mevc2 = mevc2 / Decimal(10**9)
                             
-                        if o > 12:
+                        if o >= 12:
                             unitsLaTeX = "\\frac{TeV}{c^{2}}"
-                            unitsHTML = "TeV / c<sup>2</sup>"
+                            unitsHTML = "T" + unitsHTML
                             mevc2 = mevc2 / Decimal(10**12)
 
                         

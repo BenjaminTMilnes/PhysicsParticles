@@ -8,15 +8,18 @@ Tauon
 lepton, charged lepton, fermion, matter
 
 other names: tau lepton, tau particle, tau
-mass:
+mass: 3.167540659 \times 10^{-27} kg
 relative charge: -1
 spin: 1/2
 magnetic moment:
 antiparticle: Antitauon
 mean lifetime: 2.903 \times 10^{-13} s
+generation: 3
 
 year discovered: 1975
-discovered by: 	Martin Lewis Perl et al.
+discovered by: Martin Lewis Perl et al.
 
 wikipedia: https://en.wikipedia.org/wiki/Tau_(particle)
+
+rating: *****
 

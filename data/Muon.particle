@@ -8,14 +8,17 @@ Muon
 lepton, charged lepton, fermion, matter
 
 other names: mu lepton, mu
-mass:
+mass: 1.883531608 \times 10^{-28} kg
 relative charge: -1
 spin: 1/2
 magnetic moment:
 antiparticle: Antimuon
 mean lifetime: 2.1969811 \times 10^{-6} s
+generation: 2
 
 year discovered: 1936
 discovered by: Carl D. Anderson, Seth Neddermeyer 
 
 wikipedia: https://en.wikipedia.org/wiki/Muon
+
+rating: *****
