@@ -1,11 +1,7 @@
-<div class="particle"  style="{{$parent.getColourPropertiesForCharge(particle.RelativeCharge)}}">
+<div class="particle" style="{{$parent.getColourPropertiesForCharge(particle.RelativeCharge)}}"
+    ng-click="$parent.goToParticlePage(particle)">
+    <span class="particle-mass"></span>
+    <span class="particle-symbol" compile="$parent.getParticleSymbol(particle)"></span>
     <span class="particle-name">{{particle.Name}}</span>
-    <span class="particle-mass">
-    </span>
-    <span class="particle-relativecharge">
-        <mathematics content="{{particle.RelativeCharge}}" type="latex"></mathematics>
-    </span>
-    <span class="particle-symbol">
-        <mathematics content="{{particle.MainSymbol}}" type="latex"></mathematics>
-    </span>
+    <span class="particle-relativecharge">{{particle.RelativeCharge}}</span>
 </div>

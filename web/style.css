@@ -12,7 +12,7 @@ body {
 }
 
 .centrecolumn {
-    max-width: 1000px;
+    max-width: 1400px;
     margin: 0px auto;
 }
 
@@ -132,7 +132,7 @@ a:hover {
 
 .generationheader {
     text-align: center;
-    justify-items: center;
     font-size: 0.7em;
     font-weight: bold;
-}
+        padding:20px;
+     }

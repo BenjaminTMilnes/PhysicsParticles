@@ -92,7 +92,7 @@ application.directive("particle", function () {
     };
 });
 
-application.controller("TableController", ["$scope", "$routeParams", "dataService", "$rootScope", function TableController($scope, $routeParams, dataService, $rootScope) {
+application.controller("TableController", ["$scope", "$routeParams", "dataService", "$rootScope", "$location", function TableController($scope, $routeParams, dataService, $rootScope, $location) {
 
     dataService.getData().then(function (data) {
         var database = new Database(data);
@@ -100,9 +100,17 @@ application.controller("TableController", ["$scope", "$routeParams", "dataServic
         $scope.particles = database.tableData;
     });
 
+    $scope.getParticleSymbol = function(particle){
+                   return (!particle)?"": "<mathematics content-type=\"latex\" content=\"" + particle.MainSymbol + "\"></mathematics>"
+    }
+    
+      $scope.getParticleCharge= function(particle){
+                   return (!particle)?"": "<mathematics content-type=\"latex\" content=\"" + particle.RelativeCharge + "\"></mathematics>"
+    }
+
     $scope.getChargeHue = function (charge) {
         if (charge == "+1") {
-            return 355;
+            return 5;
         }
         if (charge == "+2/3") {
             return 15;
@@ -111,16 +119,16 @@ application.controller("TableController", ["$scope", "$routeParams", "dataServic
             return 35;
         }
         if (charge == "0") {
-            return 120;
+            return 110;
         }
         if (charge == "-1/3") {
-            return 180;
+            return 170;
         }
         if (charge == "-2/3") {
-            return 205;
+            return 195;
         }
         if (charge == "-1") {
-            return 235;
+            return 215;
         }
     }
 
@@ -133,11 +141,15 @@ application.controller("TableController", ["$scope", "$routeParams", "dataServic
     }
 
     $scope.getFontColourForCharge = function (charge) {
-        return "hsl(" + $scope.getChargeHue(charge) + ", 65%, 40%)";
+        return "hsl(" + $scope.getChargeHue(charge) + ", 70%, 40%)";
     }
 
     $scope.getColourPropertiesForCharge = function (charge) {
         return "background-color: " + $scope.getBackgroundColourForCharge(charge) + "; border-color: " + $scope.getBorderColourForCharge(charge) + "; color: " + $scope.getFontColourForCharge(charge) + ";";
+    }
+
+    $scope.goToParticlePage = function (particle){
+        $location.url("/particle/" + particle.URLReference);
     }
 }]);
 
