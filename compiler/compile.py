@@ -4,29 +4,15 @@ import re
 import math
 from decimal import *
 
-class MeasuredValue (object):
-    def __init__(self, significand = 0, exponent = 0, units = ""):
-        self.significand = significand
-        self.exponent = exponent
-        self.units = units
+class ParticleMass (object):
+    def __init__(self):
+        self.massInKilograms = Decimal(0)
+        self.massInElectronVolts = Decimal(0)
 
     @staticmethod
     def fromText(text):
-        match = re.match("([+-]?[\d\.]+)\s*\\times\s*10\^\{([+-]?\d+)\}\s*(kg|s)")
 
-        if match:
-            value = MeasuredValue()
-
-            value.significand = float(match.group(1))
-            value.exponent = float(match.group(2))
-            value.units = match.group(3)
-
-            return value
-
-        return None
-
-    def toHTML(self):
-        pass
+        match = re.match(r"\s*((<?)([+-]?\d+(\.\d+)?))\s*(\\times|x|*)\s*10\^\{([+-]?\d+)\}\s*kg\s*", text)
 
 class Compiler (object):
     def __init__(self):
