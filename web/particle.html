@@ -1,13 +1,13 @@
 <h2 class="particlename">The {{particle.Name}}</h2>
-<div id="particlesymbol" class="particlesymbol"></div>
+<div id="particlesymbol" class="particlesymbol" compile="getParticleSymbol(particle)"></div>
 <table class="particleproperties">
-    <tr>
+    <tr ng-show="particle.OtherNames != ''">
         <th>Other Names:</th>
         <td>{{particle.OtherNames}}</td>
     </tr>
     <tr>
         <th>Mass:</th>
-        <td>{{particle.Mass}}</td>
+        <td compile="getParticleMass(particle)"></td>
     </tr>
     <tr>
         <th>Relative Charge:</th>
@@ -21,7 +21,7 @@
         <th>Spin:</th>
         <td>{{particle.Spin}}</td>
     </tr>
-    <tr>
+    <tr ng-show="particle.MagneticMoment != ''">
         <th>Magnetic Moment:</th>
         <td>{{particle.MagneticMoment}}</td>
     </tr>

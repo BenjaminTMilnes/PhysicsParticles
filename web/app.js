@@ -189,4 +189,16 @@ application.controller("ParticleController", ["$scope", "$routeParams", "dataSer
         $scope.particle = database.getParticleWithURLReference($routeParams.particleName);
     });
 
+    $scope.getParticleSymbol = function (particle) {
+        return (!particle) ? "" : "<mathematics content-type=\"latex\" content=\"" + particle.Symbol + "\"></mathematics>"
+    }
+
+    $scope.getParticleMass = function (particle) {
+        if (!particle) { return ""; }
+
+        var mass = particle.Mass.filter(m => m.UnitClass == "eV")[0];
+
+        return parseFloat(mass.Significand).toPrecision(3) + ((parseInt(mass.Exponent) != 0) ? " &times; 10<sup>" + mass.Exponent + "</sup>" : "") + " " + mass.UnitsHTML;
+    }
+
 }]);
