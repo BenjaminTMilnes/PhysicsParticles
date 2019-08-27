@@ -149,6 +149,57 @@ a:hover {
 
 @media (min-width: 1400px) {}
 
+.particlesgrid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 40px 40px 100px 100px 100px 20px 100px 100px 100px 100px;
+    width: 100%;
+    margin: 40px auto;
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+}
+
+.gridbox11, .gridbox21 {
+    height: 100px;
+}
+
+.gridbox22 {
+    height: 204px;
+}
+
+@media (min-width: 400px) {}
+
+@media (min-width: 700px) {
+    .particlesgrid {
+        grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+        grid-template-rows: 40px 40px 100px 100px 100px 20px 100px 100px 100px 100px;
+    }
+    .gridbox11, .gridbox21 {
+        height: 100px;
+    }
+    .gridbox22 {
+        height: 204px;
+    }
+}
+
+@media (min-width: 1000px) {}
+
+@media (min-width: 1400px) {
+    .particlesgrid {
+        grid-template-columns: 150px 150px 150px 150px 150px 150px 150px 150px 150px;
+        grid-template-rows: 40px 40px 150px 150px 150px 20px 150px 150px 150px 150px;
+        grid-column-gap: 4px;
+        grid-row-gap: 4px;
+    }
+    .gridbox11, .gridbox21 {
+        height: 150px;
+    }
+    .gridbox22 {
+        height: 304px;
+    }
+}
+
 .particle {
     position: relative;
     box-sizing: border-box;
@@ -187,7 +238,7 @@ a:hover {
 }
 
 .particle-name {
-    display: block;
+    display: none;
     position: absolute;
     left: 0px;
     top: 90px;
@@ -197,24 +248,52 @@ a:hover {
     text-align: center;
 }
 
-.generationheader {
+.header{
     text-align: center;
-    font-size: 1em;
+    font-size: 12px;
     padding: 12px;
     cursor: pointer;
-    ;
     user-select: none;
     border-radius: 2px;
 }
 
-.generationheader:hover {
-    background-color: rgba(0, 0, 0, 0.03);
+@media (min-width: 400px) {}
+
+@media (min-width: 700px) {
+    .particle-mass {
+        left: 10px;
+        top: 8px;
+        font-size: 0.7em;
+    }
+    .particle-relativecharge {
+        left: 10px;
+        bottom: 8px;
+        font-size: 0.7em;
+    }
+    .particle-symbol {
+        top: 33px;
+        font-size: 1.5em;
+    }
 }
 
-.gridbox11, .gridbox12 {
-    height: 150px;
-}
+@media (min-width: 1000px) {}
 
-.gridbox22 {
-    height: 304px;
+@media (min-width: 1400px) {
+    .particle-mass {
+        left: 12px;
+        top: 10px;
+        font-size: 1em;
+    }
+    .particle-relativecharge {
+        left: 12px;
+        bottom: 10px;
+        font-size: 1em;
+    }
+    .particle-name {
+        display: block;
+    }
+
+    .header{
+        font-size: 1em;
+        padding: 12px;  }
 }
