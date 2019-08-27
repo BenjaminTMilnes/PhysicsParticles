@@ -1,47 +1,50 @@
-<h2 class="particlename">The {{particle.Name}}</h2>
-<div class="particlesymbol" compile="getParticleSymbol(particle)"></div>
-<table class="particleproperties">
-    <tr ng-show="particle.OtherNames != ''">
-        <th>Other Names:</th>
-        <td>{{particle.OtherNames}}</td>
-    </tr>
-    <tr>
-        <th>Mass:</th>
-        <td compile="getParticleMass(particle)"></td>
-    </tr>
-    <tr>
-        <th>Relative Charge:</th>
-        <td>{{particle.RelativeCharge}}</td>
-    </tr>
-    <tr>
-        <th>Charge:</th>
-        <td>{{particle.Charge}}</td>
-    </tr>
-    <tr>
-        <th>Spin:</th>
-        <td>{{particle.Spin}}</td>
-    </tr>
-    <tr ng-show="particle.MagneticMoment != ''">
-        <th>Magnetic Moment:</th>
-        <td>{{particle.MagneticMoment}}</td>
-    </tr>
-    <tr>
-        <th>Mean Lifetime:</th>
-        <td>{{particle.MeanLifetime}}</td>
-    </tr>
-    <tr>
-        <th>Antiparticle:</th>
-        <td><a href="#/particle/{{particle.Antiparticle.URL}}"
-                title="{{particle.Antiparticle.Name}}">{{particle.Antiparticle.Name}}</a></td>
-    </tr>
-</table>
+<div class="innercolumn">
+    <h2 class="particlename">The {{particle.Name}}</h2>
+    <div class="particlesymbol" compile="getParticleSymbol(particle)"></div>
+    <table class="particleproperties">
+        <tr ng-show="particle.OtherNames != ''">
+            <th>Other Names:</th>
+            <td>{{particle.OtherNames}}</td>
+        </tr>
+        <tr>
+            <th>Mass:</th>
+            <td compile="getParticleMass(particle)"></td>
+        </tr>
+        <tr>
+            <th>Relative Charge:</th>
+            <td>{{particle.RelativeCharge}}</td>
+        </tr>
+        <tr>
+            <th>Charge:</th>
+            <td>{{particle.Charge}}</td>
+        </tr>
+        <tr>
+            <th>Spin:</th>
+            <td>{{particle.Spin}}</td>
+        </tr>
+        <tr ng-show="particle.MagneticMoment != ''">
+            <th>Magnetic Moment:</th>
+            <td>{{particle.MagneticMoment}}</td>
+        </tr>
+        <tr>
+            <th>Mean Lifetime:</th>
+            <td>{{particle.MeanLifetime}}</td>
+        </tr>
+        <tr>
+            <th>Antiparticle:</th>
+            <td><a href="#/particle/{{particle.Antiparticle.URLReference}}"
+                    title="{{particle.Antiparticle.Name}}">{{particle.Antiparticle.Name}}</a></td>
+        </tr>
+    </table>
 
-<h3>See more</h3>
-<ul>
-    <li>Wikipedia - <a href="{{particle.WikipediaURL}}" title="Wikipedia" target="_blank">{{particle.WikipediaURL}}</a>
-    </li>
-</ul>
-<p>The original .particle file that this page was generated from can be viewed at <a
-        href="https://github.com/BenjaminTMilnes/PhysicsParticles/blob/master/data/{{particle.Reference}}.particle"
-        target="_blank">https://github.com/BenjaminTMilnes/PhysicsParticles/blob/master/data/{{particle.Reference}}.particle</a>
-</p>
+    <h3>See more</h3>
+    <ul>
+        <li>Wikipedia - <a href="{{particle.WikipediaURL}}" title="Wikipedia"
+                target="_blank">{{particle.WikipediaURL}}</a>
+        </li>
+    </ul>
+    <p>The original .particle file that this page was generated from can be viewed at <a
+            href="https://github.com/BenjaminTMilnes/PhysicsParticles/blob/master/data/{{particle.Reference}}.particle"
+            target="_blank">https://github.com/BenjaminTMilnes/PhysicsParticles/blob/master/data/{{particle.Reference}}.particle</a>
+    </p>
+</div>

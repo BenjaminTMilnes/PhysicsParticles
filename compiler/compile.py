@@ -109,7 +109,8 @@ class Compiler (object):
                     particle["MagneticMoment"] = line[16:].strip()
         
                 if line.startswith("antiparticle:"):
-                    particle["AntiparticleReference"] = line[13:].strip()
+                    particle["Antiparticle"] = {}
+                    particle["Antiparticle"]["Reference"] = line[13:].strip()
     
                 if line.startswith("mean lifetime:"):
                     particle["MeanLifetime"] = line[14:].strip()
@@ -143,16 +144,14 @@ class Compiler (object):
         particles = [self.compileParticle(filePath) for filePath in particleFilePaths]
 
         for particle in particles:
-            antiparticles = [p for p in particles if p["Reference"] == particle["AntiparticleReference"]]
+            antiparticles = [p for p in particles if p["Reference"] == particle["Antiparticle"]["Reference"]]
 
             if len(antiparticles) > 0:
-                particle["Antiparticle"] = {}
                 particle["Antiparticle"]["Name"] = antiparticles[0]["Name"]
-                particle["Antiparticle"]["URL"] = antiparticles[0]["URL"]
+                particle["Antiparticle"]["URLReference"] = antiparticles[0]["URLReference"]
             else:
-                particle["Antiparticle"] = {}
                 particle["Antiparticle"]["Name"] =""
-                particle["Antiparticle"]["URL"] = ""
+                particle["Antiparticle"]["URLReference"] = ""
 
 
         data = {}

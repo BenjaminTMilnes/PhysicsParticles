@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    padding: 0px;
+    padding: 0px 0px 200px 0px;
     font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
     font-size: 14px;
@@ -13,6 +13,11 @@ body {
 
 .centrecolumn {
     max-width: 1000px;
+    margin: 0px auto;
+}
+
+.innercolumn {
+    max-width: 700px;
     margin: 0px auto;
 }
 
@@ -34,7 +39,7 @@ body {
     }
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p, ul, ol {
     font-family: inherit;
     font-weight: inherit;
 }
@@ -45,11 +50,16 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    font-size: 27px;
+    text-align: center;
+}
+
 h3 {
     font-size: 20px;
 }
 
-h1, h3, p, ul {
+h1, h2, h3, p, ul {
     margin: 20px 0px;
 }
 
@@ -66,25 +76,26 @@ a:hover {
     h1 {
         font-size: 22px;
     }
+    h2 {
+        font-size: 40px;
+    }
     h3 {
         font-size: 27px;
     }
     h3, p, ul {
-        margin: 30px 0px;
+        margin: 27px 0px;
     }
 }
 
-@media (min-width: 700px) {}
+@media (min-width: 700px) {
+    h2 {
+        margin: 40px 0px;
+    }
+}
 
 @media (min-width: 1000px) {}
 
 @media (min-width: 1400px) {}
-
-.particlename {
-    font-size: 27px;
-    text-align: center;
-    margin: 20px 0px;
-}
 
 .particlesymbol {
     font-size: 50px;
@@ -115,10 +126,6 @@ a:hover {
 }
 
 @media (min-width: 400px) {
-    .particlename {
-        font-size: 40px;
-        margin: 20px 0px;
-    }
     .particlesymbol {
         font-size: 70px;
         margin: 40px 0px;
@@ -129,10 +136,6 @@ a:hover {
 }
 
 @media (min-width: 700px) {
-    .particlename {
-        font-size: 40px;
-        margin: 40px 0px;
-    }
     .particlesymbol {
         font-size: 70px;
         margin: 70px 0px;

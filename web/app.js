@@ -92,6 +92,10 @@ application.directive("particle", function () {
     };
 });
 
+   function getParticleSymbol(particle){
+    return (!particle) ? "" : "<mathematics content-type=\"latex\" content=\"" + particle.MainSymbol + "\"></mathematics>"
+      }
+
 application.controller("TableController", ["$scope", "$routeParams", "dataService", "$rootScope", "$location", function TableController($scope, $routeParams, dataService, $rootScope, $location) {
 
     dataService.getData().then(function (data) {
@@ -100,9 +104,7 @@ application.controller("TableController", ["$scope", "$routeParams", "dataServic
         $scope.particles = database.tableData;
     });
 
-    $scope.getParticleSymbol = function (particle) {
-        return (!particle) ? "" : "<mathematics content-type=\"latex\" content=\"" + particle.MainSymbol + "\"></mathematics>"
-    }
+    $scope.getParticleSymbol =  getParticleSymbol;
 
     $scope.getParticleMass = function (particle) {
         if (!particle) { return ""; }
@@ -189,9 +191,7 @@ application.controller("ParticleController", ["$scope", "$routeParams", "dataSer
         $scope.particle = database.getParticleWithURLReference($routeParams.particleName);
     });
 
-    $scope.getParticleSymbol = function (particle) {
-        return (!particle) ? "" : "<mathematics content-type=\"latex\" content=\"" + particle.Symbol + "\"></mathematics>"
-    }
+    $scope.getParticleSymbol =  getParticleSymbol;
 
     $scope.getParticleMass = function (particle) {
         if (!particle) { return ""; }
