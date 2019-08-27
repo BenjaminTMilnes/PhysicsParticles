@@ -101,7 +101,37 @@ class Compiler (object):
 
                 if line.startswith("relative charge:"):
                     particle["RelativeCharge"] = line[16:].strip()
-                    
+
+                    c = particle["RelativeCharge"]
+                    f=0
+
+                    if c == "+1":
+                        f=1
+                    if c == "+2/3":
+                        f=2/3
+                    if c == "+1/3":
+                        f=1/3
+                    if c == "0":
+                        f=0
+                    if c == "-1/3":
+                        f=-1/3
+                    if c == "-2/3":
+                        f=-2/3
+                    if c == "-1":
+                        f=-1
+
+                    charge = Decimal(f) * Decimal("1.602176634e-19")
+
+                    if charge == Decimal(0):
+                        o = 0
+                        s = 0
+                    else:
+                        print( charge)
+                        o =  int( math.floor(float( abs( charge).log10())))
+                        s = charge * Decimal(10) ** Decimal(-o)
+
+                    particle["Charge"] = {"Significand": str( s), "Exponent": o, "UnitClass":"C", "UnitsLaTeX":"C", "UnitsHTML": "C"}
+
                 if line.startswith("spin:"):
                     particle["Spin"] = line[5:].strip()
             
@@ -114,6 +144,12 @@ class Compiler (object):
     
                 if line.startswith("mean lifetime:"):
                     particle["MeanLifetime"] = line[14:].strip()
+
+                if line.startswith("year theorised:"):
+                    particle["YearTheorised"] = line[15:].strip()
+
+                if line.startswith("theorised by:"):
+                    particle["TheorisedBy"] = line[13:].strip()
 
                 if line.startswith("year discovered:"):
                     particle["YearDiscovered"] = line[16:].strip()

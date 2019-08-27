@@ -201,4 +201,10 @@ application.controller("ParticleController", ["$scope", "$routeParams", "dataSer
         return parseFloat(mass.Significand).toPrecision(3) + ((parseInt(mass.Exponent) != 0) ? " &times; 10<sup>" + mass.Exponent + "</sup>" : "") + " " + mass.UnitsHTML;
     }
 
+    $scope.getParticleCharge = function (particle){
+        if (!particle) { return ""; }
+
+        return parseFloat(particle.Charge.Significand).toPrecision(3) + ((parseInt(particle.Charge.Exponent) != 0) ? " &times; 10<sup>" + particle.Charge.Exponent + "</sup>" : "") + " " + particle.Charge.UnitsHTML;
+    }
+
 }]);

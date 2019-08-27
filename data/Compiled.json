@@ -31,6 +31,13 @@
                 }
             ],
             "RelativeCharge": "+1",
+            "Charge": {
+                "Significand": "1.602176634000000000000000000",
+                "Exponent": -19,
+                "UnitClass": "C",
+                "UnitsLaTeX": "C",
+                "UnitsHTML": "C"
+            },
             "Spin": "1/2",
             "MagneticMoment": "",
             "Antiparticle": {
@@ -72,6 +79,13 @@
                 }
             ],
             "RelativeCharge": "+1",
+            "Charge": {
+                "Significand": "1.602176634000000000000000000",
+                "Exponent": -19,
+                "UnitClass": "C",
+                "UnitsLaTeX": "C",
+                "UnitsHTML": "C"
+            },
             "Spin": "1/2",
             "MagneticMoment": "",
             "Antiparticle": {
@@ -114,6 +128,13 @@
                 }
             ],
             "RelativeCharge": "+1/3",
+            "Charge": {
+                "Significand": "5.340588779999999703537768569",
+                "Exponent": -20,
+                "UnitClass": "C",
+                "UnitsLaTeX": "C",
+                "UnitsHTML": "C"
+            },
             "Spin": "1/2",
             "MagneticMoment": "",
             "Antiparticle": {
@@ -154,6 +175,13 @@
                 }
             ],
             "RelativeCharge": "-1/3",
+            "Charge": {
+                "Significand": "-5.340588779999999703537768569",
+                "Exponent": -20,
+                "UnitClass": "C",
+                "UnitsLaTeX": "C",
+                "UnitsHTML": "C"
+            },
             "Spin": "1/2",
             "MagneticMoment": "",
             "Antiparticle": {
@@ -162,6 +190,8 @@
                 "URLReference": "bottomantiquark"
             },
             "MeanLifetime": "",
+            "YearTheorised": "1973",
+            "TheorisedBy": "Makoto Kobayashi, Toshihide Maskawa",
             "YearDiscovered": "1977",
             "DiscoveredBy": "Leon M. Lederman et al.",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Bottom_quark"
@@ -196,6 +226,13 @@
                 }
             ],
             "RelativeCharge": "-2/3",
+            "Charge": {
+                "Significand": "-1.068117755999999940707553714",
+                "Exponent": -19,
+                "UnitClass": "C",
+                "UnitsLaTeX": "C",
+                "UnitsHTML": "C"
+            },
             "Spin": "1/2",
             "MagneticMoment": "",
             "Antiparticle": {
@@ -236,6 +273,13 @@
                 }
             ],
             "RelativeCharge": "+2/3",
+            "Charge": {
+                "Significand": "1.068117755999999940707553714",
+                "Exponent": -19,
+                "UnitClass": "C",
+                "UnitsLaTeX": "C",
+                "UnitsHTML": "C"
+            },
             "Spin": "1/2",
             "MagneticMoment": "",
             "Antiparticle": {
@@ -276,6 +320,13 @@
                 }
             ],
             "RelativeCharge": "+1/3",
+            "Charge": {
+                "Significand": "5.340588779999999703537768569",
+                "Exponent": -20,
+                "UnitClass": "C",
+                "UnitsLaTeX": "C",
+                "UnitsHTML": "C"
+            },
             "Spin": "1/2",
             "MagneticMoment": "",
             "Antiparticle": {
@@ -316,6 +367,13 @@
                 }
             ],
             "RelativeCharge": "-1/3",
+            "Charge": {
+                "Significand": "-5.340588779999999703537768569",
+                "Exponent": -20,
+                "UnitClass": "C",
+                "UnitsLaTeX": "C",
+                "UnitsHTML": "C"
+            },
             "Spin": "1/2",
             "MagneticMoment": "",
             "Antiparticle": {
@@ -357,6 +415,13 @@
                 }
             ],
             "RelativeCharge": "-1",
+            "Charge": {
+                "Significand": "-1.602176634000000000000000000",
+                "Exponent": -19,
+                "UnitClass": "C",
+                "UnitsLaTeX": "C",
+                "UnitsHTML": "C"
+            },
             "Spin": "1/2",
             "MagneticMoment": "-1.00115965218091 \\mu_{B}",
             "Antiparticle": {
@@ -386,6 +451,13 @@
             "OtherNames": "",
             "Mass": [],
             "RelativeCharge": "0",
+            "Charge": {
+                "Significand": "0",
+                "Exponent": 0,
+                "UnitClass": "C",
+                "UnitsLaTeX": "C",
+                "UnitsHTML": "C"
+            },
             "Spin": "1/2",
             "MagneticMoment": "",
             "Antiparticle": {
@@ -413,6 +485,13 @@
             "OtherNames": "",
             "Mass": [],
             "RelativeCharge": "0",
+            "Charge": {
+                "Significand": "0",
+                "Exponent": 0,
+                "UnitClass": "C",
+                "UnitsLaTeX": "C",
+                "UnitsHTML": "C"
+            },
             "Spin": "1/2",
             "MagneticMoment": "",
             "Antiparticle": {
@@ -437,6 +516,13 @@
             "OtherNames": "",
             "Mass": [],
             "RelativeCharge": "0",
+            "Charge": {
+                "Significand": "0",
+                "Exponent": 0,
+                "UnitClass": "C",
+                "UnitsLaTeX": "C",
+                "UnitsHTML": "C"
+            },
             "Spin": "1",
             "Antiparticle": {
                 "Reference": "",
@@ -474,6 +560,13 @@
                 }
             ],
             "RelativeCharge": "0",
+            "Charge": {
+                "Significand": "0",
+                "Exponent": 0,
+                "UnitClass": "C",
+                "UnitsLaTeX": "C",
+                "UnitsHTML": "C"
+            },
             "Spin": "0",
             "Antiparticle": {
                 "Reference": "",
@@ -514,6 +607,13 @@
                 }
             ],
             "RelativeCharge": "-1",
+            "Charge": {
+                "Significand": "-1.602176634000000000000000000",
+                "Exponent": -19,
+                "UnitClass": "C",
+                "UnitsLaTeX": "C",
+                "UnitsHTML": "C"
+            },
             "Spin": "1/2",
             "MagneticMoment": "",
             "Antiparticle": {
@@ -543,6 +643,13 @@
             "OtherNames": "",
             "Mass": [],
             "RelativeCharge": "0",
+            "Charge": {
+                "Significand": "0",
+                "Exponent": 0,
+                "UnitClass": "C",
+                "UnitsLaTeX": "C",
+                "UnitsHTML": "C"
+            },
             "Spin": "1/2",
             "MagneticMoment": "",
             "Antiparticle": {
@@ -570,6 +677,13 @@
             "OtherNames": "mu neutrino",
             "Mass": [],
             "RelativeCharge": "0",
+            "Charge": {
+                "Significand": "0",
+                "Exponent": 0,
+                "UnitClass": "C",
+                "UnitsLaTeX": "C",
+                "UnitsHTML": "C"
+            },
             "Spin": "1/2",
             "MagneticMoment": "",
             "Antiparticle": {
@@ -593,6 +707,13 @@
             "OtherNames": "",
             "Mass": [],
             "RelativeCharge": "0",
+            "Charge": {
+                "Significand": "0",
+                "Exponent": 0,
+                "UnitClass": "C",
+                "UnitsLaTeX": "C",
+                "UnitsHTML": "C"
+            },
             "Spin": "1",
             "Antiparticle": {
                 "Reference": "Photon",
@@ -633,6 +754,13 @@
                 }
             ],
             "RelativeCharge": "+1",
+            "Charge": {
+                "Significand": "1.602176634000000000000000000",
+                "Exponent": -19,
+                "UnitClass": "C",
+                "UnitsLaTeX": "C",
+                "UnitsHTML": "C"
+            },
             "Spin": "1/2",
             "MagneticMoment": "",
             "Antiparticle": {
@@ -675,6 +803,13 @@
                 }
             ],
             "RelativeCharge": "+1/3",
+            "Charge": {
+                "Significand": "5.340588779999999703537768569",
+                "Exponent": -20,
+                "UnitClass": "C",
+                "UnitsLaTeX": "C",
+                "UnitsHTML": "C"
+            },
             "Spin": "1/2",
             "MagneticMoment": "",
             "Antiparticle": {
@@ -715,6 +850,13 @@
                 }
             ],
             "RelativeCharge": "-1/3",
+            "Charge": {
+                "Significand": "-5.340588779999999703537768569",
+                "Exponent": -20,
+                "UnitClass": "C",
+                "UnitsLaTeX": "C",
+                "UnitsHTML": "C"
+            },
             "Spin": "1/2",
             "MagneticMoment": "",
             "Antiparticle": {
@@ -723,6 +865,8 @@
                 "URLReference": "strangeantiquark"
             },
             "MeanLifetime": "",
+            "YearTheorised": "1964",
+            "TheorisedBy": "Murray Gell-Mann, George Zweig",
             "YearDiscovered": "1968",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Strange_quark"
         },
@@ -757,6 +901,13 @@
                 }
             ],
             "RelativeCharge": "-1",
+            "Charge": {
+                "Significand": "-1.602176634000000000000000000",
+                "Exponent": -19,
+                "UnitClass": "C",
+                "UnitsLaTeX": "C",
+                "UnitsHTML": "C"
+            },
             "Spin": "1/2",
             "MagneticMoment": "",
             "Antiparticle": {
@@ -786,6 +937,13 @@
             "OtherNames": "",
             "Mass": [],
             "RelativeCharge": "0",
+            "Charge": {
+                "Significand": "0",
+                "Exponent": 0,
+                "UnitClass": "C",
+                "UnitsLaTeX": "C",
+                "UnitsHTML": "C"
+            },
             "Spin": "1/2",
             "MagneticMoment": "",
             "Antiparticle": {
@@ -813,6 +971,13 @@
             "OtherNames": "tau neutrino",
             "Mass": [],
             "RelativeCharge": "0",
+            "Charge": {
+                "Significand": "0",
+                "Exponent": 0,
+                "UnitClass": "C",
+                "UnitsLaTeX": "C",
+                "UnitsHTML": "C"
+            },
             "Spin": "1/2",
             "MagneticMoment": "",
             "Antiparticle": {
@@ -853,6 +1018,13 @@
                 }
             ],
             "RelativeCharge": "-2/3",
+            "Charge": {
+                "Significand": "-1.068117755999999940707553714",
+                "Exponent": -19,
+                "UnitClass": "C",
+                "UnitsLaTeX": "C",
+                "UnitsHTML": "C"
+            },
             "Spin": "1/2",
             "MagneticMoment": "",
             "Antiparticle": {
@@ -893,6 +1065,13 @@
                 }
             ],
             "RelativeCharge": "+2/3",
+            "Charge": {
+                "Significand": "1.068117755999999940707553714",
+                "Exponent": -19,
+                "UnitClass": "C",
+                "UnitsLaTeX": "C",
+                "UnitsHTML": "C"
+            },
             "Spin": "1/2",
             "MagneticMoment": "",
             "Antiparticle": {
@@ -901,6 +1080,8 @@
                 "URLReference": "topantiquark"
             },
             "MeanLifetime": "",
+            "YearTheorised": "1973",
+            "TheorisedBy": "Makoto Kobayashi, Toshihide Maskawa",
             "YearDiscovered": "1995",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Top_quark"
         },
@@ -934,6 +1115,13 @@
                 }
             ],
             "RelativeCharge": "-2/3",
+            "Charge": {
+                "Significand": "-1.068117755999999940707553714",
+                "Exponent": -19,
+                "UnitClass": "C",
+                "UnitsLaTeX": "C",
+                "UnitsHTML": "C"
+            },
             "Spin": "1/2",
             "MagneticMoment": "",
             "Antiparticle": {
@@ -974,6 +1162,13 @@
                 }
             ],
             "RelativeCharge": "+2/3",
+            "Charge": {
+                "Significand": "1.068117755999999940707553714",
+                "Exponent": -19,
+                "UnitClass": "C",
+                "UnitsLaTeX": "C",
+                "UnitsHTML": "C"
+            },
             "Spin": "1/2",
             "MagneticMoment": "",
             "Antiparticle": {
@@ -982,6 +1177,8 @@
                 "URLReference": "upantiquark"
             },
             "MeanLifetime": "stable",
+            "YearTheorised": "1964",
+            "TheorisedBy": "Murray Gell-Mann, George Zweig",
             "YearDiscovered": "1968",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Up_quark"
         },
@@ -1013,6 +1210,13 @@
                 }
             ],
             "RelativeCharge": "-1",
+            "Charge": {
+                "Significand": "-1.602176634000000000000000000",
+                "Exponent": -19,
+                "UnitClass": "C",
+                "UnitsLaTeX": "C",
+                "UnitsHTML": "C"
+            },
             "Spin": "1",
             "MagneticMoment": "",
             "Antiparticle": {
@@ -1020,6 +1224,7 @@
                 "Name": "W+ Boson",
                 "URLReference": "wplusboson"
             },
+            "YearTheorised": "1968",
             "YearDiscovered": "1983",
             "WikipediaURL": "https://en.wikipedia.org/wiki/W_and_Z_bosons"
         },
@@ -1051,6 +1256,13 @@
                 }
             ],
             "RelativeCharge": "+1",
+            "Charge": {
+                "Significand": "1.602176634000000000000000000",
+                "Exponent": -19,
+                "UnitClass": "C",
+                "UnitsLaTeX": "C",
+                "UnitsHTML": "C"
+            },
             "Spin": "1",
             "MagneticMoment": "",
             "Antiparticle": {
@@ -1058,6 +1270,7 @@
                 "Name": "W- Boson",
                 "URLReference": "wminusboson"
             },
+            "YearTheorised": "1968",
             "YearDiscovered": "1983",
             "WikipediaURL": "https://en.wikipedia.org/wiki/W_and_Z_bosons"
         },
@@ -1090,6 +1303,13 @@
                 }
             ],
             "RelativeCharge": "0",
+            "Charge": {
+                "Significand": "0",
+                "Exponent": 0,
+                "UnitClass": "C",
+                "UnitsLaTeX": "C",
+                "UnitsHTML": "C"
+            },
             "Spin": "1",
             "MagneticMoment": "",
             "Antiparticle": {
@@ -1097,6 +1317,7 @@
                 "Name": "Z Boson",
                 "URLReference": "zboson"
             },
+            "YearTheorised": "1968",
             "YearDiscovered": "1983",
             "WikipediaURL": "https://en.wikipedia.org/wiki/W_and_Z_bosons"
         }

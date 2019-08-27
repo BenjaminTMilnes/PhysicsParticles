@@ -16,7 +16,7 @@
         </tr>
         <tr>
             <th>Charge:</th>
-            <td>{{particle.Charge}}</td>
+            <td compile="getParticleCharge(particle)"></td>
         </tr>
         <tr>
             <th>Spin:</th>
@@ -30,10 +30,26 @@
             <th>Mean Lifetime:</th>
             <td>{{particle.MeanLifetime}}</td>
         </tr>
-        <tr>
+        <tr ng-show="particle.Antiparticle != undefined && particle.Antiparticle.Reference != ''">
             <th>Antiparticle:</th>
             <td><a href="#/particle/{{particle.Antiparticle.URLReference}}"
                     title="{{particle.Antiparticle.Name}}">{{particle.Antiparticle.Name}}</a></td>
+        </tr>
+        <tr ng-show="particle.YearTheorised != undefined">
+            <th>Year Theorised:</th>
+            <td>{{particle.YearTheorised}}</td>
+        </tr>
+        <tr ng-show="particle.Theorisedby != undefined">
+            <th>Theorised By:</th>
+            <td>{{particle.TheorisedBy}}</td>
+        </tr>
+        <tr ng-show="particle.YearDiscovered != undefined">
+            <th>Year Discovered:</th>
+            <td>{{particle.YearDiscovered}}</td>
+        </tr>
+        <tr ng-show="particle.DiscoveredBy != undefined">
+            <th>Discovered By:</th>
+            <td>{{particle.DiscoveredBy}}</td>
         </tr>
     </table>
 
