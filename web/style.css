@@ -151,6 +151,7 @@ a:hover {
 
 .particlesgrid {
     display: grid;
+    justify-content: center;
     align-items: center;
     grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
     grid-template-rows: 40px 40px 100px 100px 100px 20px 100px 100px 100px 100px;
@@ -248,7 +249,7 @@ a:hover {
     text-align: center;
 }
 
-.header{
+.header {
     text-align: center;
     font-size: 12px;
     padding: 12px;
@@ -292,8 +293,8 @@ a:hover {
     .particle-name {
         display: block;
     }
-
-    .header{
+    .header {
         font-size: 1em;
-        padding: 12px;  }
+        padding: 12px;
+    }
 }
