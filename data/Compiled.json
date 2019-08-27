@@ -532,6 +532,36 @@
             "WikipediaURL": "https://en.wikipedia.org/wiki/Gluon"
         },
         {
+            "Reference": "Graviton",
+            "URLReference": "graviton",
+            "URL": "graviton",
+            "Name": "Graviton",
+            "MainSymbol": "G",
+            "Symbol": "G",
+            "Classes": [
+                "boson",
+                "vector boson"
+            ],
+            "OtherNames": "",
+            "Mass": [],
+            "MeanLifetime": "stable",
+            "RelativeCharge": "0",
+            "Charge": {
+                "Significand": "0",
+                "Exponent": 0,
+                "UnitClass": "C",
+                "UnitsLaTeX": "C",
+                "UnitsHTML": "C"
+            },
+            "Spin": "2",
+            "Antiparticle": {
+                "Reference": "Graviton",
+                "Name": "Graviton",
+                "URLReference": "graviton"
+            },
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Graviton"
+        },
+        {
             "Reference": "HiggsBoson",
             "URLReference": "higgsboson",
             "URL": "higgsboson",

@@ -126,7 +126,6 @@ class Compiler (object):
                         o = 0
                         s = 0
                     else:
-                        print( charge)
                         o =  int( math.floor(float( abs( charge).log10())))
                         s = charge * Decimal(10) ** Decimal(-o)
 
