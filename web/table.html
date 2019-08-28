@@ -1,109 +1,111 @@
 <div class="particlesgrid">
-    <div style="grid-column: 2 / span 4; grid-row: 1 / span 1;" class="header">Leptons</div>
-    <div style="grid-column: 6 / span 4; grid-row: 1 / span 2;" class="header">Quarks</div>
-    <div style="grid-column: 2 / span 2; grid-row: 2 / span 1;" class="header">Charged Leptons</div>
-    <div style="grid-column: 4 / span 2; grid-row: 2 / span 1;" class="header">Neutral Leptons / Neutrinos</div>
+    <div class="table-header table-leptonsheader">Leptons</div>
+    <div class="table-header table-chargedleptonsheader">Charged Leptons</div>
+    <div class="table-header table-neutralleptonsheader">Neutral Leptons / Neutrinos</div>
 
-    <div style="grid-column: 1 / span 1; grid-row: 3 / span 1;" class="header">First Generation</div>
-    <div style="grid-column: 1 / span 1; grid-row: 4 / span 1;" class="header">Second Generation</div>
-    <div style="grid-column: 1 / span 1; grid-row: 5 / span 1;" class="header">Third Generation</div>
+    <div class="table-header table-quarksheader">Quarks</div>
 
-    <div style="grid-column: 1 / span 1; grid-row: 7 / span 2;" class="header">Vector Bosons</div>
-    <div style="grid-column: 1 / span 1; grid-row: 9 / span 2;" class="header">Scalar Bosons</div>
+    <div class="table-header table-firstgenerationheader">First Generation</div>
+    <div class="table-header table-secondgenerationheader">Second Generation</div>
+    <div class="table-header table-thirdgenerationheader">Third Generation</div>
 
-    <div style="grid-column: 2 / span 1; grid-row: 3 / span 1;" class="gridbox11">
+    <div class="table-header table-vectorbosonsheader">Vector Bosons</div>
+    <div class="table-header table-scalarbosonsheader">Scalar Bosons</div>
+
+    <div class="table-fermion table-electron">
         <particle data="particles.Electron"></particle>
     </div>
-    <div style="grid-column: 2 / span 1; grid-row: 4 / span 1;" class="gridbox11">
+    <div class="table-fermion table-muon">
         <particle data="particles.Muon"></particle>
     </div>
-    <div style="grid-column: 2 / span 1; grid-row: 5 / span 1;" class="gridbox11">
+    <div class="table-fermion table-tauon">
         <particle data="particles.Tauon"></particle>
     </div>
-    <div style="grid-column: 3 / span 1; grid-row: 3 / span 1;" class="gridbox11">
+    <div class="table-fermion table-positron">
         <particle data="particles.Positron"></particle>
     </div>
-    <div style="grid-column: 3 / span 1; grid-row: 4 / span 1;" class="gridbox11">
+    <div class="table-fermion table-antimuon">
         <particle data="particles.Antimuon"></particle>
     </div>
-    <div style="grid-column: 3 / span 1; grid-row: 5 / span 1;" class="gridbox11">
+    <div class="table-fermion table-antitauon">
         <particle data="particles.Antitauon"></particle>
     </div>
-    <div style="grid-column: 4 / span 1; grid-row: 3 / span 1;" class="gridbox11">
+    <div class="table-fermion table-electronneutrino">
         <particle data="particles.ElectronNeutrino"></particle>
     </div>
-    <div style="grid-column: 4 / span 1; grid-row: 4 / span 1;" class="gridbox11">
+    <div class="table-fermion table-muonneutrino">
         <particle data="particles.MuonNeutrino"></particle>
     </div>
-    <div style="grid-column: 4 / span 1; grid-row: 5 / span 1;" class="gridbox11">
+    <div class="table-fermion table-tauonneutrino">
         <particle data="particles.TauonNeutrino"></particle>
     </div>
-    <div style="grid-column: 5 / span 1; grid-row: 3 / span 1;" class="gridbox11">
+    <div class="table-fermion table-electronantineutrino">
         <particle data="particles.ElectronAntineutrino"></particle>
     </div>
-    <div style="grid-column: 5 / span 1; grid-row: 4 / span 1;" class="gridbox11">
+    <div class="table-fermion table-muonantineutrino">
         <particle data="particles.MuonAntineutrino"></particle>
     </div>
-    <div style="grid-column: 5 / span 1; grid-row: 5 / span 1;" class="gridbox11">
+    <div class="table-fermion table-tauonantineutrino">
         <particle data="particles.TauonAntineutrino"></particle>
     </div>
-    <div style="grid-column: 6 / span 1; grid-row: 3 / span 1;" class="gridbox11">
+
+    <div class="table-fermion table-upquark">
         <particle data="particles.UpQuark"></particle>
     </div>
-    <div style="grid-column: 6 / span 1; grid-row: 4 / span 1;" class="gridbox11">
+    <div class="table-fermion table-charmquark">
         <particle data="particles.CharmQuark"></particle>
     </div>
-    <div style="grid-column: 6 / span 1; grid-row: 5 / span 1;" class="gridbox11">
+    <div class="table-fermion table-topquark">
         <particle data="particles.TopQuark"></particle>
     </div>
-    <div style="grid-column: 7 / span 1; grid-row: 3 / span 1;" class="gridbox11">
+    <div class="table-fermion table-upantiquark">
         <particle data="particles.UpAntiquark"></particle>
     </div>
-    <div style="grid-column: 7 / span 1; grid-row: 4 / span 1;" class="gridbox11">
+    <div class="table-fermion table-charmantiquark">
         <particle data="particles.CharmAntiquark"></particle>
     </div>
-    <div style="grid-column: 7 / span 1; grid-row: 5 / span 1;" class="gridbox11">
+    <div class="table-fermion table-topantiquark">
         <particle data="particles.TopAntiquark"></particle>
     </div>
-    <div style="grid-column: 8 / span 1; grid-row: 3 / span 1;" class="gridbox11">
+    <div class="table-fermion table-downquark">
         <particle data="particles.DownQuark"></particle>
     </div>
-    <div style="grid-column: 8 / span 1; grid-row: 4 / span 1;" class="gridbox11">
+    <div class="table-fermion table-strangequark">
         <particle data="particles.StrangeQuark"></particle>
     </div>
-    <div style="grid-column: 8 / span 1; grid-row: 5 / span 1;" class="gridbox11">
+    <div class="table-fermion table-bottomquark">
         <particle data="particles.BottomQuark"></particle>
     </div>
-    <div style="grid-column: 9 / span 1; grid-row: 3 / span 1;" class="gridbox11">
+    <div class="table-fermion table-downantiquark">
         <particle data="particles.DownAntiquark"></particle>
     </div>
-    <div style="grid-column: 9 / span 1; grid-row: 4 / span 1;" class="gridbox11">
+    <div class="table-fermion table-strangeantiquark">
         <particle data="particles.StrangeAntiquark"></particle>
     </div>
-    <div style="grid-column: 9 / span 1; grid-row: 5 / span 1;" class="gridbox11">
+    <div class="table-fermion table-bottomantiquark">
         <particle data="particles.BottomAntiquark"></particle>
     </div>
-  
-    <div style="grid-column: 2 / span 2; grid-row: 7 / span 2;" class="gridbox22">
+
+    <div class="table-boson table-photon">
         <particle data="particles.Photon"></particle>
     </div>
-    <div style="grid-column: 4 / span 1; grid-row: 7 / span 1;" class="gridbox11">
+    <div class="table-boson table-wplusboson">
         <particle data="particles.WPlusBoson"></particle>
     </div>
-    <div style="grid-column: 5 / span 1; grid-row: 7 / span 1;" class="gridbox11">
+    <div class="table-boson table-wminusboson">
         <particle data="particles.WMinusBoson"></particle>
     </div>
-    <div style="grid-column: 4 / span 2; grid-row: 8 / span 1;" class="gridbox21">
+    <div class="table-boson table-zboson">
         <particle data="particles.ZBoson"></particle>
     </div>
-    <div style="grid-column: 6 / span 2; grid-row: 7 / span 2;" class="gridbox22">
+    <div class="table-boson table-gluon">
         <particle data="particles.Gluon"></particle>
     </div>
-    <div style="grid-column: 8 / span 2; grid-row: 7 / span 2;" class="gridbox22">
+    <div class="table-boson table-graviton">
         <particle data="particles.Graviton"></particle>
     </div>
-  
-    <div style="grid-column: 2 / span 2; grid-row: 9 / span 2;" class="gridbox22">
+
+    <div class="table-boson table-higgsboson">
         <particle data="particles.HiggsBoson"></particle>
     </div>
 </div>
