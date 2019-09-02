@@ -1,4 +1,10 @@
-.table-header {}
+.table-header {
+    text-align: center;
+    font-size: 12px;
+    padding: 12px;
+    cursor: pointer;
+    user-select: none;
+}
 
 .table-leptonsheader {
     grid-column: 2 / span 4;
@@ -7,16 +13,16 @@
 
 .table-chargedleptonsheader {
     grid-column: 2 / span 2;
-    grid-row: 2 / span 2;
+    grid-row: 2 / span 1;
 }
 
 .table-neutralleptonsheader {
     grid-column: 4 / span 2;
-    grid-row: 2 / span 2;
+    grid-row: 2 / span 1;
 }
 
 .table-quarksheader {
-    grid-column: 5 / span 4;
+    grid-column: 6 / span 4;
     grid-row: 1 / span 2;
 }
 
@@ -134,4 +140,109 @@
 
 .table-tauon, .table-antitauon, .table-tauonneutrino, .table-tauonantineutrino, .table-topquark, .table-topantiquark, .table-bottomquark, .table-bottomantiquark {
     grid-row: 5 / span 1;
+}
+
+.particle {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    padding: 20px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.particle-mass, .particle-relativecharge, .particle-spin {
+    position: absolute;
+    font-size: 1em;
+}
+
+.particle-mass {
+    left: 12px;
+    top: 10px;
+}
+
+.particle-relativecharge {
+    left: 12px;
+    bottom: 10px;
+}
+
+.particle-spin {
+    right: 12px;
+    bottom: 10px;
+}
+
+.particle-symbol {
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 2em;
+    text-align: center;
+}
+
+.particle-name {
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 90px;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+@media (min-width: 400px) {}
+
+@media (min-width: 700px) {
+    .particle-mass {
+        left: 10px;
+        top: 8px;
+        font-size: 0.7em;
+    }
+    .particle-relativecharge {
+        left: 10px;
+        bottom: 8px;
+        font-size: 0.7em;
+    }
+    .particle-spin {
+        right: 10px;
+        bottom: 8px;
+        font-size: 0.7em;
+    }
+    .particle-symbol {
+        top: 33px;
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 1000px) {}
+
+@media (min-width: 1400px) {
+    .particle-mass {
+        left: 12px;
+        top: 10px;
+        font-size: 1em;
+    }
+    .particle-relativecharge {
+        left: 12px;
+        bottom: 10px;
+        font-size: 1em;
+    }
+    .particle-spin {
+        right: 12px;
+        bottom: 10px;
+        font-size: 1em;
+    }
+    .particle-name {
+        display: block;
+    }
+    .table-header {
+        font-size: 1em;
+        padding: 12px;
+    }
 }
