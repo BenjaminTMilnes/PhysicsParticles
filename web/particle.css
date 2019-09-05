@@ -1,0 +1,50 @@
+.particlesymbol {
+    font-size: 50px;
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.particleproperties {
+    margin: 40px auto;
+    border-collapse: collapse;
+}
+
+.particleproperties tr {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.particleproperties th, .particleproperties td {
+    padding: 10px 10px;
+}
+
+.particleproperties th {
+    text-align: left;
+    font-weight: normal;
+}
+
+.particleproperties td {
+    text-align: left;
+}
+
+@media (min-width: 400px) {
+    .particlesymbol {
+        font-size: 70px;
+    }
+    .particleproperties th {
+        text-align: right;
+    }
+}
+
+@media (min-width: 700px) {
+    .particlesymbol {
+        font-size: 70px;
+        margin: 70px 0px;
+    }
+    .particleproperties th, .particleproperties td {
+        padding: 10px 20px;
+    }
+}
+
+@media (min-width: 1000px) {}
+
+@media (min-width: 1400px) {}

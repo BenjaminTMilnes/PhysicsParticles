@@ -92,9 +92,9 @@ application.directive("particle", function () {
     };
 });
 
-   function getParticleSymbol(particle){
+function getParticleSymbol(particle) {
     return (!particle) ? "" : "<mathematics content-type=\"latex\" content=\"" + particle.MainSymbol + "\"></mathematics>"
-      }
+}
 
 application.controller("TableController", ["$scope", "$routeParams", "dataService", "$rootScope", "$location", function TableController($scope, $routeParams, dataService, $rootScope, $location) {
 
@@ -104,7 +104,7 @@ application.controller("TableController", ["$scope", "$routeParams", "dataServic
         $scope.particles = database.tableData;
     });
 
-    $scope.getParticleSymbol =  getParticleSymbol;
+    $scope.getParticleSymbol = getParticleSymbol;
 
     $scope.getParticleMass = function (particle) {
         if (!particle) { return ""; }
@@ -191,7 +191,7 @@ application.controller("ParticleController", ["$scope", "$routeParams", "dataSer
         $scope.particle = database.getParticleWithURLReference($routeParams.particleName);
     });
 
-    $scope.getParticleSymbol =  getParticleSymbol;
+    $scope.getParticleSymbol = getParticleSymbol;
 
     $scope.getParticleMass = function (particle) {
         if (!particle) { return ""; }
@@ -201,10 +201,29 @@ application.controller("ParticleController", ["$scope", "$routeParams", "dataSer
         return parseFloat(mass.Significand).toPrecision(3) + ((parseInt(mass.Exponent) != 0) ? " &times; 10<sup>" + mass.Exponent + "</sup>" : "") + " " + mass.UnitsHTML;
     }
 
-    $scope.getParticleCharge = function (particle){
+    $scope.getParticleRelativeCharge = function (particle) {
+        switch (particle.RelativeCharge) {
+            case "+1":
+                return "+1";
+            case "+2/3":
+                return "+2/3";
+            case "+1/3":
+                return "+1/3";
+            case "0":
+                return "0";
+            case "-1/3":
+                return "&minus;1/3";
+            case "-2/3":
+                return "&minus;2/3";
+            case "-1":
+                return "&minus;1";
+        }
+    }
+
+    $scope.getParticleCharge = function (particle) {
         if (!particle) { return ""; }
 
         return parseFloat(particle.Charge.Significand).toPrecision(3) + ((parseInt(particle.Charge.Exponent) != 0) ? " &times; 10<sup>" + particle.Charge.Exponent + "</sup>" : "") + " " + particle.Charge.UnitsHTML;
     }
-    
+
 }]);

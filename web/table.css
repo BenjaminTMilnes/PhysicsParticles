@@ -99,7 +99,9 @@
 
 @media (min-width: 700px) {}
 
-@media (min-width: 1000px) {
+@media (min-width: 1000px) {}
+
+@media (min-width: 1400px) {
     .table-fermion {
         height: 150px;
     }
@@ -110,8 +112,6 @@
         height: 304px;
     }
 }
-
-@media (min-width: 1400px) {}
 
 .table-photon {
     grid-column: 2 / span 2;
@@ -272,12 +272,16 @@
 
 @media (min-width: 1000px) {
     .particle-symbol {
-        top: 50px;
+        top: 33px;
         font-size: 1.5em;
     }
 }
 
 @media (min-width: 1400px) {
+    .particle-symbol {
+        top: 50px;
+        font-size: 1.5em;
+    }
     .particle-mass {
         left: 12px;
         top: 10px;
