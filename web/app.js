@@ -1,3 +1,49 @@
+
+class ScientificNumber {
+    constructor(number) {
+        this._decimal = new Decimal(number);
+    }
+
+    get isPositive() {
+        return this._decimal.gt(0);
+    }
+
+    get isNegative() {
+        return this._decimal.lt(0);
+    }
+
+    get orderOfMagnitude() {
+        return this._decimal.log10().floor();
+    }
+
+    get significand() {
+        var o = - this.orderOfMagnitude;
+
+        return this._decimal.times((new Decimal(10)).pow(o));
+    }
+
+    toHTML(precision = 3, includePlusSign = true) {
+        var sign = "";
+
+        if (this.isPositive && includePlusSign) {
+            sign = "+";
+        }
+
+        if (this.isNegative) {
+            sign = "&minus;";
+        }
+
+        var o = this.orderOfMagnitude;
+        var os = (o.lt(0)) ? "&times" : "";
+
+        return sign + this.significand.toPrecision(precision) + " &times; 10<sup>" + os + o.abs() + "</sup>";
+    }
+
+    toLaTeX(precision = 3, includePlusSign = true) {
+
+    }
+}
+
 var application = angular.module("PhysicsParticles", ["ngRoute", "ngSanitize"]);
 
 application.config(function ($routeProvider) {
