@@ -1,3 +1,35 @@
+.particletable {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 40px 40px 100px 100px 100px 20px 100px 100px 100px 100px;
+    width: 100%;
+    margin: 40px auto;
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+}
+
+@media (min-width: 400px) {}
+
+@media (min-width: 700px) {
+    .particletable {
+        grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+        grid-template-rows: 40px 40px 100px 100px 100px 20px 100px 100px 100px 100px;
+    }
+}
+
+@media (min-width: 1000px) {}
+
+@media (min-width: 1400px) {
+    .particletable {
+        grid-template-columns: 150px 150px 150px 150px 150px 150px 150px 150px 150px;
+        grid-template-rows: 40px 40px 150px 150px 150px 20px 150px 150px 150px 150px;
+        grid-column-gap: 4px;
+        grid-row-gap: 4px;
+    }
+}
+
 .table-header {
     text-align: center;
     font-size: 12px;
@@ -62,6 +94,24 @@
 .table-photon, .table-gluon, .table-higgsboson, .table-graviton {
     height: 202px;
 }
+
+@media (min-width: 400px) {}
+
+@media (min-width: 700px) {}
+
+@media (min-width: 1000px) {
+    .table-fermion {
+        height: 150px;
+    }
+    .table-wplusboson, .table-wminusboson, .table-zboson {
+        height: 150px;
+    }
+    .table-photon, .table-gluon, .table-higgsboson, .table-graviton {
+        height: 304px;
+    }
+}
+
+@media (min-width: 1400px) {}
 
 .table-photon {
     grid-column: 2 / span 2;
@@ -220,7 +270,12 @@
     }
 }
 
-@media (min-width: 1000px) {}
+@media (min-width: 1000px) {
+    .particle-symbol {
+        top: 50px;
+        font-size: 1.5em;
+    }
+}
 
 @media (min-width: 1400px) {
     .particle-mass {
