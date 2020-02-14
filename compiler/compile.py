@@ -5,7 +5,7 @@ import math
 from decimal import *
 
 context = getcontext()
-context.prec = 30
+context.prec = 12
 
 
 zero = Decimal("0")
@@ -350,6 +350,9 @@ class Compiler (object):
             for line in lines:
                 if line.startswith("other names:"):
                     particle["OtherNames"] = [n.strip() for n in line[12:].strip().split(",")]
+
+                if line.startswith("status:"):
+                    particle["Status"] = line[7:].strip()
 
                 if line.startswith("mass:"):
                     particle["Mass"] = Mass.fromText(line[5:].strip()).toDictionary()

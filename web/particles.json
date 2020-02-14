@@ -22,6 +22,7 @@
                 "mu antilepton",
                 "anti mu"
             ],
+            "Status": "confirmed",
             "Mass": [
                 {
                     "Significand": "1.883531608",
@@ -42,13 +43,13 @@
                     "LaTeX": "1.88 \\times 10^{-28} \\, \\mathrm{kg}"
                 },
                 {
-                    "Significand": "105.658374527908241849918463508",
+                    "Significand": "105.658374528",
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "MeV",
                     "Rounding": "none",
-                    "HTML": "105.658374527908241849918463508 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
-                    "LaTeX": "105.658374527908241849918463508 \\, \\mathrm{MeV} / c^{2}"
+                    "HTML": "105.658374528 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "105.658374528 \\, \\mathrm{MeV} / c^{2}"
                 },
                 {
                     "Significand": "106",
@@ -60,13 +61,13 @@
                     "LaTeX": "106 \\, \\mathrm{MeV} / c^{2}"
                 },
                 {
-                    "Significand": "0.113428924732050022821185458522",
+                    "Significand": "0.113428924732",
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
                     "Rounding": "none",
-                    "HTML": "0.113428924732050022821185458522 u",
-                    "LaTeX": "0.113428924732050022821185458522 \\, \\mathrm{u}"
+                    "HTML": "0.113428924732 u",
+                    "LaTeX": "0.113428924732 \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "0.113",
@@ -145,6 +146,7 @@
                 "tau antiparticle",
                 "anti-tau"
             ],
+            "Status": "confirmed",
             "Mass": [
                 {
                     "Significand": "3.167540659",
@@ -165,13 +167,13 @@
                     "LaTeX": "3.17 \\times 10^{-27} \\, \\mathrm{kg}"
                 },
                 {
-                    "Significand": "1.77685999990396384301516913538",
+                    "Significand": "1.7768599999",
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "GeV",
                     "Rounding": "none",
-                    "HTML": "1.77685999990396384301516913538 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
-                    "LaTeX": "1.77685999990396384301516913538 \\, \\mathrm{GeV} / c^{2}"
+                    "HTML": "1.7768599999 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "1.7768599999 \\, \\mathrm{GeV} / c^{2}"
                 },
                 {
                     "Significand": "1.78",
@@ -183,13 +185,13 @@
                     "LaTeX": "1.78 \\, \\mathrm{GeV} / c^{2}"
                 },
                 {
-                    "Significand": "1.90753757181132013000964105110",
+                    "Significand": "1.90753757181",
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
                     "Rounding": "none",
-                    "HTML": "1.90753757181132013000964105110 u",
-                    "LaTeX": "1.90753757181132013000964105110 \\, \\mathrm{u}"
+                    "HTML": "1.90753757181 u",
+                    "LaTeX": "1.90753757181 \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "1.91",
@@ -267,6 +269,7 @@
             "OtherNames": [
                 "beauty antiquark"
             ],
+            "Status": "confirmed",
             "Mass": [
                 {
                     "Significand": "7.451526826",
@@ -287,13 +290,13 @@
                     "LaTeX": "7.45 \\times 10^{-27} \\, \\mathrm{kg}"
                 },
                 {
-                    "Significand": "4.18000000022438354435708145939",
+                    "Significand": "4.18000000022",
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "GeV",
                     "Rounding": "none",
-                    "HTML": "4.18000000022438354435708145939 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
-                    "LaTeX": "4.18000000022438354435708145939 \\, \\mathrm{GeV} / c^{2}"
+                    "HTML": "4.18000000022 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "4.18000000022 \\, \\mathrm{GeV} / c^{2}"
                 },
                 {
                     "Significand": "4.18",
@@ -305,13 +308,13 @@
                     "LaTeX": "4.18 \\, \\mathrm{GeV} / c^{2}"
                 },
                 {
-                    "Significand": "4.48741434385955686614618067667",
+                    "Significand": "4.48741434386",
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
                     "Rounding": "none",
-                    "HTML": "4.48741434385955686614618067667 u",
-                    "LaTeX": "4.48741434385955686614618067667 \\, \\mathrm{u}"
+                    "HTML": "4.48741434386 u",
+                    "LaTeX": "4.48741434386 \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "4.49",
@@ -326,13 +329,13 @@
             "RelativeCharge": "+1/3",
             "Charge": [
                 {
-                    "Significand": "5.34058877999999999999999999999",
+                    "Significand": "5.34058877999",
                     "Base": "10",
                     "Exponent": "-20",
                     "Unit": "C",
                     "Rounding": "none",
-                    "HTML": "5.34058877999999999999999999999 &times; 10<sup>&minus;20</sup> C",
-                    "LaTeX": "5.34058877999999999999999999999 \\times 10^{-20} \\, \\mathrm{C}"
+                    "HTML": "5.34058877999 &times; 10<sup>&minus;20</sup> C",
+                    "LaTeX": "5.34058877999 \\times 10^{-20} \\, \\mathrm{C}"
                 },
                 {
                     "Significand": "5.34",
@@ -367,6 +370,7 @@
             "OtherNames": [
                 "beauty quark"
             ],
+            "Status": "confirmed",
             "Mass": [
                 {
                     "Significand": "7.451526826",
@@ -387,13 +391,13 @@
                     "LaTeX": "7.45 \\times 10^{-27} \\, \\mathrm{kg}"
                 },
                 {
-                    "Significand": "4.18000000022438354435708145939",
+                    "Significand": "4.18000000022",
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "GeV",
                     "Rounding": "none",
-                    "HTML": "4.18000000022438354435708145939 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
-                    "LaTeX": "4.18000000022438354435708145939 \\, \\mathrm{GeV} / c^{2}"
+                    "HTML": "4.18000000022 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "4.18000000022 \\, \\mathrm{GeV} / c^{2}"
                 },
                 {
                     "Significand": "4.18",
@@ -405,13 +409,13 @@
                     "LaTeX": "4.18 \\, \\mathrm{GeV} / c^{2}"
                 },
                 {
-                    "Significand": "4.48741434385955686614618067667",
+                    "Significand": "4.48741434386",
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
                     "Rounding": "none",
-                    "HTML": "4.48741434385955686614618067667 u",
-                    "LaTeX": "4.48741434385955686614618067667 \\, \\mathrm{u}"
+                    "HTML": "4.48741434386 u",
+                    "LaTeX": "4.48741434386 \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "4.49",
@@ -426,13 +430,13 @@
             "RelativeCharge": "-1/3",
             "Charge": [
                 {
-                    "Significand": "-5.34058877999999999999999999999",
+                    "Significand": "-5.34058877999",
                     "Base": "10",
                     "Exponent": "-20",
                     "Unit": "C",
                     "Rounding": "none",
-                    "HTML": "&minus;5.34058877999999999999999999999 &times; 10<sup>&minus;20</sup> C",
-                    "LaTeX": "-5.34058877999999999999999999999 \\times 10^{-20} \\, \\mathrm{C}"
+                    "HTML": "&minus;5.34058877999 &times; 10<sup>&minus;20</sup> C",
+                    "LaTeX": "-5.34058877999 \\times 10^{-20} \\, \\mathrm{C}"
                 },
                 {
                     "Significand": "-5.34",
@@ -468,6 +472,7 @@
                 "Name": "Charm Quark",
                 "URLReference": "charmquark"
             },
+            "Status": "confirmed",
             "Mass": [
                 {
                     "Significand": "2.272893948",
@@ -506,13 +511,13 @@
                     "LaTeX": "1.28 \\, \\mathrm{GeV} / c^{2}"
                 },
                 {
-                    "Significand": "1.36876872921382914484934045694",
+                    "Significand": "1.36876872921",
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
                     "Rounding": "none",
-                    "HTML": "1.36876872921382914484934045694 u",
-                    "LaTeX": "1.36876872921382914484934045694 \\, \\mathrm{u}"
+                    "HTML": "1.36876872921 u",
+                    "LaTeX": "1.36876872921 \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "1.37",
@@ -527,13 +532,13 @@
             "RelativeCharge": "-2/3",
             "Charge": [
                 {
-                    "Significand": "-1.06811775600000000000000000000",
+                    "Significand": "-1.06811775600",
                     "Base": "10",
                     "Exponent": "-19",
                     "Unit": "C",
                     "Rounding": "none",
-                    "HTML": "&minus;1.06811775600000000000000000000 &times; 10<sup>&minus;19</sup> C",
-                    "LaTeX": "-1.06811775600000000000000000000 \\times 10^{-19} \\, \\mathrm{C}"
+                    "HTML": "&minus;1.06811775600 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "-1.06811775600 \\times 10^{-19} \\, \\mathrm{C}"
                 },
                 {
                     "Significand": "-1.07",
@@ -565,6 +570,7 @@
                 "Name": "Charm Antiquark",
                 "URLReference": "charmantiquark"
             },
+            "Status": "confirmed",
             "Mass": [
                 {
                     "Significand": "2.272893948",
@@ -603,13 +609,13 @@
                     "LaTeX": "1.28 \\, \\mathrm{GeV} / c^{2}"
                 },
                 {
-                    "Significand": "1.36876872921382914484934045694",
+                    "Significand": "1.36876872921",
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
                     "Rounding": "none",
-                    "HTML": "1.36876872921382914484934045694 u",
-                    "LaTeX": "1.36876872921382914484934045694 \\, \\mathrm{u}"
+                    "HTML": "1.36876872921 u",
+                    "LaTeX": "1.36876872921 \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "1.37",
@@ -624,13 +630,13 @@
             "RelativeCharge": "+2/3",
             "Charge": [
                 {
-                    "Significand": "1.06811775600000000000000000000",
+                    "Significand": "1.06811775600",
                     "Base": "10",
                     "Exponent": "-19",
                     "Unit": "C",
                     "Rounding": "none",
-                    "HTML": "1.06811775600000000000000000000 &times; 10<sup>&minus;19</sup> C",
-                    "LaTeX": "1.06811775600000000000000000000 \\times 10^{-19} \\, \\mathrm{C}"
+                    "HTML": "1.06811775600 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "1.06811775600 \\times 10^{-19} \\, \\mathrm{C}"
                 },
                 {
                     "Significand": "1.07",
@@ -662,6 +668,7 @@
                 "Name": "Down Quark",
                 "URLReference": "downquark"
             },
+            "Status": "confirmed",
             "Mass": [
                 {
                     "Significand": "8.378511024",
@@ -700,13 +707,13 @@
                     "LaTeX": "4.70 \\, \\mathrm{MeV} / c^{2}"
                 },
                 {
-                    "Significand": "5.04565727631764469081717658638",
+                    "Significand": "5.04565727632",
                     "Base": "10",
                     "Exponent": "-3",
                     "Unit": "u",
                     "Rounding": "none",
-                    "HTML": "5.04565727631764469081717658638 &times; 10<sup>&minus;3</sup> u",
-                    "LaTeX": "5.04565727631764469081717658638 \\times 10^{-3} \\, \\mathrm{u}"
+                    "HTML": "5.04565727632 &times; 10<sup>&minus;3</sup> u",
+                    "LaTeX": "5.04565727632 \\times 10^{-3} \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "5.05",
@@ -721,13 +728,13 @@
             "RelativeCharge": "+1/3",
             "Charge": [
                 {
-                    "Significand": "5.34058877999999999999999999999",
+                    "Significand": "5.34058877999",
                     "Base": "10",
                     "Exponent": "-20",
                     "Unit": "C",
                     "Rounding": "none",
-                    "HTML": "5.34058877999999999999999999999 &times; 10<sup>&minus;20</sup> C",
-                    "LaTeX": "5.34058877999999999999999999999 \\times 10^{-20} \\, \\mathrm{C}"
+                    "HTML": "5.34058877999 &times; 10<sup>&minus;20</sup> C",
+                    "LaTeX": "5.34058877999 \\times 10^{-20} \\, \\mathrm{C}"
                 },
                 {
                     "Significand": "5.34",
@@ -759,6 +766,7 @@
                 "Name": "Down Antiquark",
                 "URLReference": "downantiquark"
             },
+            "Status": "confirmed",
             "Mass": [
                 {
                     "Significand": "8.378511024",
@@ -797,13 +805,13 @@
                     "LaTeX": "4.70 \\, \\mathrm{MeV} / c^{2}"
                 },
                 {
-                    "Significand": "5.04565727631764469081717658638",
+                    "Significand": "5.04565727632",
                     "Base": "10",
                     "Exponent": "-3",
                     "Unit": "u",
                     "Rounding": "none",
-                    "HTML": "5.04565727631764469081717658638 &times; 10<sup>&minus;3</sup> u",
-                    "LaTeX": "5.04565727631764469081717658638 \\times 10^{-3} \\, \\mathrm{u}"
+                    "HTML": "5.04565727632 &times; 10<sup>&minus;3</sup> u",
+                    "LaTeX": "5.04565727632 \\times 10^{-3} \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "5.05",
@@ -818,13 +826,13 @@
             "RelativeCharge": "-1/3",
             "Charge": [
                 {
-                    "Significand": "-5.34058877999999999999999999999",
+                    "Significand": "-5.34058877999",
                     "Base": "10",
                     "Exponent": "-20",
                     "Unit": "C",
                     "Rounding": "none",
-                    "HTML": "&minus;5.34058877999999999999999999999 &times; 10<sup>&minus;20</sup> C",
-                    "LaTeX": "-5.34058877999999999999999999999 \\times 10^{-20} \\, \\mathrm{C}"
+                    "HTML": "&minus;5.34058877999 &times; 10<sup>&minus;20</sup> C",
+                    "LaTeX": "-5.34058877999 \\times 10^{-20} \\, \\mathrm{C}"
                 },
                 {
                     "Significand": "-5.34",
@@ -860,6 +868,7 @@
             "OtherNames": [
                 "beta particle"
             ],
+            "Status": "confirmed",
             "Mass": [
                 {
                     "Significand": "9.10938356",
@@ -880,13 +889,13 @@
                     "LaTeX": "9.11 \\times 10^{-31} \\, \\mathrm{kg}"
                 },
                 {
-                    "Significand": "510.99894252523215394649816719",
+                    "Significand": "510.998942525",
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "keV",
                     "Rounding": "none",
-                    "HTML": "510.99894252523215394649816719 keV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
-                    "LaTeX": "510.99894252523215394649816719 \\, \\mathrm{keV} / c^{2}"
+                    "HTML": "510.998942525 keV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "510.998942525 \\, \\mathrm{keV} / c^{2}"
                 },
                 {
                     "Significand": "511",
@@ -898,13 +907,13 @@
                     "LaTeX": "511 \\, \\mathrm{keV} / c^{2}"
                 },
                 {
-                    "Significand": "5.48579900541076496224602584728",
+                    "Significand": "5.48579900541",
                     "Base": "10",
                     "Exponent": "-4",
                     "Unit": "u",
                     "Rounding": "none",
-                    "HTML": "5.48579900541076496224602584728 &times; 10<sup>&minus;4</sup> u",
-                    "LaTeX": "5.48579900541076496224602584728 \\times 10^{-4} \\, \\mathrm{u}"
+                    "HTML": "5.48579900541 &times; 10<sup>&minus;4</sup> u",
+                    "LaTeX": "5.48579900541 \\times 10^{-4} \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "5.49",
@@ -963,6 +972,7 @@
                 "Name": "Electron Neutrino",
                 "URLReference": "electronneutrino"
             },
+            "Status": "confirmed",
             "RelativeCharge": "0",
             "Charge": [
                 {
@@ -1006,6 +1016,7 @@
                 "Name": "Electron Antineutrino",
                 "URLReference": "electronantineutrino"
             },
+            "Status": "confirmed",
             "RelativeCharge": "0",
             "Charge": [
                 {
@@ -1046,6 +1057,7 @@
                 "Name": "",
                 "URLReference": ""
             },
+            "Status": "confirmed",
             "Mass": [
                 {
                     "Significand": "0",
@@ -1142,6 +1154,7 @@
                 "Name": "Graviton",
                 "URLReference": "graviton"
             },
+            "Status": "hypothetical",
             "Mass": [
                 {
                     "Significand": "0",
@@ -1239,6 +1252,7 @@
                 "Name": "",
                 "URLReference": ""
             },
+            "Status": "confirmed",
             "Mass": [
                 {
                     "Significand": "2.231536191",
@@ -1259,13 +1273,13 @@
                     "LaTeX": "2.23 \\times 10^{-25} \\, \\mathrm{kg}"
                 },
                 {
-                    "Significand": "125.179999974420275943292713629",
+                    "Significand": "125.179999974",
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "GeV",
                     "Rounding": "none",
-                    "HTML": "125.179999974420275943292713629 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
-                    "LaTeX": "125.179999974420275943292713629 \\, \\mathrm{GeV} / c^{2}"
+                    "HTML": "125.179999974 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "125.179999974 \\, \\mathrm{GeV} / c^{2}"
                 },
                 {
                     "Significand": "125",
@@ -1277,13 +1291,13 @@
                     "LaTeX": "125 \\, \\mathrm{GeV} / c^{2}"
                 },
                 {
-                    "Significand": "134.386250578803455656079052226",
+                    "Significand": "134.386250579",
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
                     "Rounding": "none",
-                    "HTML": "134.386250578803455656079052226 u",
-                    "LaTeX": "134.386250578803455656079052226 \\, \\mathrm{u}"
+                    "HTML": "134.386250579 u",
+                    "LaTeX": "134.386250579 \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "134",
@@ -1361,6 +1375,7 @@
                 "mu lepton",
                 "mu"
             ],
+            "Status": "confirmed",
             "Mass": [
                 {
                     "Significand": "1.883531608",
@@ -1381,13 +1396,13 @@
                     "LaTeX": "1.88 \\times 10^{-28} \\, \\mathrm{kg}"
                 },
                 {
-                    "Significand": "105.658374527908241849918463508",
+                    "Significand": "105.658374528",
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "MeV",
                     "Rounding": "none",
-                    "HTML": "105.658374527908241849918463508 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
-                    "LaTeX": "105.658374527908241849918463508 \\, \\mathrm{MeV} / c^{2}"
+                    "HTML": "105.658374528 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "105.658374528 \\, \\mathrm{MeV} / c^{2}"
                 },
                 {
                     "Significand": "106",
@@ -1399,13 +1414,13 @@
                     "LaTeX": "106 \\, \\mathrm{MeV} / c^{2}"
                 },
                 {
-                    "Significand": "0.113428924732050022821185458522",
+                    "Significand": "0.113428924732",
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
                     "Rounding": "none",
-                    "HTML": "0.113428924732050022821185458522 u",
-                    "LaTeX": "0.113428924732050022821185458522 \\, \\mathrm{u}"
+                    "HTML": "0.113428924732 u",
+                    "LaTeX": "0.113428924732 \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "0.113",
@@ -1482,6 +1497,7 @@
                 "Name": "Muon Neutrino",
                 "URLReference": "muonneutrino"
             },
+            "Status": "confirmed",
             "RelativeCharge": "0",
             "Charge": [
                 {
@@ -1528,6 +1544,7 @@
             "OtherNames": [
                 "mu neutrino"
             ],
+            "Status": "confirmed",
             "RelativeCharge": "0",
             "Charge": [
                 {
@@ -1567,6 +1584,7 @@
                 "Name": "Photon",
                 "URLReference": "photon"
             },
+            "Status": "confirmed",
             "Mass": [
                 {
                     "Significand": "0",
@@ -1669,6 +1687,7 @@
             "OtherNames": [
                 "antielectron"
             ],
+            "Status": "confirmed",
             "Mass": [
                 {
                     "Significand": "9.10938356",
@@ -1689,13 +1708,13 @@
                     "LaTeX": "9.11 \\times 10^{-31} \\, \\mathrm{kg}"
                 },
                 {
-                    "Significand": "510.99894252523215394649816719",
+                    "Significand": "510.998942525",
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "keV",
                     "Rounding": "none",
-                    "HTML": "510.99894252523215394649816719 keV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
-                    "LaTeX": "510.99894252523215394649816719 \\, \\mathrm{keV} / c^{2}"
+                    "HTML": "510.998942525 keV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "510.998942525 \\, \\mathrm{keV} / c^{2}"
                 },
                 {
                     "Significand": "511",
@@ -1707,13 +1726,13 @@
                     "LaTeX": "511 \\, \\mathrm{keV} / c^{2}"
                 },
                 {
-                    "Significand": "5.48579900541076496224602584728",
+                    "Significand": "5.48579900541",
                     "Base": "10",
                     "Exponent": "-4",
                     "Unit": "u",
                     "Rounding": "none",
-                    "HTML": "5.48579900541076496224602584728 &times; 10<sup>&minus;4</sup> u",
-                    "LaTeX": "5.48579900541076496224602584728 \\times 10^{-4} \\, \\mathrm{u}"
+                    "HTML": "5.48579900541 &times; 10<sup>&minus;4</sup> u",
+                    "LaTeX": "5.48579900541 \\times 10^{-4} \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "5.49",
@@ -1769,6 +1788,7 @@
                 "Name": "Strange Quark",
                 "URLReference": "strangequark"
             },
+            "Status": "confirmed",
             "Mass": [
                 {
                     "Significand": "1.693528824",
@@ -1807,13 +1827,13 @@
                     "LaTeX": "95.0 \\, \\mathrm{MeV} / c^{2}"
                 },
                 {
-                    "Significand": "0.101986689627697073537793994831",
+                    "Significand": "0.101986689628",
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
                     "Rounding": "none",
-                    "HTML": "0.101986689627697073537793994831 u",
-                    "LaTeX": "0.101986689627697073537793994831 \\, \\mathrm{u}"
+                    "HTML": "0.101986689628 u",
+                    "LaTeX": "0.101986689628 \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "0.102",
@@ -1828,13 +1848,13 @@
             "RelativeCharge": "+1/3",
             "Charge": [
                 {
-                    "Significand": "5.34058877999999999999999999999",
+                    "Significand": "5.34058877999",
                     "Base": "10",
                     "Exponent": "-20",
                     "Unit": "C",
                     "Rounding": "none",
-                    "HTML": "5.34058877999999999999999999999 &times; 10<sup>&minus;20</sup> C",
-                    "LaTeX": "5.34058877999999999999999999999 \\times 10^{-20} \\, \\mathrm{C}"
+                    "HTML": "5.34058877999 &times; 10<sup>&minus;20</sup> C",
+                    "LaTeX": "5.34058877999 \\times 10^{-20} \\, \\mathrm{C}"
                 },
                 {
                     "Significand": "5.34",
@@ -1866,6 +1886,7 @@
                 "Name": "Strange Antiquark",
                 "URLReference": "strangeantiquark"
             },
+            "Status": "confirmed",
             "Mass": [
                 {
                     "Significand": "1.693528824",
@@ -1904,13 +1925,13 @@
                     "LaTeX": "95.0 \\, \\mathrm{MeV} / c^{2}"
                 },
                 {
-                    "Significand": "0.101986689627697073537793994831",
+                    "Significand": "0.101986689628",
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
                     "Rounding": "none",
-                    "HTML": "0.101986689627697073537793994831 u",
-                    "LaTeX": "0.101986689627697073537793994831 \\, \\mathrm{u}"
+                    "HTML": "0.101986689628 u",
+                    "LaTeX": "0.101986689628 \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "0.102",
@@ -1925,13 +1946,13 @@
             "RelativeCharge": "-1/3",
             "Charge": [
                 {
-                    "Significand": "-5.34058877999999999999999999999",
+                    "Significand": "-5.34058877999",
                     "Base": "10",
                     "Exponent": "-20",
                     "Unit": "C",
                     "Rounding": "none",
-                    "HTML": "&minus;5.34058877999999999999999999999 &times; 10<sup>&minus;20</sup> C",
-                    "LaTeX": "-5.34058877999999999999999999999 \\times 10^{-20} \\, \\mathrm{C}"
+                    "HTML": "&minus;5.34058877999 &times; 10<sup>&minus;20</sup> C",
+                    "LaTeX": "-5.34058877999 \\times 10^{-20} \\, \\mathrm{C}"
                 },
                 {
                     "Significand": "-5.34",
@@ -1972,6 +1993,7 @@
                 "tau particle",
                 "tau"
             ],
+            "Status": "confirmed",
             "Mass": [
                 {
                     "Significand": "3.167540659",
@@ -1992,13 +2014,13 @@
                     "LaTeX": "3.17 \\times 10^{-27} \\, \\mathrm{kg}"
                 },
                 {
-                    "Significand": "1.77685999990396384301516913538",
+                    "Significand": "1.7768599999",
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "GeV",
                     "Rounding": "none",
-                    "HTML": "1.77685999990396384301516913538 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
-                    "LaTeX": "1.77685999990396384301516913538 \\, \\mathrm{GeV} / c^{2}"
+                    "HTML": "1.7768599999 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "1.7768599999 \\, \\mathrm{GeV} / c^{2}"
                 },
                 {
                     "Significand": "1.78",
@@ -2010,13 +2032,13 @@
                     "LaTeX": "1.78 \\, \\mathrm{GeV} / c^{2}"
                 },
                 {
-                    "Significand": "1.90753757181132013000964105110",
+                    "Significand": "1.90753757181",
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
                     "Rounding": "none",
-                    "HTML": "1.90753757181132013000964105110 u",
-                    "LaTeX": "1.90753757181132013000964105110 \\, \\mathrm{u}"
+                    "HTML": "1.90753757181 u",
+                    "LaTeX": "1.90753757181 \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "1.91",
@@ -2093,6 +2115,7 @@
                 "Name": "Tauon Neutrino",
                 "URLReference": "tauonneutrino"
             },
+            "Status": "confirmed",
             "RelativeCharge": "0",
             "Charge": [
                 {
@@ -2139,6 +2162,7 @@
             "OtherNames": [
                 "tau neutrino"
             ],
+            "Status": "confirmed",
             "RelativeCharge": "0",
             "Charge": [
                 {
@@ -2180,6 +2204,7 @@
                 "Name": "Top Quark",
                 "URLReference": "topquark"
             },
+            "Status": "confirmed",
             "Mass": [
                 {
                     "Significand": "3.084005122",
@@ -2200,13 +2225,13 @@
                     "LaTeX": "3.08 \\times 10^{-25} \\, \\mathrm{kg}"
                 },
                 {
-                    "Significand": "173.000000022438354435708145939",
+                    "Significand": "173.000000022",
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "GeV",
                     "Rounding": "none",
-                    "HTML": "173.000000022438354435708145939 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
-                    "LaTeX": "173.000000022438354435708145939 \\, \\mathrm{GeV} / c^{2}"
+                    "HTML": "173.000000022 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "173.000000022 \\, \\mathrm{GeV} / c^{2}"
                 },
                 {
                     "Significand": "173",
@@ -2218,13 +2243,13 @@
                     "LaTeX": "173 \\, \\mathrm{GeV} / c^{2}"
                 },
                 {
-                    "Significand": "185.723129556631654859254607313",
+                    "Significand": "185.723129557",
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
                     "Rounding": "none",
-                    "HTML": "185.723129556631654859254607313 u",
-                    "LaTeX": "185.723129556631654859254607313 \\, \\mathrm{u}"
+                    "HTML": "185.723129557 u",
+                    "LaTeX": "185.723129557 \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "186",
@@ -2239,13 +2264,13 @@
             "RelativeCharge": "-2/3",
             "Charge": [
                 {
-                    "Significand": "-1.06811775600000000000000000000",
+                    "Significand": "-1.06811775600",
                     "Base": "10",
                     "Exponent": "-19",
                     "Unit": "C",
                     "Rounding": "none",
-                    "HTML": "&minus;1.06811775600000000000000000000 &times; 10<sup>&minus;19</sup> C",
-                    "LaTeX": "-1.06811775600000000000000000000 \\times 10^{-19} \\, \\mathrm{C}"
+                    "HTML": "&minus;1.06811775600 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "-1.06811775600 \\times 10^{-19} \\, \\mathrm{C}"
                 },
                 {
                     "Significand": "-1.07",
@@ -2277,6 +2302,7 @@
                 "Name": "Top Antiquark",
                 "URLReference": "topantiquark"
             },
+            "Status": "confirmed",
             "Mass": [
                 {
                     "Significand": "3.084005122",
@@ -2297,13 +2323,13 @@
                     "LaTeX": "3.08 \\times 10^{-25} \\, \\mathrm{kg}"
                 },
                 {
-                    "Significand": "173.000000022438354435708145939",
+                    "Significand": "173.000000022",
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "GeV",
                     "Rounding": "none",
-                    "HTML": "173.000000022438354435708145939 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
-                    "LaTeX": "173.000000022438354435708145939 \\, \\mathrm{GeV} / c^{2}"
+                    "HTML": "173.000000022 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "173.000000022 \\, \\mathrm{GeV} / c^{2}"
                 },
                 {
                     "Significand": "173",
@@ -2315,13 +2341,13 @@
                     "LaTeX": "173 \\, \\mathrm{GeV} / c^{2}"
                 },
                 {
-                    "Significand": "185.723129556631654859254607313",
+                    "Significand": "185.723129557",
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
                     "Rounding": "none",
-                    "HTML": "185.723129556631654859254607313 u",
-                    "LaTeX": "185.723129556631654859254607313 \\, \\mathrm{u}"
+                    "HTML": "185.723129557 u",
+                    "LaTeX": "185.723129557 \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "186",
@@ -2336,13 +2362,13 @@
             "RelativeCharge": "+2/3",
             "Charge": [
                 {
-                    "Significand": "1.06811775600000000000000000000",
+                    "Significand": "1.06811775600",
                     "Base": "10",
                     "Exponent": "-19",
                     "Unit": "C",
                     "Rounding": "none",
-                    "HTML": "1.06811775600000000000000000000 &times; 10<sup>&minus;19</sup> C",
-                    "LaTeX": "1.06811775600000000000000000000 \\times 10^{-19} \\, \\mathrm{C}"
+                    "HTML": "1.06811775600 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "1.06811775600 \\times 10^{-19} \\, \\mathrm{C}"
                 },
                 {
                     "Significand": "1.07",
@@ -2377,6 +2403,7 @@
                 "Name": "Up Quark",
                 "URLReference": "upquark"
             },
+            "Status": "confirmed",
             "Mass": [
                 {
                     "Significand": "3.921856224",
@@ -2415,13 +2442,13 @@
                     "LaTeX": "2.20 \\, \\mathrm{MeV} / c^{2}"
                 },
                 {
-                    "Significand": "2.36179702295719538719101882767",
+                    "Significand": "2.36179702296",
                     "Base": "10",
                     "Exponent": "-3",
                     "Unit": "u",
                     "Rounding": "none",
-                    "HTML": "2.36179702295719538719101882767 &times; 10<sup>&minus;3</sup> u",
-                    "LaTeX": "2.36179702295719538719101882767 \\times 10^{-3} \\, \\mathrm{u}"
+                    "HTML": "2.36179702296 &times; 10<sup>&minus;3</sup> u",
+                    "LaTeX": "2.36179702296 \\times 10^{-3} \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "2.36",
@@ -2436,13 +2463,13 @@
             "RelativeCharge": "-2/3",
             "Charge": [
                 {
-                    "Significand": "-1.06811775600000000000000000000",
+                    "Significand": "-1.06811775600",
                     "Base": "10",
                     "Exponent": "-19",
                     "Unit": "C",
                     "Rounding": "none",
-                    "HTML": "&minus;1.06811775600000000000000000000 &times; 10<sup>&minus;19</sup> C",
-                    "LaTeX": "-1.06811775600000000000000000000 \\times 10^{-19} \\, \\mathrm{C}"
+                    "HTML": "&minus;1.06811775600 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "-1.06811775600 \\times 10^{-19} \\, \\mathrm{C}"
                 },
                 {
                     "Significand": "-1.07",
@@ -2475,6 +2502,7 @@
                 "Name": "Up Antiquark",
                 "URLReference": "upantiquark"
             },
+            "Status": "confirmed",
             "Mass": [
                 {
                     "Significand": "3.921856224",
@@ -2513,13 +2541,13 @@
                     "LaTeX": "2.20 \\, \\mathrm{MeV} / c^{2}"
                 },
                 {
-                    "Significand": "2.36179702295719538719101882767",
+                    "Significand": "2.36179702296",
                     "Base": "10",
                     "Exponent": "-3",
                     "Unit": "u",
                     "Rounding": "none",
-                    "HTML": "2.36179702295719538719101882767 &times; 10<sup>&minus;3</sup> u",
-                    "LaTeX": "2.36179702295719538719101882767 \\times 10^{-3} \\, \\mathrm{u}"
+                    "HTML": "2.36179702296 &times; 10<sup>&minus;3</sup> u",
+                    "LaTeX": "2.36179702296 \\times 10^{-3} \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "2.36",
@@ -2534,13 +2562,13 @@
             "RelativeCharge": "+2/3",
             "Charge": [
                 {
-                    "Significand": "1.06811775600000000000000000000",
+                    "Significand": "1.06811775600",
                     "Base": "10",
                     "Exponent": "-19",
                     "Unit": "C",
                     "Rounding": "none",
-                    "HTML": "1.06811775600000000000000000000 &times; 10<sup>&minus;19</sup> C",
-                    "LaTeX": "1.06811775600000000000000000000 \\times 10^{-19} \\, \\mathrm{C}"
+                    "HTML": "1.06811775600 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "1.06811775600 \\times 10^{-19} \\, \\mathrm{C}"
                 },
                 {
                     "Significand": "1.07",
@@ -2574,6 +2602,7 @@
                 "Name": "W+ Boson",
                 "URLReference": "wplusboson"
             },
+            "Status": "confirmed",
             "Mass": [
                 {
                     "Significand": "1.432885825",
@@ -2594,13 +2623,13 @@
                     "LaTeX": "1.43 \\times 10^{-25} \\, \\mathrm{kg}"
                 },
                 {
-                    "Significand": "80.379000018130190384052181919",
+                    "Significand": "80.3790000181",
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "GeV",
                     "Rounding": "none",
-                    "HTML": "80.379000018130190384052181919 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
-                    "LaTeX": "80.379000018130190384052181919 \\, \\mathrm{GeV} / c^{2}"
+                    "HTML": "80.3790000181 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "80.3790000181 \\, \\mathrm{GeV} / c^{2}"
                 },
                 {
                     "Significand": "80.4",
@@ -2612,13 +2641,13 @@
                     "LaTeX": "80.4 \\, \\mathrm{GeV} / c^{2}"
                 },
                 {
-                    "Significand": "86.2904013414073807735129620467",
+                    "Significand": "86.2904013414",
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
                     "Rounding": "none",
-                    "HTML": "86.2904013414073807735129620467 u",
-                    "LaTeX": "86.2904013414073807735129620467 \\, \\mathrm{u}"
+                    "HTML": "86.2904013414 u",
+                    "LaTeX": "86.2904013414 \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "86.3",
@@ -2671,6 +2700,7 @@
                 "Name": "W- Boson",
                 "URLReference": "wminusboson"
             },
+            "Status": "confirmed",
             "Mass": [
                 {
                     "Significand": "1.432885825",
@@ -2691,13 +2721,13 @@
                     "LaTeX": "1.43 \\times 10^{-25} \\, \\mathrm{kg}"
                 },
                 {
-                    "Significand": "80.379000018130190384052181919",
+                    "Significand": "80.3790000181",
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "GeV",
                     "Rounding": "none",
-                    "HTML": "80.379000018130190384052181919 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
-                    "LaTeX": "80.379000018130190384052181919 \\, \\mathrm{GeV} / c^{2}"
+                    "HTML": "80.3790000181 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "80.3790000181 \\, \\mathrm{GeV} / c^{2}"
                 },
                 {
                     "Significand": "80.4",
@@ -2709,13 +2739,13 @@
                     "LaTeX": "80.4 \\, \\mathrm{GeV} / c^{2}"
                 },
                 {
-                    "Significand": "86.2904013414073807735129620467",
+                    "Significand": "86.2904013414",
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
                     "Rounding": "none",
-                    "HTML": "86.2904013414073807735129620467 u",
-                    "LaTeX": "86.2904013414073807735129620467 \\, \\mathrm{u}"
+                    "HTML": "86.2904013414 u",
+                    "LaTeX": "86.2904013414 \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "86.3",
@@ -2769,6 +2799,7 @@
                 "Name": "Z Boson",
                 "URLReference": "zboson"
             },
+            "Status": "confirmed",
             "Mass": [
                 {
                     "Significand": "1.625566621",
@@ -2789,13 +2820,13 @@
                     "LaTeX": "1.63 \\times 10^{-25} \\, \\mathrm{kg}"
                 },
                 {
-                    "Significand": "91.1876000021361313422794154934",
+                    "Significand": "91.1876000021",
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "GeV",
                     "Rounding": "none",
-                    "HTML": "91.1876000021361313422794154934 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
-                    "LaTeX": "91.1876000021361313422794154934 \\, \\mathrm{GeV} / c^{2}"
+                    "HTML": "91.1876000021 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "91.1876000021 \\, \\mathrm{GeV} / c^{2}"
                 },
                 {
                     "Significand": "91.2",
@@ -2807,13 +2838,13 @@
                     "LaTeX": "91.2 \\, \\mathrm{GeV} / c^{2}"
                 },
                 {
-                    "Significand": "97.8939100980257539699367407825",
+                    "Significand": "97.8939100980",
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
                     "Rounding": "none",
-                    "HTML": "97.8939100980257539699367407825 u",
-                    "LaTeX": "97.8939100980257539699367407825 \\, \\mathrm{u}"
+                    "HTML": "97.8939100980 u",
+                    "LaTeX": "97.8939100980 \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "97.9",
