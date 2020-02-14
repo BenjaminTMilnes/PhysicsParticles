@@ -4,14 +4,21 @@ import re
 import math
 from decimal import *
 
+context = getcontext()
+context.prec = 30
+
 class Measurement (object):
     def __init__(self):
         self.significand = Decimal(0)
         self.exponent = Decimal(0)
         self.unit = ""
 
-    def toHTML(self):
-        s = str( self.significand)
+    def roundSignificand(self, nsf = 3):
+        return  str(roundToNSF( self.significand, nsf))
+
+
+    def toHTML(self, nsf = 3):
+        s = self.roundSignificand(nsf)
         e = str( self.exponent)
         u = self.unit
 
@@ -39,8 +46,8 @@ class Measurement (object):
         else:
             return "{0} &times; 10<sup>{1}</sup> {2}".format(s, e, u)
 
-    def toLaTeX(self):
-        s = str( self.significand)
+    def toLaTeX(self, nsf = 3):
+        s = self.roundSignificand(nsf)
         e = str( self.exponent)
         u = self.unit
 
@@ -54,21 +61,37 @@ class Measurement (object):
         else:
             return s + " \\times 10^{" + e + "} \\, " + u
 
-    def toDictionary(self):
+    def toDictionary(self, nsf = 3):
         return {
-            "Significand": self.significand,
-            "Exponent": self.exponent,
-            "Unit": self.unit,
-            "HTML": self.toHTML(),
-            "LaTeX": self.toLaTeX()
+            "Significand":  self.roundSignificand(nsf),
+            "Base": "10",
+            "Exponent": str( self.exponent),
+              "Unit": self.unit,
+            "Rounding": ( "{0}sf".format(nsf) if nsf > 0  else "none"),
+            "HTML": self.toHTML( nsf),
+            "LaTeX": self.toLaTeX( nsf)
   }
 
 def orderOfMagnitude(n):
     return int(math.floor(float(n.log10())))
 
+def roundToNSF(n, nsf = 3):
+    if n == Decimal("0") or nsf == 0:
+        return n
+
+    o = orderOfMagnitude(n)
+
+    m = n* Decimal("10") ** Decimal( -o + nsf - 1)
+    m = round(m, 0)
+    m = m* Decimal("10") ** Decimal( o- nsf + 1)
+
+    return m
+
+
+
 class Mass (object):
     def __init__(self):
-        self.number = Decimal(0)
+        self.number = Decimal("0")
         self.unit =""
 
     @staticmethod
@@ -79,7 +102,7 @@ class Mass (object):
         if m:
             mass = Mass()
 
-            mass.number = Decimal(0)
+            mass.number = Decimal("0")
             mass.unit = "kg"
 
             return mass
@@ -93,7 +116,7 @@ class Mass (object):
 
             mass = Mass()
 
-            mass.number = Decimal(s) * Decimal(10) ** Decimal(e)
+            mass.number = Decimal(s) * Decimal("10") ** Decimal(e)
             mass.unit = u
 
             return mass
@@ -104,16 +127,16 @@ class Mass (object):
         if self.unit == "kg":
             return self
         elif self.unit in ["eV", "keV", "MeV", "GeV", "TeV"]:
-            n = self.number * Decimal("1.78266192") * Decimal(10) ** Decimal(-36)
+            n = self.number * Decimal("1.78266192") * Decimal("10") ** Decimal("-36")
 
             if self.unit == "keV":
-                n = n * Decimal(10**3)
+                n = n *( Decimal("10") **Decimal("3"))
             elif self.unit == "MeV":
-                n = n * Decimal(10**6)
+                n = n *( Decimal("10") **Decimal("6"))
             elif self.unit == "GeV":
-                n = n * Decimal(10**9)
+                n = n *( Decimal("10") **Decimal("9"))
             elif self.unit == "TeV":
-                n = n * Decimal(10**12)
+                n = n *( Decimal("10") **Decimal("10"))
 
             mass = Mass()
 
@@ -188,21 +211,21 @@ class Mass (object):
     def toMeasurement(self):
         s = self.number
 
-        if s == Decimal(0):
+        if s == Decimal("0"):
             m = Measurement()
 
             m.significand = s
-            m.exponent = Decimal(0)
+            m.exponent = Decimal("0")
             m.unit = self.unit
 
             return m
         
         else:
             o = orderOfMagnitude(s)
-            e = Decimal(0)
+            e = Decimal("0")
 
             if o > 3 or o < -1:
-                s = s / Decimal(10**o)
+                s = s / ( Decimal("10") ** Decimal(o))
                 e = o
 
             m = Measurement()
