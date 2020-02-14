@@ -8,11 +8,10 @@ Tauon Neutrino
 lepton, neutral lepton, neutrino, fermion, matter
 
 other names: tau neutrino
-mass:
 relative charge: 0
 spin: 1/2
-magnetic moment:
-antiparticle:
-mean lifetime:
+antiparticle: TauonAntineutrino
 
 wikipedia: https://en.wikipedia.org/wiki/Tau_neutrino
+
+rating: *****
