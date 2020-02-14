@@ -155,9 +155,9 @@ application.controller("TableController", ["$scope", "$routeParams", "dataServic
     $scope.getParticleMass = function (particle) {
         if (!particle) { return ""; }
 
-        var mass = particle.Mass.filter(m => m.UnitClass == "eV")[0];
+        var mass = particle.Mass.filter(m =>( m.Unit == "eV" || m.Unit == "keV" || m.Unit == "MeV" || m.Unit == "GeV" || m.Unit == "TeV") && m.Rounding == "3sf")[0];
 
-        return parseFloat(mass.Significand).toPrecision(3) + ((parseInt(mass.Exponent) != 0) ? " &times; 10<sup>" + mass.Exponent + "</sup>" : "") + " " + mass.UnitsHTML;
+        return mass.HTML;
     }
 
     $scope.getParticleCharge = function (particle) {
@@ -242,9 +242,7 @@ application.controller("ParticleController", ["$scope", "$routeParams", "dataSer
     $scope.getParticleMass = function (particle) {
         if (!particle) { return ""; }
 
-        var mass = particle.Mass.filter(m => m.UnitClass == "eV")[0];
-
-        return parseFloat(mass.Significand).toPrecision(3) + ((parseInt(mass.Exponent) != 0) ? " &times; 10<sup>" + mass.Exponent + "</sup>" : "") + " " + mass.UnitsHTML;
+        return  particle.Mass.filter(m =>( m.Unit == "eV" || m.Unit == "keV" || m.Unit == "MeV" || m.Unit == "GeV" || m.Unit == "TeV") && m.Rounding == "3sf")[0].HTML;
     }
 
     $scope.getParticleRelativeCharge = function (particle) {
@@ -269,7 +267,13 @@ application.controller("ParticleController", ["$scope", "$routeParams", "dataSer
     $scope.getParticleCharge = function (particle) {
         if (!particle) { return ""; }
 
-        return parseFloat(particle.Charge.Significand).toPrecision(3) + ((parseInt(particle.Charge.Exponent) != 0) ? " &times; 10<sup>" + particle.Charge.Exponent + "</sup>" : "") + " " + particle.Charge.UnitsHTML;
+        return  particle.Charge.filter(c => c.Unit == "C" && c.Rounding == "3sf")[0].HTML;
+    }
+
+    $scope.getParticleMeanLifetime = function (particle){
+        if (!particle){return "";}
+
+        return particle.MeanLifetime.filter(t => t.Rounding == "3sf")[0].HTML;
     }
 
 }]);

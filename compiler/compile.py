@@ -73,7 +73,9 @@ class Measurement (object):
             elif p == "TeV":
                 u = "T" + u
 
-        if e == "0":
+        if s == "0":
+            return "{0}".format(s)
+        elif e == "0":
             return "{0} {1}".format(s, u)
         else:
             return "{0} &times; 10<sup>{1}</sup> {2}".format(s, e, u)

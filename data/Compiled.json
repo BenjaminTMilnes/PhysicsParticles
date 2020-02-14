@@ -990,7 +990,7 @@
                     "Exponent": "0",
                     "Unit": "C",
                     "Rounding": "none",
-                    "HTML": "0 C",
+                    "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
                 },
                 {
@@ -999,7 +999,7 @@
                     "Exponent": "0",
                     "Unit": "C",
                     "Rounding": "3sf",
-                    "HTML": "0 C",
+                    "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
                 }
             ],
@@ -1035,7 +1035,7 @@
                     "Exponent": "0",
                     "Unit": "C",
                     "Rounding": "none",
-                    "HTML": "0 C",
+                    "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
                 },
                 {
@@ -1044,7 +1044,7 @@
                     "Exponent": "0",
                     "Unit": "C",
                     "Rounding": "3sf",
-                    "HTML": "0 C",
+                    "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
                 }
             ],
@@ -1076,7 +1076,7 @@
                     "Exponent": "0",
                     "Unit": "kg",
                     "Rounding": "none",
-                    "HTML": "0 kg",
+                    "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{kg}"
                 },
                 {
@@ -1085,7 +1085,7 @@
                     "Exponent": "0",
                     "Unit": "kg",
                     "Rounding": "3sf",
-                    "HTML": "0 kg",
+                    "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{kg}"
                 },
                 {
@@ -1094,7 +1094,7 @@
                     "Exponent": "0",
                     "Unit": "eV",
                     "Rounding": "none",
-                    "HTML": "0 eV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{eV} / c^{2}"
                 },
                 {
@@ -1103,7 +1103,7 @@
                     "Exponent": "0",
                     "Unit": "eV",
                     "Rounding": "3sf",
-                    "HTML": "0 eV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{eV} / c^{2}"
                 },
                 {
@@ -1112,7 +1112,7 @@
                     "Exponent": "0",
                     "Unit": "u",
                     "Rounding": "none",
-                    "HTML": "0 u",
+                    "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{u}"
                 },
                 {
@@ -1121,7 +1121,7 @@
                     "Exponent": "0",
                     "Unit": "u",
                     "Rounding": "3sf",
-                    "HTML": "0 u",
+                    "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{u}"
                 }
             ],
@@ -1133,7 +1133,7 @@
                     "Exponent": "0",
                     "Unit": "C",
                     "Rounding": "none",
-                    "HTML": "0 C",
+                    "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
                 },
                 {
@@ -1142,7 +1142,7 @@
                     "Exponent": "0",
                     "Unit": "C",
                     "Rounding": "3sf",
-                    "HTML": "0 C",
+                    "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
                 }
             ],
@@ -1174,7 +1174,7 @@
                     "Exponent": "0",
                     "Unit": "kg",
                     "Rounding": "none",
-                    "HTML": "0 kg",
+                    "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{kg}"
                 },
                 {
@@ -1183,7 +1183,7 @@
                     "Exponent": "0",
                     "Unit": "kg",
                     "Rounding": "3sf",
-                    "HTML": "0 kg",
+                    "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{kg}"
                 },
                 {
@@ -1192,7 +1192,7 @@
                     "Exponent": "0",
                     "Unit": "eV",
                     "Rounding": "none",
-                    "HTML": "0 eV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{eV} / c^{2}"
                 },
                 {
@@ -1201,7 +1201,7 @@
                     "Exponent": "0",
                     "Unit": "eV",
                     "Rounding": "3sf",
-                    "HTML": "0 eV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{eV} / c^{2}"
                 },
                 {
@@ -1210,7 +1210,7 @@
                     "Exponent": "0",
                     "Unit": "u",
                     "Rounding": "none",
-                    "HTML": "0 u",
+                    "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{u}"
                 },
                 {
@@ -1219,7 +1219,7 @@
                     "Exponent": "0",
                     "Unit": "u",
                     "Rounding": "3sf",
-                    "HTML": "0 u",
+                    "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{u}"
                 }
             ],
@@ -1232,7 +1232,7 @@
                     "Exponent": "0",
                     "Unit": "C",
                     "Rounding": "none",
-                    "HTML": "0 C",
+                    "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
                 },
                 {
@@ -1241,7 +1241,7 @@
                     "Exponent": "0",
                     "Unit": "C",
                     "Rounding": "3sf",
-                    "HTML": "0 C",
+                    "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
                 }
             ],
@@ -1330,7 +1330,7 @@
                     "Exponent": "0",
                     "Unit": "C",
                     "Rounding": "none",
-                    "HTML": "0 C",
+                    "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
                 },
                 {
@@ -1339,7 +1339,7 @@
                     "Exponent": "0",
                     "Unit": "C",
                     "Rounding": "3sf",
-                    "HTML": "0 C",
+                    "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
                 }
             ],
@@ -1520,7 +1520,7 @@
                     "Exponent": "0",
                     "Unit": "C",
                     "Rounding": "none",
-                    "HTML": "0 C",
+                    "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
                 },
                 {
@@ -1529,7 +1529,7 @@
                     "Exponent": "0",
                     "Unit": "C",
                     "Rounding": "3sf",
-                    "HTML": "0 C",
+                    "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
                 }
             ],
@@ -1568,7 +1568,7 @@
                     "Exponent": "0",
                     "Unit": "C",
                     "Rounding": "none",
-                    "HTML": "0 C",
+                    "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
                 },
                 {
@@ -1577,7 +1577,7 @@
                     "Exponent": "0",
                     "Unit": "C",
                     "Rounding": "3sf",
-                    "HTML": "0 C",
+                    "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
                 }
             ],
@@ -1608,7 +1608,7 @@
                     "Exponent": "0",
                     "Unit": "kg",
                     "Rounding": "none",
-                    "HTML": "0 kg",
+                    "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{kg}"
                 },
                 {
@@ -1617,7 +1617,7 @@
                     "Exponent": "0",
                     "Unit": "kg",
                     "Rounding": "3sf",
-                    "HTML": "0 kg",
+                    "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{kg}"
                 },
                 {
@@ -1626,7 +1626,7 @@
                     "Exponent": "0",
                     "Unit": "eV",
                     "Rounding": "none",
-                    "HTML": "0 eV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{eV} / c^{2}"
                 },
                 {
@@ -1635,7 +1635,7 @@
                     "Exponent": "0",
                     "Unit": "eV",
                     "Rounding": "3sf",
-                    "HTML": "0 eV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{eV} / c^{2}"
                 },
                 {
@@ -1644,7 +1644,7 @@
                     "Exponent": "0",
                     "Unit": "u",
                     "Rounding": "none",
-                    "HTML": "0 u",
+                    "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{u}"
                 },
                 {
@@ -1653,7 +1653,7 @@
                     "Exponent": "0",
                     "Unit": "u",
                     "Rounding": "3sf",
-                    "HTML": "0 u",
+                    "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{u}"
                 }
             ],
@@ -1665,7 +1665,7 @@
                     "Exponent": "0",
                     "Unit": "C",
                     "Rounding": "none",
-                    "HTML": "0 C",
+                    "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
                 },
                 {
@@ -1674,7 +1674,7 @@
                     "Exponent": "0",
                     "Unit": "C",
                     "Rounding": "3sf",
-                    "HTML": "0 C",
+                    "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
                 }
             ],
@@ -2145,7 +2145,7 @@
                     "Exponent": "0",
                     "Unit": "C",
                     "Rounding": "none",
-                    "HTML": "0 C",
+                    "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
                 },
                 {
@@ -2154,7 +2154,7 @@
                     "Exponent": "0",
                     "Unit": "C",
                     "Rounding": "3sf",
-                    "HTML": "0 C",
+                    "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
                 }
             ],
@@ -2193,7 +2193,7 @@
                     "Exponent": "0",
                     "Unit": "C",
                     "Rounding": "none",
-                    "HTML": "0 C",
+                    "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
                 },
                 {
@@ -2202,7 +2202,7 @@
                     "Exponent": "0",
                     "Unit": "C",
                     "Rounding": "3sf",
-                    "HTML": "0 C",
+                    "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
                 }
             ],
@@ -2893,7 +2893,7 @@
                     "Exponent": "0",
                     "Unit": "C",
                     "Rounding": "none",
-                    "HTML": "0 C",
+                    "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
                 },
                 {
@@ -2902,7 +2902,7 @@
                     "Exponent": "0",
                     "Unit": "C",
                     "Rounding": "3sf",
-                    "HTML": "0 C",
+                    "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
                 }
             ],
