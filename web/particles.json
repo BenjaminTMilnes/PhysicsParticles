@@ -121,6 +121,7 @@
                     "LaTeX": "2.20 \\times 10^{-6} \\, s"
                 }
             ],
+            "MonteCarloParticleNumber": "-13",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Muon"
         },
         {
@@ -245,6 +246,7 @@
                     "LaTeX": "2.90 \\times 10^{-13} \\, s"
                 }
             ],
+            "MonteCarloParticleNumber": "-15",
             "YearDiscovered": "1975",
             "DiscoveredBy": "Martin Lewis Perl et al.",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Tau_(particle)"
@@ -348,6 +350,7 @@
                 }
             ],
             "Spin": "1/2",
+            "MonteCarloParticleNumber": "-5",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Bottom_quark"
         },
         {
@@ -449,6 +452,7 @@
                 }
             ],
             "Spin": "1/2",
+            "MonteCarloParticleNumber": "5",
             "YearTheorised": "1973",
             "TheorisedBy": "Makoto Kobayashi, Toshihide Maskawa",
             "YearDiscovered": "1977",
@@ -551,6 +555,7 @@
                 }
             ],
             "Spin": "1/2",
+            "MonteCarloParticleNumber": "-4",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Charm_quark"
         },
         {
@@ -649,6 +654,7 @@
                 }
             ],
             "Spin": "1/2",
+            "MonteCarloParticleNumber": "4",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Charm_quark"
         },
         {
@@ -747,6 +753,7 @@
                 }
             ],
             "Spin": "1/2",
+            "MonteCarloParticleNumber": "-1",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Down_quark"
         },
         {
@@ -845,6 +852,7 @@
                 }
             ],
             "Spin": "1/2",
+            "MonteCarloParticleNumber": "1",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Down_quark"
         },
         {
@@ -949,6 +957,7 @@
             "Spin": "1/2",
             "MagneticMoment": "-1.00115965218091 \\mu_{B}",
             "MeanLifetime": "stable",
+            "MonteCarloParticleNumber": "11",
             "YearDiscovered": "1897",
             "DiscoveredBy": "J. J. Thomson",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Electron"
@@ -995,6 +1004,7 @@
                 }
             ],
             "Spin": "1/2",
+            "MonteCarloParticleNumber": "-12",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Neutrino#Antineutrinos"
         },
         {
@@ -1039,6 +1049,7 @@
                 }
             ],
             "Spin": "1/2",
+            "MonteCarloParticleNumber": "12",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Electron_neutrino"
         },
         {
@@ -1136,6 +1147,7 @@
                 }
             ],
             "Spin": "1",
+            "MonteCarloParticleNumber": "21",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Gluon"
         },
         {
@@ -1234,6 +1246,7 @@
                 }
             ],
             "Spin": "2",
+            "MonteCarloParticleNumber": "39",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Graviton"
         },
         {
@@ -1474,6 +1487,7 @@
                     "LaTeX": "2.20 \\times 10^{-6} \\, s"
                 }
             ],
+            "MonteCarloParticleNumber": "13",
             "YearDiscovered": "1936",
             "DiscoveredBy": "Carl D. Anderson, Seth Neddermeyer",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Muon"
@@ -1520,6 +1534,7 @@
                 }
             ],
             "Spin": "1/2",
+            "MonteCarloParticleNumber": "-14",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Neutrino#Antineutrinos"
         },
         {
@@ -1567,6 +1582,7 @@
                 }
             ],
             "Spin": "1/2",
+            "MonteCarloParticleNumber": "14",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Muon_neutrino"
         },
         {
@@ -1664,6 +1680,7 @@
             ],
             "Spin": "1",
             "MeanLifetime": "stable",
+            "MonteCarloParticleNumber": "22",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Photon"
         },
         {
@@ -1767,6 +1784,7 @@
             ],
             "Spin": "1/2",
             "MeanLifetime": "stable",
+            "MonteCarloParticleNumber": "-11",
             "YearDiscovered": "1932",
             "DiscoveredBy": "Carl D. Anderson",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Positron"
@@ -1867,6 +1885,7 @@
                 }
             ],
             "Spin": "1/2",
+            "MonteCarloParticleNumber": "-3",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Strange_quark"
         },
         {
@@ -1965,6 +1984,7 @@
                 }
             ],
             "Spin": "1/2",
+            "MonteCarloParticleNumber": "3",
             "YearTheorised": "1964",
             "TheorisedBy": "Murray Gell-Mann, George Zweig",
             "YearDiscovered": "1968",
@@ -2092,6 +2112,7 @@
                     "LaTeX": "2.90 \\times 10^{-13} \\, s"
                 }
             ],
+            "MonteCarloParticleNumber": "15",
             "YearDiscovered": "1975",
             "DiscoveredBy": "Martin Lewis Perl et al.",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Tau_(particle)"
@@ -2138,6 +2159,7 @@
                 }
             ],
             "Spin": "1/2",
+            "MonteCarloParticleNumber": "-16",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Neutrino#Antineutrinos"
         },
         {
@@ -2185,6 +2207,7 @@
                 }
             ],
             "Spin": "1/2",
+            "MonteCarloParticleNumber": "16",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Tau_neutrino"
         },
         {
@@ -2283,6 +2306,7 @@
                 }
             ],
             "Spin": "1/2",
+            "MonteCarloParticleNumber": "-6",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Top_quark"
         },
         {
@@ -2381,6 +2405,7 @@
                 }
             ],
             "Spin": "1/2",
+            "MonteCarloParticleNumber": "6",
             "YearTheorised": "1973",
             "TheorisedBy": "Makoto Kobayashi, Toshihide Maskawa",
             "YearDiscovered": "1995",
@@ -2483,6 +2508,7 @@
             ],
             "Spin": "1/2",
             "MeanLifetime": "stable",
+            "MonteCarloParticleNumber": "-2",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Up_quark"
         },
         {
@@ -2582,6 +2608,7 @@
             ],
             "Spin": "1/2",
             "MeanLifetime": "stable",
+            "MonteCarloParticleNumber": "2",
             "YearTheorised": "1964",
             "TheorisedBy": "Murray Gell-Mann, George Zweig",
             "YearDiscovered": "1968",
@@ -2681,6 +2708,7 @@
                 }
             ],
             "Spin": "1",
+            "MonteCarloParticleNumber": "-24",
             "YearTheorised": "1968",
             "YearDiscovered": "1983",
             "WikipediaURL": "https://en.wikipedia.org/wiki/W_and_Z_bosons"
@@ -2779,6 +2807,7 @@
                 }
             ],
             "Spin": "1",
+            "MonteCarloParticleNumber": "24",
             "YearTheorised": "1968",
             "YearDiscovered": "1983",
             "WikipediaURL": "https://en.wikipedia.org/wiki/W_and_Z_bosons"
@@ -2878,6 +2907,7 @@
                 }
             ],
             "Spin": "1",
+            "MonteCarloParticleNumber": "23",
             "YearTheorised": "1968",
             "YearDiscovered": "1983",
             "WikipediaURL": "https://en.wikipedia.org/wiki/W_and_Z_bosons"

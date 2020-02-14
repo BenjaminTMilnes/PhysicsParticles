@@ -11,6 +11,7 @@ status: confirmed
 mass: 0
 relative charge: 0
 spin: 1
+monte carlo particle number: 21
 
 wikipedia: https://en.wikipedia.org/wiki/Gluon
 

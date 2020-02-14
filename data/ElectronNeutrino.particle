@@ -11,6 +11,7 @@ status: confirmed
 relative charge: 0
 spin: 1/2
 antiparticle: ElectronAntineutrino
+monte carlo particle number: 12
 
 wikipedia: https://en.wikipedia.org/wiki/Electron_neutrino
 

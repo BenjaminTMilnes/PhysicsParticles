@@ -11,6 +11,7 @@ status: confirmed
 relative charge: 0
 spin: 1/2
 antiparticle: MuonNeutrino
+monte carlo particle number: -14
 
 wikipedia: https://en.wikipedia.org/wiki/Neutrino#Antineutrinos
 

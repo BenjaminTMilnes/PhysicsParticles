@@ -14,6 +14,7 @@ spin: 1/2
 antiparticle: UpAntiquark
 mean lifetime: stable
 generation: 1
+monte carlo particle number: 2
 
 year theorised: 1964
 theorised by: Murray Gell-Mann, George Zweig

@@ -15,6 +15,7 @@ spin: 1/2
 antiparticle: Muon
 mean lifetime: 2.1969811 \times 10^{-6} s
 generation: 2
+monte carlo particle number: -13
 
 wikipedia: https://en.wikipedia.org/wiki/Muon
 

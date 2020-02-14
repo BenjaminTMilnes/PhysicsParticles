@@ -15,6 +15,7 @@ spin: 1/2
 antiparticle: Antimuon
 mean lifetime: 2.1969811 \times 10^{-6} s
 generation: 2
+monte carlo particle number: 13
 
 year discovered: 1936
 discovered by: Carl D. Anderson, Seth Neddermeyer 

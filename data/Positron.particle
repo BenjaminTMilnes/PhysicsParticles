@@ -15,6 +15,7 @@ spin: 1/2
 antiparticle: Electron
 mean lifetime: stable
 generation: 1
+monte carlo particle number: -11
 
 year discovered: 1932
 discovered by: Carl D. Anderson

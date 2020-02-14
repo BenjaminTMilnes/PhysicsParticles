@@ -370,6 +370,9 @@ class Compiler (object):
                 if line.startswith("antiparticle:"):
                     particle["Antiparticle"]["Reference"] = line[13:].strip()
 
+                if line.startswith("monte carlo particle number:"):
+                    particle["MonteCarloParticleNumber"] = line[28:].strip()
+
                 if line.startswith("mean lifetime:"):
                     t = line[14:].strip()
 

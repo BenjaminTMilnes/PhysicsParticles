@@ -14,6 +14,7 @@ spin: 1/2
 antiparticle: UpQuark
 mean lifetime: stable
 generation: 1
+monte carlo particle number: -2
 
 wikipedia: https://en.wikipedia.org/wiki/Up_quark
 

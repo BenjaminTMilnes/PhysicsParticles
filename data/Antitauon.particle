@@ -15,6 +15,7 @@ spin: 1/2
 antiparticle: Tauon
 mean lifetime: 2.903 \times 10^{-13} s
 generation: 3
+monte carlo particle number: -15
 
 year discovered: 1975
 discovered by: Martin Lewis Perl et al.

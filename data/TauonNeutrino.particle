@@ -12,6 +12,7 @@ status: confirmed
 relative charge: 0
 spin: 1/2
 antiparticle: TauonAntineutrino
+monte carlo particle number: 16
 
 wikipedia: https://en.wikipedia.org/wiki/Tau_neutrino
 
