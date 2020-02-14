@@ -48,6 +48,128 @@ class Measurement (object):
 
         return "{0} \\times 10^{{1}} \\, {2}".format(s, e, u)
 
+    def toDictionary(self):
+        return {
+            "Significand": self.significand,
+            "Exponent": self.exponent,
+            "Unit": self.unit,
+            "HTML": self.toHTML(),
+            "LaTeX": self.toLaTeX()
+  }
+
+def orderOfMagnitude(n):
+    return int(math.floor(float(n.log10())))
+
+class Mass (object):
+    def __init__(self):
+        self.number = Decimal(0)
+        self.unit =""
+
+    @staticmethod
+    def fromText(text):
+
+        m = re.match(r"\s*([+-]?\d+(\.\d+)?)\s*(\\times|\*)\s*10\^\{([+-]?\d+)\}\s*(g|kg|u|eV|keV|MeV|GeV|TeV)\s*", text)
+
+        if not m:
+            return None
+
+        s = m.group(1)
+        e = m.group(4)
+        u = m.group(5)
+
+        mass = Mass()
+
+        mass.number = Decimal(s) * Decimal(10) ** Decimal(e)
+        mass.unit = u
+
+        return mass
+
+    def tokg(self):
+        if self.unit == "kg":
+            return self
+        elif self.unit in ["eV", "keV", "MeV", "GeV", "TeV"]:
+            n = self.number * Decimal("1.78266192") * Decimal(10) ** Decimal(-36)
+
+            if self.unit == "keV":
+                n = n * Decimal(10**3)
+            elif self.unit == "MeV":
+                n = n * Decimal(10**6)
+            elif self.unit == "GeV":
+                n = n * Decimal(10**9)
+            elif self.unit == "TeV":
+                n = n * Decimal(10**12)
+
+            mass = Mass()
+
+            mass.number = n
+            mass.unit = "kg"
+
+            return mass
+
+    def toev(self):
+        if self.unit in  ["eV", "keV", "MeV", "GeV", "TeV"]:
+            return self
+
+        mkg = self.tokg().number
+        mev = mkg /  Decimal("1.78266192") * Decimal(10) ** Decimal(-36)
+        o = orderOfMagnitude(mev)
+
+        if o < 3:
+            n = mev
+            u = "eV"
+        elif o >= 3 and o < 6:
+            n = mev / Decimal(10**3)
+            u = "keV"
+        elif o >= 6 and o < 9:
+            n = mev / Decimal(10**6)
+            u = "MeV"
+        elif o >= 9 and o < 12:
+            n = mev / Decimal(10**9)
+            u = "GeV"
+        elif o >= 12:
+            n = mev / Decimal(10**12)
+            u = "TeV"
+
+        mass = Mass()
+
+        mass.number = n
+        mass.unit = u
+
+        return mass
+
+    def tou(self):
+        if self.unit == "u":
+            return self
+
+        mkg = self.tokg().number
+        mu = mkg /  Decimal("1.66053906660") * Decimal(10) ** Decimal(-27)
+     
+        mass = Mass()
+
+        mass.number = mu
+        mass.unit = "u"
+
+        return mass
+
+    def toMeasurement(self):
+        s = self.number
+        o = orderOfMagnitude(s)
+        s = s / Decimal(10**o)
+
+        m = Measurement()
+
+        m.significand = s
+        m.exponent = o
+        m.unit = self.unit
+
+        return m
+
+    def toDictionary(self):
+        return [ self.tokg().toMeasurement().toDictionary(),
+        self.toev().toMeasurement().toDictionary(),
+        self.tou().toMeasurement().toDictionary(),
+        ]
+
 class Compiler (object):
 
     def getParticleFilePaths(self):
@@ -82,54 +204,7 @@ class Compiler (object):
                     particle["OtherNames"] = line[12:].strip()
 
                 if line.startswith("mass:"):
-                    particle["Mass"] = []
-
-                    mass = line[5:].strip()
-
-                    match = re.match(r"\s*([+-]?\d+(\.\d+)?)\s*\\times\s*10\^\{([+-]?\d+)\}\s*kg\s*", mass)
-
-                    if match:
-                        significand = match.group(1)
-                        exponent = match.group(3)
-                        units = "kg"
-                        latex = match.group(0).strip()
-                        html = "{0} &times; 10<sup>{1}</sup> kg".format(significand, exponent)
-
-                        particle["Mass"].append({"Significand": significand, "Exponent": exponent, "UnitClass":"kg", "UnitsLaTeX":"\\mathrm{kg}", "UnitsHTML":"kg"})
-
-                        mkg = Decimal(significand) * Decimal(10) ** Decimal(exponent)
-                        evc2 =   Decimal("1.78266192") * Decimal(10) ** Decimal("-36")
-                        mevc2 = mkg / evc2
-
-                        o =  int( math.floor(float( mevc2.log10())))
-
-                        unitsLaTeX = "\\frac{eV}{c^{2}}"
-                        unitsHTML = "eV / <span style=\"font-style: italic;\">c</span><sup>2</sup>"
-
-                        if o >= 3 and o < 6:
-                            unitsLaTeX = "\\frac{keV}{c^{2}}"
-                            unitsHTML = "k" + unitsHTML
-                            mevc2 = mevc2 / Decimal(10**3)
-                            
-                        if o >= 6 and o < 9:
-                            unitsLaTeX = "\\frac{MeV}{c^{2}}"
-                            unitsHTML = "M" + unitsHTML
-                            mevc2 = mevc2 / Decimal(10**6)
-                            
-                        if o >= 9 and o < 12:
-                            unitsLaTeX = "\\frac{GeV}{c^{2}}"
-                            unitsHTML = "G" + unitsHTML
-                            mevc2 = mevc2 / Decimal(10**9)
-                            
-                        if o >= 12:
-                            unitsLaTeX = "\\frac{TeV}{c^{2}}"
-                            unitsHTML = "T" + unitsHTML
-                            mevc2 = mevc2 / Decimal(10**12)
-
-                        
-                        particle["Mass"].append({"Significand": str(mevc2), "Exponent": "0", "UnitClass":"eV", "UnitsLaTeX": unitsLaTeX, "UnitsHTML": unitsHTML})
-
-
+                    particle["Mass"] = Mass.fromText( line[5:].strip()).toDictionary()
 
                 if line.startswith("relative charge:"):
                     particle["RelativeCharge"] = line[16:].strip()
