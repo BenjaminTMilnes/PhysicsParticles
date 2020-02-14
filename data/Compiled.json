@@ -24,6 +24,15 @@
             ],
             "Mass": [
                 {
+                    "Significand": "1.883531608",
+                    "Base": "10",
+                    "Exponent": "-28",
+                    "Unit": "kg",
+                    "Rounding": "none",
+                    "HTML": "1.883531608 &times; 10<sup>&minus;28</sup> kg",
+                    "LaTeX": "1.883531608 \\times 10^{-28} \\, \\mathrm{kg}"
+                },
+                {
                     "Significand": "1.88",
                     "Base": "10",
                     "Exponent": "-28",
@@ -33,6 +42,15 @@
                     "LaTeX": "1.88 \\times 10^{-28} \\, \\mathrm{kg}"
                 },
                 {
+                    "Significand": "105.658374527908241849918463508",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "MeV",
+                    "Rounding": "none",
+                    "HTML": "105.658374527908241849918463508 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "105.658374527908241849918463508 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
                     "Significand": "106",
                     "Base": "10",
                     "Exponent": "0",
@@ -40,6 +58,15 @@
                     "Rounding": "3sf",
                     "HTML": "106 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "106 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "0.113428924732050022821185458522",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "Rounding": "none",
+                    "HTML": "0.113428924732050022821185458522 u",
+                    "LaTeX": "0.113428924732050022821185458522 \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "0.113",
@@ -88,6 +115,15 @@
             ],
             "Mass": [
                 {
+                    "Significand": "3.167540659",
+                    "Base": "10",
+                    "Exponent": "-27",
+                    "Unit": "kg",
+                    "Rounding": "none",
+                    "HTML": "3.167540659 &times; 10<sup>&minus;27</sup> kg",
+                    "LaTeX": "3.167540659 \\times 10^{-27} \\, \\mathrm{kg}"
+                },
+                {
                     "Significand": "3.17",
                     "Base": "10",
                     "Exponent": "-27",
@@ -97,6 +133,15 @@
                     "LaTeX": "3.17 \\times 10^{-27} \\, \\mathrm{kg}"
                 },
                 {
+                    "Significand": "1.77685999990396384301516913538",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "GeV",
+                    "Rounding": "none",
+                    "HTML": "1.77685999990396384301516913538 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "1.77685999990396384301516913538 \\, \\mathrm{GeV} / c^{2}"
+                },
+                {
                     "Significand": "1.78",
                     "Base": "10",
                     "Exponent": "0",
@@ -104,6 +149,15 @@
                     "Rounding": "3sf",
                     "HTML": "1.78 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "1.78 \\, \\mathrm{GeV} / c^{2}"
+                },
+                {
+                    "Significand": "1.90753757181132013000964105110",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "Rounding": "none",
+                    "HTML": "1.90753757181132013000964105110 u",
+                    "LaTeX": "1.90753757181132013000964105110 \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "1.91",
@@ -151,6 +205,15 @@
             ],
             "Mass": [
                 {
+                    "Significand": "7.451526826",
+                    "Base": "10",
+                    "Exponent": "-27",
+                    "Unit": "kg",
+                    "Rounding": "none",
+                    "HTML": "7.451526826 &times; 10<sup>&minus;27</sup> kg",
+                    "LaTeX": "7.451526826 \\times 10^{-27} \\, \\mathrm{kg}"
+                },
+                {
                     "Significand": "7.45",
                     "Base": "10",
                     "Exponent": "-27",
@@ -160,6 +223,15 @@
                     "LaTeX": "7.45 \\times 10^{-27} \\, \\mathrm{kg}"
                 },
                 {
+                    "Significand": "4.18000000022438354435708145939",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "GeV",
+                    "Rounding": "none",
+                    "HTML": "4.18000000022438354435708145939 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "4.18000000022438354435708145939 \\, \\mathrm{GeV} / c^{2}"
+                },
+                {
                     "Significand": "4.18",
                     "Base": "10",
                     "Exponent": "0",
@@ -167,6 +239,15 @@
                     "Rounding": "3sf",
                     "HTML": "4.18 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "4.18 \\, \\mathrm{GeV} / c^{2}"
+                },
+                {
+                    "Significand": "4.48741434385955686614618067667",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "Rounding": "none",
+                    "HTML": "4.48741434385955686614618067667 u",
+                    "LaTeX": "4.48741434385955686614618067667 \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "4.49",
@@ -211,6 +292,15 @@
             ],
             "Mass": [
                 {
+                    "Significand": "7.451526826",
+                    "Base": "10",
+                    "Exponent": "-27",
+                    "Unit": "kg",
+                    "Rounding": "none",
+                    "HTML": "7.451526826 &times; 10<sup>&minus;27</sup> kg",
+                    "LaTeX": "7.451526826 \\times 10^{-27} \\, \\mathrm{kg}"
+                },
+                {
                     "Significand": "7.45",
                     "Base": "10",
                     "Exponent": "-27",
@@ -220,6 +310,15 @@
                     "LaTeX": "7.45 \\times 10^{-27} \\, \\mathrm{kg}"
                 },
                 {
+                    "Significand": "4.18000000022438354435708145939",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "GeV",
+                    "Rounding": "none",
+                    "HTML": "4.18000000022438354435708145939 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "4.18000000022438354435708145939 \\, \\mathrm{GeV} / c^{2}"
+                },
+                {
                     "Significand": "4.18",
                     "Base": "10",
                     "Exponent": "0",
@@ -227,6 +326,15 @@
                     "Rounding": "3sf",
                     "HTML": "4.18 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "4.18 \\, \\mathrm{GeV} / c^{2}"
+                },
+                {
+                    "Significand": "4.48741434385955686614618067667",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "Rounding": "none",
+                    "HTML": "4.48741434385955686614618067667 u",
+                    "LaTeX": "4.48741434385955686614618067667 \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "4.49",
@@ -272,6 +380,15 @@
             },
             "Mass": [
                 {
+                    "Significand": "2.272893948",
+                    "Base": "10",
+                    "Exponent": "-27",
+                    "Unit": "kg",
+                    "Rounding": "none",
+                    "HTML": "2.272893948 &times; 10<sup>&minus;27</sup> kg",
+                    "LaTeX": "2.272893948 \\times 10^{-27} \\, \\mathrm{kg}"
+                },
+                {
                     "Significand": "2.27",
                     "Base": "10",
                     "Exponent": "-27",
@@ -281,6 +398,15 @@
                     "LaTeX": "2.27 \\times 10^{-27} \\, \\mathrm{kg}"
                 },
                 {
+                    "Significand": "1.275",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "GeV",
+                    "Rounding": "none",
+                    "HTML": "1.275 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "1.275 \\, \\mathrm{GeV} / c^{2}"
+                },
+                {
                     "Significand": "1.28",
                     "Base": "10",
                     "Exponent": "0",
@@ -288,6 +414,15 @@
                     "Rounding": "3sf",
                     "HTML": "1.28 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "1.28 \\, \\mathrm{GeV} / c^{2}"
+                },
+                {
+                    "Significand": "1.36876872921382914484934045694",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "Rounding": "none",
+                    "HTML": "1.36876872921382914484934045694 u",
+                    "LaTeX": "1.36876872921382914484934045694 \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "1.37",
@@ -329,6 +464,15 @@
             },
             "Mass": [
                 {
+                    "Significand": "2.272893948",
+                    "Base": "10",
+                    "Exponent": "-27",
+                    "Unit": "kg",
+                    "Rounding": "none",
+                    "HTML": "2.272893948 &times; 10<sup>&minus;27</sup> kg",
+                    "LaTeX": "2.272893948 \\times 10^{-27} \\, \\mathrm{kg}"
+                },
+                {
                     "Significand": "2.27",
                     "Base": "10",
                     "Exponent": "-27",
@@ -338,6 +482,15 @@
                     "LaTeX": "2.27 \\times 10^{-27} \\, \\mathrm{kg}"
                 },
                 {
+                    "Significand": "1.275",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "GeV",
+                    "Rounding": "none",
+                    "HTML": "1.275 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "1.275 \\, \\mathrm{GeV} / c^{2}"
+                },
+                {
                     "Significand": "1.28",
                     "Base": "10",
                     "Exponent": "0",
@@ -345,6 +498,15 @@
                     "Rounding": "3sf",
                     "HTML": "1.28 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "1.28 \\, \\mathrm{GeV} / c^{2}"
+                },
+                {
+                    "Significand": "1.36876872921382914484934045694",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "Rounding": "none",
+                    "HTML": "1.36876872921382914484934045694 u",
+                    "LaTeX": "1.36876872921382914484934045694 \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "1.37",
@@ -386,6 +548,15 @@
             },
             "Mass": [
                 {
+                    "Significand": "8.378511024",
+                    "Base": "10",
+                    "Exponent": "-30",
+                    "Unit": "kg",
+                    "Rounding": "none",
+                    "HTML": "8.378511024 &times; 10<sup>&minus;30</sup> kg",
+                    "LaTeX": "8.378511024 \\times 10^{-30} \\, \\mathrm{kg}"
+                },
+                {
                     "Significand": "8.38",
                     "Base": "10",
                     "Exponent": "-30",
@@ -395,6 +566,15 @@
                     "LaTeX": "8.38 \\times 10^{-30} \\, \\mathrm{kg}"
                 },
                 {
+                    "Significand": "4.7",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "MeV",
+                    "Rounding": "none",
+                    "HTML": "4.7 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "4.7 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
                     "Significand": "4.70",
                     "Base": "10",
                     "Exponent": "0",
@@ -402,6 +582,15 @@
                     "Rounding": "3sf",
                     "HTML": "4.70 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "4.70 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "5.04565727631764469081717658638",
+                    "Base": "10",
+                    "Exponent": "-3",
+                    "Unit": "u",
+                    "Rounding": "none",
+                    "HTML": "5.04565727631764469081717658638 &times; 10<sup>&minus;3</sup> u",
+                    "LaTeX": "5.04565727631764469081717658638 \\times 10^{-3} \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "5.05",
@@ -443,6 +632,15 @@
             },
             "Mass": [
                 {
+                    "Significand": "8.378511024",
+                    "Base": "10",
+                    "Exponent": "-30",
+                    "Unit": "kg",
+                    "Rounding": "none",
+                    "HTML": "8.378511024 &times; 10<sup>&minus;30</sup> kg",
+                    "LaTeX": "8.378511024 \\times 10^{-30} \\, \\mathrm{kg}"
+                },
+                {
                     "Significand": "8.38",
                     "Base": "10",
                     "Exponent": "-30",
@@ -452,6 +650,15 @@
                     "LaTeX": "8.38 \\times 10^{-30} \\, \\mathrm{kg}"
                 },
                 {
+                    "Significand": "4.7",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "MeV",
+                    "Rounding": "none",
+                    "HTML": "4.7 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "4.7 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
                     "Significand": "4.70",
                     "Base": "10",
                     "Exponent": "0",
@@ -459,6 +666,15 @@
                     "Rounding": "3sf",
                     "HTML": "4.70 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "4.70 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "5.04565727631764469081717658638",
+                    "Base": "10",
+                    "Exponent": "-3",
+                    "Unit": "u",
+                    "Rounding": "none",
+                    "HTML": "5.04565727631764469081717658638 &times; 10<sup>&minus;3</sup> u",
+                    "LaTeX": "5.04565727631764469081717658638 \\times 10^{-3} \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "5.05",
@@ -504,6 +720,15 @@
             ],
             "Mass": [
                 {
+                    "Significand": "9.10938356",
+                    "Base": "10",
+                    "Exponent": "-31",
+                    "Unit": "kg",
+                    "Rounding": "none",
+                    "HTML": "9.10938356 &times; 10<sup>&minus;31</sup> kg",
+                    "LaTeX": "9.10938356 \\times 10^{-31} \\, \\mathrm{kg}"
+                },
+                {
                     "Significand": "9.11",
                     "Base": "10",
                     "Exponent": "-31",
@@ -513,6 +738,15 @@
                     "LaTeX": "9.11 \\times 10^{-31} \\, \\mathrm{kg}"
                 },
                 {
+                    "Significand": "510.99894252523215394649816719",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "keV",
+                    "Rounding": "none",
+                    "HTML": "510.99894252523215394649816719 keV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "510.99894252523215394649816719 \\, \\mathrm{keV} / c^{2}"
+                },
+                {
                     "Significand": "511",
                     "Base": "10",
                     "Exponent": "0",
@@ -520,6 +754,15 @@
                     "Rounding": "3sf",
                     "HTML": "511 keV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "511 \\, \\mathrm{keV} / c^{2}"
+                },
+                {
+                    "Significand": "5.48579900541076496224602584728",
+                    "Base": "10",
+                    "Exponent": "-4",
+                    "Unit": "u",
+                    "Rounding": "none",
+                    "HTML": "5.48579900541076496224602584728 &times; 10<sup>&minus;4</sup> u",
+                    "LaTeX": "5.48579900541076496224602584728 \\times 10^{-4} \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "5.49",
@@ -628,6 +871,15 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "kg",
+                    "Rounding": "none",
+                    "HTML": "0 kg",
+                    "LaTeX": "0 \\, \\mathrm{kg}"
+                },
+                {
+                    "Significand": "0",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "kg",
                     "Rounding": "3sf",
                     "HTML": "0 kg",
                     "LaTeX": "0 \\, \\mathrm{kg}"
@@ -637,9 +889,27 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "eV",
+                    "Rounding": "none",
+                    "HTML": "0 eV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "0 \\, \\mathrm{eV} / c^{2}"
+                },
+                {
+                    "Significand": "0",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "eV",
                     "Rounding": "3sf",
                     "HTML": "0 eV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "0 \\, \\mathrm{eV} / c^{2}"
+                },
+                {
+                    "Significand": "0",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "Rounding": "none",
+                    "HTML": "0 u",
+                    "LaTeX": "0 \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "0",
@@ -684,6 +954,15 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "kg",
+                    "Rounding": "none",
+                    "HTML": "0 kg",
+                    "LaTeX": "0 \\, \\mathrm{kg}"
+                },
+                {
+                    "Significand": "0",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "kg",
                     "Rounding": "3sf",
                     "HTML": "0 kg",
                     "LaTeX": "0 \\, \\mathrm{kg}"
@@ -693,9 +972,27 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "eV",
+                    "Rounding": "none",
+                    "HTML": "0 eV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "0 \\, \\mathrm{eV} / c^{2}"
+                },
+                {
+                    "Significand": "0",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "eV",
                     "Rounding": "3sf",
                     "HTML": "0 eV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "0 \\, \\mathrm{eV} / c^{2}"
+                },
+                {
+                    "Significand": "0",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "Rounding": "none",
+                    "HTML": "0 u",
+                    "LaTeX": "0 \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "0",
@@ -737,6 +1034,15 @@
             },
             "Mass": [
                 {
+                    "Significand": "2.231536191",
+                    "Base": "10",
+                    "Exponent": "-25",
+                    "Unit": "kg",
+                    "Rounding": "none",
+                    "HTML": "2.231536191 &times; 10<sup>&minus;25</sup> kg",
+                    "LaTeX": "2.231536191 \\times 10^{-25} \\, \\mathrm{kg}"
+                },
+                {
                     "Significand": "2.23",
                     "Base": "10",
                     "Exponent": "-25",
@@ -746,6 +1052,15 @@
                     "LaTeX": "2.23 \\times 10^{-25} \\, \\mathrm{kg}"
                 },
                 {
+                    "Significand": "125.179999974420275943292713629",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "GeV",
+                    "Rounding": "none",
+                    "HTML": "125.179999974420275943292713629 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "125.179999974420275943292713629 \\, \\mathrm{GeV} / c^{2}"
+                },
+                {
                     "Significand": "125",
                     "Base": "10",
                     "Exponent": "0",
@@ -753,6 +1068,15 @@
                     "Rounding": "3sf",
                     "HTML": "125 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "125 \\, \\mathrm{GeV} / c^{2}"
+                },
+                {
+                    "Significand": "134.386250578803455656079052226",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "Rounding": "none",
+                    "HTML": "134.386250578803455656079052226 u",
+                    "LaTeX": "134.386250578803455656079052226 \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "134",
@@ -800,6 +1124,15 @@
             ],
             "Mass": [
                 {
+                    "Significand": "1.883531608",
+                    "Base": "10",
+                    "Exponent": "-28",
+                    "Unit": "kg",
+                    "Rounding": "none",
+                    "HTML": "1.883531608 &times; 10<sup>&minus;28</sup> kg",
+                    "LaTeX": "1.883531608 \\times 10^{-28} \\, \\mathrm{kg}"
+                },
+                {
                     "Significand": "1.88",
                     "Base": "10",
                     "Exponent": "-28",
@@ -809,6 +1142,15 @@
                     "LaTeX": "1.88 \\times 10^{-28} \\, \\mathrm{kg}"
                 },
                 {
+                    "Significand": "105.658374527908241849918463508",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "MeV",
+                    "Rounding": "none",
+                    "HTML": "105.658374527908241849918463508 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "105.658374527908241849918463508 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
                     "Significand": "106",
                     "Base": "10",
                     "Exponent": "0",
@@ -816,6 +1158,15 @@
                     "Rounding": "3sf",
                     "HTML": "106 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "106 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "0.113428924732050022821185458522",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "Rounding": "none",
+                    "HTML": "0.113428924732050022821185458522 u",
+                    "LaTeX": "0.113428924732050022821185458522 \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "0.113",
@@ -925,6 +1276,15 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "kg",
+                    "Rounding": "none",
+                    "HTML": "0 kg",
+                    "LaTeX": "0 \\, \\mathrm{kg}"
+                },
+                {
+                    "Significand": "0",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "kg",
                     "Rounding": "3sf",
                     "HTML": "0 kg",
                     "LaTeX": "0 \\, \\mathrm{kg}"
@@ -934,9 +1294,27 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "eV",
+                    "Rounding": "none",
+                    "HTML": "0 eV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "0 \\, \\mathrm{eV} / c^{2}"
+                },
+                {
+                    "Significand": "0",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "eV",
                     "Rounding": "3sf",
                     "HTML": "0 eV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "0 \\, \\mathrm{eV} / c^{2}"
+                },
+                {
+                    "Significand": "0",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "Rounding": "none",
+                    "HTML": "0 u",
+                    "LaTeX": "0 \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "0",
@@ -983,6 +1361,15 @@
             ],
             "Mass": [
                 {
+                    "Significand": "9.10938356",
+                    "Base": "10",
+                    "Exponent": "-31",
+                    "Unit": "kg",
+                    "Rounding": "none",
+                    "HTML": "9.10938356 &times; 10<sup>&minus;31</sup> kg",
+                    "LaTeX": "9.10938356 \\times 10^{-31} \\, \\mathrm{kg}"
+                },
+                {
                     "Significand": "9.11",
                     "Base": "10",
                     "Exponent": "-31",
@@ -992,6 +1379,15 @@
                     "LaTeX": "9.11 \\times 10^{-31} \\, \\mathrm{kg}"
                 },
                 {
+                    "Significand": "510.99894252523215394649816719",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "keV",
+                    "Rounding": "none",
+                    "HTML": "510.99894252523215394649816719 keV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "510.99894252523215394649816719 \\, \\mathrm{keV} / c^{2}"
+                },
+                {
                     "Significand": "511",
                     "Base": "10",
                     "Exponent": "0",
@@ -999,6 +1395,15 @@
                     "Rounding": "3sf",
                     "HTML": "511 keV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "511 \\, \\mathrm{keV} / c^{2}"
+                },
+                {
+                    "Significand": "5.48579900541076496224602584728",
+                    "Base": "10",
+                    "Exponent": "-4",
+                    "Unit": "u",
+                    "Rounding": "none",
+                    "HTML": "5.48579900541076496224602584728 &times; 10<sup>&minus;4</sup> u",
+                    "LaTeX": "5.48579900541076496224602584728 \\times 10^{-4} \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "5.49",
@@ -1043,6 +1448,15 @@
             },
             "Mass": [
                 {
+                    "Significand": "1.693528824",
+                    "Base": "10",
+                    "Exponent": "-28",
+                    "Unit": "kg",
+                    "Rounding": "none",
+                    "HTML": "1.693528824 &times; 10<sup>&minus;28</sup> kg",
+                    "LaTeX": "1.693528824 \\times 10^{-28} \\, \\mathrm{kg}"
+                },
+                {
                     "Significand": "1.69",
                     "Base": "10",
                     "Exponent": "-28",
@@ -1052,6 +1466,15 @@
                     "LaTeX": "1.69 \\times 10^{-28} \\, \\mathrm{kg}"
                 },
                 {
+                    "Significand": "95",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "MeV",
+                    "Rounding": "none",
+                    "HTML": "95 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "95 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
                     "Significand": "95.0",
                     "Base": "10",
                     "Exponent": "0",
@@ -1059,6 +1482,15 @@
                     "Rounding": "3sf",
                     "HTML": "95.0 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "95.0 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "0.101986689627697073537793994831",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "Rounding": "none",
+                    "HTML": "0.101986689627697073537793994831 u",
+                    "LaTeX": "0.101986689627697073537793994831 \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "0.102",
@@ -1100,6 +1532,15 @@
             },
             "Mass": [
                 {
+                    "Significand": "1.693528824",
+                    "Base": "10",
+                    "Exponent": "-28",
+                    "Unit": "kg",
+                    "Rounding": "none",
+                    "HTML": "1.693528824 &times; 10<sup>&minus;28</sup> kg",
+                    "LaTeX": "1.693528824 \\times 10^{-28} \\, \\mathrm{kg}"
+                },
+                {
                     "Significand": "1.69",
                     "Base": "10",
                     "Exponent": "-28",
@@ -1109,6 +1550,15 @@
                     "LaTeX": "1.69 \\times 10^{-28} \\, \\mathrm{kg}"
                 },
                 {
+                    "Significand": "95",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "MeV",
+                    "Rounding": "none",
+                    "HTML": "95 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "95 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
                     "Significand": "95.0",
                     "Base": "10",
                     "Exponent": "0",
@@ -1116,6 +1566,15 @@
                     "Rounding": "3sf",
                     "HTML": "95.0 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "95.0 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "0.101986689627697073537793994831",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "Rounding": "none",
+                    "HTML": "0.101986689627697073537793994831 u",
+                    "LaTeX": "0.101986689627697073537793994831 \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "0.102",
@@ -1166,6 +1625,15 @@
             ],
             "Mass": [
                 {
+                    "Significand": "3.167540659",
+                    "Base": "10",
+                    "Exponent": "-27",
+                    "Unit": "kg",
+                    "Rounding": "none",
+                    "HTML": "3.167540659 &times; 10<sup>&minus;27</sup> kg",
+                    "LaTeX": "3.167540659 \\times 10^{-27} \\, \\mathrm{kg}"
+                },
+                {
                     "Significand": "3.17",
                     "Base": "10",
                     "Exponent": "-27",
@@ -1175,6 +1643,15 @@
                     "LaTeX": "3.17 \\times 10^{-27} \\, \\mathrm{kg}"
                 },
                 {
+                    "Significand": "1.77685999990396384301516913538",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "GeV",
+                    "Rounding": "none",
+                    "HTML": "1.77685999990396384301516913538 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "1.77685999990396384301516913538 \\, \\mathrm{GeV} / c^{2}"
+                },
+                {
                     "Significand": "1.78",
                     "Base": "10",
                     "Exponent": "0",
@@ -1182,6 +1659,15 @@
                     "Rounding": "3sf",
                     "HTML": "1.78 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "1.78 \\, \\mathrm{GeV} / c^{2}"
+                },
+                {
+                    "Significand": "1.90753757181132013000964105110",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "Rounding": "none",
+                    "HTML": "1.90753757181132013000964105110 u",
+                    "LaTeX": "1.90753757181132013000964105110 \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "1.91",
@@ -1289,6 +1775,15 @@
             },
             "Mass": [
                 {
+                    "Significand": "3.084005122",
+                    "Base": "10",
+                    "Exponent": "-25",
+                    "Unit": "kg",
+                    "Rounding": "none",
+                    "HTML": "3.084005122 &times; 10<sup>&minus;25</sup> kg",
+                    "LaTeX": "3.084005122 \\times 10^{-25} \\, \\mathrm{kg}"
+                },
+                {
                     "Significand": "3.08",
                     "Base": "10",
                     "Exponent": "-25",
@@ -1298,6 +1793,15 @@
                     "LaTeX": "3.08 \\times 10^{-25} \\, \\mathrm{kg}"
                 },
                 {
+                    "Significand": "173.000000022438354435708145939",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "GeV",
+                    "Rounding": "none",
+                    "HTML": "173.000000022438354435708145939 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "173.000000022438354435708145939 \\, \\mathrm{GeV} / c^{2}"
+                },
+                {
                     "Significand": "173",
                     "Base": "10",
                     "Exponent": "0",
@@ -1305,6 +1809,15 @@
                     "Rounding": "3sf",
                     "HTML": "173 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "173 \\, \\mathrm{GeV} / c^{2}"
+                },
+                {
+                    "Significand": "185.723129556631654859254607313",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "Rounding": "none",
+                    "HTML": "185.723129556631654859254607313 u",
+                    "LaTeX": "185.723129556631654859254607313 \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "186",
@@ -1346,6 +1859,15 @@
             },
             "Mass": [
                 {
+                    "Significand": "3.084005122",
+                    "Base": "10",
+                    "Exponent": "-25",
+                    "Unit": "kg",
+                    "Rounding": "none",
+                    "HTML": "3.084005122 &times; 10<sup>&minus;25</sup> kg",
+                    "LaTeX": "3.084005122 \\times 10^{-25} \\, \\mathrm{kg}"
+                },
+                {
                     "Significand": "3.08",
                     "Base": "10",
                     "Exponent": "-25",
@@ -1355,6 +1877,15 @@
                     "LaTeX": "3.08 \\times 10^{-25} \\, \\mathrm{kg}"
                 },
                 {
+                    "Significand": "173.000000022438354435708145939",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "GeV",
+                    "Rounding": "none",
+                    "HTML": "173.000000022438354435708145939 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "173.000000022438354435708145939 \\, \\mathrm{GeV} / c^{2}"
+                },
+                {
                     "Significand": "173",
                     "Base": "10",
                     "Exponent": "0",
@@ -1362,6 +1893,15 @@
                     "Rounding": "3sf",
                     "HTML": "173 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "173 \\, \\mathrm{GeV} / c^{2}"
+                },
+                {
+                    "Significand": "185.723129556631654859254607313",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "Rounding": "none",
+                    "HTML": "185.723129556631654859254607313 u",
+                    "LaTeX": "185.723129556631654859254607313 \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "186",
@@ -1406,6 +1946,15 @@
             },
             "Mass": [
                 {
+                    "Significand": "3.921856224",
+                    "Base": "10",
+                    "Exponent": "-30",
+                    "Unit": "kg",
+                    "Rounding": "none",
+                    "HTML": "3.921856224 &times; 10<sup>&minus;30</sup> kg",
+                    "LaTeX": "3.921856224 \\times 10^{-30} \\, \\mathrm{kg}"
+                },
+                {
                     "Significand": "3.92",
                     "Base": "10",
                     "Exponent": "-30",
@@ -1415,6 +1964,15 @@
                     "LaTeX": "3.92 \\times 10^{-30} \\, \\mathrm{kg}"
                 },
                 {
+                    "Significand": "2.2",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "MeV",
+                    "Rounding": "none",
+                    "HTML": "2.2 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "2.2 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
                     "Significand": "2.20",
                     "Base": "10",
                     "Exponent": "0",
@@ -1422,6 +1980,15 @@
                     "Rounding": "3sf",
                     "HTML": "2.20 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "2.20 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "2.36179702295719538719101882767",
+                    "Base": "10",
+                    "Exponent": "-3",
+                    "Unit": "u",
+                    "Rounding": "none",
+                    "HTML": "2.36179702295719538719101882767 &times; 10<sup>&minus;3</sup> u",
+                    "LaTeX": "2.36179702295719538719101882767 \\times 10^{-3} \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "2.36",
@@ -1464,6 +2031,15 @@
             },
             "Mass": [
                 {
+                    "Significand": "3.921856224",
+                    "Base": "10",
+                    "Exponent": "-30",
+                    "Unit": "kg",
+                    "Rounding": "none",
+                    "HTML": "3.921856224 &times; 10<sup>&minus;30</sup> kg",
+                    "LaTeX": "3.921856224 \\times 10^{-30} \\, \\mathrm{kg}"
+                },
+                {
                     "Significand": "3.92",
                     "Base": "10",
                     "Exponent": "-30",
@@ -1473,6 +2049,15 @@
                     "LaTeX": "3.92 \\times 10^{-30} \\, \\mathrm{kg}"
                 },
                 {
+                    "Significand": "2.2",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "MeV",
+                    "Rounding": "none",
+                    "HTML": "2.2 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "2.2 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
                     "Significand": "2.20",
                     "Base": "10",
                     "Exponent": "0",
@@ -1480,6 +2065,15 @@
                     "Rounding": "3sf",
                     "HTML": "2.20 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "2.20 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "2.36179702295719538719101882767",
+                    "Base": "10",
+                    "Exponent": "-3",
+                    "Unit": "u",
+                    "Rounding": "none",
+                    "HTML": "2.36179702295719538719101882767 &times; 10<sup>&minus;3</sup> u",
+                    "LaTeX": "2.36179702295719538719101882767 \\times 10^{-3} \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "2.36",
@@ -1523,6 +2117,15 @@
             },
             "Mass": [
                 {
+                    "Significand": "1.432885825",
+                    "Base": "10",
+                    "Exponent": "-25",
+                    "Unit": "kg",
+                    "Rounding": "none",
+                    "HTML": "1.432885825 &times; 10<sup>&minus;25</sup> kg",
+                    "LaTeX": "1.432885825 \\times 10^{-25} \\, \\mathrm{kg}"
+                },
+                {
                     "Significand": "1.43",
                     "Base": "10",
                     "Exponent": "-25",
@@ -1532,6 +2135,15 @@
                     "LaTeX": "1.43 \\times 10^{-25} \\, \\mathrm{kg}"
                 },
                 {
+                    "Significand": "80.379000018130190384052181919",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "GeV",
+                    "Rounding": "none",
+                    "HTML": "80.379000018130190384052181919 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "80.379000018130190384052181919 \\, \\mathrm{GeV} / c^{2}"
+                },
+                {
                     "Significand": "80.4",
                     "Base": "10",
                     "Exponent": "0",
@@ -1539,6 +2151,15 @@
                     "Rounding": "3sf",
                     "HTML": "80.4 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "80.4 \\, \\mathrm{GeV} / c^{2}"
+                },
+                {
+                    "Significand": "86.2904013414073807735129620467",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "Rounding": "none",
+                    "HTML": "86.2904013414073807735129620467 u",
+                    "LaTeX": "86.2904013414073807735129620467 \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "86.3",
@@ -1580,6 +2201,15 @@
             },
             "Mass": [
                 {
+                    "Significand": "1.432885825",
+                    "Base": "10",
+                    "Exponent": "-25",
+                    "Unit": "kg",
+                    "Rounding": "none",
+                    "HTML": "1.432885825 &times; 10<sup>&minus;25</sup> kg",
+                    "LaTeX": "1.432885825 \\times 10^{-25} \\, \\mathrm{kg}"
+                },
+                {
                     "Significand": "1.43",
                     "Base": "10",
                     "Exponent": "-25",
@@ -1589,6 +2219,15 @@
                     "LaTeX": "1.43 \\times 10^{-25} \\, \\mathrm{kg}"
                 },
                 {
+                    "Significand": "80.379000018130190384052181919",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "GeV",
+                    "Rounding": "none",
+                    "HTML": "80.379000018130190384052181919 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "80.379000018130190384052181919 \\, \\mathrm{GeV} / c^{2}"
+                },
+                {
                     "Significand": "80.4",
                     "Base": "10",
                     "Exponent": "0",
@@ -1596,6 +2235,15 @@
                     "Rounding": "3sf",
                     "HTML": "80.4 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "80.4 \\, \\mathrm{GeV} / c^{2}"
+                },
+                {
+                    "Significand": "86.2904013414073807735129620467",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "Rounding": "none",
+                    "HTML": "86.2904013414073807735129620467 u",
+                    "LaTeX": "86.2904013414073807735129620467 \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "86.3",
@@ -1638,6 +2286,15 @@
             },
             "Mass": [
                 {
+                    "Significand": "1.625566621",
+                    "Base": "10",
+                    "Exponent": "-25",
+                    "Unit": "kg",
+                    "Rounding": "none",
+                    "HTML": "1.625566621 &times; 10<sup>&minus;25</sup> kg",
+                    "LaTeX": "1.625566621 \\times 10^{-25} \\, \\mathrm{kg}"
+                },
+                {
                     "Significand": "1.63",
                     "Base": "10",
                     "Exponent": "-25",
@@ -1647,6 +2304,15 @@
                     "LaTeX": "1.63 \\times 10^{-25} \\, \\mathrm{kg}"
                 },
                 {
+                    "Significand": "91.1876000021361313422794154934",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "GeV",
+                    "Rounding": "none",
+                    "HTML": "91.1876000021361313422794154934 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "91.1876000021361313422794154934 \\, \\mathrm{GeV} / c^{2}"
+                },
+                {
                     "Significand": "91.2",
                     "Base": "10",
                     "Exponent": "0",
@@ -1654,6 +2320,15 @@
                     "Rounding": "3sf",
                     "HTML": "91.2 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "91.2 \\, \\mathrm{GeV} / c^{2}"
+                },
+                {
+                    "Significand": "97.8939100980257539699367407825",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "Rounding": "none",
+                    "HTML": "97.8939100980257539699367407825 u",
+                    "LaTeX": "97.8939100980257539699367407825 \\, \\mathrm{u}"
                 },
                 {
                     "Significand": "97.9",
