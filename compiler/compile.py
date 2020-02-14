@@ -4,19 +4,51 @@ import re
 import math
 from decimal import *
 
-class ParticleMass (object):
+class Measurement (object):
     def __init__(self):
-        self.massInKilograms = Decimal(0)
-        self.massInElectronVolts = Decimal(0)
+        self.significand = Decimal(0)
+        self.exponent = Decimal(0)
+        self.unit = ""
 
-    @staticmethod
-    def fromText(text):
+    def toHTML(self):
+        s = str( self.significand)
+        e = str( self.exponent)
+        u = self.unit
 
-        match = re.match(r"\s*((<?)([+-]?\d+(\.\d+)?))\s*(\\times|x|*)\s*10\^\{([+-]?\d+)\}\s*kg\s*", text)
+        if s[0] == "-":
+            s = "&minus;" + s[1:]
+
+        if e[0] == "-":
+            e = "&minus;" + e[1:]
+
+        if u in ["eV", "keV", "MeV", "GeV", "TeV"]:
+            p = u
+            u = "eV / <span style=\"font-style: italic;\">c</span><sup>2</sup>"
+
+            if p == "keV":
+                u = "k" + u
+            elif p == "MeV":
+                u = "M" + u
+            elif p == "GeV":
+                u = "G" + u
+            elif p == "TeV":
+                u = "T" + u
+
+        return "{0} &times; 10<sup>{1}</sup> {2}".format(s, e, u)
+
+    def toLaTeX(self):
+        s = str( self.significand)
+        e = str( self.exponent)
+        u = self.unit
+
+        if u in ["eV", "keV", "MeV", "GeV", "TeV"]:
+            u = "\\mathrm{" + u + "} / c^{2}"
+        elif u in ["kg", "u", "C"]:
+            u = "\\mathrm{" + u + "}"
+
+        return "{0} \\times 10^{{1}} \\, {2}".format(s, e, u)
 
 class Compiler (object):
-    def __init__(self):
-        pass
 
     def getParticleFilePaths(self):
         filePaths = []
