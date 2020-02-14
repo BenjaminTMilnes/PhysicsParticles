@@ -34,7 +34,10 @@ class Measurement (object):
             elif p == "TeV":
                 u = "T" + u
 
-        return "{0} &times; 10<sup>{1}</sup> {2}".format(s, e, u)
+        if e == "0":
+            return "{0} {1}".format(s, u)
+        else:
+            return "{0} &times; 10<sup>{1}</sup> {2}".format(s, e, u)
 
     def toLaTeX(self):
         s = str( self.significand)
@@ -46,7 +49,10 @@ class Measurement (object):
         elif u in ["kg", "u", "C"]:
             u = "\\mathrm{" + u + "}"
 
-        return "{0} \\times 10^{{1}} \\, {2}".format(s, e, u)
+        if e == "0":
+            return s + " \\, " + u
+        else:
+            return s + " \\times 10^{" + e + "} \\, " + u
 
     def toDictionary(self):
         return {
@@ -68,21 +74,31 @@ class Mass (object):
     @staticmethod
     def fromText(text):
 
+        m = re.match(r"\s*[0]+\s*", text)
+
+        if m:
+            mass = Mass()
+
+            mass.number = Decimal(0)
+            mass.unit = "kg"
+
+            return mass
+
         m = re.match(r"\s*([+-]?\d+(\.\d+)?)\s*(\\times|\*)\s*10\^\{([+-]?\d+)\}\s*(g|kg|u|eV|keV|MeV|GeV|TeV)\s*", text)
 
-        if not m:
-            return None
+        if m:
+            s = m.group(1)
+            e = m.group(4)
+            u = m.group(5)
 
-        s = m.group(1)
-        e = m.group(4)
-        u = m.group(5)
+            mass = Mass()
 
-        mass = Mass()
+            mass.number = Decimal(s) * Decimal(10) ** Decimal(e)
+            mass.unit = u
 
-        mass.number = Decimal(s) * Decimal(10) ** Decimal(e)
-        mass.unit = u
+            return mass
 
-        return mass
+        return None
 
     def tokg(self):
         if self.unit == "kg":
@@ -111,7 +127,16 @@ class Mass (object):
             return self
 
         mkg = self.tokg().number
-        mev = mkg /  Decimal("1.78266192") * Decimal(10) ** Decimal(-36)
+
+        if mkg == Decimal(0):
+            mass = Mass()
+
+            mass.number = mkg
+            mass.unit = "eV"
+
+            return mass
+
+        mev = mkg / ( Decimal("1.78266192") * Decimal(10) ** Decimal(-36))
         o = orderOfMagnitude(mev)
 
         if o < 3:
@@ -142,7 +167,16 @@ class Mass (object):
             return self
 
         mkg = self.tokg().number
-        mu = mkg /  Decimal("1.66053906660") * Decimal(10) ** Decimal(-27)
+
+        if mkg == Decimal(0):
+            mass = Mass()
+
+            mass.number = mkg
+            mass.unit = "u"
+
+            return mass
+
+        mu = mkg / (  Decimal("1.66053906660") * Decimal(10) ** Decimal(-27))
      
         mass = Mass()
 
@@ -153,16 +187,31 @@ class Mass (object):
 
     def toMeasurement(self):
         s = self.number
-        o = orderOfMagnitude(s)
-        s = s / Decimal(10**o)
 
-        m = Measurement()
+        if s == Decimal(0):
+            m = Measurement()
 
-        m.significand = s
-        m.exponent = o
-        m.unit = self.unit
+            m.significand = s
+            m.exponent = Decimal(0)
+            m.unit = self.unit
 
-        return m
+            return m
+        
+        else:
+            o = orderOfMagnitude(s)
+            e = Decimal(0)
+
+            if o > 3 or o < -1:
+                s = s / Decimal(10**o)
+                e = o
+
+            m = Measurement()
+
+            m.significand = s
+            m.exponent = e
+            m.unit = self.unit
+
+            return m
 
     def toDictionary(self):
         return [ self.tokg().toMeasurement().toDictionary(),
@@ -196,12 +245,14 @@ class Compiler (object):
             particle["MainSymbol"] = lines[2]
             particle["Symbol"] = lines[3]
             particle["Classes"] = [c.strip() for c in  lines[4].split(",")]
+            particle["Antiparticle"] = {}
+            particle["Antiparticle"]["Reference"] = ""
 
             lines = lines[5:]
 
             for line in lines:                   
                 if line.startswith("other names:"):
-                    particle["OtherNames"] = line[12:].strip()
+                    particle["OtherNames"] = [n.strip() for n in line[12:].strip().split(",")]
 
                 if line.startswith("mass:"):
                     particle["Mass"] = Mass.fromText( line[5:].strip()).toDictionary()
@@ -245,7 +296,6 @@ class Compiler (object):
                     particle["MagneticMoment"] = line[16:].strip()
         
                 if line.startswith("antiparticle:"):
-                    particle["Antiparticle"] = {}
                     particle["Antiparticle"]["Reference"] = line[13:].strip()
     
                 if line.startswith("mean lifetime:"):
@@ -302,11 +352,16 @@ class Compiler (object):
 
         print(data)
 
+        def decimal_default(o):
+            if isinstance(o, Decimal):
+                return str(o)
+            raise TypeError()
+
         with open("../data/Compiled.json", "w") as  fileObject:
-            json.dump(data, fileObject, indent = 4)
+            json.dump(data, fileObject, indent = 4, default=decimal_default)
 
         with open("../web/particles.json", "w") as  fileObject:
-            json.dump(data, fileObject, indent = 4)
+            json.dump(data, fileObject, indent = 4, default=decimal_default)
 
 
 if __name__ == "__main__":

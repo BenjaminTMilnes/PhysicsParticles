@@ -13,21 +13,36 @@
                 "fermion",
                 "antimatter"
             ],
-            "OtherNames": "mu antilepton, anti mu",
+            "Antiparticle": {
+                "Reference": "Muon",
+                "Name": "Muon",
+                "URLReference": "muon"
+            },
+            "OtherNames": [
+                "mu antilepton",
+                "anti mu"
+            ],
             "Mass": [
                 {
-                    "Significand": "1.883531608",
-                    "Exponent": "-28",
-                    "UnitClass": "kg",
-                    "UnitsLaTeX": "\\mathrm{kg}",
-                    "UnitsHTML": "kg"
+                    "Significand": "1.883531608000000054184413672",
+                    "Exponent": -28,
+                    "Unit": "kg",
+                    "HTML": "1.883531608000000054184413672 &times; 10<sup>&minus;28</sup> kg",
+                    "LaTeX": "1.883531608000000054184413672 \\times 10^{-28} \\, \\mathrm{kg}"
                 },
                 {
                     "Significand": "105.6583745279082418499184635",
                     "Exponent": "0",
-                    "UnitClass": "eV",
-                    "UnitsLaTeX": "\\frac{MeV}{c^{2}}",
-                    "UnitsHTML": "MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>"
+                    "Unit": "MeV",
+                    "HTML": "105.6583745279082418499184635 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "105.6583745279082418499184635 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "0.1134289247320500228211854585",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "HTML": "0.1134289247320500228211854585 u",
+                    "LaTeX": "0.1134289247320500228211854585 \\, \\mathrm{u}"
                 }
             ],
             "RelativeCharge": "+1",
@@ -39,12 +54,6 @@
                 "UnitsHTML": "C"
             },
             "Spin": "1/2",
-            "MagneticMoment": "",
-            "Antiparticle": {
-                "Reference": "Muon",
-                "Name": "Muon",
-                "URLReference": "muon"
-            },
             "MeanLifetime": "2.1969811 \\times 10^{-6} s",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Muon"
         },
@@ -61,21 +70,37 @@
                 "fermion",
                 "antimatter"
             ],
-            "OtherNames": "tau antilepton, tau antiparticle, anti-tau",
+            "Antiparticle": {
+                "Reference": "Tauon",
+                "Name": "Tauon",
+                "URLReference": "tauon"
+            },
+            "OtherNames": [
+                "tau antilepton",
+                "tau antiparticle",
+                "anti-tau"
+            ],
             "Mass": [
                 {
-                    "Significand": "3.167540659",
-                    "Exponent": "-27",
-                    "UnitClass": "kg",
-                    "UnitsLaTeX": "\\mathrm{kg}",
-                    "UnitsHTML": "kg"
+                    "Significand": "3.167540658999999878065934907",
+                    "Exponent": -27,
+                    "Unit": "kg",
+                    "HTML": "3.167540658999999878065934907 &times; 10<sup>&minus;27</sup> kg",
+                    "LaTeX": "3.167540658999999878065934907 \\times 10^{-27} \\, \\mathrm{kg}"
                 },
                 {
                     "Significand": "1.776859999903963843015169135",
                     "Exponent": "0",
-                    "UnitClass": "eV",
-                    "UnitsLaTeX": "\\frac{GeV}{c^{2}}",
-                    "UnitsHTML": "GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>"
+                    "Unit": "GeV",
+                    "HTML": "1.776859999903963843015169135 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "1.776859999903963843015169135 \\, \\mathrm{GeV} / c^{2}"
+                },
+                {
+                    "Significand": "1.907537571811320130009641051",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "HTML": "1.907537571811320130009641051 u",
+                    "LaTeX": "1.907537571811320130009641051 \\, \\mathrm{u}"
                 }
             ],
             "RelativeCharge": "+1",
@@ -87,12 +112,6 @@
                 "UnitsHTML": "C"
             },
             "Spin": "1/2",
-            "MagneticMoment": "",
-            "Antiparticle": {
-                "Reference": "Tauon",
-                "Name": "Tauon",
-                "URLReference": "tauon"
-            },
             "MeanLifetime": "2.903 \\times 10^{-13} s",
             "YearDiscovered": "1975",
             "DiscoveredBy": "Martin Lewis Perl et al.",
@@ -110,21 +129,35 @@
                 "fermion",
                 "antimatter"
             ],
-            "OtherNames": "",
+            "Antiparticle": {
+                "Reference": "BottomQuark",
+                "Name": "Bottom Quark",
+                "URLReference": "bottomquark"
+            },
+            "OtherNames": [
+                "beauty antiquark"
+            ],
             "Mass": [
                 {
-                    "Significand": "7.451526826",
-                    "Exponent": "-27",
-                    "UnitClass": "kg",
-                    "UnitsLaTeX": "\\mathrm{kg}",
-                    "UnitsHTML": "kg"
+                    "Significand": "7.451526825999999713154445401",
+                    "Exponent": -27,
+                    "Unit": "kg",
+                    "HTML": "7.451526825999999713154445401 &times; 10<sup>&minus;27</sup> kg",
+                    "LaTeX": "7.451526825999999713154445401 \\times 10^{-27} \\, \\mathrm{kg}"
                 },
                 {
                     "Significand": "4.180000000224383544357081459",
                     "Exponent": "0",
-                    "UnitClass": "eV",
-                    "UnitsLaTeX": "\\frac{GeV}{c^{2}}",
-                    "UnitsHTML": "GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>"
+                    "Unit": "GeV",
+                    "HTML": "4.180000000224383544357081459 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "4.180000000224383544357081459 \\, \\mathrm{GeV} / c^{2}"
+                },
+                {
+                    "Significand": "4.487414343859556866146180677",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "HTML": "4.487414343859556866146180677 u",
+                    "LaTeX": "4.487414343859556866146180677 \\, \\mathrm{u}"
                 }
             ],
             "RelativeCharge": "+1/3",
@@ -136,13 +169,6 @@
                 "UnitsHTML": "C"
             },
             "Spin": "1/2",
-            "MagneticMoment": "",
-            "Antiparticle": {
-                "Reference": "BottomQuark",
-                "Name": "Bottom Quark",
-                "URLReference": "bottomquark"
-            },
-            "MeanLifetime": "",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Bottom_quark"
         },
         {
@@ -157,21 +183,35 @@
                 "fermion",
                 "matter"
             ],
-            "OtherNames": "",
+            "Antiparticle": {
+                "Reference": "BottomAntiquark",
+                "Name": "Bottom Antiquark",
+                "URLReference": "bottomantiquark"
+            },
+            "OtherNames": [
+                "beauty quark"
+            ],
             "Mass": [
                 {
-                    "Significand": "7.451526826",
-                    "Exponent": "-27",
-                    "UnitClass": "kg",
-                    "UnitsLaTeX": "\\mathrm{kg}",
-                    "UnitsHTML": "kg"
+                    "Significand": "7.451526825999999713154445401",
+                    "Exponent": -27,
+                    "Unit": "kg",
+                    "HTML": "7.451526825999999713154445401 &times; 10<sup>&minus;27</sup> kg",
+                    "LaTeX": "7.451526825999999713154445401 \\times 10^{-27} \\, \\mathrm{kg}"
                 },
                 {
                     "Significand": "4.180000000224383544357081459",
                     "Exponent": "0",
-                    "UnitClass": "eV",
-                    "UnitsLaTeX": "\\frac{GeV}{c^{2}}",
-                    "UnitsHTML": "GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>"
+                    "Unit": "GeV",
+                    "HTML": "4.180000000224383544357081459 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "4.180000000224383544357081459 \\, \\mathrm{GeV} / c^{2}"
+                },
+                {
+                    "Significand": "4.487414343859556866146180677",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "HTML": "4.487414343859556866146180677 u",
+                    "LaTeX": "4.487414343859556866146180677 \\, \\mathrm{u}"
                 }
             ],
             "RelativeCharge": "-1/3",
@@ -183,13 +223,6 @@
                 "UnitsHTML": "C"
             },
             "Spin": "1/2",
-            "MagneticMoment": "",
-            "Antiparticle": {
-                "Reference": "BottomAntiquark",
-                "Name": "Bottom Antiquark",
-                "URLReference": "bottomantiquark"
-            },
-            "MeanLifetime": "",
             "YearTheorised": "1973",
             "TheorisedBy": "Makoto Kobayashi, Toshihide Maskawa",
             "YearDiscovered": "1977",
@@ -208,21 +241,32 @@
                 "fermion",
                 "antimatter"
             ],
-            "OtherNames": "",
+            "Antiparticle": {
+                "Reference": "CharmQuark",
+                "Name": "Charm Quark",
+                "URLReference": "charmquark"
+            },
             "Mass": [
                 {
-                    "Significand": "2.272893948",
-                    "Exponent": "-27",
-                    "UnitClass": "kg",
-                    "UnitsLaTeX": "\\mathrm{kg}",
-                    "UnitsHTML": "kg"
+                    "Significand": "2.272893947999999912505243518",
+                    "Exponent": -27,
+                    "Unit": "kg",
+                    "HTML": "2.272893947999999912505243518 &times; 10<sup>&minus;27</sup> kg",
+                    "LaTeX": "2.272893947999999912505243518 \\times 10^{-27} \\, \\mathrm{kg}"
                 },
                 {
                     "Significand": "1.275",
                     "Exponent": "0",
-                    "UnitClass": "eV",
-                    "UnitsLaTeX": "\\frac{GeV}{c^{2}}",
-                    "UnitsHTML": "GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>"
+                    "Unit": "GeV",
+                    "HTML": "1.275 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "1.275 \\, \\mathrm{GeV} / c^{2}"
+                },
+                {
+                    "Significand": "1.368768729213829144849340457",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "HTML": "1.368768729213829144849340457 u",
+                    "LaTeX": "1.368768729213829144849340457 \\, \\mathrm{u}"
                 }
             ],
             "RelativeCharge": "-2/3",
@@ -234,13 +278,6 @@
                 "UnitsHTML": "C"
             },
             "Spin": "1/2",
-            "MagneticMoment": "",
-            "Antiparticle": {
-                "Reference": "CharmQuark",
-                "Name": "Charm Quark",
-                "URLReference": "charmquark"
-            },
-            "MeanLifetime": "",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Charm_quark"
         },
         {
@@ -255,21 +292,32 @@
                 "fermion",
                 "matter"
             ],
-            "OtherNames": "",
+            "Antiparticle": {
+                "Reference": "CharmAntiquark",
+                "Name": "Charm Antiquark",
+                "URLReference": "charmantiquark"
+            },
             "Mass": [
                 {
-                    "Significand": "2.272893948",
-                    "Exponent": "-27",
-                    "UnitClass": "kg",
-                    "UnitsLaTeX": "\\mathrm{kg}",
-                    "UnitsHTML": "kg"
+                    "Significand": "2.272893947999999912505243518",
+                    "Exponent": -27,
+                    "Unit": "kg",
+                    "HTML": "2.272893947999999912505243518 &times; 10<sup>&minus;27</sup> kg",
+                    "LaTeX": "2.272893947999999912505243518 \\times 10^{-27} \\, \\mathrm{kg}"
                 },
                 {
                     "Significand": "1.275",
                     "Exponent": "0",
-                    "UnitClass": "eV",
-                    "UnitsLaTeX": "\\frac{GeV}{c^{2}}",
-                    "UnitsHTML": "GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>"
+                    "Unit": "GeV",
+                    "HTML": "1.275 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "1.275 \\, \\mathrm{GeV} / c^{2}"
+                },
+                {
+                    "Significand": "1.368768729213829144849340457",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "HTML": "1.368768729213829144849340457 u",
+                    "LaTeX": "1.368768729213829144849340457 \\, \\mathrm{u}"
                 }
             ],
             "RelativeCharge": "+2/3",
@@ -281,13 +329,6 @@
                 "UnitsHTML": "C"
             },
             "Spin": "1/2",
-            "MagneticMoment": "",
-            "Antiparticle": {
-                "Reference": "CharmAntiquark",
-                "Name": "Charm Antiquark",
-                "URLReference": "charmantiquark"
-            },
-            "MeanLifetime": "",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Charm_quark"
         },
         {
@@ -302,21 +343,32 @@
                 "fermion",
                 "antimatter"
             ],
-            "OtherNames": "",
+            "Antiparticle": {
+                "Reference": "DownQuark",
+                "Name": "Down Quark",
+                "URLReference": "downquark"
+            },
             "Mass": [
                 {
-                    "Significand": "8.378511024",
-                    "Exponent": "-30",
-                    "UnitClass": "kg",
-                    "UnitsLaTeX": "\\mathrm{kg}",
-                    "UnitsHTML": "kg"
+                    "Significand": "8.378511023999999301764881239",
+                    "Exponent": -30,
+                    "Unit": "kg",
+                    "HTML": "8.378511023999999301764881239 &times; 10<sup>&minus;30</sup> kg",
+                    "LaTeX": "8.378511023999999301764881239 \\times 10^{-30} \\, \\mathrm{kg}"
                 },
                 {
                     "Significand": "4.7",
                     "Exponent": "0",
-                    "UnitClass": "eV",
-                    "UnitsLaTeX": "\\frac{MeV}{c^{2}}",
-                    "UnitsHTML": "MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>"
+                    "Unit": "MeV",
+                    "HTML": "4.7 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "4.7 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "5.045657276317644585783335038",
+                    "Exponent": -3,
+                    "Unit": "u",
+                    "HTML": "5.045657276317644585783335038 &times; 10<sup>&minus;3</sup> u",
+                    "LaTeX": "5.045657276317644585783335038 \\times 10^{-3} \\, \\mathrm{u}"
                 }
             ],
             "RelativeCharge": "+1/3",
@@ -328,13 +380,6 @@
                 "UnitsHTML": "C"
             },
             "Spin": "1/2",
-            "MagneticMoment": "",
-            "Antiparticle": {
-                "Reference": "DownQuark",
-                "Name": "Down Quark",
-                "URLReference": "downquark"
-            },
-            "MeanLifetime": "",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Down_quark"
         },
         {
@@ -349,21 +394,32 @@
                 "fermion",
                 "matter"
             ],
-            "OtherNames": "",
+            "Antiparticle": {
+                "Reference": "DownAntiquark",
+                "Name": "Down Antiquark",
+                "URLReference": "downantiquark"
+            },
             "Mass": [
                 {
-                    "Significand": "8.378511024",
-                    "Exponent": "-30",
-                    "UnitClass": "kg",
-                    "UnitsLaTeX": "\\mathrm{kg}",
-                    "UnitsHTML": "kg"
+                    "Significand": "8.378511023999999301764881239",
+                    "Exponent": -30,
+                    "Unit": "kg",
+                    "HTML": "8.378511023999999301764881239 &times; 10<sup>&minus;30</sup> kg",
+                    "LaTeX": "8.378511023999999301764881239 \\times 10^{-30} \\, \\mathrm{kg}"
                 },
                 {
                     "Significand": "4.7",
                     "Exponent": "0",
-                    "UnitClass": "eV",
-                    "UnitsLaTeX": "\\frac{MeV}{c^{2}}",
-                    "UnitsHTML": "MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>"
+                    "Unit": "MeV",
+                    "HTML": "4.7 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "4.7 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "5.045657276317644585783335038",
+                    "Exponent": -3,
+                    "Unit": "u",
+                    "HTML": "5.045657276317644585783335038 &times; 10<sup>&minus;3</sup> u",
+                    "LaTeX": "5.045657276317644585783335038 \\times 10^{-3} \\, \\mathrm{u}"
                 }
             ],
             "RelativeCharge": "-1/3",
@@ -375,13 +431,6 @@
                 "UnitsHTML": "C"
             },
             "Spin": "1/2",
-            "MagneticMoment": "",
-            "Antiparticle": {
-                "Reference": "DownAntiquark",
-                "Name": "Down Antiquark",
-                "URLReference": "downantiquark"
-            },
-            "MeanLifetime": "",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Down_quark"
         },
         {
@@ -397,21 +446,35 @@
                 "fermion",
                 "matter"
             ],
-            "OtherNames": "beta particle",
+            "Antiparticle": {
+                "Reference": "Positron",
+                "Name": "Positron",
+                "URLReference": "positron"
+            },
+            "OtherNames": [
+                "beta particle"
+            ],
             "Mass": [
                 {
-                    "Significand": "9.10938356",
-                    "Exponent": "-31",
-                    "UnitClass": "kg",
-                    "UnitsLaTeX": "\\mathrm{kg}",
-                    "UnitsHTML": "kg"
+                    "Significand": "9.109383559999999240856580168",
+                    "Exponent": -31,
+                    "Unit": "kg",
+                    "HTML": "9.109383559999999240856580168 &times; 10<sup>&minus;31</sup> kg",
+                    "LaTeX": "9.109383559999999240856580168 \\times 10^{-31} \\, \\mathrm{kg}"
                 },
                 {
                     "Significand": "510.9989425252321539464981672",
                     "Exponent": "0",
-                    "UnitClass": "eV",
-                    "UnitsLaTeX": "\\frac{keV}{c^{2}}",
-                    "UnitsHTML": "keV / <span style=\"font-style: italic;\">c</span><sup>2</sup>"
+                    "Unit": "keV",
+                    "HTML": "510.9989425252321539464981672 keV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "510.9989425252321539464981672 \\, \\mathrm{keV} / c^{2}"
+                },
+                {
+                    "Significand": "5.485799005410764699357014030",
+                    "Exponent": -4,
+                    "Unit": "u",
+                    "HTML": "5.485799005410764699357014030 &times; 10<sup>&minus;4</sup> u",
+                    "LaTeX": "5.485799005410764699357014030 \\times 10^{-4} \\, \\mathrm{u}"
                 }
             ],
             "RelativeCharge": "-1",
@@ -424,11 +487,6 @@
             },
             "Spin": "1/2",
             "MagneticMoment": "-1.00115965218091 \\mu_{B}",
-            "Antiparticle": {
-                "Reference": "Positron",
-                "Name": "Positron",
-                "URLReference": "positron"
-            },
             "MeanLifetime": "stable",
             "YearDiscovered": "1897",
             "DiscoveredBy": "J. J. Thomson",
@@ -448,8 +506,11 @@
                 "fermion",
                 "antimatter"
             ],
-            "OtherNames": "",
-            "Mass": [],
+            "Antiparticle": {
+                "Reference": "ElectronNeutrino",
+                "Name": "Electron Neutrino",
+                "URLReference": "electronneutrino"
+            },
             "RelativeCharge": "0",
             "Charge": {
                 "Significand": "0",
@@ -459,13 +520,6 @@
                 "UnitsHTML": "C"
             },
             "Spin": "1/2",
-            "MagneticMoment": "",
-            "Antiparticle": {
-                "Reference": "ElectronNeutrino",
-                "Name": "Electron Neutrino",
-                "URLReference": "electronneutrino"
-            },
-            "MeanLifetime": "",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Neutrino#Antineutrinos"
         },
         {
@@ -482,8 +536,11 @@
                 "fermion",
                 "matter"
             ],
-            "OtherNames": "",
-            "Mass": [],
+            "Antiparticle": {
+                "Reference": "ElectronAntineutrino",
+                "Name": "Electron Antineutrino",
+                "URLReference": "electronantineutrino"
+            },
             "RelativeCharge": "0",
             "Charge": {
                 "Significand": "0",
@@ -493,13 +550,6 @@
                 "UnitsHTML": "C"
             },
             "Spin": "1/2",
-            "MagneticMoment": "",
-            "Antiparticle": {
-                "Reference": "ElectronAntineutrino",
-                "Name": "Electron Antineutrino",
-                "URLReference": "electronantineutrino"
-            },
-            "MeanLifetime": "",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Electron_neutrino"
         },
         {
@@ -513,8 +563,34 @@
                 "boson",
                 "vector boson"
             ],
-            "OtherNames": "",
-            "Mass": [],
+            "Antiparticle": {
+                "Reference": "",
+                "Name": "",
+                "URLReference": ""
+            },
+            "Mass": [
+                {
+                    "Significand": "0",
+                    "Exponent": "0",
+                    "Unit": "kg",
+                    "HTML": "0 kg",
+                    "LaTeX": "0 \\, \\mathrm{kg}"
+                },
+                {
+                    "Significand": "0",
+                    "Exponent": "0",
+                    "Unit": "eV",
+                    "HTML": "0 eV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "0 \\, \\mathrm{eV} / c^{2}"
+                },
+                {
+                    "Significand": "0",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "HTML": "0 u",
+                    "LaTeX": "0 \\, \\mathrm{u}"
+                }
+            ],
             "RelativeCharge": "0",
             "Charge": {
                 "Significand": "0",
@@ -524,11 +600,6 @@
                 "UnitsHTML": "C"
             },
             "Spin": "1",
-            "Antiparticle": {
-                "Reference": "",
-                "Name": "",
-                "URLReference": ""
-            },
             "WikipediaURL": "https://en.wikipedia.org/wiki/Gluon"
         },
         {
@@ -542,8 +613,34 @@
                 "boson",
                 "vector boson"
             ],
-            "OtherNames": "",
-            "Mass": [],
+            "Antiparticle": {
+                "Reference": "Graviton",
+                "Name": "Graviton",
+                "URLReference": "graviton"
+            },
+            "Mass": [
+                {
+                    "Significand": "0",
+                    "Exponent": "0",
+                    "Unit": "kg",
+                    "HTML": "0 kg",
+                    "LaTeX": "0 \\, \\mathrm{kg}"
+                },
+                {
+                    "Significand": "0",
+                    "Exponent": "0",
+                    "Unit": "eV",
+                    "HTML": "0 eV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "0 \\, \\mathrm{eV} / c^{2}"
+                },
+                {
+                    "Significand": "0",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "HTML": "0 u",
+                    "LaTeX": "0 \\, \\mathrm{u}"
+                }
+            ],
             "MeanLifetime": "stable",
             "RelativeCharge": "0",
             "Charge": {
@@ -554,11 +651,6 @@
                 "UnitsHTML": "C"
             },
             "Spin": "2",
-            "Antiparticle": {
-                "Reference": "Graviton",
-                "Name": "Graviton",
-                "URLReference": "graviton"
-            },
             "WikipediaURL": "https://en.wikipedia.org/wiki/Graviton"
         },
         {
@@ -572,21 +664,32 @@
                 "boson",
                 "scalar boson"
             ],
-            "OtherNames": "",
+            "Antiparticle": {
+                "Reference": "",
+                "Name": "",
+                "URLReference": ""
+            },
             "Mass": [
                 {
-                    "Significand": "2.231536191",
-                    "Exponent": "-25",
-                    "UnitClass": "kg",
-                    "UnitsLaTeX": "\\mathrm{kg}",
-                    "UnitsHTML": "kg"
+                    "Significand": "2.231536190999999914097304987",
+                    "Exponent": -25,
+                    "Unit": "kg",
+                    "HTML": "2.231536190999999914097304987 &times; 10<sup>&minus;25</sup> kg",
+                    "LaTeX": "2.231536190999999914097304987 \\times 10^{-25} \\, \\mathrm{kg}"
                 },
                 {
                     "Significand": "125.1799999744202759432927136",
                     "Exponent": "0",
-                    "UnitClass": "eV",
-                    "UnitsLaTeX": "\\frac{GeV}{c^{2}}",
-                    "UnitsHTML": "GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>"
+                    "Unit": "GeV",
+                    "HTML": "125.1799999744202759432927136 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "125.1799999744202759432927136 \\, \\mathrm{GeV} / c^{2}"
+                },
+                {
+                    "Significand": "134.3862505788034556560790522",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "HTML": "134.3862505788034556560790522 u",
+                    "LaTeX": "134.3862505788034556560790522 \\, \\mathrm{u}"
                 }
             ],
             "RelativeCharge": "0",
@@ -598,11 +701,6 @@
                 "UnitsHTML": "C"
             },
             "Spin": "0",
-            "Antiparticle": {
-                "Reference": "",
-                "Name": "",
-                "URLReference": ""
-            },
             "MeanLifetime": "1.56 \\times 10^{-22} s",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Higgs_boson"
         },
@@ -619,21 +717,36 @@
                 "fermion",
                 "matter"
             ],
-            "OtherNames": "mu lepton, mu",
+            "Antiparticle": {
+                "Reference": "Antimuon",
+                "Name": "Antimuon",
+                "URLReference": "antimuon"
+            },
+            "OtherNames": [
+                "mu lepton",
+                "mu"
+            ],
             "Mass": [
                 {
-                    "Significand": "1.883531608",
-                    "Exponent": "-28",
-                    "UnitClass": "kg",
-                    "UnitsLaTeX": "\\mathrm{kg}",
-                    "UnitsHTML": "kg"
+                    "Significand": "1.883531608000000054184413672",
+                    "Exponent": -28,
+                    "Unit": "kg",
+                    "HTML": "1.883531608000000054184413672 &times; 10<sup>&minus;28</sup> kg",
+                    "LaTeX": "1.883531608000000054184413672 \\times 10^{-28} \\, \\mathrm{kg}"
                 },
                 {
                     "Significand": "105.6583745279082418499184635",
                     "Exponent": "0",
-                    "UnitClass": "eV",
-                    "UnitsLaTeX": "\\frac{MeV}{c^{2}}",
-                    "UnitsHTML": "MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>"
+                    "Unit": "MeV",
+                    "HTML": "105.6583745279082418499184635 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "105.6583745279082418499184635 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "0.1134289247320500228211854585",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "HTML": "0.1134289247320500228211854585 u",
+                    "LaTeX": "0.1134289247320500228211854585 \\, \\mathrm{u}"
                 }
             ],
             "RelativeCharge": "-1",
@@ -645,12 +758,6 @@
                 "UnitsHTML": "C"
             },
             "Spin": "1/2",
-            "MagneticMoment": "",
-            "Antiparticle": {
-                "Reference": "Antimuon",
-                "Name": "Antimuon",
-                "URLReference": "antimuon"
-            },
             "MeanLifetime": "2.1969811 \\times 10^{-6} s",
             "YearDiscovered": "1936",
             "DiscoveredBy": "Carl D. Anderson, Seth Neddermeyer",
@@ -670,8 +777,11 @@
                 "fermion",
                 "antimatter"
             ],
-            "OtherNames": "",
-            "Mass": [],
+            "Antiparticle": {
+                "Reference": "MuonNeutrino",
+                "Name": "Muon Neutrino",
+                "URLReference": "muonneutrino"
+            },
             "RelativeCharge": "0",
             "Charge": {
                 "Significand": "0",
@@ -681,13 +791,6 @@
                 "UnitsHTML": "C"
             },
             "Spin": "1/2",
-            "MagneticMoment": "",
-            "Antiparticle": {
-                "Reference": "MuonNeutrino",
-                "Name": "Muon Neutrino",
-                "URLReference": "muonneutrino"
-            },
-            "MeanLifetime": "",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Neutrino#Antineutrinos"
         },
         {
@@ -704,8 +807,14 @@
                 "fermion",
                 "matter"
             ],
-            "OtherNames": "mu neutrino",
-            "Mass": [],
+            "Antiparticle": {
+                "Reference": "MuonAntineutrino",
+                "Name": "Muon Antineutrino",
+                "URLReference": "muonantineutrino"
+            },
+            "OtherNames": [
+                "mu neutrino"
+            ],
             "RelativeCharge": "0",
             "Charge": {
                 "Significand": "0",
@@ -715,13 +824,6 @@
                 "UnitsHTML": "C"
             },
             "Spin": "1/2",
-            "MagneticMoment": "",
-            "Antiparticle": {
-                "Reference": "MuonAntineutrino",
-                "Name": "Muon Antineutrino",
-                "URLReference": "muonantineutrino"
-            },
-            "MeanLifetime": "",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Muon_neutrino"
         },
         {
@@ -734,8 +836,34 @@
             "Classes": [
                 "boson"
             ],
-            "OtherNames": "",
-            "Mass": [],
+            "Antiparticle": {
+                "Reference": "Photon",
+                "Name": "Photon",
+                "URLReference": "photon"
+            },
+            "Mass": [
+                {
+                    "Significand": "0",
+                    "Exponent": "0",
+                    "Unit": "kg",
+                    "HTML": "0 kg",
+                    "LaTeX": "0 \\, \\mathrm{kg}"
+                },
+                {
+                    "Significand": "0",
+                    "Exponent": "0",
+                    "Unit": "eV",
+                    "HTML": "0 eV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "0 \\, \\mathrm{eV} / c^{2}"
+                },
+                {
+                    "Significand": "0",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "HTML": "0 u",
+                    "LaTeX": "0 \\, \\mathrm{u}"
+                }
+            ],
             "RelativeCharge": "0",
             "Charge": {
                 "Significand": "0",
@@ -745,11 +873,6 @@
                 "UnitsHTML": "C"
             },
             "Spin": "1",
-            "Antiparticle": {
-                "Reference": "Photon",
-                "Name": "Photon",
-                "URLReference": "photon"
-            },
             "MeanLifetime": "stable",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Photon"
         },
@@ -766,21 +889,35 @@
                 "fermion",
                 "antimatter"
             ],
-            "OtherNames": "antielectron",
+            "Antiparticle": {
+                "Reference": "Electron",
+                "Name": "Electron",
+                "URLReference": "electron"
+            },
+            "OtherNames": [
+                "antielectron"
+            ],
             "Mass": [
                 {
-                    "Significand": "9.10938356",
-                    "Exponent": "-31",
-                    "UnitClass": "kg",
-                    "UnitsLaTeX": "\\mathrm{kg}",
-                    "UnitsHTML": "kg"
+                    "Significand": "9.109383559999999240856580168",
+                    "Exponent": -31,
+                    "Unit": "kg",
+                    "HTML": "9.109383559999999240856580168 &times; 10<sup>&minus;31</sup> kg",
+                    "LaTeX": "9.109383559999999240856580168 \\times 10^{-31} \\, \\mathrm{kg}"
                 },
                 {
                     "Significand": "510.9989425252321539464981672",
                     "Exponent": "0",
-                    "UnitClass": "eV",
-                    "UnitsLaTeX": "\\frac{keV}{c^{2}}",
-                    "UnitsHTML": "keV / <span style=\"font-style: italic;\">c</span><sup>2</sup>"
+                    "Unit": "keV",
+                    "HTML": "510.9989425252321539464981672 keV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "510.9989425252321539464981672 \\, \\mathrm{keV} / c^{2}"
+                },
+                {
+                    "Significand": "5.485799005410764699357014030",
+                    "Exponent": -4,
+                    "Unit": "u",
+                    "HTML": "5.485799005410764699357014030 &times; 10<sup>&minus;4</sup> u",
+                    "LaTeX": "5.485799005410764699357014030 \\times 10^{-4} \\, \\mathrm{u}"
                 }
             ],
             "RelativeCharge": "+1",
@@ -792,12 +929,6 @@
                 "UnitsHTML": "C"
             },
             "Spin": "1/2",
-            "MagneticMoment": "",
-            "Antiparticle": {
-                "Reference": "Electron",
-                "Name": "Electron",
-                "URLReference": "electron"
-            },
             "MeanLifetime": "stable",
             "YearDiscovered": "1932",
             "DiscoveredBy": "Carl D. Anderson",
@@ -815,21 +946,32 @@
                 "fermion",
                 "antimatter"
             ],
-            "OtherNames": "",
+            "Antiparticle": {
+                "Reference": "StrangeQuark",
+                "Name": "Strange Quark",
+                "URLReference": "strangequark"
+            },
             "Mass": [
                 {
-                    "Significand": "1.693528824",
-                    "Exponent": "-28",
-                    "UnitClass": "kg",
-                    "UnitsLaTeX": "\\mathrm{kg}",
-                    "UnitsHTML": "kg"
+                    "Significand": "1.693528824000000048718516841",
+                    "Exponent": -28,
+                    "Unit": "kg",
+                    "HTML": "1.693528824000000048718516841 &times; 10<sup>&minus;28</sup> kg",
+                    "LaTeX": "1.693528824000000048718516841 \\times 10^{-28} \\, \\mathrm{kg}"
                 },
                 {
                     "Significand": "95",
                     "Exponent": "0",
-                    "UnitClass": "eV",
-                    "UnitsLaTeX": "\\frac{MeV}{c^{2}}",
-                    "UnitsHTML": "MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>"
+                    "Unit": "MeV",
+                    "HTML": "95 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "95 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "0.1019866896276970735377939948",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "HTML": "0.1019866896276970735377939948 u",
+                    "LaTeX": "0.1019866896276970735377939948 \\, \\mathrm{u}"
                 }
             ],
             "RelativeCharge": "+1/3",
@@ -841,13 +983,6 @@
                 "UnitsHTML": "C"
             },
             "Spin": "1/2",
-            "MagneticMoment": "",
-            "Antiparticle": {
-                "Reference": "StrangeQuark",
-                "Name": "Strange Quark",
-                "URLReference": "strangequark"
-            },
-            "MeanLifetime": "",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Strange_quark"
         },
         {
@@ -862,21 +997,32 @@
                 "fermion",
                 "matter"
             ],
-            "OtherNames": "",
+            "Antiparticle": {
+                "Reference": "StrangeAntiquark",
+                "Name": "Strange Antiquark",
+                "URLReference": "strangeantiquark"
+            },
             "Mass": [
                 {
-                    "Significand": "1.693528824",
-                    "Exponent": "-28",
-                    "UnitClass": "kg",
-                    "UnitsLaTeX": "\\mathrm{kg}",
-                    "UnitsHTML": "kg"
+                    "Significand": "1.693528824000000048718516841",
+                    "Exponent": -28,
+                    "Unit": "kg",
+                    "HTML": "1.693528824000000048718516841 &times; 10<sup>&minus;28</sup> kg",
+                    "LaTeX": "1.693528824000000048718516841 \\times 10^{-28} \\, \\mathrm{kg}"
                 },
                 {
                     "Significand": "95",
                     "Exponent": "0",
-                    "UnitClass": "eV",
-                    "UnitsLaTeX": "\\frac{MeV}{c^{2}}",
-                    "UnitsHTML": "MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>"
+                    "Unit": "MeV",
+                    "HTML": "95 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "95 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "0.1019866896276970735377939948",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "HTML": "0.1019866896276970735377939948 u",
+                    "LaTeX": "0.1019866896276970735377939948 \\, \\mathrm{u}"
                 }
             ],
             "RelativeCharge": "-1/3",
@@ -888,13 +1034,6 @@
                 "UnitsHTML": "C"
             },
             "Spin": "1/2",
-            "MagneticMoment": "",
-            "Antiparticle": {
-                "Reference": "StrangeAntiquark",
-                "Name": "Strange Antiquark",
-                "URLReference": "strangeantiquark"
-            },
-            "MeanLifetime": "",
             "YearTheorised": "1964",
             "TheorisedBy": "Murray Gell-Mann, George Zweig",
             "YearDiscovered": "1968",
@@ -913,21 +1052,37 @@
                 "fermion",
                 "matter"
             ],
-            "OtherNames": "tau lepton, tau particle, tau",
+            "Antiparticle": {
+                "Reference": "Antitauon",
+                "Name": "Antitauon",
+                "URLReference": "antitauon"
+            },
+            "OtherNames": [
+                "tau lepton",
+                "tau particle",
+                "tau"
+            ],
             "Mass": [
                 {
-                    "Significand": "3.167540659",
-                    "Exponent": "-27",
-                    "UnitClass": "kg",
-                    "UnitsLaTeX": "\\mathrm{kg}",
-                    "UnitsHTML": "kg"
+                    "Significand": "3.167540658999999878065934907",
+                    "Exponent": -27,
+                    "Unit": "kg",
+                    "HTML": "3.167540658999999878065934907 &times; 10<sup>&minus;27</sup> kg",
+                    "LaTeX": "3.167540658999999878065934907 \\times 10^{-27} \\, \\mathrm{kg}"
                 },
                 {
                     "Significand": "1.776859999903963843015169135",
                     "Exponent": "0",
-                    "UnitClass": "eV",
-                    "UnitsLaTeX": "\\frac{GeV}{c^{2}}",
-                    "UnitsHTML": "GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>"
+                    "Unit": "GeV",
+                    "HTML": "1.776859999903963843015169135 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "1.776859999903963843015169135 \\, \\mathrm{GeV} / c^{2}"
+                },
+                {
+                    "Significand": "1.907537571811320130009641051",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "HTML": "1.907537571811320130009641051 u",
+                    "LaTeX": "1.907537571811320130009641051 \\, \\mathrm{u}"
                 }
             ],
             "RelativeCharge": "-1",
@@ -939,12 +1094,6 @@
                 "UnitsHTML": "C"
             },
             "Spin": "1/2",
-            "MagneticMoment": "",
-            "Antiparticle": {
-                "Reference": "Antitauon",
-                "Name": "Antitauon",
-                "URLReference": "antitauon"
-            },
             "MeanLifetime": "2.903 \\times 10^{-13} s",
             "YearDiscovered": "1975",
             "DiscoveredBy": "Martin Lewis Perl et al.",
@@ -964,8 +1113,11 @@
                 "fermion",
                 "antimatter"
             ],
-            "OtherNames": "",
-            "Mass": [],
+            "Antiparticle": {
+                "Reference": "TauonNeutrino",
+                "Name": "Tauon Neutrino",
+                "URLReference": "tauonneutrino"
+            },
             "RelativeCharge": "0",
             "Charge": {
                 "Significand": "0",
@@ -975,13 +1127,6 @@
                 "UnitsHTML": "C"
             },
             "Spin": "1/2",
-            "MagneticMoment": "",
-            "Antiparticle": {
-                "Reference": "TauonNeutrino",
-                "Name": "Tauon Neutrino",
-                "URLReference": "tauonneutrino"
-            },
-            "MeanLifetime": "",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Neutrino#Antineutrinos"
         },
         {
@@ -998,8 +1143,14 @@
                 "fermion",
                 "matter"
             ],
-            "OtherNames": "tau neutrino",
-            "Mass": [],
+            "Antiparticle": {
+                "Reference": "TauonAntineutrino",
+                "Name": "Tauon Antineutrino",
+                "URLReference": "tauonantineutrino"
+            },
+            "OtherNames": [
+                "tau neutrino"
+            ],
             "RelativeCharge": "0",
             "Charge": {
                 "Significand": "0",
@@ -1009,13 +1160,6 @@
                 "UnitsHTML": "C"
             },
             "Spin": "1/2",
-            "MagneticMoment": "",
-            "Antiparticle": {
-                "Reference": "",
-                "Name": "",
-                "URLReference": ""
-            },
-            "MeanLifetime": "",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Tau_neutrino"
         },
         {
@@ -1030,21 +1174,32 @@
                 "fermion",
                 "antimatter"
             ],
-            "OtherNames": "",
+            "Antiparticle": {
+                "Reference": "TopQuark",
+                "Name": "Top Quark",
+                "URLReference": "topquark"
+            },
             "Mass": [
                 {
-                    "Significand": "3.084005122",
-                    "Exponent": "-25",
-                    "UnitClass": "kg",
-                    "UnitsLaTeX": "\\mathrm{kg}",
-                    "UnitsHTML": "kg"
+                    "Significand": "3.084005121999999881281624523",
+                    "Exponent": -25,
+                    "Unit": "kg",
+                    "HTML": "3.084005121999999881281624523 &times; 10<sup>&minus;25</sup> kg",
+                    "LaTeX": "3.084005121999999881281624523 \\times 10^{-25} \\, \\mathrm{kg}"
                 },
                 {
                     "Significand": "173.0000000224383544357081459",
                     "Exponent": "0",
-                    "UnitClass": "eV",
-                    "UnitsLaTeX": "\\frac{GeV}{c^{2}}",
-                    "UnitsHTML": "GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>"
+                    "Unit": "GeV",
+                    "HTML": "173.0000000224383544357081459 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "173.0000000224383544357081459 \\, \\mathrm{GeV} / c^{2}"
+                },
+                {
+                    "Significand": "185.7231295566316548592546073",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "HTML": "185.7231295566316548592546073 u",
+                    "LaTeX": "185.7231295566316548592546073 \\, \\mathrm{u}"
                 }
             ],
             "RelativeCharge": "-2/3",
@@ -1056,13 +1211,6 @@
                 "UnitsHTML": "C"
             },
             "Spin": "1/2",
-            "MagneticMoment": "",
-            "Antiparticle": {
-                "Reference": "TopQuark",
-                "Name": "Top Quark",
-                "URLReference": "topquark"
-            },
-            "MeanLifetime": "",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Top_quark"
         },
         {
@@ -1077,21 +1225,32 @@
                 "fermion",
                 "matter"
             ],
-            "OtherNames": "",
+            "Antiparticle": {
+                "Reference": "TopAntiquark",
+                "Name": "Top Antiquark",
+                "URLReference": "topantiquark"
+            },
             "Mass": [
                 {
-                    "Significand": "3.084005122",
-                    "Exponent": "-25",
-                    "UnitClass": "kg",
-                    "UnitsLaTeX": "\\mathrm{kg}",
-                    "UnitsHTML": "kg"
+                    "Significand": "3.084005121999999881281624523",
+                    "Exponent": -25,
+                    "Unit": "kg",
+                    "HTML": "3.084005121999999881281624523 &times; 10<sup>&minus;25</sup> kg",
+                    "LaTeX": "3.084005121999999881281624523 \\times 10^{-25} \\, \\mathrm{kg}"
                 },
                 {
                     "Significand": "173.0000000224383544357081459",
                     "Exponent": "0",
-                    "UnitClass": "eV",
-                    "UnitsLaTeX": "\\frac{GeV}{c^{2}}",
-                    "UnitsHTML": "GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>"
+                    "Unit": "GeV",
+                    "HTML": "173.0000000224383544357081459 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "173.0000000224383544357081459 \\, \\mathrm{GeV} / c^{2}"
+                },
+                {
+                    "Significand": "185.7231295566316548592546073",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "HTML": "185.7231295566316548592546073 u",
+                    "LaTeX": "185.7231295566316548592546073 \\, \\mathrm{u}"
                 }
             ],
             "RelativeCharge": "+2/3",
@@ -1103,13 +1262,6 @@
                 "UnitsHTML": "C"
             },
             "Spin": "1/2",
-            "MagneticMoment": "",
-            "Antiparticle": {
-                "Reference": "TopAntiquark",
-                "Name": "Top Antiquark",
-                "URLReference": "topantiquark"
-            },
-            "MeanLifetime": "",
             "YearTheorised": "1973",
             "TheorisedBy": "Makoto Kobayashi, Toshihide Maskawa",
             "YearDiscovered": "1995",
@@ -1127,21 +1279,32 @@
                 "fermion",
                 "antimatter"
             ],
-            "OtherNames": "",
+            "Antiparticle": {
+                "Reference": "UpQuark",
+                "Name": "Up Quark",
+                "URLReference": "upquark"
+            },
             "Mass": [
                 {
-                    "Significand": "3.921856224",
-                    "Exponent": "-30",
-                    "UnitClass": "kg",
-                    "UnitsLaTeX": "\\mathrm{kg}",
-                    "UnitsHTML": "kg"
+                    "Significand": "3.921856223999999673166540154",
+                    "Exponent": -30,
+                    "Unit": "kg",
+                    "HTML": "3.921856223999999673166540154 &times; 10<sup>&minus;30</sup> kg",
+                    "LaTeX": "3.921856223999999673166540154 \\times 10^{-30} \\, \\mathrm{kg}"
                 },
                 {
                     "Significand": "2.2",
                     "Exponent": "0",
-                    "UnitClass": "eV",
-                    "UnitsLaTeX": "\\frac{MeV}{c^{2}}",
-                    "UnitsHTML": "MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>"
+                    "Unit": "MeV",
+                    "HTML": "2.2 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "2.2 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "2.361797022957195338026241933",
+                    "Exponent": -3,
+                    "Unit": "u",
+                    "HTML": "2.361797022957195338026241933 &times; 10<sup>&minus;3</sup> u",
+                    "LaTeX": "2.361797022957195338026241933 \\times 10^{-3} \\, \\mathrm{u}"
                 }
             ],
             "RelativeCharge": "-2/3",
@@ -1153,12 +1316,6 @@
                 "UnitsHTML": "C"
             },
             "Spin": "1/2",
-            "MagneticMoment": "",
-            "Antiparticle": {
-                "Reference": "UpQuark",
-                "Name": "Up Quark",
-                "URLReference": "upquark"
-            },
             "MeanLifetime": "stable",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Up_quark"
         },
@@ -1174,21 +1331,32 @@
                 "fermion",
                 "matter"
             ],
-            "OtherNames": "",
+            "Antiparticle": {
+                "Reference": "UpAntiquark",
+                "Name": "Up Antiquark",
+                "URLReference": "upantiquark"
+            },
             "Mass": [
                 {
-                    "Significand": "3.921856224",
-                    "Exponent": "-30",
-                    "UnitClass": "kg",
-                    "UnitsLaTeX": "\\mathrm{kg}",
-                    "UnitsHTML": "kg"
+                    "Significand": "3.921856223999999673166540154",
+                    "Exponent": -30,
+                    "Unit": "kg",
+                    "HTML": "3.921856223999999673166540154 &times; 10<sup>&minus;30</sup> kg",
+                    "LaTeX": "3.921856223999999673166540154 \\times 10^{-30} \\, \\mathrm{kg}"
                 },
                 {
                     "Significand": "2.2",
                     "Exponent": "0",
-                    "UnitClass": "eV",
-                    "UnitsLaTeX": "\\frac{MeV}{c^{2}}",
-                    "UnitsHTML": "MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>"
+                    "Unit": "MeV",
+                    "HTML": "2.2 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "2.2 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "2.361797022957195338026241933",
+                    "Exponent": -3,
+                    "Unit": "u",
+                    "HTML": "2.361797022957195338026241933 &times; 10<sup>&minus;3</sup> u",
+                    "LaTeX": "2.361797022957195338026241933 \\times 10^{-3} \\, \\mathrm{u}"
                 }
             ],
             "RelativeCharge": "+2/3",
@@ -1200,12 +1368,6 @@
                 "UnitsHTML": "C"
             },
             "Spin": "1/2",
-            "MagneticMoment": "",
-            "Antiparticle": {
-                "Reference": "UpAntiquark",
-                "Name": "Up Antiquark",
-                "URLReference": "upantiquark"
-            },
             "MeanLifetime": "stable",
             "YearTheorised": "1964",
             "TheorisedBy": "Murray Gell-Mann, George Zweig",
@@ -1222,21 +1384,32 @@
             "Classes": [
                 "boson"
             ],
-            "OtherNames": "",
+            "Antiparticle": {
+                "Reference": "WPlusBoson",
+                "Name": "W+ Boson",
+                "URLReference": "wplusboson"
+            },
             "Mass": [
                 {
-                    "Significand": "1.432885825",
-                    "Exponent": "-25",
-                    "UnitClass": "kg",
-                    "UnitsLaTeX": "\\mathrm{kg}",
-                    "UnitsHTML": "kg"
+                    "Significand": "1.432885824999999944841246801",
+                    "Exponent": -25,
+                    "Unit": "kg",
+                    "HTML": "1.432885824999999944841246801 &times; 10<sup>&minus;25</sup> kg",
+                    "LaTeX": "1.432885824999999944841246801 \\times 10^{-25} \\, \\mathrm{kg}"
                 },
                 {
                     "Significand": "80.37900001813019038405218192",
                     "Exponent": "0",
-                    "UnitClass": "eV",
-                    "UnitsLaTeX": "\\frac{GeV}{c^{2}}",
-                    "UnitsHTML": "GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>"
+                    "Unit": "GeV",
+                    "HTML": "80.37900001813019038405218192 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "80.37900001813019038405218192 \\, \\mathrm{GeV} / c^{2}"
+                },
+                {
+                    "Significand": "86.29040134140738077351296205",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "HTML": "86.29040134140738077351296205 u",
+                    "LaTeX": "86.29040134140738077351296205 \\, \\mathrm{u}"
                 }
             ],
             "RelativeCharge": "-1",
@@ -1248,12 +1421,6 @@
                 "UnitsHTML": "C"
             },
             "Spin": "1",
-            "MagneticMoment": "",
-            "Antiparticle": {
-                "Reference": "WPlusBoson",
-                "Name": "W+ Boson",
-                "URLReference": "wplusboson"
-            },
             "YearTheorised": "1968",
             "YearDiscovered": "1983",
             "WikipediaURL": "https://en.wikipedia.org/wiki/W_and_Z_bosons"
@@ -1268,21 +1435,32 @@
             "Classes": [
                 "boson"
             ],
-            "OtherNames": "",
+            "Antiparticle": {
+                "Reference": "WMinusBoson",
+                "Name": "W- Boson",
+                "URLReference": "wminusboson"
+            },
             "Mass": [
                 {
-                    "Significand": "1.432885825",
-                    "Exponent": "-25",
-                    "UnitClass": "kg",
-                    "UnitsLaTeX": "\\mathrm{kg}",
-                    "UnitsHTML": "kg"
+                    "Significand": "1.432885824999999944841246801",
+                    "Exponent": -25,
+                    "Unit": "kg",
+                    "HTML": "1.432885824999999944841246801 &times; 10<sup>&minus;25</sup> kg",
+                    "LaTeX": "1.432885824999999944841246801 \\times 10^{-25} \\, \\mathrm{kg}"
                 },
                 {
                     "Significand": "80.37900001813019038405218192",
                     "Exponent": "0",
-                    "UnitClass": "eV",
-                    "UnitsLaTeX": "\\frac{GeV}{c^{2}}",
-                    "UnitsHTML": "GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>"
+                    "Unit": "GeV",
+                    "HTML": "80.37900001813019038405218192 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "80.37900001813019038405218192 \\, \\mathrm{GeV} / c^{2}"
+                },
+                {
+                    "Significand": "86.29040134140738077351296205",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "HTML": "86.29040134140738077351296205 u",
+                    "LaTeX": "86.29040134140738077351296205 \\, \\mathrm{u}"
                 }
             ],
             "RelativeCharge": "+1",
@@ -1294,12 +1472,6 @@
                 "UnitsHTML": "C"
             },
             "Spin": "1",
-            "MagneticMoment": "",
-            "Antiparticle": {
-                "Reference": "WMinusBoson",
-                "Name": "W- Boson",
-                "URLReference": "wminusboson"
-            },
             "YearTheorised": "1968",
             "YearDiscovered": "1983",
             "WikipediaURL": "https://en.wikipedia.org/wiki/W_and_Z_bosons"
@@ -1315,21 +1487,32 @@
                 "boson",
                 "vector boson"
             ],
-            "OtherNames": "",
+            "Antiparticle": {
+                "Reference": "ZBoson",
+                "Name": "Z Boson",
+                "URLReference": "zboson"
+            },
             "Mass": [
                 {
-                    "Significand": "1.625566621",
-                    "Exponent": "-25",
-                    "UnitClass": "kg",
-                    "UnitsLaTeX": "\\mathrm{kg}",
-                    "UnitsHTML": "kg"
+                    "Significand": "1.625566620999999937424024656",
+                    "Exponent": -25,
+                    "Unit": "kg",
+                    "HTML": "1.625566620999999937424024656 &times; 10<sup>&minus;25</sup> kg",
+                    "LaTeX": "1.625566620999999937424024656 \\times 10^{-25} \\, \\mathrm{kg}"
                 },
                 {
                     "Significand": "91.18760000213613134227941549",
                     "Exponent": "0",
-                    "UnitClass": "eV",
-                    "UnitsLaTeX": "\\frac{GeV}{c^{2}}",
-                    "UnitsHTML": "GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>"
+                    "Unit": "GeV",
+                    "HTML": "91.18760000213613134227941549 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "91.18760000213613134227941549 \\, \\mathrm{GeV} / c^{2}"
+                },
+                {
+                    "Significand": "97.89391009802575396993674078",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "HTML": "97.89391009802575396993674078 u",
+                    "LaTeX": "97.89391009802575396993674078 \\, \\mathrm{u}"
                 }
             ],
             "RelativeCharge": "0",
@@ -1341,12 +1524,6 @@
                 "UnitsHTML": "C"
             },
             "Spin": "1",
-            "MagneticMoment": "",
-            "Antiparticle": {
-                "Reference": "ZBoson",
-                "Name": "Z Boson",
-                "URLReference": "zboson"
-            },
             "YearTheorised": "1968",
             "YearDiscovered": "1983",
             "WikipediaURL": "https://en.wikipedia.org/wiki/W_and_Z_bosons"
