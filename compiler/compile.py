@@ -14,11 +14,12 @@ e3 = Decimal("10") ** Decimal("3")
 e6 = Decimal("10") ** Decimal("6")
 e9 = Decimal("10") ** Decimal("9")
 e12 = Decimal("10") ** Decimal("12")
-evcc = Decimal("1.78266192") * Decimal("10") ** Decimal("-36")
+evcc = Decimal("1.78266192e-36")
+ec = Decimal("1.602176634e-19")
 
 
 def orderOfMagnitude(n):
-    return int(math.floor(float(n.log10())))
+    return int(math.floor(float(abs(n).log10())))
 
 
 def powerOf10(e):
@@ -212,6 +213,109 @@ class Mass (object):
                 ]
 
 
+class Charge (object):
+    def __init__(self, number, unit):
+        self.number = number
+        self.unit = unit
+
+    @staticmethod
+    def fromText(text):
+        m = re.match(r"\s*[0]+\s*", text)
+
+        if m:
+            return Charge(zero, "C")
+
+        m = re.match(r"^\s*([+-]?\s*\d+)\s*/\s*(\d+)\s*", text)
+
+        if m:
+            n = Decimal(m.group(1))
+            d = Decimal(m.group(2))
+
+            return Charge((n/d) * ec, "C")
+
+        m = re.match(r"\s*[+-]?\d+\s*", text)
+
+        if m:
+            f = Decimal(text)
+
+            return Charge(f * ec, "C")
+
+        m = re.match(r"\s*([+-]?\d+(\.\d+)?)\s*(\\times|\*)\s*10\^\{([+-]?\d+)\}\s*(C)\s*", text)
+
+        if m:
+            s = m.group(1)
+            e = m.group(4)
+            u = m.group(5)
+
+            return Charge(Decimal(s) * e1 ** Decimal(e), u)
+
+        return None
+
+    def toMeasurement(self):
+        s = self.number
+
+        if s == zero:
+            return Measurement(s, zero, self.unit)
+        else:
+            o = orderOfMagnitude(s)
+            e = zero
+
+            if o > 3 or o < -1:
+                s = s / powerOf10(o)
+                e = o
+
+            return Measurement(s, e, self.unit)
+
+    def toDictionary(self):
+        return [self.toMeasurement().toDictionary(0),
+                self.toMeasurement().toDictionary(3),
+                ]
+
+
+class Time (object):
+    def __init__(self, number, unit):
+        self.number = number
+        self.unit = unit
+
+    @staticmethod
+    def fromText(text):
+        m = re.match(r"\s*[0]+\s*", text)
+
+        if m:
+            return Time(zero, "C")
+
+        m = re.match(r"\s*([+-]?\d+(\.\d+)?)\s*(\\times|\*)\s*10\^\{([+-]?\d+)\}\s*(s)\s*", text)
+
+        if m:
+            s = m.group(1)
+            e = m.group(4)
+            u = m.group(5)
+
+            return Time(Decimal(s) * e1 ** Decimal(e), u)
+
+        return None
+
+    def toMeasurement(self):
+        s = self.number
+
+        if s == zero:
+            return Measurement(s, zero, self.unit)
+        else:
+            o = orderOfMagnitude(s)
+            e = zero
+
+            if o > 3 or o < -1:
+                s = s / powerOf10(o)
+                e = o
+
+            return Measurement(s, e, self.unit)
+
+    def toDictionary(self):
+        return [self.toMeasurement().toDictionary(0),
+                self.toMeasurement().toDictionary(3),
+                ]
+
+
 class Compiler (object):
 
     def getParticleFilePaths(self):
@@ -252,35 +356,7 @@ class Compiler (object):
 
                 if line.startswith("relative charge:"):
                     particle["RelativeCharge"] = line[16:].strip()
-
-                    c = particle["RelativeCharge"]
-                    f = 0
-
-                    if c == "+1":
-                        f = 1
-                    if c == "+2/3":
-                        f = 2/3
-                    if c == "+1/3":
-                        f = 1/3
-                    if c == "0":
-                        f = 0
-                    if c == "-1/3":
-                        f = -1/3
-                    if c == "-2/3":
-                        f = -2/3
-                    if c == "-1":
-                        f = -1
-
-                    charge = Decimal(f) * Decimal("1.602176634e-19")
-
-                    if charge == Decimal(0):
-                        o = 0
-                        s = 0
-                    else:
-                        o = int(math.floor(float(abs(charge).log10())))
-                        s = charge * Decimal(10) ** Decimal(-o)
-
-                    particle["Charge"] = {"Significand": str(s), "Exponent": o, "UnitClass": "C", "UnitsLaTeX": "C", "UnitsHTML": "C"}
+                    particle["Charge"] = Charge.fromText(line[16:].strip()).toDictionary()
 
                 if line.startswith("spin:"):
                     particle["Spin"] = line[5:].strip()
@@ -292,7 +368,12 @@ class Compiler (object):
                     particle["Antiparticle"]["Reference"] = line[13:].strip()
 
                 if line.startswith("mean lifetime:"):
-                    particle["MeanLifetime"] = line[14:].strip()
+                    t = line[14:].strip()
+
+                    if t == "stable":
+                        particle["MeanLifetime"] = t
+                    else:
+                        particle["MeanLifetime"] = Time.fromText(t).toDictionary()
 
                 if line.startswith("year theorised:"):
                     particle["YearTheorised"] = line[15:].strip()
@@ -310,17 +391,6 @@ class Compiler (object):
                     particle["WikipediaURL"] = line[10:].strip()
 
             return particle
-
-    def convertLaTeXToHTML(self, latex):
-
-        html = latex
-        html = re.sub(r"\\times", "&times;", html)
-        html = re.sub(r"-(\d)", r"&minus;\g<1>", html)
-        html = re.sub(r"\\mu", r"&mu;", html)
-        html = re.sub(r"\^\{(.+)\}", r"<sup>\g<1></sup>", html)
-        html = re.sub(r"_\{(.+)\}", r"<sub>\g<1></sub>", html)
-
-        return html
 
     def compile(self):
 
