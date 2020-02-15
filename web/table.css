@@ -2,24 +2,28 @@
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
-    grid-template-rows: 40px 40px 100px 100px 100px 20px 100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
     width: 100%;
-    margin: 40px auto;
+    margin: 20px auto;
     grid-column-gap: 2px;
     grid-row-gap: 2px;
 }
 
-@media (min-width: 400px) {}
-
 @media (min-width: 700px) {
+    .particletable {
+        grid-template-columns: 150px 150px 150px;
+        grid-template-rows: 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
+        margin: 40px auto;
+    }
+}
+
+@media (min-width: 1000px) {
     .particletable {
         grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
         grid-template-rows: 40px 40px 100px 100px 100px 20px 100px 100px 100px 100px;
     }
 }
-
-@media (min-width: 1000px) {}
 
 @media (min-width: 1400px) {
     .particletable {
@@ -36,72 +40,74 @@
     padding: 12px;
     cursor: pointer;
     user-select: none;
-       text-transform: uppercase;
-        font-weight: normal;
+    text-transform: uppercase;
+    font-weight: normal;
 }
 
-.table-leptonsheader {
-    grid-column: 2 / span 4;
-    grid-row: 1 / span 1;
+.table-leptonsheader, .table-chargedleptonsheader, .table-neutralleptonsheader, .table-quarksheader, .table-firstgenerationheader, .table-secondgenerationheader, .table-thirdgenerationheader, .table-vectorbosonsheader, .table-scalarbosonsheader {
+    display: none;
 }
 
-.table-chargedleptonsheader {
-    grid-column: 2 / span 2;
-    grid-row: 2 / span 1;
-}
-
-.table-neutralleptonsheader {
-    grid-column: 4 / span 2;
-    grid-row: 2 / span 1;
-}
-
-.table-quarksheader {
-    grid-column: 6 / span 4;
-    grid-row: 1 / span 2;
-}
-
-.table-firstgenerationheader {
-    grid-column: 1 / span 1;
-    grid-row: 3 / span 1;
-}
-
-.table-secondgenerationheader {
-    grid-column: 1 / span 1;
-    grid-row: 4 / span 1;
-}
-
-.table-thirdgenerationheader {
-    grid-column: 1 / span 1;
-    grid-row: 5 / span 1;
-}
-
-.table-vectorbosonsheader {
-    grid-column: 1 / span 1;
-    grid-row: 7 / span 2;
-}
-
-.table-scalarbosonsheader {
-    grid-column: 1 / span 1;
-    grid-row: 9 / span 2;
-}
-
-.table-fermion {
+.table-fermion, .table-wplusboson, .table-wminusboson, .table-zboson, .table-photon, .table-gluon, .table-higgsboson, .table-graviton {
     height: 100px;
 }
 
-.table-wplusboson, .table-wminusboson, .table-zboson {
-    height: 100px;
+@media (min-width: 700px) {
+    .table-fermion, .table-wplusboson, .table-wminusboson, .table-zboson, .table-photon, .table-gluon, .table-higgsboson, .table-graviton {
+        height: 150px;
+    }
 }
 
-.table-photon, .table-gluon, .table-higgsboson, .table-graviton {
-    height: 202px;
+@media (min-width: 1000px) {
+    .table-leptonsheader, .table-chargedleptonsheader, .table-neutralleptonsheader, .table-quarksheader, .table-firstgenerationheader, .table-secondgenerationheader, .table-thirdgenerationheader, .table-vectorbosonsheader, .table-scalarbosonsheader {
+        display: block;
+    }
+    .table-leptonsheader {
+        grid-column: 2 / span 4;
+        grid-row: 1 / span 1;
+    }
+    .table-chargedleptonsheader {
+        grid-column: 2 / span 2;
+        grid-row: 2 / span 1;
+    }
+    .table-neutralleptonsheader {
+        grid-column: 4 / span 2;
+        grid-row: 2 / span 1;
+    }
+    .table-quarksheader {
+        grid-column: 6 / span 4;
+        grid-row: 1 / span 2;
+    }
+    .table-firstgenerationheader {
+        grid-column: 1 / span 1;
+        grid-row: 3 / span 1;
+    }
+    .table-secondgenerationheader {
+        grid-column: 1 / span 1;
+        grid-row: 4 / span 1;
+    }
+    .table-thirdgenerationheader {
+        grid-column: 1 / span 1;
+        grid-row: 5 / span 1;
+    }
+    .table-vectorbosonsheader {
+        grid-column: 1 / span 1;
+        grid-row: 7 / span 2;
+    }
+    .table-scalarbosonsheader {
+        grid-column: 1 / span 1;
+        grid-row: 9 / span 2;
+    }
+    .table-fermion {
+        height: 100px;
+    }
+    .table-wplusboson, .table-wminusboson, .table-zboson {
+        height: 100px;
+    }
+    .table-photon, .table-gluon, .table-higgsboson, .table-graviton {
+        height: 202px;
+    }
 }
-
-@media (min-width: 400px) {}
-
-@media (min-width: 700px) {}
-
-@media (min-width: 1000px) {}
 
 @media (min-width: 1400px) {
     .table-fermion {
@@ -116,82 +122,146 @@
 }
 
 .table-photon {
-    grid-column: 2 / span 2;
-    grid-row: 7 / span 2;
+    grid-column: 1 / span 1;
+    grid-row: 9 / span 1;
 }
 
 .table-wplusboson {
-    grid-column: 4 / span 1;
-    grid-row: 7 / span 1;
+    grid-column: 2 / span 1;
+    grid-row: 9 / span 1;
 }
 
 .table-wminusboson {
-    grid-column: 5 / span 1;
-    grid-row: 7 / span 1;
+    grid-column: 3 / span 1;
+    grid-row: 9 / span 1;
 }
 
 .table-zboson {
-    grid-column: 4 / span 2;
-    grid-row: 8 / span 1;
+    grid-column: 2 / span 2;
+    grid-row: 10 / span 1;
 }
 
 .table-gluon {
-    grid-column: 6 / span 2;
-    grid-row: 7 / span 2;
+    grid-column: 1 / span 1;
+    grid-row: 11 / span 1;
 }
 
 .table-graviton {
-    grid-column: 8 / span 2;
-    grid-row: 7 / span 2;
+    grid-column: 1 / span 1;
+    grid-row: 12 / span 1;
 }
 
 .table-higgsboson {
     grid-column: 2 / span 2;
-    grid-row: 9 / span 2;
+    grid-row: 11 / span 1;
 }
 
 .table-electron, .table-muon, .table-tauon {
-    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
 }
 
 .table-positron, .table-antimuon, .table-antitauon {
-    grid-column: 3 / span 1;
+    grid-row: 2 / span 1;
 }
 
 .table-electronneutrino, .table-muonneutrino, .table-tauonneutrino {
-    grid-column: 4 / span 1;
-}
-
-.table-electronantineutrino, .table-muonantineutrino, .table-tauonantineutrino {
-    grid-column: 5 / span 1;
-}
-
-.table-upquark, .table-charmquark, .table-topquark {
-    grid-column: 6 / span 1;
-}
-
-.table-upantiquark, .table-charmantiquark, .table-topantiquark {
-    grid-column: 7 / span 1;
-}
-
-.table-downquark, .table-strangequark, .table-bottomquark {
-    grid-column: 8 / span 1;
-}
-
-.table-downantiquark, .table-strangeantiquark, .table-bottomantiquark {
-    grid-column: 9 / span 1;
-}
-
-.table-electron, .table-positron, .table-electronneutrino, .table-electronantineutrino, .table-upquark, .table-upantiquark, .table-downquark, .table-downantiquark {
     grid-row: 3 / span 1;
 }
 
-.table-muon, .table-antimuon, .table-muonneutrino, .table-muonantineutrino, .table-charmquark, .table-charmantiquark, .table-strangequark, .table-strangeantiquark {
+.table-electronantineutrino, .table-muonantineutrino, .table-tauonantineutrino {
     grid-row: 4 / span 1;
 }
 
-.table-tauon, .table-antitauon, .table-tauonneutrino, .table-tauonantineutrino, .table-topquark, .table-topantiquark, .table-bottomquark, .table-bottomantiquark {
+.table-upquark, .table-charmquark, .table-topquark {
     grid-row: 5 / span 1;
+}
+
+.table-upantiquark, .table-charmantiquark, .table-topantiquark {
+    grid-row: 6 / span 1;
+}
+
+.table-downquark, .table-strangequark, .table-bottomquark {
+    grid-row: 7 / span 1;
+}
+
+.table-downantiquark, .table-strangeantiquark, .table-bottomantiquark {
+    grid-row: 8 / span 1;
+}
+
+.table-electron, .table-positron, .table-electronneutrino, .table-electronantineutrino, .table-upquark, .table-upantiquark, .table-downquark, .table-downantiquark {
+    grid-column: 1 / span 1;
+}
+
+.table-muon, .table-antimuon, .table-muonneutrino, .table-muonantineutrino, .table-charmquark, .table-charmantiquark, .table-strangequark, .table-strangeantiquark {
+    grid-column: 2 / span 1;
+}
+
+.table-tauon, .table-antitauon, .table-tauonneutrino, .table-tauonantineutrino, .table-topquark, .table-topantiquark, .table-bottomquark, .table-bottomantiquark {
+    grid-column: 3 / span 1;
+}
+
+@media (min-width: 1000px) {
+    .table-photon {
+        grid-column: 2 / span 2;
+        grid-row: 7 / span 2;
+    }
+    .table-wplusboson {
+        grid-column: 4 / span 1;
+        grid-row: 7 / span 1;
+    }
+    .table-wminusboson {
+        grid-column: 5 / span 1;
+        grid-row: 7 / span 1;
+    }
+    .table-zboson {
+        grid-column: 4 / span 2;
+        grid-row: 8 / span 1;
+    }
+    .table-gluon {
+        grid-column: 6 / span 2;
+        grid-row: 7 / span 2;
+    }
+    .table-graviton {
+        grid-column: 8 / span 2;
+        grid-row: 7 / span 2;
+    }
+    .table-higgsboson {
+        grid-column: 2 / span 2;
+        grid-row: 9 / span 2;
+    }
+    .table-electron, .table-muon, .table-tauon {
+        grid-column: 2 / span 1;
+    }
+    .table-positron, .table-antimuon, .table-antitauon {
+        grid-column: 3 / span 1;
+    }
+    .table-electronneutrino, .table-muonneutrino, .table-tauonneutrino {
+        grid-column: 4 / span 1;
+    }
+    .table-electronantineutrino, .table-muonantineutrino, .table-tauonantineutrino {
+        grid-column: 5 / span 1;
+    }
+    .table-upquark, .table-charmquark, .table-topquark {
+        grid-column: 6 / span 1;
+    }
+    .table-upantiquark, .table-charmantiquark, .table-topantiquark {
+        grid-column: 7 / span 1;
+    }
+    .table-downquark, .table-strangequark, .table-bottomquark {
+        grid-column: 8 / span 1;
+    }
+    .table-downantiquark, .table-strangeantiquark, .table-bottomantiquark {
+        grid-column: 9 / span 1;
+    }
+    .table-electron, .table-positron, .table-electronneutrino, .table-electronantineutrino, .table-upquark, .table-upantiquark, .table-downquark, .table-downantiquark {
+        grid-row: 3 / span 1;
+    }
+    .table-muon, .table-antimuon, .table-muonneutrino, .table-muonantineutrino, .table-charmquark, .table-charmantiquark, .table-strangequark, .table-strangeantiquark {
+        grid-row: 4 / span 1;
+    }
+    .table-tauon, .table-antitauon, .table-tauonneutrino, .table-tauonantineutrino, .table-topquark, .table-topantiquark, .table-bottomquark, .table-bottomantiquark {
+        grid-row: 5 / span 1;
+    }
 }
 
 .particle {
@@ -201,10 +271,11 @@
     height: 100%;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 1px;
-    padding: 20px;
+    padding: 10px;
     user-select: none;
     cursor: pointer;
-      font-weight: normal;
+    font-weight: normal;
+    font-size: 12px;
 }
 
 .particle-mass, .particle-relativecharge, .particle-spin {
@@ -213,25 +284,25 @@
 }
 
 .particle-mass {
-    left: 12px;
-    top: 10px;
+    left: 0.7em;
+    top: 0.4em;
 }
 
 .particle-relativecharge {
-    left: 12px;
-    bottom: 10px;
+    left: 0.7em;
+    bottom: 0.4em;
 }
 
 .particle-spin {
-    right: 12px;
-    bottom: 10px;
+    right: 0.7em;
+    bottom: 0.4em;
 }
 
 .particle-symbol {
     display: block;
     position: absolute;
-    left: 0px;
-    top: 40px;
+    left: 0em;
+    top: 1.4em;
     box-sizing: border-box;
     width: 100%;
     font-size: 2em;
@@ -241,70 +312,52 @@
 .particle-name {
     display: none;
     position: absolute;
-    left: 0px;
-    top: 90px;
+    left: 0em;
+    top: 8.25em;
     box-sizing: border-box;
     width: 100%;
     font-size: 0.7em;
     text-align: center;
 }
 
-@media (min-width: 400px) {}
-
 @media (min-width: 700px) {
-    .particle-mass {
-        left: 10px;
-        top: 8px;
-        font-size: 0.7em;
+    .particle {
+        padding: 20px;
+        font-size: 17px;
     }
-    .particle-relativecharge {
-        left: 10px;
-        bottom: 8px;
-        font-size: 0.7em;
+    .particle-mass, .particle-relativecharge, .particle-spin {
+        font-size: 0.9em;
     }
-    .particle-spin {
-        right: 10px;
-        bottom: 8px;
-        font-size: 0.7em;
-    }
-    .particle-symbol {
-        top: 33px;
-        font-size: 1.5em;
+    .particle-name {
+        display: block;
     }
 }
 
 @media (min-width: 1000px) {
-    .particle-symbol {
-        top: 33px;
-        font-size: 1.5em;
+    .particle {
+        padding: 10px;
+        font-size: 12px;
+    }
+    .particle-mass, .particle-relativecharge, .particle-spin {
+        font-size: 1em;
+    }
+    .particle-name {
+        display: none;
     }
 }
 
 @media (min-width: 1400px) {
-    .particle-symbol {
-        top: 50px;
-        font-size: 1.5em;
+    .particle {
+        padding: 20px;
+        font-size: 17px;
     }
-    .particle-mass {
-        left: 12px;
-        top: 10px;
-        font-size: 0.7em;
-    }
-    .particle-relativecharge {
-        left: 12px;
-        bottom: 10px;
-        font-size: 0.7em;
-    }
-    .particle-spin {
-        right: 12px;
-        bottom: 10px;
-        font-size: 0.7em;
+    .particle-mass, .particle-relativecharge, .particle-spin {
+        font-size: 0.9em;
     }
     .particle-name {
         display: block;
     }
     .table-header {
-        font-size: 0.7em;
         padding: 12px;
     }
 }
