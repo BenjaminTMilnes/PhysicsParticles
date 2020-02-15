@@ -11,19 +11,19 @@
             <td>{{particle.OtherNames.join(", ")}}</td>
         </tr>
         <tr>
-            <th>Status:</th>                 
-                 <td>
-                     <span ng-show="particle.Status == 'confirmed'" class="confirmed">{{particle.Status}}</span>
-                     <span ng-show="particle.Status == 'hypothetical'" class="hypothetical">{{particle.Status}}</span>
-                    </td>
-        </tr>
-          <tr>
-                      <th>Composition:</th>
-                      <td>
-                        <span ng-show="particle.Composition == 'none'" class="fundamental">Fundamental</span>
-                        <span ng-show="particle.Composition != 'none'">{{particle.Composition}}</span>
+            <th>Status:</th>
+            <td>
+                <span ng-show="particle.Status == 'confirmed'" class="confirmed">{{particle.Status}}</span>
+                <span ng-show="particle.Status == 'hypothetical'" class="hypothetical">{{particle.Status}}</span>
             </td>
-     </tr>
+        </tr>
+        <tr>
+            <th>Composition:</th>
+            <td>
+                <span ng-show="particle.Composition == 'none'" class="fundamental">Fundamental</span>
+                <span ng-show="particle.Composition != 'none'">{{particle.Composition}}</span>
+            </td>
+        </tr>
         <tr>
             <th>Mass:</th>
             <td compile="particle.U.mass1"></td>
