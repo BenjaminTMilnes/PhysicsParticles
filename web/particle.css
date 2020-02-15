@@ -15,6 +15,7 @@
 
 .particleproperties th, .particleproperties td {
     padding: 10px 10px;
+    width: 50%;
 }
 
 .particleproperties th {
@@ -24,6 +25,25 @@
 
 .particleproperties td {
     text-align: left;
+}
+
+.confirmed, .hypothetical {
+    display: inline-block;
+    padding: 2px 7px;
+    border-radius: 2px;
+    color: white;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.confirmed {
+    background-color: hsl(90, 70%, 50%);
+    background: linear-gradient(140deg, hsl(90, 70%, 50%), hsl(90, 70%, 45%));
+}
+
+.hypothetical {
+    background-color: hsl(30, 70%, 50%);
+    background: linear-gradient(140deg, hsl(30, 90%, 50%), hsl(30, 90%, 45%));
 }
 
 @media (min-width: 400px) {

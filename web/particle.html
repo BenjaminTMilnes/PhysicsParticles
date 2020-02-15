@@ -2,13 +2,20 @@
     <h2 class="particlename">The {{particle.Name}}</h2>
     <div class="particlesymbol" compile="getParticleSymbol(particle)"></div>
     <table class="particleproperties">
+        <tr>
+            <th>LaTeX:</th>
+            <td>{{particle.MainSymbol}}</td>
+        </tr>
         <tr ng-show="particle.OtherNames.length > 0">
             <th>Other Names:</th>
             <td>{{particle.OtherNames.join(", ")}}</td>
         </tr>
         <tr>
-            <th>Status:</th>
-            <td>{{particle.Status}}</td>
+            <th>Status:</th>                 
+                 <td>
+                     <span ng-show="particle.Status == 'confirmed'" class="confirmed">{{particle.Status}}</span>
+                     <span ng-show="particle.Status == 'hypothetical'" class="hypothetical">{{particle.Status}}</span>
+                    </td>
         </tr>
         <tr>
             <th>Mass:</th>
@@ -74,9 +81,9 @@
 
     <h3>See more</h3>
     <ul>
-        <li>Wikipedia - <a href="{{particle.WikipediaURL}}" title="Wikipedia" target="_blank">{{particle.WikipediaURL}}</a>
-        </li>
+        <li>Wikipedia - <a href="{{particle.WikipediaURL}}" title="Wikipedia" target="_blank">{{particle.WikipediaURL}}</a></li>
     </ul>
-    <p>The original .particle file that this page was generated from can be viewed at <a href="https://github.com/BenjaminTMilnes/PhysicsParticles/blob/master/data/{{particle.Reference}}.particle" target="_blank">https://github.com/BenjaminTMilnes/PhysicsParticles/blob/master/data/{{particle.Reference}}.particle</a>
+    <p>The original .particle file that this page was generated from can be viewed at
+        <a href="https://github.com/BenjaminTMilnes/PhysicsParticles/blob/master/data/{{particle.Reference}}.particle" target="_blank">https://github.com/BenjaminTMilnes/PhysicsParticles/blob/master/data/{{particle.Reference}}.particle</a>
     </p>
 </div>
