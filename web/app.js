@@ -65,10 +65,10 @@ class Database {
             p.U.hue = hues[i] + Math.random() * 30 - 15;
 
             if (i == 3) {
-                p.U.hue = hues[i] + Math.random() * 70 - 35;
+                p.U.hue = hues[i] + Math.random() * 80 - 40;
             }
 
-            p.U.style = "background-color: hsl(" + p.U.hue + ", 40%, 50%); border-color: hsl(" + p.U.hue + ", 40%, 40%); color: hsl(" + p.U.hue + ", 0%, 100%);";
+            p.U.style = "background-color: hsl(" + p.U.hue + ", 40%, 50%); background: linear-gradient(140deg, hsl(" + p.U.hue + ", 40%, 55%),  hsl(" + p.U.hue + ", 40%, 45%)); border-color: hsl(" + p.U.hue + ", 40%, 40%); color: hsl(" + p.U.hue + ", 0%, 100%);";
 
             this._particlesObject[p.Reference] = p;
         });
