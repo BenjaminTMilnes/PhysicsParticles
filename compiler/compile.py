@@ -457,6 +457,9 @@ class Compiler (object):
                 if line.startswith("wikipedia:"):
                     particle["WikipediaURL"] = line[10:].strip()
 
+                if line.startswith("hyperphysics:"):
+                    particle["HyperphysicsURL"] = line[13:].strip()
+
             return particle
 
     def compile(self):

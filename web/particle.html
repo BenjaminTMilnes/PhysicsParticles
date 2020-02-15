@@ -89,6 +89,7 @@
     <h3>See more</h3>
     <ul>
         <li>Wikipedia - <a href="{{particle.WikipediaURL}}" title="Wikipedia" target="_blank">{{particle.WikipediaURL}}</a></li>
+        <li ng-show="particle.HyperphysicsURL != undefined">Hyperphysics - <a href="{{particle.HyperphysicsURL}}" title="Hyperphysics" target="_blank">{{particle.HyperphysicsURL}}</a></li>
     </ul>
     <p>The original .particle file that this page was generated from can be viewed at
         <a href="https://github.com/BenjaminTMilnes/PhysicsParticles/blob/master/data/{{particle.Reference}}.particle" target="_blank">https://github.com/BenjaminTMilnes/PhysicsParticles/blob/master/data/{{particle.Reference}}.particle</a>

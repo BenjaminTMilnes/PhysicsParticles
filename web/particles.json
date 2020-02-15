@@ -134,7 +134,8 @@
             ],
             "Generation": "2",
             "MonteCarloParticleNumber": "-13",
-            "WikipediaURL": "https://en.wikipedia.org/wiki/Muon"
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Muon",
+            "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/lepton.html"
         },
         {
             "Reference": "Antitauon",
@@ -273,7 +274,8 @@
             "MonteCarloParticleNumber": "-15",
             "YearDiscovered": "1975",
             "DiscoveredBy": "Martin Lewis Perl et al.",
-            "WikipediaURL": "https://en.wikipedia.org/wiki/Tau_(particle)"
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Tau_(particle)",
+            "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/lepton.html"
         },
         {
             "Reference": "BottomAntiquark",
@@ -501,7 +503,8 @@
             "TheorisedBy": "Makoto Kobayashi, Toshihide Maskawa",
             "YearDiscovered": "1977",
             "DiscoveredBy": "Leon M. Lederman et al.",
-            "WikipediaURL": "https://en.wikipedia.org/wiki/Bottom_quark"
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Bottom_quark",
+            "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/quark.html"
         },
         {
             "Reference": "CharmAntiquark",
@@ -719,7 +722,8 @@
             "Spin": "1/2",
             "Generation": "2",
             "MonteCarloParticleNumber": "4",
-            "WikipediaURL": "https://en.wikipedia.org/wiki/Charm_quark"
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Charm_quark",
+            "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/quark.html"
         },
         {
             "Reference": "DownAntiquark",
@@ -937,7 +941,8 @@
             "Spin": "1/2",
             "Generation": "1",
             "MonteCarloParticleNumber": "1",
-            "WikipediaURL": "https://en.wikipedia.org/wiki/Down_quark"
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Down_quark",
+            "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/quark.html"
         },
         {
             "Reference": "Electron",
@@ -1075,7 +1080,8 @@
             "MonteCarloParticleNumber": "11",
             "YearDiscovered": "1897",
             "DiscoveredBy": "J. J. Thomson",
-            "WikipediaURL": "https://en.wikipedia.org/wiki/Electron"
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Electron",
+            "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/lepton.html"
         },
         {
             "Reference": "ElectronAntineutrino",
@@ -1123,7 +1129,8 @@
             ],
             "Spin": "1/2",
             "MonteCarloParticleNumber": "-12",
-            "WikipediaURL": "https://en.wikipedia.org/wiki/Neutrino#Antineutrinos"
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Neutrino#Antineutrinos",
+            "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/lepton.html"
         },
         {
             "Reference": "ElectronNeutrino",
@@ -1171,7 +1178,8 @@
             ],
             "Spin": "1/2",
             "MonteCarloParticleNumber": "12",
-            "WikipediaURL": "https://en.wikipedia.org/wiki/Electron_neutrino"
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Electron_neutrino",
+            "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/lepton.html"
         },
         {
             "Reference": "Gluon",
@@ -1652,7 +1660,8 @@
             "MonteCarloParticleNumber": "13",
             "YearDiscovered": "1936",
             "DiscoveredBy": "Carl D. Anderson, Seth Neddermeyer",
-            "WikipediaURL": "https://en.wikipedia.org/wiki/Muon"
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Muon",
+            "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/lepton.html"
         },
         {
             "Reference": "MuonAntineutrino",
@@ -1700,7 +1709,8 @@
             ],
             "Spin": "1/2",
             "MonteCarloParticleNumber": "-14",
-            "WikipediaURL": "https://en.wikipedia.org/wiki/Neutrino#Antineutrinos"
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Neutrino#Antineutrinos",
+            "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/lepton.html"
         },
         {
             "Reference": "MuonNeutrino",
@@ -1751,7 +1761,8 @@
             ],
             "Spin": "1/2",
             "MonteCarloParticleNumber": "14",
-            "WikipediaURL": "https://en.wikipedia.org/wiki/Muon_neutrino"
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Muon_neutrino",
+            "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/lepton.html"
         },
         {
             "Reference": "Photon",
@@ -1976,7 +1987,8 @@
             "TheorisedBy": "Paul Dirac",
             "YearDiscovered": "1932",
             "DiscoveredBy": "Carl D. Anderson",
-            "WikipediaURL": "https://en.wikipedia.org/wiki/Positron"
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Positron",
+            "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/lepton.html"
         },
         {
             "Reference": "StrangeAntiquark",
@@ -2197,7 +2209,8 @@
             "YearTheorised": "1964",
             "TheorisedBy": "Murray Gell-Mann, George Zweig",
             "YearDiscovered": "1968",
-            "WikipediaURL": "https://en.wikipedia.org/wiki/Strange_quark"
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Strange_quark",
+            "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/quark.html"
         },
         {
             "Reference": "Tauon",
@@ -2336,7 +2349,8 @@
             "MonteCarloParticleNumber": "15",
             "YearDiscovered": "1975",
             "DiscoveredBy": "Martin Lewis Perl et al.",
-            "WikipediaURL": "https://en.wikipedia.org/wiki/Tau_(particle)"
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Tau_(particle)",
+            "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/lepton.html"
         },
         {
             "Reference": "TauonAntineutrino",
@@ -2384,7 +2398,8 @@
             ],
             "Spin": "1/2",
             "MonteCarloParticleNumber": "-16",
-            "WikipediaURL": "https://en.wikipedia.org/wiki/Neutrino#Antineutrinos"
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Neutrino#Antineutrinos",
+            "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/lepton.html"
         },
         {
             "Reference": "TauonNeutrino",
@@ -2435,7 +2450,8 @@
             ],
             "Spin": "1/2",
             "MonteCarloParticleNumber": "16",
-            "WikipediaURL": "https://en.wikipedia.org/wiki/Tau_neutrino"
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Tau_neutrino",
+            "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/lepton.html"
         },
         {
             "Reference": "TopAntiquark",
@@ -2656,7 +2672,8 @@
             "YearTheorised": "1973",
             "TheorisedBy": "Makoto Kobayashi, Toshihide Maskawa",
             "YearDiscovered": "1995",
-            "WikipediaURL": "https://en.wikipedia.org/wiki/Top_quark"
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Top_quark",
+            "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/quark.html"
         },
         {
             "Reference": "UpAntiquark",
@@ -2879,7 +2896,8 @@
             "YearTheorised": "1964",
             "TheorisedBy": "Murray Gell-Mann, George Zweig",
             "YearDiscovered": "1968",
-            "WikipediaURL": "https://en.wikipedia.org/wiki/Up_quark"
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Up_quark",
+            "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/quark.html"
         },
         {
             "Reference": "WMinusBoson",
