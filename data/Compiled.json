@@ -1991,6 +1991,146 @@
             "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/lepton.html"
         },
         {
+            "Reference": "Proton",
+            "URLReference": "proton",
+            "URL": "proton",
+            "Name": "Proton",
+            "MainSymbol": "p",
+            "Symbol": "p",
+            "Classes": [
+                "hadron",
+                "baryon",
+                "fermion",
+                "matter"
+            ],
+            "Antiparticle": {
+                "Reference": "Antiproton",
+                "Name": "",
+                "URLReference": ""
+            },
+            "OtherNames": [
+                ""
+            ],
+            "Status": "confirmed",
+            "Composition": "uud",
+            "Mass": [
+                {
+                    "Significand": "1.67262192369",
+                    "Base": "10",
+                    "Exponent": "-27",
+                    "Unit": "kg",
+                    "UnitClass": "kg",
+                    "Rounding": "none",
+                    "HTML": "1.67262192369 &times; 10<sup>&minus;27</sup> kg",
+                    "LaTeX": "1.67262192369 \\times 10^{-27} \\, \\mathrm{kg}"
+                },
+                {
+                    "Significand": "1.67",
+                    "Base": "10",
+                    "Exponent": "-27",
+                    "Unit": "kg",
+                    "UnitClass": "kg",
+                    "Rounding": "3sf",
+                    "HTML": "1.67 &times; 10<sup>&minus;27</sup> kg",
+                    "LaTeX": "1.67 \\times 10^{-27} \\, \\mathrm{kg}"
+                },
+                {
+                    "Significand": "938.272089017",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "MeV",
+                    "UnitClass": "eV",
+                    "Rounding": "none",
+                    "HTML": "938.272089017 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "938.272089017 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "938",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "MeV",
+                    "UnitClass": "eV",
+                    "Rounding": "3sf",
+                    "HTML": "938 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "938 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "1.00727646662",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "UnitClass": "u",
+                    "Rounding": "none",
+                    "HTML": "1.00727646662 u",
+                    "LaTeX": "1.00727646662 \\, \\mathrm{u}"
+                },
+                {
+                    "Significand": "1.01",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "UnitClass": "u",
+                    "Rounding": "3sf",
+                    "HTML": "1.01 u",
+                    "LaTeX": "1.01 \\, \\mathrm{u}"
+                }
+            ],
+            "RelativeCharge": "+1",
+            "Charge": [
+                {
+                    "Significand": "1.602176634",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "none",
+                    "HTML": "1.602176634 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "1.602176634 \\times 10^{-19} \\, \\mathrm{C}"
+                },
+                {
+                    "Significand": "1.60",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "3sf",
+                    "HTML": "1.60 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "1.60 \\times 10^{-19} \\, \\mathrm{C}"
+                }
+            ],
+            "Spin": "1/2",
+            "MagneticMoment": [
+                {
+                    "Significand": "1.52103220230",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "\\mu_{B}",
+                    "UnitClass": "\\mu_{B}",
+                    "Rounding": "none",
+                    "HTML": "1.52103220230 &mu;<sub>B</sub>",
+                    "LaTeX": "1.52103220230 \\, \\mu_{B}"
+                },
+                {
+                    "Significand": "1.52",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "\\mu_{B}",
+                    "UnitClass": "\\mu_{B}",
+                    "Rounding": "3sf",
+                    "HTML": "1.52 &mu;<sub>B</sub>",
+                    "LaTeX": "1.52 \\, \\mu_{B}"
+                }
+            ],
+            "MeanLifetime": "stable",
+            "MonteCarloParticleNumber": "2212",
+            "YearTheorised": "1815",
+            "TheorisedBy": "William Prout",
+            "YearDiscovered": "1917",
+            "DiscoveredBy": "Ernest Rutherford",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Proton",
+            "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/proton.html"
+        },
+        {
             "Reference": "StrangeAntiquark",
             "URLReference": "strangeantiquark",
             "URL": "strangeantiquark",
