@@ -409,6 +409,9 @@ class Compiler (object):
                 if line.startswith("status:"):
                     particle["Status"] = line[7:].strip()
 
+                if line.startswith("composition:"):
+                    particle["Composition"] = line[12:].strip()
+
                 if line.startswith("mass:"):
                     particle["Mass"] = Mass.fromText(line[5:].strip()).toDictionary()
 

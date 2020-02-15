@@ -17,6 +17,13 @@
                      <span ng-show="particle.Status == 'hypothetical'" class="hypothetical">{{particle.Status}}</span>
                     </td>
         </tr>
+          <tr>
+                      <th>Composition:</th>
+                      <td>
+                        <span ng-show="particle.Composition == 'none'" class="fundamental">Fundamental</span>
+                        <span ng-show="particle.Composition != 'none'">{{particle.Composition}}</span>
+            </td>
+     </tr>
         <tr>
             <th>Mass:</th>
             <td compile="particle.U.mass1"></td>
@@ -61,7 +68,7 @@
             <th>Year Theorised:</th>
             <td>{{particle.YearTheorised}}</td>
         </tr>
-        <tr ng-show="particle.Theorisedby != undefined">
+        <tr ng-show="particle.TheorisedBy != undefined">
             <th>Theorised By:</th>
             <td>{{particle.TheorisedBy}}</td>
         </tr>

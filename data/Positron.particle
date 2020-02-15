@@ -9,6 +9,7 @@ lepton, charged lepton, fermion, antimatter
 
 other names: antielectron
 status: confirmed
+composition: none
 mass: 9.10938356 \times 10^{-31} kg
 relative charge: +1
 spin: 1/2
@@ -17,6 +18,8 @@ mean lifetime: stable
 generation: 1
 monte carlo particle number: -11
 
+year theorised: 1928
+theorised by: Paul Dirac
 year discovered: 1932
 discovered by: Carl D. Anderson
 

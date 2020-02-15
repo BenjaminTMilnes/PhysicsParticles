@@ -27,7 +27,7 @@
     text-align: left;
 }
 
-.confirmed, .hypothetical {
+.confirmed, .hypothetical, .fundamental {
     display: inline-block;
     padding: 2px 7px;
     border-radius: 2px;
@@ -44,6 +44,11 @@
 .hypothetical {
     background-color: hsl(30, 70%, 50%);
     background: linear-gradient(140deg, hsl(30, 90%, 50%), hsl(30, 90%, 45%));
+}
+
+.fundamental{
+    background-color: hsl(300, 70%, 50%);
+    background: linear-gradient(140deg, hsl(300, 70%, 50%), hsl(300, 70%, 45%));
 }
 
 @media (min-width: 400px) {

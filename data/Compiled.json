@@ -23,6 +23,7 @@
                 "anti mu"
             ],
             "Status": "confirmed",
+            "Composition": "none",
             "Mass": [
                 {
                     "Significand": "1.883531608",
@@ -159,6 +160,7 @@
                 "anti-tau"
             ],
             "Status": "confirmed",
+            "Composition": "none",
             "Mass": [
                 {
                     "Significand": "3.167540659",
@@ -294,6 +296,7 @@
                 "beauty antiquark"
             ],
             "Status": "confirmed",
+            "Composition": "none",
             "Mass": [
                 {
                     "Significand": "7.451526826",
@@ -405,6 +408,7 @@
                 "beauty quark"
             ],
             "Status": "confirmed",
+            "Composition": "none",
             "Mass": [
                 {
                     "Significand": "7.451526826",
@@ -517,6 +521,7 @@
                 "URLReference": "charmquark"
             },
             "Status": "confirmed",
+            "Composition": "none",
             "Mass": [
                 {
                     "Significand": "2.272893948",
@@ -625,6 +630,7 @@
                 "URLReference": "charmantiquark"
             },
             "Status": "confirmed",
+            "Composition": "none",
             "Mass": [
                 {
                     "Significand": "2.272893948",
@@ -733,6 +739,7 @@
                 "URLReference": "downquark"
             },
             "Status": "confirmed",
+            "Composition": "none",
             "Mass": [
                 {
                     "Significand": "8.378511024",
@@ -841,6 +848,7 @@
                 "URLReference": "downantiquark"
             },
             "Status": "confirmed",
+            "Composition": "none",
             "Mass": [
                 {
                     "Significand": "8.378511024",
@@ -953,6 +961,7 @@
                 "beta particle"
             ],
             "Status": "confirmed",
+            "Composition": "none",
             "Mass": [
                 {
                     "Significand": "9.10938356",
@@ -1088,6 +1097,7 @@
                 "URLReference": "electronneutrino"
             },
             "Status": "confirmed",
+            "Composition": "none",
             "RelativeCharge": "0",
             "Charge": [
                 {
@@ -1135,6 +1145,7 @@
                 "URLReference": "electronantineutrino"
             },
             "Status": "confirmed",
+            "Composition": "none",
             "RelativeCharge": "0",
             "Charge": [
                 {
@@ -1179,6 +1190,7 @@
                 "URLReference": ""
             },
             "Status": "confirmed",
+            "Composition": "none",
             "Mass": [
                 {
                     "Significand": "0",
@@ -1285,6 +1297,7 @@
                 "URLReference": "graviton"
             },
             "Status": "hypothetical",
+            "Composition": "none",
             "Mass": [
                 {
                     "Significand": "0",
@@ -1392,6 +1405,7 @@
                 "URLReference": ""
             },
             "Status": "confirmed",
+            "Composition": "none",
             "Mass": [
                 {
                     "Significand": "2.231536191",
@@ -1525,6 +1539,7 @@
                 "mu"
             ],
             "Status": "confirmed",
+            "Composition": "none",
             "Mass": [
                 {
                     "Significand": "1.883531608",
@@ -1659,6 +1674,7 @@
                 "URLReference": "muonneutrino"
             },
             "Status": "confirmed",
+            "Composition": "none",
             "RelativeCharge": "0",
             "Charge": [
                 {
@@ -1709,6 +1725,7 @@
                 "mu neutrino"
             ],
             "Status": "confirmed",
+            "Composition": "none",
             "RelativeCharge": "0",
             "Charge": [
                 {
@@ -1752,6 +1769,7 @@
                 "URLReference": "photon"
             },
             "Status": "confirmed",
+            "Composition": "none",
             "Mass": [
                 {
                     "Significand": "0",
@@ -1864,6 +1882,7 @@
                 "antielectron"
             ],
             "Status": "confirmed",
+            "Composition": "none",
             "Mass": [
                 {
                     "Significand": "9.10938356",
@@ -1953,6 +1972,8 @@
             "MeanLifetime": "stable",
             "Generation": "1",
             "MonteCarloParticleNumber": "-11",
+            "YearTheorised": "1928",
+            "TheorisedBy": "Paul Dirac",
             "YearDiscovered": "1932",
             "DiscoveredBy": "Carl D. Anderson",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Positron"
@@ -1975,6 +1996,7 @@
                 "URLReference": "strangequark"
             },
             "Status": "confirmed",
+            "Composition": "none",
             "Mass": [
                 {
                     "Significand": "1.693528824",
@@ -2083,6 +2105,7 @@
                 "URLReference": "strangeantiquark"
             },
             "Status": "confirmed",
+            "Composition": "none",
             "Mass": [
                 {
                     "Significand": "1.693528824",
@@ -2200,6 +2223,7 @@
                 "tau"
             ],
             "Status": "confirmed",
+            "Composition": "none",
             "Mass": [
                 {
                     "Significand": "3.167540659",
@@ -2334,6 +2358,7 @@
                 "URLReference": "tauonneutrino"
             },
             "Status": "confirmed",
+            "Composition": "none",
             "RelativeCharge": "0",
             "Charge": [
                 {
@@ -2384,6 +2409,7 @@
                 "tau neutrino"
             ],
             "Status": "confirmed",
+            "Composition": "none",
             "RelativeCharge": "0",
             "Charge": [
                 {
@@ -2429,6 +2455,7 @@
                 "URLReference": "topquark"
             },
             "Status": "confirmed",
+            "Composition": "none",
             "Mass": [
                 {
                     "Significand": "3.084005122",
@@ -2537,6 +2564,7 @@
                 "URLReference": "topantiquark"
             },
             "Status": "confirmed",
+            "Composition": "none",
             "Mass": [
                 {
                     "Significand": "3.084005122",
@@ -2648,6 +2676,7 @@
                 "URLReference": "upquark"
             },
             "Status": "confirmed",
+            "Composition": "none",
             "Mass": [
                 {
                     "Significand": "3.921856224",
@@ -2757,6 +2786,7 @@
                 "URLReference": "upantiquark"
             },
             "Status": "confirmed",
+            "Composition": "none",
             "Mass": [
                 {
                     "Significand": "3.921856224",
@@ -2867,6 +2897,7 @@
                 "URLReference": "wplusboson"
             },
             "Status": "confirmed",
+            "Composition": "none",
             "Mass": [
                 {
                     "Significand": "1.432885825",
@@ -2974,6 +3005,7 @@
                 "URLReference": "wminusboson"
             },
             "Status": "confirmed",
+            "Composition": "none",
             "Mass": [
                 {
                     "Significand": "1.432885825",
@@ -3082,6 +3114,7 @@
                 "URLReference": "zboson"
             },
             "Status": "confirmed",
+            "Composition": "none",
             "Mass": [
                 {
                     "Significand": "1.625566621",
