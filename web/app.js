@@ -38,52 +38,53 @@ application.directive("compile", ["$compile", function ($compile) {
 class Database {
     constructor(data) {
         this._data = data;
-        
-            var charges = ["+1", "+2/3", "+1/3", "0", "-1/3", "-2/3", "-1"];
-               var hues = [5, 15, 35, 110, 170, 195, 215];
-        
+
+        var charges = ["+1", "+2/3", "+1/3", "0", "-1/3", "-2/3", "-1"];
+        var hues = [350, 5, 20, 110, 170, 195, 215];
+
         this._particlesObject = {}
 
         this._data.Particles.forEach(p => {
             p.U = {};
 
-               
-                   if (p.Mass != undefined ){
-            
-                  p.U.mass1 = p.Mass.filter(m => m.UnitClass == "kg" && m.Rounding == "3sf")[0].HTML;
-                  p.U.mass2 = p.Mass.filter(m => m.UnitClass == "eV" && m.Rounding == "3sf")[0].HTML;
-                  p.U.mass3 = p.Mass.filter(m => m.UnitClass == "u" && m.Rounding == "3sf")[0].HTML;}
-                  
-                        p.U.relativeCharge = p.RelativeCharge.replace("-", "&minus;");
-                  p.U.charge = p.Charge.filter(c => c.UnitClass == "C" && c.Rounding == "3sf")[0].HTML;
+            if (p.Mass != undefined) {
+                p.U.mass1 = p.Mass.filter(m => m.UnitClass == "kg" && m.Rounding == "3sf")[0].HTML;
+                p.U.mass2 = p.Mass.filter(m => m.UnitClass == "eV" && m.Rounding == "3sf")[0].HTML;
+                p.U.mass3 = p.Mass.filter(m => m.UnitClass == "u" && m.Rounding == "3sf")[0].HTML;
+            }
 
-                      
+            p.U.relativeCharge = p.RelativeCharge.replace("-", "&minus;");
+            p.U.charge = p.Charge.filter(c => c.UnitClass == "C" && c.Rounding == "3sf")[0].HTML;
 
+            if (p.MeanLifetime != undefined && p.MeanLifetime != "stable") {
+                p.U.meanLifetime = p.MeanLifetime.filter(t => t.UnitClass == "s" && t.Rounding == "3sf")[0].HTML;
+            }
 
+            var i = charges.indexOf(p.RelativeCharge);
 
+            p.U.hue = hues[i] + Math.random() * 30 - 15;
 
+            if (i == 3) {
+                p.U.hue = hues[i] + Math.random() * 70 - 35;
+            }
 
+            p.U.style = "background-color: hsl(" + p.U.hue + ", 40%, 50%); border-color: hsl(" + p.U.hue + ", 40%, 40%); color: hsl(" + p.U.hue + ", 0%, 100%);";
 
-                        if (p.MeanLifetime != undefined && p.MeanLifetime != "stable"){                  
-                  p.U.meanLifetime = p.MeanLifetime.filter(t => t.UnitClass == "s" && t.Rounding == "3sf")[0].HTML;}
-                  
-                     var i = charges.indexOf(p.RelativeCharge);
-
-                       p.U.hue = hues[i]      ;
-                           p.U.style = "background-color: hsl(" + p.U.hue + ", 100%, 95%); border-color: hsl(" + p.U.hue + ", 100%, 85%); color: hsl(" + p.U.hue + ", 70%, 40%);";
-                       
-                       this._particlesObject[p.Reference] = p;
+            this._particlesObject[p.Reference] = p;
         });
+
+        console.log(this._particlesObject);
     }
 
     get particles() {
-        return this._data.Particles;    }
-        
-               get  gridData (){
-                   return this._particlesObject;
-               }
-        
-        getParticleWithURLReference(urlReference) {
+        return this._data.Particles;
+    }
+
+    get gridData() {
+        return this._particlesObject;
+    }
+
+    getParticleWithURLReference(urlReference) {
         var ps = this.particles.filter(p => p.URLReference == urlReference);
 
         return (ps.length > 0) ? ps[0] : null;
