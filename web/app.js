@@ -48,6 +48,7 @@ class Database {
             p.U = {};
 
             if (p.Mass != undefined) {
+                p.U.hasMass = (p.Mass[0].Significand == "0") ? false : true;
                 p.U.mass1 = p.Mass.filter(m => m.UnitClass == "kg" && m.Rounding == "3sf")[0].HTML;
                 p.U.mass2 = p.Mass.filter(m => m.UnitClass == "eV" && m.Rounding == "3sf")[0].HTML;
                 p.U.mass3 = p.Mass.filter(m => m.UnitClass == "u" && m.Rounding == "3sf")[0].HTML;
@@ -56,8 +57,15 @@ class Database {
             p.U.relativeCharge = p.RelativeCharge.replace("-", "&minus;");
             p.U.charge = p.Charge.filter(c => c.UnitClass == "C" && c.Rounding == "3sf")[0].HTML;
 
+            if (p.MagneticMoment != undefined) {
+                p.U.magneticMoment = p.MagneticMoment.filter(mm => mm.Rounding == "none")[0].HTML;
+            }
+
             if (p.MeanLifetime != undefined && p.MeanLifetime != "stable") {
                 p.U.meanLifetime = p.MeanLifetime.filter(t => t.UnitClass == "s" && t.Rounding == "3sf")[0].HTML;
+            }
+            else if (p.MeanLifetime == "stable") {
+                p.U.meanLifetime = p.MeanLifetime;
             }
 
             var i = charges.indexOf(p.RelativeCharge);

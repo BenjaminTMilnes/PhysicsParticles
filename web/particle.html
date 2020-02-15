@@ -7,8 +7,20 @@
             <td>{{particle.OtherNames.join(", ")}}</td>
         </tr>
         <tr>
+            <th>Status:</th>
+            <td>{{particle.Status}}</td>
+        </tr>
+        <tr>
             <th>Mass:</th>
             <td compile="particle.U.mass1"></td>
+        </tr>
+        <tr ng-show="particle.U.hasMass">
+            <th></th>
+            <td compile="particle.U.mass2"></td>
+        </tr>
+        <tr ng-show="particle.U.hasMass">
+            <th></th>
+            <td compile="particle.U.mass3"></td>
         </tr>
         <tr>
             <th>Relative Charge:</th>
@@ -22,18 +34,21 @@
             <th>Spin:</th>
             <td>{{particle.Spin}}</td>
         </tr>
-        <tr ng-show="particle.MagneticMoment != ''">
+        <tr ng-show="particle.MagneticMoment != undefined">
             <th>Magnetic Moment:</th>
-            <td>{{particle.MagneticMoment}}</td>
+            <td compile="particle.U.magneticMoment"></td>
         </tr>
-        <tr ng-show="particle.MeanLifetime.length > 0">
+        <tr ng-show="particle.MeanLifetime != undefined">
             <th>Mean Lifetime:</th>
             <td compile="particle.U.meanLifetime"></td>
         </tr>
+        <tr ng-show="particle.Generation != undefined">
+            <th>Generation:</th>
+            <td>{{particle.Generation}}</td>
+        </tr>
         <tr ng-show="particle.Antiparticle != undefined && particle.Antiparticle.Reference != ''">
             <th>Antiparticle:</th>
-            <td><a href="#/particle/{{particle.Antiparticle.URLReference}}"
-                    title="{{particle.Antiparticle.Name}}">{{particle.Antiparticle.Name}}</a></td>
+            <td><a href="#/particle/{{particle.Antiparticle.URLReference}}" title="{{particle.Antiparticle.Name}}">{{particle.Antiparticle.Name}}</a></td>
         </tr>
         <tr ng-show="particle.YearTheorised != undefined">
             <th>Year Theorised:</th>
@@ -51,16 +66,17 @@
             <th>Discovered By:</th>
             <td>{{particle.DiscoveredBy}}</td>
         </tr>
+        <tr ng-show="particle.MonteCarloParticleNumber != undefined">
+            <th>Monte Carlo Particle Number:</th>
+            <td>{{particle.MonteCarloParticleNumber}} <sup><a href="http://pdg.lbl.gov/2007/reviews/montecarlorpp.pdf" target="_blank">[ref.]</a></sup></td>
+        </tr>
     </table>
 
     <h3>See more</h3>
     <ul>
-        <li>Wikipedia - <a href="{{particle.WikipediaURL}}" title="Wikipedia"
-                target="_blank">{{particle.WikipediaURL}}</a>
+        <li>Wikipedia - <a href="{{particle.WikipediaURL}}" title="Wikipedia" target="_blank">{{particle.WikipediaURL}}</a>
         </li>
     </ul>
-    <p>The original .particle file that this page was generated from can be viewed at <a
-            href="https://github.com/BenjaminTMilnes/PhysicsParticles/blob/master/data/{{particle.Reference}}.particle"
-            target="_blank">https://github.com/BenjaminTMilnes/PhysicsParticles/blob/master/data/{{particle.Reference}}.particle</a>
+    <p>The original .particle file that this page was generated from can be viewed at <a href="https://github.com/BenjaminTMilnes/PhysicsParticles/blob/master/data/{{particle.Reference}}.particle" target="_blank">https://github.com/BenjaminTMilnes/PhysicsParticles/blob/master/data/{{particle.Reference}}.particle</a>
     </p>
 </div>

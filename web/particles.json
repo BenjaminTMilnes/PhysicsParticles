@@ -131,6 +131,7 @@
                     "LaTeX": "2.20 \\times 10^{-6} \\, s"
                 }
             ],
+            "Generation": "2",
             "MonteCarloParticleNumber": "-13",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Muon"
         },
@@ -266,6 +267,7 @@
                     "LaTeX": "2.90 \\times 10^{-13} \\, s"
                 }
             ],
+            "Generation": "3",
             "MonteCarloParticleNumber": "-15",
             "YearDiscovered": "1975",
             "DiscoveredBy": "Martin Lewis Perl et al.",
@@ -378,6 +380,7 @@
                 }
             ],
             "Spin": "1/2",
+            "Generation": "3",
             "MonteCarloParticleNumber": "-5",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Bottom_quark"
         },
@@ -488,6 +491,7 @@
                 }
             ],
             "Spin": "1/2",
+            "Generation": "3",
             "MonteCarloParticleNumber": "5",
             "YearTheorised": "1973",
             "TheorisedBy": "Makoto Kobayashi, Toshihide Maskawa",
@@ -599,6 +603,7 @@
                 }
             ],
             "Spin": "1/2",
+            "Generation": "2",
             "MonteCarloParticleNumber": "-4",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Charm_quark"
         },
@@ -706,6 +711,7 @@
                 }
             ],
             "Spin": "1/2",
+            "Generation": "2",
             "MonteCarloParticleNumber": "4",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Charm_quark"
         },
@@ -813,6 +819,7 @@
                 }
             ],
             "Spin": "1/2",
+            "Generation": "1",
             "MonteCarloParticleNumber": "-1",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Down_quark"
         },
@@ -920,6 +927,7 @@
                 }
             ],
             "Spin": "1/2",
+            "Generation": "1",
             "MonteCarloParticleNumber": "1",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Down_quark"
         },
@@ -1031,8 +1039,30 @@
                 }
             ],
             "Spin": "1/2",
-            "MagneticMoment": "-1.00115965218091 \\mu_{B}",
+            "MagneticMoment": [
+                {
+                    "Significand": "-1.00115965218091",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "\\mu_{B}",
+                    "UnitClass": "\\mu_{B}",
+                    "Rounding": "none",
+                    "HTML": "&minus;1.00115965218091 &mu;<sub>B</sub>",
+                    "LaTeX": "-1.00115965218091 \\, \\mu_{B}"
+                },
+                {
+                    "Significand": "-1.00",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "\\mu_{B}",
+                    "UnitClass": "\\mu_{B}",
+                    "Rounding": "3sf",
+                    "HTML": "&minus;1.00 &mu;<sub>B</sub>",
+                    "LaTeX": "-1.00 \\, \\mu_{B}"
+                }
+            ],
             "MeanLifetime": "stable",
+            "Generation": "1",
             "MonteCarloParticleNumber": "11",
             "YearDiscovered": "1897",
             "DiscoveredBy": "J. J. Thomson",
@@ -1603,6 +1633,7 @@
                     "LaTeX": "2.20 \\times 10^{-6} \\, s"
                 }
             ],
+            "Generation": "2",
             "MonteCarloParticleNumber": "13",
             "YearDiscovered": "1936",
             "DiscoveredBy": "Carl D. Anderson, Seth Neddermeyer",
@@ -1920,6 +1951,7 @@
             ],
             "Spin": "1/2",
             "MeanLifetime": "stable",
+            "Generation": "1",
             "MonteCarloParticleNumber": "-11",
             "YearDiscovered": "1932",
             "DiscoveredBy": "Carl D. Anderson",
@@ -2029,6 +2061,7 @@
                 }
             ],
             "Spin": "1/2",
+            "Generation": "2",
             "MonteCarloParticleNumber": "-3",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Strange_quark"
         },
@@ -2136,6 +2169,7 @@
                 }
             ],
             "Spin": "1/2",
+            "Generation": "2",
             "MonteCarloParticleNumber": "3",
             "YearTheorised": "1964",
             "TheorisedBy": "Murray Gell-Mann, George Zweig",
@@ -2274,6 +2308,7 @@
                     "LaTeX": "2.90 \\times 10^{-13} \\, s"
                 }
             ],
+            "Generation": "3",
             "MonteCarloParticleNumber": "15",
             "YearDiscovered": "1975",
             "DiscoveredBy": "Martin Lewis Perl et al.",
@@ -2480,6 +2515,7 @@
                 }
             ],
             "Spin": "1/2",
+            "Generation": "3",
             "MonteCarloParticleNumber": "-6",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Top_quark"
         },
@@ -2587,6 +2623,7 @@
                 }
             ],
             "Spin": "1/2",
+            "Generation": "3",
             "MonteCarloParticleNumber": "6",
             "YearTheorised": "1973",
             "TheorisedBy": "Makoto Kobayashi, Toshihide Maskawa",
@@ -2698,6 +2735,7 @@
             ],
             "Spin": "1/2",
             "MeanLifetime": "stable",
+            "Generation": "1",
             "MonteCarloParticleNumber": "-2",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Up_quark"
         },
@@ -2806,6 +2844,7 @@
             ],
             "Spin": "1/2",
             "MeanLifetime": "stable",
+            "Generation": "1",
             "MonteCarloParticleNumber": "2",
             "YearTheorised": "1964",
             "TheorisedBy": "Murray Gell-Mann, George Zweig",

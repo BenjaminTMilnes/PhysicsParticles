@@ -72,6 +72,8 @@ class Measurement (object):
                 u = "G" + u
             elif p == "TeV":
                 u = "T" + u
+        elif u == "\\mu_{B}":
+            u = "&mu;<sub>B</sub>"
 
         if s == "0":
             return "{0}".format(s)
@@ -326,6 +328,49 @@ class Time (object):
                 ]
 
 
+class MagneticMoment (object):
+    def __init__(self, number, unit):
+        self.number = number
+        self.unit = unit
+
+    @staticmethod
+    def fromText(text):
+        m = re.match(r"\s*[0]+\s*", text)
+
+        if m:
+            return MagneticMoment(zero, "\mu_{B}")
+
+        m = re.match(r"\s*([+-]?\d+(\.\d+)?)\s*((\\times|\*)\s*10\^\{([+-]?\d+)\})?\s*(\\mu_\{B\})\s*", text)
+
+        if m:
+            s = m.group(1)
+            u = m.group(6)
+
+            return MagneticMoment(Decimal(s), u)
+
+        return None
+
+    def toMeasurement(self):
+        s = self.number
+
+        if s == zero:
+            return Measurement(s, zero, self.unit)
+        else:
+            o = orderOfMagnitude(s)
+            e = zero
+
+            if o > 3 or o < -1:
+                s = s / powerOf10(o)
+                e = o
+
+            return Measurement(s, e, self.unit)
+
+    def toDictionary(self):
+        return [self.toMeasurement().toDictionary(0),
+                self.toMeasurement().toDictionary(3),
+                ]
+
+
 class Compiler (object):
 
     def getParticleFilePaths(self):
@@ -375,10 +420,13 @@ class Compiler (object):
                     particle["Spin"] = line[5:].strip()
 
                 if line.startswith("magnetic moment:"):
-                    particle["MagneticMoment"] = line[16:].strip()
+                    particle["MagneticMoment"] = MagneticMoment.fromText(line[16:].strip()).toDictionary()
 
                 if line.startswith("antiparticle:"):
                     particle["Antiparticle"]["Reference"] = line[13:].strip()
+                    
+                if line.startswith("generation:"):
+                    particle["Generation"] = line[11:].strip()
 
                 if line.startswith("monte carlo particle number:"):
                     particle["MonteCarloParticleNumber"] = line[28:].strip()
