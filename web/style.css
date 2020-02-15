@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    padding: 0px 0px 400px 0px;
+    padding: 0px;
     font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
     font-size: 14px;
@@ -21,14 +21,26 @@ body {
     margin: 0px auto;
 }
 
+.relatedwebsites {
+    padding: 20px;
+    background-color: #F4F4F4;
+    color: #000000;
+}
+
 @media (min-width: 400px) {
     .mainpage {
+        padding: 40px;
+    }
+    .relatedwebsites {
         padding: 40px;
     }
 }
 
 @media (min-width: 700px) {
     .mainpage {
+        padding: 70px;
+    }
+    .relatedwebsites {
         padding: 70px;
     }
 }
@@ -59,6 +71,10 @@ h3 {
     font-size: 20px;
 }
 
+h4 {
+    font-size: 17px;
+}
+
 h1, h2, h3, p, ul {
     margin: 20px 0px;
 }
@@ -82,6 +98,9 @@ a:hover {
     h3 {
         font-size: 27px;
     }
+    h4 {
+        font-size: 20px;
+    }
     h3, p, ul {
         margin: 27px 0px;
     }
@@ -96,3 +115,79 @@ a:hover {
 @media (min-width: 1000px) {}
 
 @media (min-width: 1400px) {}
+
+.relatedwebsites h3 {
+    margin: 0px 0px 20px 0px;
+}
+
+.relatedwebsites h4 {
+    font-weight: normal;
+    text-align: center;
+    margin: 0px;
+}
+
+.relatedwebsites p {
+    font-size: 14px;
+    margin: 17px 0px;
+    text-align: left;
+}
+
+@media (min-width:400px) {
+    .relatedwebsites h3 {
+        margin: 0px 0px 40px 0px;
+    }
+    .relatedwebsites p {
+        font-size: 17px;
+        margin: 22px 0px;
+        text-align: justify;
+    }
+}
+
+@media (min-width:700px) {}
+
+.website-cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.website-card {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 1px;
+    margin: 0px 0px 20px 0px;
+    padding: 22px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.website-card h3 {
+    font-weight: normal;
+    text-align: center;
+    margin: 0px;
+}
+
+.website-card p {
+    font-size: 12px;
+    margin: 20px 0px 0px 0px;
+    text-align: justify;
+}
+
+@media (min-width:400px) {
+    .website-card {
+        padding: 27px;
+    }
+    .website-card p {
+        font-size: 14px;
+    }
+}
+
+@media (min-width:700px) {
+    .website-card {
+        margin: 0px 20px 20px 0px;
+    }
+    .website-cards {
+        display: flex;
+        flex-direction: row;
+    }
+    .website-card {
+        flex-basis: 33%;
+    }
+}
