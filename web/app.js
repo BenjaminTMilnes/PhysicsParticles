@@ -68,6 +68,8 @@ class Database {
                 p.U.meanLifetime = p.MeanLifetime;
             }
 
+            p.U.generation = ["First", "Second", "Third"][parseInt(p.Generation) - 1];
+
             var i = charges.indexOf(p.RelativeCharge);
 
             p.U.hue = hues[i] + Math.random() * 30 - 15;
@@ -102,17 +104,19 @@ class Database {
 application.factory("dataService", ["$http", function ($http) {
     var dataService = {
         data: null,
+        database: null,
         getData: function () {
             var that = this;
 
-            if (this.data != null) {
-                return new Promise(function (resolve, reject) { return resolve(that.data); });
+            if (this.database != null) {
+                return new Promise(function (resolve, reject) { return resolve(that.database); });
             }
 
             return $http.get("particles.json").then(function (response) {
                 that.data = response.data;
+                that.database = new Database(that.data);
 
-                return response.data;
+                return that.database;
             });
         }
     };
@@ -136,9 +140,7 @@ function getParticleSymbol(particle) {
 
 application.controller("TableController", ["$scope", "$routeParams", "dataService", "$rootScope", "$location", function TableController($scope, $routeParams, dataService, $rootScope, $location) {
 
-    dataService.getData().then(function (data) {
-        var database = new Database(data);
-
+    dataService.getData().then(function (database) {
         $scope.particles = database.gridData;
     });
 
@@ -149,11 +151,9 @@ application.controller("TableController", ["$scope", "$routeParams", "dataServic
     }
 }]);
 
-application.controller("ParticleController", ["$scope", "$routeParams", "dataService", "$rootScope", function ParticleController($scope, $routeParams, dataService, $rootScope) {
+application.controller("ParticleController", ["$scope", "$routeParams", "dataService", function ParticleController($scope, $routeParams, dataService) {
 
-    dataService.getData().then(function (data) {
-        var database = new Database(data);
-
+    dataService.getData().then(function (database) {
         $scope.particle = database.getParticleWithURLReference($routeParams.particleName);
     });
 
