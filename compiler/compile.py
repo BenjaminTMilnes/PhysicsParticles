@@ -95,12 +95,20 @@ class Measurement (object):
         else:
             return s + " \\times 10^{" + e + "} \\, " + u
 
+    @property
+    def unitClass(self):
+        if self.unit in ["eV", "keV", "MeV", "GeV", "TeV"]:
+            return "eV"
+
+        return self.unit
+
     def toDictionary(self, nsf=3):
         return {
             "Significand":  self.roundSignificand(nsf),
             "Base": "10",
             "Exponent": str(self.exponent),
             "Unit": self.unit,
+            "UnitClass": self.unitClass,
             "Rounding": ("{0}sf".format(nsf) if nsf > 0 else "none"),
             "HTML": self.toHTML(nsf),
             "LaTeX": self.toLaTeX(nsf)

@@ -8,15 +8,15 @@
         </tr>
         <tr>
             <th>Mass:</th>
-            <td compile="getParticleMass(particle)"></td>
+            <td compile="particle.U.mass1"></td>
         </tr>
         <tr>
             <th>Relative Charge:</th>
-            <td compile="getParticleRelativeCharge(particle)"></td>
+            <td compile="particle.U.relativeCharge"></td>
         </tr>
         <tr>
             <th>Charge:</th>
-            <td compile="getParticleCharge(particle)"></td>
+            <td compile="particle.U.charge"></td>
         </tr>
         <tr>
             <th>Spin:</th>
@@ -28,7 +28,7 @@
         </tr>
         <tr ng-show="particle.MeanLifetime.length > 0">
             <th>Mean Lifetime:</th>
-            <td compile="getParticleMeanLifetime(particle)"></td>
+            <td compile="particle.U.meanLifetime"></td>
         </tr>
         <tr ng-show="particle.Antiparticle != undefined && particle.Antiparticle.Reference != ''">
             <th>Antiparticle:</th>

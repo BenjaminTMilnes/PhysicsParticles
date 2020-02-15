@@ -29,6 +29,7 @@
                     "Base": "10",
                     "Exponent": "-28",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "none",
                     "HTML": "1.883531608 &times; 10<sup>&minus;28</sup> kg",
                     "LaTeX": "1.883531608 \\times 10^{-28} \\, \\mathrm{kg}"
@@ -38,6 +39,7 @@
                     "Base": "10",
                     "Exponent": "-28",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "3sf",
                     "HTML": "1.88 &times; 10<sup>&minus;28</sup> kg",
                     "LaTeX": "1.88 \\times 10^{-28} \\, \\mathrm{kg}"
@@ -47,6 +49,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "MeV",
+                    "UnitClass": "eV",
                     "Rounding": "none",
                     "HTML": "105.658374528 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "105.658374528 \\, \\mathrm{MeV} / c^{2}"
@@ -56,6 +59,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "MeV",
+                    "UnitClass": "eV",
                     "Rounding": "3sf",
                     "HTML": "106 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "106 \\, \\mathrm{MeV} / c^{2}"
@@ -65,6 +69,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "none",
                     "HTML": "0.113428924732 u",
                     "LaTeX": "0.113428924732 \\, \\mathrm{u}"
@@ -74,6 +79,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "3sf",
                     "HTML": "0.113 u",
                     "LaTeX": "0.113 \\, \\mathrm{u}"
@@ -86,6 +92,7 @@
                     "Base": "10",
                     "Exponent": "-19",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "none",
                     "HTML": "1.602176634 &times; 10<sup>&minus;19</sup> C",
                     "LaTeX": "1.602176634 \\times 10^{-19} \\, \\mathrm{C}"
@@ -95,6 +102,7 @@
                     "Base": "10",
                     "Exponent": "-19",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "3sf",
                     "HTML": "1.60 &times; 10<sup>&minus;19</sup> C",
                     "LaTeX": "1.60 \\times 10^{-19} \\, \\mathrm{C}"
@@ -107,6 +115,7 @@
                     "Base": "10",
                     "Exponent": "-6",
                     "Unit": "s",
+                    "UnitClass": "s",
                     "Rounding": "none",
                     "HTML": "2.1969811 &times; 10<sup>&minus;6</sup> s",
                     "LaTeX": "2.1969811 \\times 10^{-6} \\, s"
@@ -116,6 +125,7 @@
                     "Base": "10",
                     "Exponent": "-6",
                     "Unit": "s",
+                    "UnitClass": "s",
                     "Rounding": "3sf",
                     "HTML": "2.20 &times; 10<sup>&minus;6</sup> s",
                     "LaTeX": "2.20 \\times 10^{-6} \\, s"
@@ -154,6 +164,7 @@
                     "Base": "10",
                     "Exponent": "-27",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "none",
                     "HTML": "3.167540659 &times; 10<sup>&minus;27</sup> kg",
                     "LaTeX": "3.167540659 \\times 10^{-27} \\, \\mathrm{kg}"
@@ -163,6 +174,7 @@
                     "Base": "10",
                     "Exponent": "-27",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "3sf",
                     "HTML": "3.17 &times; 10<sup>&minus;27</sup> kg",
                     "LaTeX": "3.17 \\times 10^{-27} \\, \\mathrm{kg}"
@@ -172,6 +184,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "GeV",
+                    "UnitClass": "eV",
                     "Rounding": "none",
                     "HTML": "1.7768599999 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "1.7768599999 \\, \\mathrm{GeV} / c^{2}"
@@ -181,6 +194,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "GeV",
+                    "UnitClass": "eV",
                     "Rounding": "3sf",
                     "HTML": "1.78 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "1.78 \\, \\mathrm{GeV} / c^{2}"
@@ -190,6 +204,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "none",
                     "HTML": "1.90753757181 u",
                     "LaTeX": "1.90753757181 \\, \\mathrm{u}"
@@ -199,6 +214,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "3sf",
                     "HTML": "1.91 u",
                     "LaTeX": "1.91 \\, \\mathrm{u}"
@@ -211,6 +227,7 @@
                     "Base": "10",
                     "Exponent": "-19",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "none",
                     "HTML": "1.602176634 &times; 10<sup>&minus;19</sup> C",
                     "LaTeX": "1.602176634 \\times 10^{-19} \\, \\mathrm{C}"
@@ -220,6 +237,7 @@
                     "Base": "10",
                     "Exponent": "-19",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "3sf",
                     "HTML": "1.60 &times; 10<sup>&minus;19</sup> C",
                     "LaTeX": "1.60 \\times 10^{-19} \\, \\mathrm{C}"
@@ -232,6 +250,7 @@
                     "Base": "10",
                     "Exponent": "-13",
                     "Unit": "s",
+                    "UnitClass": "s",
                     "Rounding": "none",
                     "HTML": "2.903 &times; 10<sup>&minus;13</sup> s",
                     "LaTeX": "2.903 \\times 10^{-13} \\, s"
@@ -241,6 +260,7 @@
                     "Base": "10",
                     "Exponent": "-13",
                     "Unit": "s",
+                    "UnitClass": "s",
                     "Rounding": "3sf",
                     "HTML": "2.90 &times; 10<sup>&minus;13</sup> s",
                     "LaTeX": "2.90 \\times 10^{-13} \\, s"
@@ -278,6 +298,7 @@
                     "Base": "10",
                     "Exponent": "-27",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "none",
                     "HTML": "7.451526826 &times; 10<sup>&minus;27</sup> kg",
                     "LaTeX": "7.451526826 \\times 10^{-27} \\, \\mathrm{kg}"
@@ -287,6 +308,7 @@
                     "Base": "10",
                     "Exponent": "-27",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "3sf",
                     "HTML": "7.45 &times; 10<sup>&minus;27</sup> kg",
                     "LaTeX": "7.45 \\times 10^{-27} \\, \\mathrm{kg}"
@@ -296,6 +318,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "GeV",
+                    "UnitClass": "eV",
                     "Rounding": "none",
                     "HTML": "4.18000000022 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "4.18000000022 \\, \\mathrm{GeV} / c^{2}"
@@ -305,6 +328,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "GeV",
+                    "UnitClass": "eV",
                     "Rounding": "3sf",
                     "HTML": "4.18 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "4.18 \\, \\mathrm{GeV} / c^{2}"
@@ -314,6 +338,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "none",
                     "HTML": "4.48741434386 u",
                     "LaTeX": "4.48741434386 \\, \\mathrm{u}"
@@ -323,6 +348,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "3sf",
                     "HTML": "4.49 u",
                     "LaTeX": "4.49 \\, \\mathrm{u}"
@@ -335,6 +361,7 @@
                     "Base": "10",
                     "Exponent": "-20",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "none",
                     "HTML": "5.34058877999 &times; 10<sup>&minus;20</sup> C",
                     "LaTeX": "5.34058877999 \\times 10^{-20} \\, \\mathrm{C}"
@@ -344,6 +371,7 @@
                     "Base": "10",
                     "Exponent": "-20",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "3sf",
                     "HTML": "5.34 &times; 10<sup>&minus;20</sup> C",
                     "LaTeX": "5.34 \\times 10^{-20} \\, \\mathrm{C}"
@@ -380,6 +408,7 @@
                     "Base": "10",
                     "Exponent": "-27",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "none",
                     "HTML": "7.451526826 &times; 10<sup>&minus;27</sup> kg",
                     "LaTeX": "7.451526826 \\times 10^{-27} \\, \\mathrm{kg}"
@@ -389,6 +418,7 @@
                     "Base": "10",
                     "Exponent": "-27",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "3sf",
                     "HTML": "7.45 &times; 10<sup>&minus;27</sup> kg",
                     "LaTeX": "7.45 \\times 10^{-27} \\, \\mathrm{kg}"
@@ -398,6 +428,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "GeV",
+                    "UnitClass": "eV",
                     "Rounding": "none",
                     "HTML": "4.18000000022 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "4.18000000022 \\, \\mathrm{GeV} / c^{2}"
@@ -407,6 +438,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "GeV",
+                    "UnitClass": "eV",
                     "Rounding": "3sf",
                     "HTML": "4.18 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "4.18 \\, \\mathrm{GeV} / c^{2}"
@@ -416,6 +448,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "none",
                     "HTML": "4.48741434386 u",
                     "LaTeX": "4.48741434386 \\, \\mathrm{u}"
@@ -425,6 +458,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "3sf",
                     "HTML": "4.49 u",
                     "LaTeX": "4.49 \\, \\mathrm{u}"
@@ -437,6 +471,7 @@
                     "Base": "10",
                     "Exponent": "-20",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "none",
                     "HTML": "&minus;5.34058877999 &times; 10<sup>&minus;20</sup> C",
                     "LaTeX": "-5.34058877999 \\times 10^{-20} \\, \\mathrm{C}"
@@ -446,6 +481,7 @@
                     "Base": "10",
                     "Exponent": "-20",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "3sf",
                     "HTML": "&minus;5.34 &times; 10<sup>&minus;20</sup> C",
                     "LaTeX": "-5.34 \\times 10^{-20} \\, \\mathrm{C}"
@@ -483,6 +519,7 @@
                     "Base": "10",
                     "Exponent": "-27",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "none",
                     "HTML": "2.272893948 &times; 10<sup>&minus;27</sup> kg",
                     "LaTeX": "2.272893948 \\times 10^{-27} \\, \\mathrm{kg}"
@@ -492,6 +529,7 @@
                     "Base": "10",
                     "Exponent": "-27",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "3sf",
                     "HTML": "2.27 &times; 10<sup>&minus;27</sup> kg",
                     "LaTeX": "2.27 \\times 10^{-27} \\, \\mathrm{kg}"
@@ -501,6 +539,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "GeV",
+                    "UnitClass": "eV",
                     "Rounding": "none",
                     "HTML": "1.275 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "1.275 \\, \\mathrm{GeV} / c^{2}"
@@ -510,6 +549,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "GeV",
+                    "UnitClass": "eV",
                     "Rounding": "3sf",
                     "HTML": "1.28 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "1.28 \\, \\mathrm{GeV} / c^{2}"
@@ -519,6 +559,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "none",
                     "HTML": "1.36876872921 u",
                     "LaTeX": "1.36876872921 \\, \\mathrm{u}"
@@ -528,6 +569,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "3sf",
                     "HTML": "1.37 u",
                     "LaTeX": "1.37 \\, \\mathrm{u}"
@@ -540,6 +582,7 @@
                     "Base": "10",
                     "Exponent": "-19",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "none",
                     "HTML": "&minus;1.06811775600 &times; 10<sup>&minus;19</sup> C",
                     "LaTeX": "-1.06811775600 \\times 10^{-19} \\, \\mathrm{C}"
@@ -549,6 +592,7 @@
                     "Base": "10",
                     "Exponent": "-19",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "3sf",
                     "HTML": "&minus;1.07 &times; 10<sup>&minus;19</sup> C",
                     "LaTeX": "-1.07 \\times 10^{-19} \\, \\mathrm{C}"
@@ -582,6 +626,7 @@
                     "Base": "10",
                     "Exponent": "-27",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "none",
                     "HTML": "2.272893948 &times; 10<sup>&minus;27</sup> kg",
                     "LaTeX": "2.272893948 \\times 10^{-27} \\, \\mathrm{kg}"
@@ -591,6 +636,7 @@
                     "Base": "10",
                     "Exponent": "-27",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "3sf",
                     "HTML": "2.27 &times; 10<sup>&minus;27</sup> kg",
                     "LaTeX": "2.27 \\times 10^{-27} \\, \\mathrm{kg}"
@@ -600,6 +646,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "GeV",
+                    "UnitClass": "eV",
                     "Rounding": "none",
                     "HTML": "1.275 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "1.275 \\, \\mathrm{GeV} / c^{2}"
@@ -609,6 +656,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "GeV",
+                    "UnitClass": "eV",
                     "Rounding": "3sf",
                     "HTML": "1.28 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "1.28 \\, \\mathrm{GeV} / c^{2}"
@@ -618,6 +666,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "none",
                     "HTML": "1.36876872921 u",
                     "LaTeX": "1.36876872921 \\, \\mathrm{u}"
@@ -627,6 +676,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "3sf",
                     "HTML": "1.37 u",
                     "LaTeX": "1.37 \\, \\mathrm{u}"
@@ -639,6 +689,7 @@
                     "Base": "10",
                     "Exponent": "-19",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "none",
                     "HTML": "1.06811775600 &times; 10<sup>&minus;19</sup> C",
                     "LaTeX": "1.06811775600 \\times 10^{-19} \\, \\mathrm{C}"
@@ -648,6 +699,7 @@
                     "Base": "10",
                     "Exponent": "-19",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "3sf",
                     "HTML": "1.07 &times; 10<sup>&minus;19</sup> C",
                     "LaTeX": "1.07 \\times 10^{-19} \\, \\mathrm{C}"
@@ -681,6 +733,7 @@
                     "Base": "10",
                     "Exponent": "-30",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "none",
                     "HTML": "8.378511024 &times; 10<sup>&minus;30</sup> kg",
                     "LaTeX": "8.378511024 \\times 10^{-30} \\, \\mathrm{kg}"
@@ -690,6 +743,7 @@
                     "Base": "10",
                     "Exponent": "-30",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "3sf",
                     "HTML": "8.38 &times; 10<sup>&minus;30</sup> kg",
                     "LaTeX": "8.38 \\times 10^{-30} \\, \\mathrm{kg}"
@@ -699,6 +753,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "MeV",
+                    "UnitClass": "eV",
                     "Rounding": "none",
                     "HTML": "4.7 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "4.7 \\, \\mathrm{MeV} / c^{2}"
@@ -708,6 +763,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "MeV",
+                    "UnitClass": "eV",
                     "Rounding": "3sf",
                     "HTML": "4.70 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "4.70 \\, \\mathrm{MeV} / c^{2}"
@@ -717,6 +773,7 @@
                     "Base": "10",
                     "Exponent": "-3",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "none",
                     "HTML": "5.04565727632 &times; 10<sup>&minus;3</sup> u",
                     "LaTeX": "5.04565727632 \\times 10^{-3} \\, \\mathrm{u}"
@@ -726,6 +783,7 @@
                     "Base": "10",
                     "Exponent": "-3",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "3sf",
                     "HTML": "5.05 &times; 10<sup>&minus;3</sup> u",
                     "LaTeX": "5.05 \\times 10^{-3} \\, \\mathrm{u}"
@@ -738,6 +796,7 @@
                     "Base": "10",
                     "Exponent": "-20",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "none",
                     "HTML": "5.34058877999 &times; 10<sup>&minus;20</sup> C",
                     "LaTeX": "5.34058877999 \\times 10^{-20} \\, \\mathrm{C}"
@@ -747,6 +806,7 @@
                     "Base": "10",
                     "Exponent": "-20",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "3sf",
                     "HTML": "5.34 &times; 10<sup>&minus;20</sup> C",
                     "LaTeX": "5.34 \\times 10^{-20} \\, \\mathrm{C}"
@@ -780,6 +840,7 @@
                     "Base": "10",
                     "Exponent": "-30",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "none",
                     "HTML": "8.378511024 &times; 10<sup>&minus;30</sup> kg",
                     "LaTeX": "8.378511024 \\times 10^{-30} \\, \\mathrm{kg}"
@@ -789,6 +850,7 @@
                     "Base": "10",
                     "Exponent": "-30",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "3sf",
                     "HTML": "8.38 &times; 10<sup>&minus;30</sup> kg",
                     "LaTeX": "8.38 \\times 10^{-30} \\, \\mathrm{kg}"
@@ -798,6 +860,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "MeV",
+                    "UnitClass": "eV",
                     "Rounding": "none",
                     "HTML": "4.7 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "4.7 \\, \\mathrm{MeV} / c^{2}"
@@ -807,6 +870,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "MeV",
+                    "UnitClass": "eV",
                     "Rounding": "3sf",
                     "HTML": "4.70 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "4.70 \\, \\mathrm{MeV} / c^{2}"
@@ -816,6 +880,7 @@
                     "Base": "10",
                     "Exponent": "-3",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "none",
                     "HTML": "5.04565727632 &times; 10<sup>&minus;3</sup> u",
                     "LaTeX": "5.04565727632 \\times 10^{-3} \\, \\mathrm{u}"
@@ -825,6 +890,7 @@
                     "Base": "10",
                     "Exponent": "-3",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "3sf",
                     "HTML": "5.05 &times; 10<sup>&minus;3</sup> u",
                     "LaTeX": "5.05 \\times 10^{-3} \\, \\mathrm{u}"
@@ -837,6 +903,7 @@
                     "Base": "10",
                     "Exponent": "-20",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "none",
                     "HTML": "&minus;5.34058877999 &times; 10<sup>&minus;20</sup> C",
                     "LaTeX": "-5.34058877999 \\times 10^{-20} \\, \\mathrm{C}"
@@ -846,6 +913,7 @@
                     "Base": "10",
                     "Exponent": "-20",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "3sf",
                     "HTML": "&minus;5.34 &times; 10<sup>&minus;20</sup> C",
                     "LaTeX": "-5.34 \\times 10^{-20} \\, \\mathrm{C}"
@@ -883,6 +951,7 @@
                     "Base": "10",
                     "Exponent": "-31",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "none",
                     "HTML": "9.10938356 &times; 10<sup>&minus;31</sup> kg",
                     "LaTeX": "9.10938356 \\times 10^{-31} \\, \\mathrm{kg}"
@@ -892,6 +961,7 @@
                     "Base": "10",
                     "Exponent": "-31",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "3sf",
                     "HTML": "9.11 &times; 10<sup>&minus;31</sup> kg",
                     "LaTeX": "9.11 \\times 10^{-31} \\, \\mathrm{kg}"
@@ -901,6 +971,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "keV",
+                    "UnitClass": "eV",
                     "Rounding": "none",
                     "HTML": "510.998942525 keV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "510.998942525 \\, \\mathrm{keV} / c^{2}"
@@ -910,6 +981,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "keV",
+                    "UnitClass": "eV",
                     "Rounding": "3sf",
                     "HTML": "511 keV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "511 \\, \\mathrm{keV} / c^{2}"
@@ -919,6 +991,7 @@
                     "Base": "10",
                     "Exponent": "-4",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "none",
                     "HTML": "5.48579900541 &times; 10<sup>&minus;4</sup> u",
                     "LaTeX": "5.48579900541 \\times 10^{-4} \\, \\mathrm{u}"
@@ -928,6 +1001,7 @@
                     "Base": "10",
                     "Exponent": "-4",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "3sf",
                     "HTML": "5.49 &times; 10<sup>&minus;4</sup> u",
                     "LaTeX": "5.49 \\times 10^{-4} \\, \\mathrm{u}"
@@ -940,6 +1014,7 @@
                     "Base": "10",
                     "Exponent": "-19",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "none",
                     "HTML": "&minus;1.602176634 &times; 10<sup>&minus;19</sup> C",
                     "LaTeX": "-1.602176634 \\times 10^{-19} \\, \\mathrm{C}"
@@ -949,6 +1024,7 @@
                     "Base": "10",
                     "Exponent": "-19",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "3sf",
                     "HTML": "&minus;1.60 &times; 10<sup>&minus;19</sup> C",
                     "LaTeX": "-1.60 \\times 10^{-19} \\, \\mathrm{C}"
@@ -989,6 +1065,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "none",
                     "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
@@ -998,6 +1075,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "3sf",
                     "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
@@ -1034,6 +1112,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "none",
                     "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
@@ -1043,6 +1122,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "3sf",
                     "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
@@ -1075,6 +1155,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "none",
                     "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{kg}"
@@ -1084,6 +1165,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "3sf",
                     "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{kg}"
@@ -1093,6 +1175,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "eV",
+                    "UnitClass": "eV",
                     "Rounding": "none",
                     "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{eV} / c^{2}"
@@ -1102,6 +1185,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "eV",
+                    "UnitClass": "eV",
                     "Rounding": "3sf",
                     "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{eV} / c^{2}"
@@ -1111,6 +1195,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "none",
                     "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{u}"
@@ -1120,6 +1205,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "3sf",
                     "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{u}"
@@ -1132,6 +1218,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "none",
                     "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
@@ -1141,6 +1228,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "3sf",
                     "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
@@ -1173,6 +1261,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "none",
                     "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{kg}"
@@ -1182,6 +1271,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "3sf",
                     "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{kg}"
@@ -1191,6 +1281,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "eV",
+                    "UnitClass": "eV",
                     "Rounding": "none",
                     "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{eV} / c^{2}"
@@ -1200,6 +1291,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "eV",
+                    "UnitClass": "eV",
                     "Rounding": "3sf",
                     "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{eV} / c^{2}"
@@ -1209,6 +1301,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "none",
                     "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{u}"
@@ -1218,6 +1311,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "3sf",
                     "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{u}"
@@ -1231,6 +1325,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "none",
                     "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
@@ -1240,6 +1335,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "3sf",
                     "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
@@ -1272,6 +1368,7 @@
                     "Base": "10",
                     "Exponent": "-25",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "none",
                     "HTML": "2.231536191 &times; 10<sup>&minus;25</sup> kg",
                     "LaTeX": "2.231536191 \\times 10^{-25} \\, \\mathrm{kg}"
@@ -1281,6 +1378,7 @@
                     "Base": "10",
                     "Exponent": "-25",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "3sf",
                     "HTML": "2.23 &times; 10<sup>&minus;25</sup> kg",
                     "LaTeX": "2.23 \\times 10^{-25} \\, \\mathrm{kg}"
@@ -1290,6 +1388,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "GeV",
+                    "UnitClass": "eV",
                     "Rounding": "none",
                     "HTML": "125.179999974 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "125.179999974 \\, \\mathrm{GeV} / c^{2}"
@@ -1299,6 +1398,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "GeV",
+                    "UnitClass": "eV",
                     "Rounding": "3sf",
                     "HTML": "125 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "125 \\, \\mathrm{GeV} / c^{2}"
@@ -1308,6 +1408,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "none",
                     "HTML": "134.386250579 u",
                     "LaTeX": "134.386250579 \\, \\mathrm{u}"
@@ -1317,6 +1418,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "3sf",
                     "HTML": "134 u",
                     "LaTeX": "134 \\, \\mathrm{u}"
@@ -1329,6 +1431,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "none",
                     "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
@@ -1338,6 +1441,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "3sf",
                     "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
@@ -1350,6 +1454,7 @@
                     "Base": "10",
                     "Exponent": "-22",
                     "Unit": "s",
+                    "UnitClass": "s",
                     "Rounding": "none",
                     "HTML": "1.56 &times; 10<sup>&minus;22</sup> s",
                     "LaTeX": "1.56 \\times 10^{-22} \\, s"
@@ -1359,6 +1464,7 @@
                     "Base": "10",
                     "Exponent": "-22",
                     "Unit": "s",
+                    "UnitClass": "s",
                     "Rounding": "3sf",
                     "HTML": "1.56 &times; 10<sup>&minus;22</sup> s",
                     "LaTeX": "1.56 \\times 10^{-22} \\, s"
@@ -1395,6 +1501,7 @@
                     "Base": "10",
                     "Exponent": "-28",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "none",
                     "HTML": "1.883531608 &times; 10<sup>&minus;28</sup> kg",
                     "LaTeX": "1.883531608 \\times 10^{-28} \\, \\mathrm{kg}"
@@ -1404,6 +1511,7 @@
                     "Base": "10",
                     "Exponent": "-28",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "3sf",
                     "HTML": "1.88 &times; 10<sup>&minus;28</sup> kg",
                     "LaTeX": "1.88 \\times 10^{-28} \\, \\mathrm{kg}"
@@ -1413,6 +1521,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "MeV",
+                    "UnitClass": "eV",
                     "Rounding": "none",
                     "HTML": "105.658374528 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "105.658374528 \\, \\mathrm{MeV} / c^{2}"
@@ -1422,6 +1531,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "MeV",
+                    "UnitClass": "eV",
                     "Rounding": "3sf",
                     "HTML": "106 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "106 \\, \\mathrm{MeV} / c^{2}"
@@ -1431,6 +1541,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "none",
                     "HTML": "0.113428924732 u",
                     "LaTeX": "0.113428924732 \\, \\mathrm{u}"
@@ -1440,6 +1551,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "3sf",
                     "HTML": "0.113 u",
                     "LaTeX": "0.113 \\, \\mathrm{u}"
@@ -1452,6 +1564,7 @@
                     "Base": "10",
                     "Exponent": "-19",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "none",
                     "HTML": "&minus;1.602176634 &times; 10<sup>&minus;19</sup> C",
                     "LaTeX": "-1.602176634 \\times 10^{-19} \\, \\mathrm{C}"
@@ -1461,6 +1574,7 @@
                     "Base": "10",
                     "Exponent": "-19",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "3sf",
                     "HTML": "&minus;1.60 &times; 10<sup>&minus;19</sup> C",
                     "LaTeX": "-1.60 \\times 10^{-19} \\, \\mathrm{C}"
@@ -1473,6 +1587,7 @@
                     "Base": "10",
                     "Exponent": "-6",
                     "Unit": "s",
+                    "UnitClass": "s",
                     "Rounding": "none",
                     "HTML": "2.1969811 &times; 10<sup>&minus;6</sup> s",
                     "LaTeX": "2.1969811 \\times 10^{-6} \\, s"
@@ -1482,6 +1597,7 @@
                     "Base": "10",
                     "Exponent": "-6",
                     "Unit": "s",
+                    "UnitClass": "s",
                     "Rounding": "3sf",
                     "HTML": "2.20 &times; 10<sup>&minus;6</sup> s",
                     "LaTeX": "2.20 \\times 10^{-6} \\, s"
@@ -1519,6 +1635,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "none",
                     "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
@@ -1528,6 +1645,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "3sf",
                     "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
@@ -1567,6 +1685,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "none",
                     "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
@@ -1576,6 +1695,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "3sf",
                     "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
@@ -1607,6 +1727,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "none",
                     "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{kg}"
@@ -1616,6 +1737,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "3sf",
                     "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{kg}"
@@ -1625,6 +1747,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "eV",
+                    "UnitClass": "eV",
                     "Rounding": "none",
                     "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{eV} / c^{2}"
@@ -1634,6 +1757,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "eV",
+                    "UnitClass": "eV",
                     "Rounding": "3sf",
                     "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{eV} / c^{2}"
@@ -1643,6 +1767,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "none",
                     "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{u}"
@@ -1652,6 +1777,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "3sf",
                     "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{u}"
@@ -1664,6 +1790,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "none",
                     "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
@@ -1673,6 +1800,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "3sf",
                     "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
@@ -1711,6 +1839,7 @@
                     "Base": "10",
                     "Exponent": "-31",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "none",
                     "HTML": "9.10938356 &times; 10<sup>&minus;31</sup> kg",
                     "LaTeX": "9.10938356 \\times 10^{-31} \\, \\mathrm{kg}"
@@ -1720,6 +1849,7 @@
                     "Base": "10",
                     "Exponent": "-31",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "3sf",
                     "HTML": "9.11 &times; 10<sup>&minus;31</sup> kg",
                     "LaTeX": "9.11 \\times 10^{-31} \\, \\mathrm{kg}"
@@ -1729,6 +1859,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "keV",
+                    "UnitClass": "eV",
                     "Rounding": "none",
                     "HTML": "510.998942525 keV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "510.998942525 \\, \\mathrm{keV} / c^{2}"
@@ -1738,6 +1869,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "keV",
+                    "UnitClass": "eV",
                     "Rounding": "3sf",
                     "HTML": "511 keV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "511 \\, \\mathrm{keV} / c^{2}"
@@ -1747,6 +1879,7 @@
                     "Base": "10",
                     "Exponent": "-4",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "none",
                     "HTML": "5.48579900541 &times; 10<sup>&minus;4</sup> u",
                     "LaTeX": "5.48579900541 \\times 10^{-4} \\, \\mathrm{u}"
@@ -1756,6 +1889,7 @@
                     "Base": "10",
                     "Exponent": "-4",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "3sf",
                     "HTML": "5.49 &times; 10<sup>&minus;4</sup> u",
                     "LaTeX": "5.49 \\times 10^{-4} \\, \\mathrm{u}"
@@ -1768,6 +1902,7 @@
                     "Base": "10",
                     "Exponent": "-19",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "none",
                     "HTML": "1.602176634 &times; 10<sup>&minus;19</sup> C",
                     "LaTeX": "1.602176634 \\times 10^{-19} \\, \\mathrm{C}"
@@ -1777,6 +1912,7 @@
                     "Base": "10",
                     "Exponent": "-19",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "3sf",
                     "HTML": "1.60 &times; 10<sup>&minus;19</sup> C",
                     "LaTeX": "1.60 \\times 10^{-19} \\, \\mathrm{C}"
@@ -1813,6 +1949,7 @@
                     "Base": "10",
                     "Exponent": "-28",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "none",
                     "HTML": "1.693528824 &times; 10<sup>&minus;28</sup> kg",
                     "LaTeX": "1.693528824 \\times 10^{-28} \\, \\mathrm{kg}"
@@ -1822,6 +1959,7 @@
                     "Base": "10",
                     "Exponent": "-28",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "3sf",
                     "HTML": "1.69 &times; 10<sup>&minus;28</sup> kg",
                     "LaTeX": "1.69 \\times 10^{-28} \\, \\mathrm{kg}"
@@ -1831,6 +1969,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "MeV",
+                    "UnitClass": "eV",
                     "Rounding": "none",
                     "HTML": "95 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "95 \\, \\mathrm{MeV} / c^{2}"
@@ -1840,6 +1979,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "MeV",
+                    "UnitClass": "eV",
                     "Rounding": "3sf",
                     "HTML": "95.0 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "95.0 \\, \\mathrm{MeV} / c^{2}"
@@ -1849,6 +1989,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "none",
                     "HTML": "0.101986689628 u",
                     "LaTeX": "0.101986689628 \\, \\mathrm{u}"
@@ -1858,6 +1999,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "3sf",
                     "HTML": "0.102 u",
                     "LaTeX": "0.102 \\, \\mathrm{u}"
@@ -1870,6 +2012,7 @@
                     "Base": "10",
                     "Exponent": "-20",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "none",
                     "HTML": "5.34058877999 &times; 10<sup>&minus;20</sup> C",
                     "LaTeX": "5.34058877999 \\times 10^{-20} \\, \\mathrm{C}"
@@ -1879,6 +2022,7 @@
                     "Base": "10",
                     "Exponent": "-20",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "3sf",
                     "HTML": "5.34 &times; 10<sup>&minus;20</sup> C",
                     "LaTeX": "5.34 \\times 10^{-20} \\, \\mathrm{C}"
@@ -1912,6 +2056,7 @@
                     "Base": "10",
                     "Exponent": "-28",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "none",
                     "HTML": "1.693528824 &times; 10<sup>&minus;28</sup> kg",
                     "LaTeX": "1.693528824 \\times 10^{-28} \\, \\mathrm{kg}"
@@ -1921,6 +2066,7 @@
                     "Base": "10",
                     "Exponent": "-28",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "3sf",
                     "HTML": "1.69 &times; 10<sup>&minus;28</sup> kg",
                     "LaTeX": "1.69 \\times 10^{-28} \\, \\mathrm{kg}"
@@ -1930,6 +2076,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "MeV",
+                    "UnitClass": "eV",
                     "Rounding": "none",
                     "HTML": "95 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "95 \\, \\mathrm{MeV} / c^{2}"
@@ -1939,6 +2086,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "MeV",
+                    "UnitClass": "eV",
                     "Rounding": "3sf",
                     "HTML": "95.0 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "95.0 \\, \\mathrm{MeV} / c^{2}"
@@ -1948,6 +2096,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "none",
                     "HTML": "0.101986689628 u",
                     "LaTeX": "0.101986689628 \\, \\mathrm{u}"
@@ -1957,6 +2106,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "3sf",
                     "HTML": "0.102 u",
                     "LaTeX": "0.102 \\, \\mathrm{u}"
@@ -1969,6 +2119,7 @@
                     "Base": "10",
                     "Exponent": "-20",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "none",
                     "HTML": "&minus;5.34058877999 &times; 10<sup>&minus;20</sup> C",
                     "LaTeX": "-5.34058877999 \\times 10^{-20} \\, \\mathrm{C}"
@@ -1978,6 +2129,7 @@
                     "Base": "10",
                     "Exponent": "-20",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "3sf",
                     "HTML": "&minus;5.34 &times; 10<sup>&minus;20</sup> C",
                     "LaTeX": "-5.34 \\times 10^{-20} \\, \\mathrm{C}"
@@ -2020,6 +2172,7 @@
                     "Base": "10",
                     "Exponent": "-27",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "none",
                     "HTML": "3.167540659 &times; 10<sup>&minus;27</sup> kg",
                     "LaTeX": "3.167540659 \\times 10^{-27} \\, \\mathrm{kg}"
@@ -2029,6 +2182,7 @@
                     "Base": "10",
                     "Exponent": "-27",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "3sf",
                     "HTML": "3.17 &times; 10<sup>&minus;27</sup> kg",
                     "LaTeX": "3.17 \\times 10^{-27} \\, \\mathrm{kg}"
@@ -2038,6 +2192,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "GeV",
+                    "UnitClass": "eV",
                     "Rounding": "none",
                     "HTML": "1.7768599999 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "1.7768599999 \\, \\mathrm{GeV} / c^{2}"
@@ -2047,6 +2202,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "GeV",
+                    "UnitClass": "eV",
                     "Rounding": "3sf",
                     "HTML": "1.78 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "1.78 \\, \\mathrm{GeV} / c^{2}"
@@ -2056,6 +2212,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "none",
                     "HTML": "1.90753757181 u",
                     "LaTeX": "1.90753757181 \\, \\mathrm{u}"
@@ -2065,6 +2222,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "3sf",
                     "HTML": "1.91 u",
                     "LaTeX": "1.91 \\, \\mathrm{u}"
@@ -2077,6 +2235,7 @@
                     "Base": "10",
                     "Exponent": "-19",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "none",
                     "HTML": "&minus;1.602176634 &times; 10<sup>&minus;19</sup> C",
                     "LaTeX": "-1.602176634 \\times 10^{-19} \\, \\mathrm{C}"
@@ -2086,6 +2245,7 @@
                     "Base": "10",
                     "Exponent": "-19",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "3sf",
                     "HTML": "&minus;1.60 &times; 10<sup>&minus;19</sup> C",
                     "LaTeX": "-1.60 \\times 10^{-19} \\, \\mathrm{C}"
@@ -2098,6 +2258,7 @@
                     "Base": "10",
                     "Exponent": "-13",
                     "Unit": "s",
+                    "UnitClass": "s",
                     "Rounding": "none",
                     "HTML": "2.903 &times; 10<sup>&minus;13</sup> s",
                     "LaTeX": "2.903 \\times 10^{-13} \\, s"
@@ -2107,6 +2268,7 @@
                     "Base": "10",
                     "Exponent": "-13",
                     "Unit": "s",
+                    "UnitClass": "s",
                     "Rounding": "3sf",
                     "HTML": "2.90 &times; 10<sup>&minus;13</sup> s",
                     "LaTeX": "2.90 \\times 10^{-13} \\, s"
@@ -2144,6 +2306,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "none",
                     "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
@@ -2153,6 +2316,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "3sf",
                     "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
@@ -2192,6 +2356,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "none",
                     "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
@@ -2201,6 +2366,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "3sf",
                     "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
@@ -2234,6 +2400,7 @@
                     "Base": "10",
                     "Exponent": "-25",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "none",
                     "HTML": "3.084005122 &times; 10<sup>&minus;25</sup> kg",
                     "LaTeX": "3.084005122 \\times 10^{-25} \\, \\mathrm{kg}"
@@ -2243,6 +2410,7 @@
                     "Base": "10",
                     "Exponent": "-25",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "3sf",
                     "HTML": "3.08 &times; 10<sup>&minus;25</sup> kg",
                     "LaTeX": "3.08 \\times 10^{-25} \\, \\mathrm{kg}"
@@ -2252,6 +2420,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "GeV",
+                    "UnitClass": "eV",
                     "Rounding": "none",
                     "HTML": "173.000000022 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "173.000000022 \\, \\mathrm{GeV} / c^{2}"
@@ -2261,6 +2430,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "GeV",
+                    "UnitClass": "eV",
                     "Rounding": "3sf",
                     "HTML": "173 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "173 \\, \\mathrm{GeV} / c^{2}"
@@ -2270,6 +2440,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "none",
                     "HTML": "185.723129557 u",
                     "LaTeX": "185.723129557 \\, \\mathrm{u}"
@@ -2279,6 +2450,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "3sf",
                     "HTML": "186 u",
                     "LaTeX": "186 \\, \\mathrm{u}"
@@ -2291,6 +2463,7 @@
                     "Base": "10",
                     "Exponent": "-19",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "none",
                     "HTML": "&minus;1.06811775600 &times; 10<sup>&minus;19</sup> C",
                     "LaTeX": "-1.06811775600 \\times 10^{-19} \\, \\mathrm{C}"
@@ -2300,6 +2473,7 @@
                     "Base": "10",
                     "Exponent": "-19",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "3sf",
                     "HTML": "&minus;1.07 &times; 10<sup>&minus;19</sup> C",
                     "LaTeX": "-1.07 \\times 10^{-19} \\, \\mathrm{C}"
@@ -2333,6 +2507,7 @@
                     "Base": "10",
                     "Exponent": "-25",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "none",
                     "HTML": "3.084005122 &times; 10<sup>&minus;25</sup> kg",
                     "LaTeX": "3.084005122 \\times 10^{-25} \\, \\mathrm{kg}"
@@ -2342,6 +2517,7 @@
                     "Base": "10",
                     "Exponent": "-25",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "3sf",
                     "HTML": "3.08 &times; 10<sup>&minus;25</sup> kg",
                     "LaTeX": "3.08 \\times 10^{-25} \\, \\mathrm{kg}"
@@ -2351,6 +2527,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "GeV",
+                    "UnitClass": "eV",
                     "Rounding": "none",
                     "HTML": "173.000000022 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "173.000000022 \\, \\mathrm{GeV} / c^{2}"
@@ -2360,6 +2537,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "GeV",
+                    "UnitClass": "eV",
                     "Rounding": "3sf",
                     "HTML": "173 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "173 \\, \\mathrm{GeV} / c^{2}"
@@ -2369,6 +2547,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "none",
                     "HTML": "185.723129557 u",
                     "LaTeX": "185.723129557 \\, \\mathrm{u}"
@@ -2378,6 +2557,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "3sf",
                     "HTML": "186 u",
                     "LaTeX": "186 \\, \\mathrm{u}"
@@ -2390,6 +2570,7 @@
                     "Base": "10",
                     "Exponent": "-19",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "none",
                     "HTML": "1.06811775600 &times; 10<sup>&minus;19</sup> C",
                     "LaTeX": "1.06811775600 \\times 10^{-19} \\, \\mathrm{C}"
@@ -2399,6 +2580,7 @@
                     "Base": "10",
                     "Exponent": "-19",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "3sf",
                     "HTML": "1.07 &times; 10<sup>&minus;19</sup> C",
                     "LaTeX": "1.07 \\times 10^{-19} \\, \\mathrm{C}"
@@ -2435,6 +2617,7 @@
                     "Base": "10",
                     "Exponent": "-30",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "none",
                     "HTML": "3.921856224 &times; 10<sup>&minus;30</sup> kg",
                     "LaTeX": "3.921856224 \\times 10^{-30} \\, \\mathrm{kg}"
@@ -2444,6 +2627,7 @@
                     "Base": "10",
                     "Exponent": "-30",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "3sf",
                     "HTML": "3.92 &times; 10<sup>&minus;30</sup> kg",
                     "LaTeX": "3.92 \\times 10^{-30} \\, \\mathrm{kg}"
@@ -2453,6 +2637,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "MeV",
+                    "UnitClass": "eV",
                     "Rounding": "none",
                     "HTML": "2.2 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "2.2 \\, \\mathrm{MeV} / c^{2}"
@@ -2462,6 +2647,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "MeV",
+                    "UnitClass": "eV",
                     "Rounding": "3sf",
                     "HTML": "2.20 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "2.20 \\, \\mathrm{MeV} / c^{2}"
@@ -2471,6 +2657,7 @@
                     "Base": "10",
                     "Exponent": "-3",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "none",
                     "HTML": "2.36179702296 &times; 10<sup>&minus;3</sup> u",
                     "LaTeX": "2.36179702296 \\times 10^{-3} \\, \\mathrm{u}"
@@ -2480,6 +2667,7 @@
                     "Base": "10",
                     "Exponent": "-3",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "3sf",
                     "HTML": "2.36 &times; 10<sup>&minus;3</sup> u",
                     "LaTeX": "2.36 \\times 10^{-3} \\, \\mathrm{u}"
@@ -2492,6 +2680,7 @@
                     "Base": "10",
                     "Exponent": "-19",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "none",
                     "HTML": "&minus;1.06811775600 &times; 10<sup>&minus;19</sup> C",
                     "LaTeX": "-1.06811775600 \\times 10^{-19} \\, \\mathrm{C}"
@@ -2501,6 +2690,7 @@
                     "Base": "10",
                     "Exponent": "-19",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "3sf",
                     "HTML": "&minus;1.07 &times; 10<sup>&minus;19</sup> C",
                     "LaTeX": "-1.07 \\times 10^{-19} \\, \\mathrm{C}"
@@ -2535,6 +2725,7 @@
                     "Base": "10",
                     "Exponent": "-30",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "none",
                     "HTML": "3.921856224 &times; 10<sup>&minus;30</sup> kg",
                     "LaTeX": "3.921856224 \\times 10^{-30} \\, \\mathrm{kg}"
@@ -2544,6 +2735,7 @@
                     "Base": "10",
                     "Exponent": "-30",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "3sf",
                     "HTML": "3.92 &times; 10<sup>&minus;30</sup> kg",
                     "LaTeX": "3.92 \\times 10^{-30} \\, \\mathrm{kg}"
@@ -2553,6 +2745,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "MeV",
+                    "UnitClass": "eV",
                     "Rounding": "none",
                     "HTML": "2.2 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "2.2 \\, \\mathrm{MeV} / c^{2}"
@@ -2562,6 +2755,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "MeV",
+                    "UnitClass": "eV",
                     "Rounding": "3sf",
                     "HTML": "2.20 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "2.20 \\, \\mathrm{MeV} / c^{2}"
@@ -2571,6 +2765,7 @@
                     "Base": "10",
                     "Exponent": "-3",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "none",
                     "HTML": "2.36179702296 &times; 10<sup>&minus;3</sup> u",
                     "LaTeX": "2.36179702296 \\times 10^{-3} \\, \\mathrm{u}"
@@ -2580,6 +2775,7 @@
                     "Base": "10",
                     "Exponent": "-3",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "3sf",
                     "HTML": "2.36 &times; 10<sup>&minus;3</sup> u",
                     "LaTeX": "2.36 \\times 10^{-3} \\, \\mathrm{u}"
@@ -2592,6 +2788,7 @@
                     "Base": "10",
                     "Exponent": "-19",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "none",
                     "HTML": "1.06811775600 &times; 10<sup>&minus;19</sup> C",
                     "LaTeX": "1.06811775600 \\times 10^{-19} \\, \\mathrm{C}"
@@ -2601,6 +2798,7 @@
                     "Base": "10",
                     "Exponent": "-19",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "3sf",
                     "HTML": "1.07 &times; 10<sup>&minus;19</sup> C",
                     "LaTeX": "1.07 \\times 10^{-19} \\, \\mathrm{C}"
@@ -2636,6 +2834,7 @@
                     "Base": "10",
                     "Exponent": "-25",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "none",
                     "HTML": "1.432885825 &times; 10<sup>&minus;25</sup> kg",
                     "LaTeX": "1.432885825 \\times 10^{-25} \\, \\mathrm{kg}"
@@ -2645,6 +2844,7 @@
                     "Base": "10",
                     "Exponent": "-25",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "3sf",
                     "HTML": "1.43 &times; 10<sup>&minus;25</sup> kg",
                     "LaTeX": "1.43 \\times 10^{-25} \\, \\mathrm{kg}"
@@ -2654,6 +2854,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "GeV",
+                    "UnitClass": "eV",
                     "Rounding": "none",
                     "HTML": "80.3790000181 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "80.3790000181 \\, \\mathrm{GeV} / c^{2}"
@@ -2663,6 +2864,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "GeV",
+                    "UnitClass": "eV",
                     "Rounding": "3sf",
                     "HTML": "80.4 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "80.4 \\, \\mathrm{GeV} / c^{2}"
@@ -2672,6 +2874,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "none",
                     "HTML": "86.2904013414 u",
                     "LaTeX": "86.2904013414 \\, \\mathrm{u}"
@@ -2681,6 +2884,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "3sf",
                     "HTML": "86.3 u",
                     "LaTeX": "86.3 \\, \\mathrm{u}"
@@ -2693,6 +2897,7 @@
                     "Base": "10",
                     "Exponent": "-19",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "none",
                     "HTML": "&minus;1.602176634 &times; 10<sup>&minus;19</sup> C",
                     "LaTeX": "-1.602176634 \\times 10^{-19} \\, \\mathrm{C}"
@@ -2702,6 +2907,7 @@
                     "Base": "10",
                     "Exponent": "-19",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "3sf",
                     "HTML": "&minus;1.60 &times; 10<sup>&minus;19</sup> C",
                     "LaTeX": "-1.60 \\times 10^{-19} \\, \\mathrm{C}"
@@ -2735,6 +2941,7 @@
                     "Base": "10",
                     "Exponent": "-25",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "none",
                     "HTML": "1.432885825 &times; 10<sup>&minus;25</sup> kg",
                     "LaTeX": "1.432885825 \\times 10^{-25} \\, \\mathrm{kg}"
@@ -2744,6 +2951,7 @@
                     "Base": "10",
                     "Exponent": "-25",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "3sf",
                     "HTML": "1.43 &times; 10<sup>&minus;25</sup> kg",
                     "LaTeX": "1.43 \\times 10^{-25} \\, \\mathrm{kg}"
@@ -2753,6 +2961,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "GeV",
+                    "UnitClass": "eV",
                     "Rounding": "none",
                     "HTML": "80.3790000181 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "80.3790000181 \\, \\mathrm{GeV} / c^{2}"
@@ -2762,6 +2971,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "GeV",
+                    "UnitClass": "eV",
                     "Rounding": "3sf",
                     "HTML": "80.4 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "80.4 \\, \\mathrm{GeV} / c^{2}"
@@ -2771,6 +2981,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "none",
                     "HTML": "86.2904013414 u",
                     "LaTeX": "86.2904013414 \\, \\mathrm{u}"
@@ -2780,6 +2991,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "3sf",
                     "HTML": "86.3 u",
                     "LaTeX": "86.3 \\, \\mathrm{u}"
@@ -2792,6 +3004,7 @@
                     "Base": "10",
                     "Exponent": "-19",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "none",
                     "HTML": "1.602176634 &times; 10<sup>&minus;19</sup> C",
                     "LaTeX": "1.602176634 \\times 10^{-19} \\, \\mathrm{C}"
@@ -2801,6 +3014,7 @@
                     "Base": "10",
                     "Exponent": "-19",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "3sf",
                     "HTML": "1.60 &times; 10<sup>&minus;19</sup> C",
                     "LaTeX": "1.60 \\times 10^{-19} \\, \\mathrm{C}"
@@ -2835,6 +3049,7 @@
                     "Base": "10",
                     "Exponent": "-25",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "none",
                     "HTML": "1.625566621 &times; 10<sup>&minus;25</sup> kg",
                     "LaTeX": "1.625566621 \\times 10^{-25} \\, \\mathrm{kg}"
@@ -2844,6 +3059,7 @@
                     "Base": "10",
                     "Exponent": "-25",
                     "Unit": "kg",
+                    "UnitClass": "kg",
                     "Rounding": "3sf",
                     "HTML": "1.63 &times; 10<sup>&minus;25</sup> kg",
                     "LaTeX": "1.63 \\times 10^{-25} \\, \\mathrm{kg}"
@@ -2853,6 +3069,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "GeV",
+                    "UnitClass": "eV",
                     "Rounding": "none",
                     "HTML": "91.1876000021 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "91.1876000021 \\, \\mathrm{GeV} / c^{2}"
@@ -2862,6 +3079,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "GeV",
+                    "UnitClass": "eV",
                     "Rounding": "3sf",
                     "HTML": "91.2 GeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
                     "LaTeX": "91.2 \\, \\mathrm{GeV} / c^{2}"
@@ -2871,6 +3089,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "none",
                     "HTML": "97.8939100980 u",
                     "LaTeX": "97.8939100980 \\, \\mathrm{u}"
@@ -2880,6 +3099,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "u",
+                    "UnitClass": "u",
                     "Rounding": "3sf",
                     "HTML": "97.9 u",
                     "LaTeX": "97.9 \\, \\mathrm{u}"
@@ -2892,6 +3112,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "none",
                     "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
@@ -2901,6 +3122,7 @@
                     "Base": "10",
                     "Exponent": "0",
                     "Unit": "C",
+                    "UnitClass": "C",
                     "Rounding": "3sf",
                     "HTML": "0",
                     "LaTeX": "0 \\, \\mathrm{C}"
