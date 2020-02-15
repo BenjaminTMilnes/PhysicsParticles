@@ -138,7 +138,7 @@ function getParticleSymbol(particle) {
     return (!particle) ? "" : "<mathematics content-type=\"latex\" content=\"" + particle.MainSymbol + "\"></mathematics>"
 }
 
-application.controller("TableController", ["$scope", "$routeParams", "dataService", "$rootScope", "$location", function TableController($scope, $routeParams, dataService, $rootScope, $location) {
+application.controller("TableController", ["$scope", "dataService", "$location", function TableController($scope, dataService, $location) {
 
     dataService.getData().then(function (database) {
         $scope.particles = database.gridData;
@@ -149,6 +149,7 @@ application.controller("TableController", ["$scope", "$routeParams", "dataServic
     $scope.goToParticlePage = function (particle) {
         $location.url("/particle/" + particle.URLReference);
     }
+
 }]);
 
 application.controller("ParticleController", ["$scope", "$routeParams", "dataService", function ParticleController($scope, $routeParams, dataService) {
