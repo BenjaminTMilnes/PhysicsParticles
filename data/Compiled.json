@@ -616,6 +616,52 @@
             "WikipediaURL": "https://en.wikipedia.org/wiki/Charm_quark"
         },
         {
+            "Reference": "CharmAntisuperquark",
+            "URLReference": "charmantisuperquark",
+            "URL": "charmantisuperquark",
+            "Name": "Charm Antisuperquark",
+            "MainSymbol": "\\bar{\\tilde{c}}",
+            "Symbol": "\\bar{\\tilde{c}}",
+            "Classes": [
+                "antisuperquark",
+                "boson",
+                "superpartner"
+            ],
+            "Antiparticle": {
+                "Reference": "CharmSuperquark",
+                "Name": "Charm Superquark",
+                "URLReference": "charmsuperquark"
+            },
+            "Status": "hypothetical",
+            "Composition": "none",
+            "Mass": "",
+            "RelativeCharge": "-2/3",
+            "Charge": [
+                {
+                    "Significand": "-1.06811775600",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "none",
+                    "HTML": "&minus;1.06811775600 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "-1.06811775600 \\times 10^{-19} \\, \\mathrm{C}"
+                },
+                {
+                    "Significand": "-1.07",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "3sf",
+                    "HTML": "&minus;1.07 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "-1.07 \\times 10^{-19} \\, \\mathrm{C}"
+                }
+            ],
+            "Spin": "1",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Supersymmetry"
+        },
+        {
             "Reference": "CharmQuark",
             "URLReference": "charmquark",
             "URL": "charmquark",
@@ -724,6 +770,52 @@
             "MonteCarloParticleNumber": "4",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Charm_quark",
             "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/quark.html"
+        },
+        {
+            "Reference": "CharmSuperquark",
+            "URLReference": "charmsuperquark",
+            "URL": "charmsuperquark",
+            "Name": "Charm Superquark",
+            "MainSymbol": "\\tilde{c}",
+            "Symbol": "\\tilde{c}",
+            "Classes": [
+                "superquark",
+                "boson",
+                "superpartner"
+            ],
+            "Antiparticle": {
+                "Reference": "CharmAntisuperquark",
+                "Name": "Charm Antisuperquark",
+                "URLReference": "charmantisuperquark"
+            },
+            "Status": "hypothetical",
+            "Composition": "none",
+            "Mass": "",
+            "RelativeCharge": "+2/3",
+            "Charge": [
+                {
+                    "Significand": "1.06811775600",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "none",
+                    "HTML": "1.06811775600 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "1.06811775600 \\times 10^{-19} \\, \\mathrm{C}"
+                },
+                {
+                    "Significand": "1.07",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "3sf",
+                    "HTML": "1.07 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "1.07 \\times 10^{-19} \\, \\mathrm{C}"
+                }
+            ],
+            "Spin": "1",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Supersymmetry"
         },
         {
             "Reference": "DownAntiquark",

@@ -16,6 +16,18 @@ antiparticle: StrangeQuark
 generation: 2
 monte carlo particle number: -3
 
+upness: 0
+downness: 0
+charm: 0
+strangeness: 1
+topness: 0
+bottomness: 0
+baryon number: -1/3
+lepton number: 0
+electron number: 0
+muon number: 0
+tauon number: 0
+
 wikipedia: https://en.wikipedia.org/wiki/Strange_quark
 
 rating: *****

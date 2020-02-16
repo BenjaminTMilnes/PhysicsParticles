@@ -16,6 +16,18 @@ antiparticle: CharmAntiquark
 generation: 2
 monte carlo particle number: 4
 
+upness: 0
+downness: 0
+charm: 1
+strangeness: 0
+topness: 0
+bottomness: 0
+baryon number: 1/3
+lepton number: 0
+electron number: 0
+muon number: 0
+tauon number: 0
+
 wikipedia: https://en.wikipedia.org/wiki/Charm_quark
 hyperphysics: http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/quark.html
 

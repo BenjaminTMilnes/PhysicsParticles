@@ -188,19 +188,19 @@
     grid-row: 8 / span 1;
 }
 
-.table-upsuperquark {
+.table-upsuperquark, .table-charmsuperquark, .table-topsuperquark {
     grid-row: 13 / span 1;
 }
 
-.table-upantisuperquark {
+.table-upantisuperquark, .table-charmantisuperquark, .table-topantisuperquark {
     grid-row: 14 / span 1;
 }
 
-.table-downsuperquark {
+.table-downsuperquark, .table-strangesuperquark, .table-bottomsuperquark {
     grid-row: 15 / span 1;
 }
 
-.table-downantisuperquark {
+.table-downantisuperquark, .table-strangeantisuperquark, .table-bottomantisuperquark {
     grid-row: 16 / span 1;
 }
 
@@ -208,11 +208,11 @@
     grid-column: 1 / span 1;
 }
 
-.table-muon, .table-antimuon, .table-muonneutrino, .table-muonantineutrino, .table-charmquark, .table-charmantiquark, .table-strangequark, .table-strangeantiquark {
+.table-muon, .table-antimuon, .table-muonneutrino, .table-muonantineutrino, .table-charmquark, .table-charmantiquark, .table-strangequark, .table-strangeantiquark, .table-charmsuperquark, .table-charmantisuperquark, .table-strangesuperquark, .table-strangeantisuperquark {
     grid-column: 2 / span 1;
 }
 
-.table-tauon, .table-antitauon, .table-tauonneutrino, .table-tauonantineutrino, .table-topquark, .table-topantiquark, .table-bottomquark, .table-bottomantiquark {
+.table-tauon, .table-antitauon, .table-tauonneutrino, .table-tauonantineutrino, .table-topquark, .table-topantiquark, .table-bottomquark, .table-bottomantiquark, .table-topsuperquark, .table-topantisuperquark, .table-bottomsuperquark, .table-bottomantisuperquark {
     grid-column: 3 / span 1;
 }
 
@@ -257,16 +257,16 @@
     .table-electronantineutrino, .table-muonantineutrino, .table-tauonantineutrino {
         grid-column: 5 / span 1;
     }
-    .table-upquark, .table-charmquark, .table-topquark, .table-upsuperquark {
+    .table-upquark, .table-charmquark, .table-topquark, .table-upsuperquark, .table-charmsuperquark, .table-topsuperquark {
         grid-column: 6 / span 1;
     }
-    .table-upantiquark, .table-charmantiquark, .table-topantiquark, .table-upantisuperquark {
+    .table-upantiquark, .table-charmantiquark, .table-topantiquark, .table-upantisuperquark, .table-charmantisuperquark, .table-topantisuperquark {
         grid-column: 7 / span 1;
     }
-    .table-downquark, .table-strangequark, .table-bottomquark, .table-downsuperquark  {
+    .table-downquark, .table-strangequark, .table-bottomquark, .table-downsuperquark, .table-strangesuperquark, .table-bottomsuperquark {
         grid-column: 8 / span 1;
     }
-    .table-downantiquark, .table-strangeantiquark, .table-bottomantiquark, .table-downantisuperquark {
+    .table-downantiquark, .table-strangeantiquark, .table-bottomantiquark, .table-downantisuperquark, .table-strangeantisuperquark, .table-bottomantisuperquark {
         grid-column: 9 / span 1;
     }
     .table-electron, .table-positron, .table-electronneutrino, .table-electronantineutrino, .table-upquark, .table-upantiquark, .table-downquark, .table-downantiquark {
@@ -278,8 +278,14 @@
     .table-tauon, .table-antitauon, .table-tauonneutrino, .table-tauonantineutrino, .table-topquark, .table-topantiquark, .table-bottomquark, .table-bottomantiquark {
         grid-row: 5 / span 1;
     }
-    .table-upsuperquark ,  .table-upantisuperquark ,  .table-downsuperquark ,  .table-downantisuperquark {
+    .table-upsuperquark, .table-upantisuperquark, .table-downsuperquark, .table-downantisuperquark {
         grid-row: 13 / span 1;
+    }
+    .table-charmsuperquark, .table-charmantisuperquark, .table-strangesuperquark, .table-strangeantisuperquark {
+        grid-row: 14 / span 1;
+    }
+    .table-topsuperquark, .table-topantisuperquark, .table-bottomsuperquark, .table-bottomantisuperquark {
+        grid-row: 15 / span 1;
     }
 }
 

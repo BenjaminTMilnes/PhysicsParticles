@@ -72,7 +72,7 @@ class Database {
 
             var i = charges.indexOf(p.RelativeCharge);
 
-            p.U.hue = hues[i] + Math.random() * 30 - 15;
+            p.U.hue = hues[i] + Math.random() * 20 - 10;
 
             if (i == 3) {
                 p.U.hue = hues[i] + Math.random() * 80 - 40;
