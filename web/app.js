@@ -47,7 +47,7 @@ class Database {
         this._data.Particles.forEach(p => {
             p.U = {};
 
-            if (p.Mass != undefined) {
+            if (p.Mass != undefined && p.Mass[0] != undefined) {
                 p.U.hasMass = (p.Mass[0].Significand == "0") ? false : true;
                 p.U.mass1 = p.Mass.filter(m => m.UnitClass == "kg" && m.Rounding == "3sf")[0].HTML;
                 p.U.mass2 = p.Mass.filter(m => m.UnitClass == "eV" && m.Rounding == "3sf")[0].HTML;

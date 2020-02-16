@@ -413,7 +413,12 @@ class Compiler (object):
                     particle["Composition"] = line[12:].strip()
 
                 if line.startswith("mass:"):
-                    particle["Mass"] = Mass.fromText(line[5:].strip()).toDictionary()
+                    mass = Mass.fromText(line[5:].strip())
+
+                    if mass != None:
+                        particle["Mass"] = mass.toDictionary()
+                    else:
+                        particle["Mass"] = line[5:].strip()
 
                 if line.startswith("relative charge:"):
                     particle["RelativeCharge"] = line[16:].strip()
@@ -427,7 +432,7 @@ class Compiler (object):
 
                 if line.startswith("antiparticle:"):
                     particle["Antiparticle"]["Reference"] = line[13:].strip()
-                    
+
                 if line.startswith("generation:"):
                     particle["Generation"] = line[11:].strip()
 

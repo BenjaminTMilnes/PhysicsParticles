@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     grid-template-columns: 100px 100px 100px;
-    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
     width: 100%;
     margin: 20px auto;
     grid-column-gap: 2px;
@@ -13,7 +13,7 @@
 @media (min-width: 700px) {
     .particletable {
         grid-template-columns: 150px 150px 150px;
-        grid-template-rows: 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
+        grid-template-rows: 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
         margin: 40px auto;
     }
 }
@@ -21,14 +21,14 @@
 @media (min-width: 1000px) {
     .particletable {
         grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
-        grid-template-rows: 40px 40px 100px 100px 100px 20px 100px 100px 100px 100px;
+        grid-template-rows: 40px 40px 100px 100px 100px 20px 100px 100px 100px 100px 40px 40px 100px 100px 100px;
     }
 }
 
 @media (min-width: 1400px) {
     .particletable {
         grid-template-columns: 150px 150px 150px 150px 150px 150px 150px 150px 150px;
-        grid-template-rows: 40px 40px 150px 150px 150px 20px 150px 150px 150px 150px;
+        grid-template-rows: 40px 40px 150px 150px 150px 20px 150px 150px 150px 150px 40px 40px 150px 150px 150px;
         grid-column-gap: 2px;
         grid-row-gap: 2px;
     }
@@ -48,12 +48,12 @@
     display: none;
 }
 
-.table-fermion, .table-wplusboson, .table-wminusboson, .table-zboson, .table-photon, .table-gluon, .table-higgsboson, .table-graviton {
+.table-fermion, .table-wplusboson, .table-wminusboson, .table-zboson, .table-photon, .table-gluon, .table-higgsboson, .table-graviton, .table-superquark {
     height: 100px;
 }
 
 @media (min-width: 700px) {
-    .table-fermion, .table-wplusboson, .table-wminusboson, .table-zboson, .table-photon, .table-gluon, .table-higgsboson, .table-graviton {
+    .table-fermion, .table-wplusboson, .table-wminusboson, .table-zboson, .table-photon, .table-gluon, .table-higgsboson, .table-graviton, .table-superquark {
         height: 150px;
     }
 }
@@ -98,7 +98,7 @@
         grid-column: 1 / span 1;
         grid-row: 9 / span 2;
     }
-    .table-fermion {
+    .table-fermion, .table-superquark {
         height: 100px;
     }
     .table-wplusboson, .table-wminusboson, .table-zboson {
@@ -110,7 +110,7 @@
 }
 
 @media (min-width: 1400px) {
-    .table-fermion {
+    .table-fermion, .table-superquark {
         height: 150px;
     }
     .table-wplusboson, .table-wminusboson, .table-zboson {
@@ -188,7 +188,23 @@
     grid-row: 8 / span 1;
 }
 
-.table-electron, .table-positron, .table-electronneutrino, .table-electronantineutrino, .table-upquark, .table-upantiquark, .table-downquark, .table-downantiquark {
+.table-upsuperquark {
+    grid-row: 13 / span 1;
+}
+
+.table-upantisuperquark {
+    grid-row: 14 / span 1;
+}
+
+.table-downsuperquark {
+    grid-row: 15 / span 1;
+}
+
+.table-downantisuperquark {
+    grid-row: 16 / span 1;
+}
+
+.table-electron, .table-positron, .table-electronneutrino, .table-electronantineutrino, .table-upquark, .table-upantiquark, .table-downquark, .table-downantiquark, .table-upsuperquark, .table-upantisuperquark, .table-downsuperquark, .table-downantisuperquark {
     grid-column: 1 / span 1;
 }
 
@@ -241,16 +257,16 @@
     .table-electronantineutrino, .table-muonantineutrino, .table-tauonantineutrino {
         grid-column: 5 / span 1;
     }
-    .table-upquark, .table-charmquark, .table-topquark {
+    .table-upquark, .table-charmquark, .table-topquark, .table-upsuperquark {
         grid-column: 6 / span 1;
     }
-    .table-upantiquark, .table-charmantiquark, .table-topantiquark {
+    .table-upantiquark, .table-charmantiquark, .table-topantiquark, .table-upantisuperquark {
         grid-column: 7 / span 1;
     }
-    .table-downquark, .table-strangequark, .table-bottomquark {
+    .table-downquark, .table-strangequark, .table-bottomquark, .table-downsuperquark  {
         grid-column: 8 / span 1;
     }
-    .table-downantiquark, .table-strangeantiquark, .table-bottomantiquark {
+    .table-downantiquark, .table-strangeantiquark, .table-bottomantiquark, .table-downantisuperquark {
         grid-column: 9 / span 1;
     }
     .table-electron, .table-positron, .table-electronneutrino, .table-electronantineutrino, .table-upquark, .table-upantiquark, .table-downquark, .table-downantiquark {
@@ -261,6 +277,9 @@
     }
     .table-tauon, .table-antitauon, .table-tauonneutrino, .table-tauonantineutrino, .table-topquark, .table-topantiquark, .table-bottomquark, .table-bottomantiquark {
         grid-row: 5 / span 1;
+    }
+    .table-upsuperquark ,  .table-upantisuperquark ,  .table-downsuperquark ,  .table-downantisuperquark {
+        grid-row: 13 / span 1;
     }
 }
 

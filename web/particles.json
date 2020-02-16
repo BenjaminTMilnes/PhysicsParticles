@@ -835,6 +835,52 @@
             "WikipediaURL": "https://en.wikipedia.org/wiki/Down_quark"
         },
         {
+            "Reference": "DownAntisuperquark",
+            "URLReference": "downantisuperquark",
+            "URL": "downantisuperquark",
+            "Name": "Down Antisuperquark",
+            "MainSymbol": "\\bar{\\tilde{d}}",
+            "Symbol": "\\bar{\\tilde{d}}",
+            "Classes": [
+                "antisuperquark",
+                "boson",
+                "superpartner"
+            ],
+            "Antiparticle": {
+                "Reference": "DownSuperquark",
+                "Name": "Down Superquark",
+                "URLReference": "downsuperquark"
+            },
+            "Status": "hypothetical",
+            "Composition": "none",
+            "Mass": "",
+            "RelativeCharge": "+1/3",
+            "Charge": [
+                {
+                    "Significand": "5.34058877999",
+                    "Base": "10",
+                    "Exponent": "-20",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "none",
+                    "HTML": "5.34058877999 &times; 10<sup>&minus;20</sup> C",
+                    "LaTeX": "5.34058877999 \\times 10^{-20} \\, \\mathrm{C}"
+                },
+                {
+                    "Significand": "5.34",
+                    "Base": "10",
+                    "Exponent": "-20",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "3sf",
+                    "HTML": "5.34 &times; 10<sup>&minus;20</sup> C",
+                    "LaTeX": "5.34 \\times 10^{-20} \\, \\mathrm{C}"
+                }
+            ],
+            "Spin": "1",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Supersymmetry"
+        },
+        {
             "Reference": "DownQuark",
             "URLReference": "downquark",
             "URL": "downquark",
@@ -943,6 +989,52 @@
             "MonteCarloParticleNumber": "1",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Down_quark",
             "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/quark.html"
+        },
+        {
+            "Reference": "DownSuperquark",
+            "URLReference": "downsuperquark",
+            "URL": "downsuperquark",
+            "Name": "Down Superquark",
+            "MainSymbol": "\\tilde{d}",
+            "Symbol": "\\tilde{d}",
+            "Classes": [
+                "superquark",
+                "boson",
+                "superpartner"
+            ],
+            "Antiparticle": {
+                "Reference": "DownAntisuperquark",
+                "Name": "Down Antisuperquark",
+                "URLReference": "downantisuperquark"
+            },
+            "Status": "hypothetical",
+            "Composition": "none",
+            "Mass": "",
+            "RelativeCharge": "-1/3",
+            "Charge": [
+                {
+                    "Significand": "-5.34058877999",
+                    "Base": "10",
+                    "Exponent": "-20",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "none",
+                    "HTML": "&minus;5.34058877999 &times; 10<sup>&minus;20</sup> C",
+                    "LaTeX": "-5.34058877999 \\times 10^{-20} \\, \\mathrm{C}"
+                },
+                {
+                    "Significand": "-5.34",
+                    "Base": "10",
+                    "Exponent": "-20",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "3sf",
+                    "HTML": "&minus;5.34 &times; 10<sup>&minus;20</sup> C",
+                    "LaTeX": "-5.34 \\times 10^{-20} \\, \\mathrm{C}"
+                }
+            ],
+            "Spin": "1",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Supersymmetry"
         },
         {
             "Reference": "Electron",
@@ -2926,6 +3018,52 @@
             "WikipediaURL": "https://en.wikipedia.org/wiki/Up_quark"
         },
         {
+            "Reference": "UpAntisuperquark",
+            "URLReference": "upantisuperquark",
+            "URL": "upantisuperquark",
+            "Name": "Up Antisuperquark",
+            "MainSymbol": "\\bar{\\tilde{u}}",
+            "Symbol": "\\bar{\\tilde{u}}",
+            "Classes": [
+                "antisuperquark",
+                "boson",
+                "superpartner"
+            ],
+            "Antiparticle": {
+                "Reference": "UpSuperquark",
+                "Name": "Up Superquark",
+                "URLReference": "upsuperquark"
+            },
+            "Status": "hypothetical",
+            "Composition": "none",
+            "Mass": "",
+            "RelativeCharge": "-2/3",
+            "Charge": [
+                {
+                    "Significand": "-1.06811775600",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "none",
+                    "HTML": "&minus;1.06811775600 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "-1.06811775600 \\times 10^{-19} \\, \\mathrm{C}"
+                },
+                {
+                    "Significand": "-1.07",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "3sf",
+                    "HTML": "&minus;1.07 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "-1.07 \\times 10^{-19} \\, \\mathrm{C}"
+                }
+            ],
+            "Spin": "1",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Supersymmetry"
+        },
+        {
             "Reference": "UpQuark",
             "URLReference": "upquark",
             "URL": "upquark",
@@ -3038,6 +3176,52 @@
             "YearDiscovered": "1968",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Up_quark",
             "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/quark.html"
+        },
+        {
+            "Reference": "UpSuperquark",
+            "URLReference": "upsuperquark",
+            "URL": "upsuperquark",
+            "Name": "Up Superquark",
+            "MainSymbol": "\\tilde{u}",
+            "Symbol": "\\tilde{u}",
+            "Classes": [
+                "superquark",
+                "boson",
+                "superpartner"
+            ],
+            "Antiparticle": {
+                "Reference": "UpAntisuperquark",
+                "Name": "Up Antisuperquark",
+                "URLReference": "upantisuperquark"
+            },
+            "Status": "hypothetical",
+            "Composition": "none",
+            "Mass": "",
+            "RelativeCharge": "+2/3",
+            "Charge": [
+                {
+                    "Significand": "1.06811775600",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "none",
+                    "HTML": "1.06811775600 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "1.06811775600 \\times 10^{-19} \\, \\mathrm{C}"
+                },
+                {
+                    "Significand": "1.07",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "3sf",
+                    "HTML": "1.07 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "1.07 \\times 10^{-19} \\, \\mathrm{C}"
+                }
+            ],
+            "Spin": "1",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Supersymmetry"
         },
         {
             "Reference": "WMinusBoson",
