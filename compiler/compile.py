@@ -447,6 +447,24 @@ class Compiler (object):
                     else:
                         particle["MeanLifetime"] = Time.fromText(t).toDictionary()
 
+                if line.startswith("upness:"):
+                    particle["Upness"] = line[7:].strip()
+
+                if line.startswith("downness:"):
+                    particle["Downness"] = line[9:].strip()
+
+                if line.startswith("charm:"):
+                    particle["Charm"] = line[6:].strip()
+
+                if line.startswith("strangeness:"):
+                    particle["Strangeness"] = line[12:].strip()
+
+                if line.startswith("topness:"):
+                    particle["Topness"] = line[8:].strip()
+
+                if line.startswith("bottomness:"):
+                    particle["Bottomness"] = line[11:].strip()
+
                 if line.startswith("year theorised:"):
                     particle["YearTheorised"] = line[15:].strip()
 

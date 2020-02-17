@@ -64,6 +64,30 @@
             <th>Antiparticle:</th>
             <td><a href="#/particle/{{particle.Antiparticle.URLReference}}" title="{{particle.Antiparticle.Name}}">{{particle.Antiparticle.Name}}</a></td>
         </tr>
+        <tr ng-show="particle.Upness != undefined && particle.Upness != 0">
+            <th>Upness:</th>
+            <td>{{particle.Upness}}</td>
+        </tr>
+        <tr ng-show="particle.Downness != undefined && particle.Downness != 0">
+            <th>Downness:</th>
+            <td>{{particle.Downness}}</td>
+        </tr>
+        <tr ng-show="particle.Charm != undefined && particle.Charm != 0">
+            <th>Charm:</th>
+            <td>{{particle.Charm}}</td>
+        </tr>
+        <tr ng-show="particle.Strangeness != undefined && particle.Strangeness != 0">
+            <th>Strangeness:</th>
+            <td>{{particle.Strangeness}}</td>
+        </tr>
+        <tr ng-show="particle.Topness != undefined && particle.Topness != 0">
+            <th>Topness / Truthfulness:</th>
+            <td>{{particle.Topness}}</td>
+        </tr>
+        <tr ng-show="particle.Bottomness != undefined && particle.Bottomness != 0">
+            <th>Bottomness / Beauty:</th>
+            <td>{{particle.Bottomness}}</td>
+        </tr>
         <tr ng-show="particle.YearTheorised != undefined">
             <th>Year Theorised:</th>
             <td>{{particle.YearTheorised}}</td>
