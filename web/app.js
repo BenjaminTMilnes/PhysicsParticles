@@ -160,4 +160,8 @@ application.controller("ParticleController", ["$scope", "$routeParams", "dataSer
 
     $scope.getParticleSymbol = getParticleSymbol;
 
+    $scope.getTagHue = function(c){
+          return ("abcdefghijklmnopqrstuvwxyz".indexOf(c[0]) *360 / 26);
+    }
+
 }]);

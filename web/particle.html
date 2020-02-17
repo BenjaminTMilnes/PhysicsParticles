@@ -2,6 +2,11 @@
     <h2 class="particlename">The {{particle.Name}}</h2>
     <div class="particlesymbol" compile="getParticleSymbol(particle)"></div>
     <table class="particleproperties">
+        <tr style="border-top: none;">
+            <td colspan="2" style="text-align: center;">
+                <span ng-repeat="c in particle.Classes" class="tag" style="background: linear-gradient(140deg, hsl({{getTagHue(c)}}, 70%, 50%), hsl({{getTagHue(c)}}, 70%, 45%));">{{c}}</span>
+            </td>
+        </tr>
         <tr>
             <th>LaTeX:</th>
             <td>{{particle.MainSymbol}}</td>
