@@ -138,6 +138,98 @@
             "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/lepton.html"
         },
         {
+            "Reference": "Antisupermuon",
+            "URLReference": "antisupermuon",
+            "URL": "antisupermuon",
+            "Name": "Antisupermuon",
+            "MainSymbol": "\\tilde{\\mu}^{+}",
+            "Symbol": "\\tilde{\\mu}^{+}",
+            "Classes": [
+                "superlepton",
+                "boson",
+                "superpartner"
+            ],
+            "Antiparticle": {
+                "Reference": "Supermuon",
+                "Name": "Supermuon",
+                "URLReference": "supermuon"
+            },
+            "Status": "hypothetical",
+            "Composition": "none",
+            "Mass": "",
+            "RelativeCharge": "+1",
+            "Charge": [
+                {
+                    "Significand": "1.602176634",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "none",
+                    "HTML": "1.602176634 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "1.602176634 \\times 10^{-19} \\, \\mathrm{C}"
+                },
+                {
+                    "Significand": "1.60",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "3sf",
+                    "HTML": "1.60 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "1.60 \\times 10^{-19} \\, \\mathrm{C}"
+                }
+            ],
+            "Spin": "1",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Supersymmetry"
+        },
+        {
+            "Reference": "Antisupertauon",
+            "URLReference": "antisupertauon",
+            "URL": "antisupertauon",
+            "Name": "Antisupertauon",
+            "MainSymbol": "\\tilde{\\tau}^{+}",
+            "Symbol": "\\tilde{\\tau}^{+}",
+            "Classes": [
+                "superlepton",
+                "boson",
+                "superpartner"
+            ],
+            "Antiparticle": {
+                "Reference": "Supertauon",
+                "Name": "Supertauon",
+                "URLReference": "supertauon"
+            },
+            "Status": "hypothetical",
+            "Composition": "none",
+            "Mass": "",
+            "RelativeCharge": "+1",
+            "Charge": [
+                {
+                    "Significand": "1.602176634",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "none",
+                    "HTML": "1.602176634 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "1.602176634 \\times 10^{-19} \\, \\mathrm{C}"
+                },
+                {
+                    "Significand": "1.60",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "3sf",
+                    "HTML": "1.60 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "1.60 \\times 10^{-19} \\, \\mathrm{C}"
+                }
+            ],
+            "Spin": "1",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Supersymmetry"
+        },
+        {
             "Reference": "Antitauon",
             "URLReference": "antitauon",
             "URL": "antitauon",
@@ -2763,6 +2855,190 @@
                     "Rounding": "3sf",
                     "HTML": "&minus;5.34 &times; 10<sup>&minus;20</sup> C",
                     "LaTeX": "-5.34 \\times 10^{-20} \\, \\mathrm{C}"
+                }
+            ],
+            "Spin": "1",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Supersymmetry"
+        },
+        {
+            "Reference": "Superelectron",
+            "URLReference": "superelectron",
+            "URL": "superelectron",
+            "Name": "Superelectron",
+            "MainSymbol": "\\tilde{e}^{-}",
+            "Symbol": "\\tilde{e}^{-}",
+            "Classes": [
+                "superlepton",
+                "boson",
+                "superpartner"
+            ],
+            "Antiparticle": {
+                "Reference": "Superpositron",
+                "Name": "Superpositron",
+                "URLReference": "superpositron"
+            },
+            "Status": "hypothetical",
+            "Composition": "none",
+            "Mass": "",
+            "RelativeCharge": "-1",
+            "Charge": [
+                {
+                    "Significand": "-1.602176634",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "none",
+                    "HTML": "&minus;1.602176634 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "-1.602176634 \\times 10^{-19} \\, \\mathrm{C}"
+                },
+                {
+                    "Significand": "-1.60",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "3sf",
+                    "HTML": "&minus;1.60 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "-1.60 \\times 10^{-19} \\, \\mathrm{C}"
+                }
+            ],
+            "Spin": "1",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Supersymmetry"
+        },
+        {
+            "Reference": "Supermuon",
+            "URLReference": "supermuon",
+            "URL": "supermuon",
+            "Name": "Supermuon",
+            "MainSymbol": "\\tilde{\\mu}^{-}",
+            "Symbol": "\\tilde{\\mu}^{-}",
+            "Classes": [
+                "superlepton",
+                "boson",
+                "superpartner"
+            ],
+            "Antiparticle": {
+                "Reference": "Antisupermuon",
+                "Name": "Antisupermuon",
+                "URLReference": "antisupermuon"
+            },
+            "Status": "hypothetical",
+            "Composition": "none",
+            "Mass": "",
+            "RelativeCharge": "-1",
+            "Charge": [
+                {
+                    "Significand": "-1.602176634",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "none",
+                    "HTML": "&minus;1.602176634 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "-1.602176634 \\times 10^{-19} \\, \\mathrm{C}"
+                },
+                {
+                    "Significand": "-1.60",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "3sf",
+                    "HTML": "&minus;1.60 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "-1.60 \\times 10^{-19} \\, \\mathrm{C}"
+                }
+            ],
+            "Spin": "1",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Supersymmetry"
+        },
+        {
+            "Reference": "Superpositron",
+            "URLReference": "superpositron",
+            "URL": "superpositron",
+            "Name": "Superpositron",
+            "MainSymbol": "\\tilde{e}^{+}",
+            "Symbol": "\\tilde{e}^{+}",
+            "Classes": [
+                "superlepton",
+                "boson",
+                "superpartner"
+            ],
+            "Antiparticle": {
+                "Reference": "Superelectron",
+                "Name": "Superelectron",
+                "URLReference": "superelectron"
+            },
+            "Status": "hypothetical",
+            "Composition": "none",
+            "Mass": "",
+            "RelativeCharge": "+1",
+            "Charge": [
+                {
+                    "Significand": "1.602176634",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "none",
+                    "HTML": "1.602176634 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "1.602176634 \\times 10^{-19} \\, \\mathrm{C}"
+                },
+                {
+                    "Significand": "1.60",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "3sf",
+                    "HTML": "1.60 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "1.60 \\times 10^{-19} \\, \\mathrm{C}"
+                }
+            ],
+            "Spin": "1",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Supersymmetry"
+        },
+        {
+            "Reference": "Supertauon",
+            "URLReference": "supertauon",
+            "URL": "supertauon",
+            "Name": "Supertauon",
+            "MainSymbol": "\\tilde{\\tau}^{-}",
+            "Symbol": "\\tilde{\\tau}^{-}",
+            "Classes": [
+                "superlepton",
+                "boson",
+                "superpartner"
+            ],
+            "Antiparticle": {
+                "Reference": "Antisupertauon",
+                "Name": "Antisupertauon",
+                "URLReference": "antisupertauon"
+            },
+            "Status": "hypothetical",
+            "Composition": "none",
+            "Mass": "",
+            "RelativeCharge": "-1",
+            "Charge": [
+                {
+                    "Significand": "-1.602176634",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "none",
+                    "HTML": "&minus;1.602176634 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "-1.602176634 \\times 10^{-19} \\, \\mathrm{C}"
+                },
+                {
+                    "Significand": "-1.60",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "3sf",
+                    "HTML": "&minus;1.60 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "-1.60 \\times 10^{-19} \\, \\mathrm{C}"
                 }
             ],
             "Spin": "1",
