@@ -2353,6 +2353,50 @@
             "WikipediaURL": "https://en.wikipedia.org/wiki/Supersymmetry"
         },
         {
+            "Reference": "Photino",
+            "URLReference": "photino",
+            "URL": "photino",
+            "Name": "Photino",
+            "MainSymbol": "\\tilde{\\gamma}",
+            "Symbol": "\\tilde{\\gamma}",
+            "Classes": [
+                "gaugino"
+            ],
+            "Antiparticle": {
+                "Reference": "Photino",
+                "Name": "Photino",
+                "URLReference": "photino"
+            },
+            "Status": "hypothetical",
+            "Composition": "none",
+            "Mass": "",
+            "RelativeCharge": "0",
+            "Charge": [
+                {
+                    "Significand": "0",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "none",
+                    "HTML": "0",
+                    "LaTeX": "0 \\, \\mathrm{C}"
+                },
+                {
+                    "Significand": "0",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "3sf",
+                    "HTML": "0",
+                    "LaTeX": "0 \\, \\mathrm{C}"
+                }
+            ],
+            "Spin": "1/2",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Supersymmetry"
+        },
+        {
             "Reference": "Photon",
             "URLReference": "photon",
             "URL": "photon",

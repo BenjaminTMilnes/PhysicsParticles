@@ -48,12 +48,12 @@
     display: none;
 }
 
-.table-fermion, .table-wplusboson, .table-wminusboson, .table-zboson, .table-photon, .table-gluon, .table-higgsboson, .table-graviton, .table-superquark, .table-superlepton {
+.table-fermion, .table-wplusboson, .table-wminusboson, .table-zboson, .table-photon, .table-gluon, .table-higgsboson, .table-graviton, .table-superquark, .table-superlepton, .table-photino {
     height: 100px;
 }
 
 @media (min-width: 700px) {
-    .table-fermion, .table-wplusboson, .table-wminusboson, .table-zboson, .table-photon, .table-gluon, .table-higgsboson, .table-graviton, .table-superquark, .table-superlepton {
+    .table-fermion, .table-wplusboson, .table-wminusboson, .table-zboson, .table-photon, .table-gluon, .table-higgsboson, .table-graviton, .table-superquark, .table-superlepton, .table-photino {
         height: 150px;
     }
 }
@@ -104,7 +104,7 @@
     .table-wplusboson, .table-wminusboson, .table-zboson {
         height: 100px;
     }
-    .table-photon, .table-gluon, .table-higgsboson, .table-graviton {
+    .table-photon, .table-gluon, .table-higgsboson, .table-graviton, .table-photino {
         height: 202px;
     }
 }
@@ -116,7 +116,7 @@
     .table-wplusboson, .table-wminusboson, .table-zboson {
         height: 150px;
     }
-    .table-photon, .table-gluon, .table-higgsboson, .table-graviton {
+    .table-photon, .table-gluon, .table-higgsboson, .table-graviton, .table-photino {
         height: 302px;
     }
 }
@@ -154,6 +154,11 @@
 .table-higgsboson {
     grid-column: 2 / span 2;
     grid-row: 11 / span 1;
+}
+
+.table-photino {
+    grid-column: 1 / span 1;
+    grid-row: 21 / span 1;
 }
 
 .table-electron, .table-muon, .table-tauon {
@@ -260,6 +265,10 @@
     .table-higgsboson {
         grid-column: 2 / span 2;
         grid-row: 9 / span 2;
+    }
+    .table-photino {
+        grid-column: 2 / span 2;
+        grid-row: 16 / span 2;
     }
     .table-electron, .table-muon, .table-tauon, .table-superelectron, .table-supermuon, .table-supertauon {
         grid-column: 2 / span 1;
