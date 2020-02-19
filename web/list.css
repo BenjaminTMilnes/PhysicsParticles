@@ -1,0 +1,32 @@
+.particlelist {
+    font-size: 14px;
+    border-collapse: collapse;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 40px 0px;
+}
+
+.particlelist tr {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.particlelist tr:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.025);
+}
+
+.particlelist tr:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.particlelist th, .particlelist td {
+    text-align: right;
+}
+
+.particlelist th {
+    font-weight: normal;
+    padding: 10px 10px;
+}
+
+.particlelist td {
+    padding: 5px 10px;
+}

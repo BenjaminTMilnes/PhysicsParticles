@@ -3,6 +3,7 @@ var application = angular.module("PhysicsParticles", ["ngRoute", "ngSanitize"]);
 application.config(function ($routeProvider) {
     $routeProvider
         .when("/", { templateUrl: "table.html", controller: "TableController" })
+        .when("/list", { templateUrl: "list.html", controller: "ListController" })
         .when("/particle/:particleName", { templateUrl: "particle.html", controller: "ParticleController" });
 });
 
@@ -142,6 +143,20 @@ application.controller("TableController", ["$scope", "dataService", "$location",
 
     dataService.getData().then(function (database) {
         $scope.particles = database.gridData;
+    });
+
+    $scope.getParticleSymbol = getParticleSymbol;
+
+    $scope.goToParticlePage = function (particle) {
+        $location.url("/particle/" + particle.URLReference);
+    }
+
+}]);
+
+application.controller("ListController", ["$scope", "dataService", "$location", function ListController($scope, dataService, $location) {
+
+    dataService.getData().then(function (database) {
+        $scope.particles = database.particles;
     });
 
     $scope.getParticleSymbol = getParticleSymbol;
