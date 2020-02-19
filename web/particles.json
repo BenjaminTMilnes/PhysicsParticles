@@ -370,6 +370,53 @@
             "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/lepton.html"
         },
         {
+            "Reference": "Axion",
+            "URLReference": "axion",
+            "URL": "axion",
+            "Name": "Axion",
+            "MainSymbol": "A^{0}",
+            "Symbol": "A^{0}",
+            "Classes": [
+                "boson",
+                "scalar boson"
+            ],
+            "Antiparticle": {
+                "Reference": "",
+                "Name": "",
+                "URLReference": ""
+            },
+            "Status": "hypothetical",
+            "Composition": "none",
+            "Mass": "",
+            "RelativeCharge": "0",
+            "Charge": [
+                {
+                    "Significand": "0",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "none",
+                    "HTML": "0",
+                    "LaTeX": "0 \\, \\mathrm{C}"
+                },
+                {
+                    "Significand": "0",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "3sf",
+                    "HTML": "0",
+                    "LaTeX": "0 \\, \\mathrm{C}"
+                }
+            ],
+            "Spin": "0",
+            "YearTheorised": "1977",
+            "TheorisedBy": "Roberto Peccei, Helen Quinn",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Axion"
+        },
+        {
             "Reference": "BottomAntiquark",
             "URLReference": "bottomantiquark",
             "URL": "bottomantiquark",
