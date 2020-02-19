@@ -21,14 +21,14 @@
 @media (min-width: 1000px) {
     .particletable {
         grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
-        grid-template-rows: 40px 40px 100px 100px 100px 20px 100px 100px 100px 100px 40px 40px 100px 100px 100px;
+        grid-template-rows: 40px 40px 100px 100px 100px 20px 100px 100px 100px 100px 40px 40px 100px 100px 100px 20px 100px 100px 100px 100px;
     }
 }
 
 @media (min-width: 1400px) {
     .particletable {
         grid-template-columns: 150px 150px 150px 150px 150px 150px 150px 150px 150px;
-        grid-template-rows: 40px 40px 150px 150px 150px 20px 150px 150px 150px 150px 40px 40px 150px 150px 150px;
+        grid-template-rows: 40px 40px 150px 150px 150px 20px 150px 150px 150px 150px 40px 40px 150px 150px 150px 20px 150px 150px 150px 150px;
         grid-column-gap: 2px;
         grid-row-gap: 2px;
     }
@@ -48,12 +48,12 @@
     display: none;
 }
 
-.table-fermion, .table-wplusboson, .table-wminusboson, .table-zboson, .table-photon, .table-gluon, .table-higgsboson, .table-graviton, .table-superquark, .table-superlepton, .table-photino {
+.table-fermion, .table-wplusboson, .table-wminusboson, .table-zboson, .table-photon, .table-gluon, .table-higgsboson, .table-graviton, .table-superquark, .table-superlepton, .table-photino, .table-gluino, .table-gravitino {
     height: 100px;
 }
 
 @media (min-width: 700px) {
-    .table-fermion, .table-wplusboson, .table-wminusboson, .table-zboson, .table-photon, .table-gluon, .table-higgsboson, .table-graviton, .table-superquark, .table-superlepton, .table-photino {
+    .table-fermion, .table-wplusboson, .table-wminusboson, .table-zboson, .table-photon, .table-gluon, .table-higgsboson, .table-graviton, .table-superquark, .table-superlepton, .table-photino, .table-gluino, .table-gravitino {
         height: 150px;
     }
 }
@@ -104,7 +104,7 @@
     .table-wplusboson, .table-wminusboson, .table-zboson {
         height: 100px;
     }
-    .table-photon, .table-gluon, .table-higgsboson, .table-graviton, .table-photino {
+    .table-photon, .table-gluon, .table-higgsboson, .table-graviton, .table-photino, .table-gluino, .table-gravitino {
         height: 202px;
     }
 }
@@ -116,7 +116,7 @@
     .table-wplusboson, .table-wminusboson, .table-zboson {
         height: 150px;
     }
-    .table-photon, .table-gluon, .table-higgsboson, .table-graviton, .table-photino {
+    .table-photon, .table-gluon, .table-higgsboson, .table-graviton, .table-photino, .table-gluino, .table-gravitino {
         height: 302px;
     }
 }
@@ -159,6 +159,16 @@
 .table-photino {
     grid-column: 1 / span 1;
     grid-row: 21 / span 1;
+}
+
+.table-gluino {
+    grid-column: 1 / span 1;
+    grid-row: 23 / span 1;
+}
+
+.table-gravitino {
+    grid-column: 1 / span 1;
+    grid-row: 24 / span 1;
 }
 
 .table-electron, .table-muon, .table-tauon {
@@ -268,7 +278,15 @@
     }
     .table-photino {
         grid-column: 2 / span 2;
-        grid-row: 16 / span 2;
+        grid-row: 17 / span 2;
+    }
+    .table-gluino {
+        grid-column: 6 / span 2;
+        grid-row: 17 / span 2;
+    }
+    .table-gravitino {
+        grid-column: 8 / span 2;
+        grid-row: 17 / span 2;
     }
     .table-electron, .table-muon, .table-tauon, .table-superelectron, .table-supermuon, .table-supertauon {
         grid-column: 2 / span 1;

@@ -1678,6 +1678,51 @@
             "WikipediaURL": "https://en.wikipedia.org/wiki/Supersymmetry"
         },
         {
+            "Reference": "Gluino",
+            "URLReference": "gluino",
+            "URL": "gluino",
+            "Name": "Gluino",
+            "MainSymbol": "\\tilde{g}",
+            "Symbol": "\\tilde{g}",
+            "Classes": [
+                "gaugino",
+                "superpartner"
+            ],
+            "Antiparticle": {
+                "Reference": "Gluino",
+                "Name": "Gluino",
+                "URLReference": "gluino"
+            },
+            "Status": "hypothetical",
+            "Composition": "none",
+            "Mass": "",
+            "RelativeCharge": "0",
+            "Charge": [
+                {
+                    "Significand": "0",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "none",
+                    "HTML": "0",
+                    "LaTeX": "0 \\, \\mathrm{C}"
+                },
+                {
+                    "Significand": "0",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "3sf",
+                    "HTML": "0",
+                    "LaTeX": "0 \\, \\mathrm{C}"
+                }
+            ],
+            "Spin": "1/2",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Supersymmetry"
+        },
+        {
             "Reference": "Gluon",
             "URLReference": "gluon",
             "URL": "gluon",
@@ -1783,6 +1828,51 @@
             "Spin": "1",
             "MonteCarloParticleNumber": "21",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Gluon"
+        },
+        {
+            "Reference": "Gravitino",
+            "URLReference": "gravitino",
+            "URL": "gravitino",
+            "Name": "Gravitino",
+            "MainSymbol": "\\tilde{G}",
+            "Symbol": "\\tilde{G}",
+            "Classes": [
+                "gaugino",
+                "superpartner"
+            ],
+            "Antiparticle": {
+                "Reference": "Gravitino",
+                "Name": "Gravitino",
+                "URLReference": "gravitino"
+            },
+            "Status": "hypothetical",
+            "Composition": "none",
+            "Mass": "",
+            "RelativeCharge": "0",
+            "Charge": [
+                {
+                    "Significand": "0",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "none",
+                    "HTML": "0",
+                    "LaTeX": "0 \\, \\mathrm{C}"
+                },
+                {
+                    "Significand": "0",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "3sf",
+                    "HTML": "0",
+                    "LaTeX": "0 \\, \\mathrm{C}"
+                }
+            ],
+            "Spin": "3/2",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Supersymmetry"
         },
         {
             "Reference": "Graviton",
@@ -2360,7 +2450,8 @@
             "MainSymbol": "\\tilde{\\gamma}",
             "Symbol": "\\tilde{\\gamma}",
             "Classes": [
-                "gaugino"
+                "gaugino",
+                "superpartner"
             ],
             "Antiparticle": {
                 "Reference": "Photino",
