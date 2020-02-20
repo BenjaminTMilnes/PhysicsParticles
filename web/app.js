@@ -40,8 +40,8 @@ class Database {
     constructor(data) {
         this._data = data;
 
-        var charges = ["+1", "+2/3", "+1/3", "0", "-1/3", "-2/3", "-1"];
-        var hues = [350, 5, 20, 110, 170, 195, 215];
+        var charges = ["+2", "+1", "+2/3", "+1/3", "0", "-1/3", "-2/3", "-1", "-2"];
+        var hues = [335, 350, 5, 20, 110, 170, 195, 215, 245];
 
         this._particlesObject = {}
 
@@ -75,7 +75,7 @@ class Database {
 
             p.U.hue = hues[i] + Math.random() * 20 - 10;
 
-            if (i == 3) {
+            if (i == 4) {
                 p.U.hue = hues[i] + Math.random() * 80 - 40;
             }
 

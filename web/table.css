@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     grid-template-columns: 100px 100px 100px;
-    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
     width: 100%;
     margin: 20px auto;
     grid-column-gap: 2px;
@@ -13,7 +13,7 @@
 @media (min-width: 700px) {
     .particletable {
         grid-template-columns: 150px 150px 150px;
-        grid-template-rows: 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
+        grid-template-rows: 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
         margin: 40px auto;
     }
 }
@@ -21,14 +21,14 @@
 @media (min-width: 1000px) {
     .particletable {
         grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
-        grid-template-rows: 40px 40px 100px 100px 100px 20px 100px 100px 100px 100px 40px 40px 100px 100px 100px 20px 100px 100px 100px 100px;
+        grid-template-rows: 40px 40px 100px 100px 100px 20px 100px 100px 100px 100px 40px 40px 100px 100px 100px 20px 100px 100px 100px 100px 20px 100px 100px 100px 100px;
     }
 }
 
 @media (min-width: 1400px) {
     .particletable {
         grid-template-columns: 150px 150px 150px 150px 150px 150px 150px 150px 150px;
-        grid-template-rows: 40px 40px 150px 150px 150px 20px 150px 150px 150px 150px 40px 40px 150px 150px 150px 20px 150px 150px 150px 150px;
+        grid-template-rows: 40px 40px 150px 150px 150px 20px 150px 150px 150px 150px 40px 40px 150px 150px 150px 20px 150px 150px 150px 150px 20px 150px 150px 150px 150px;
         grid-column-gap: 2px;
         grid-row-gap: 2px;
     }
@@ -280,6 +280,33 @@
     grid-column: 3 / span 1;
 }
 
+.table-proton {
+    grid-column: 1 / span 1;
+    grid-row: 21 / span 1;
+}
+
+.table-neutron {
+    grid-column: 2 / span 1;
+    grid-row: 21 / span 1;
+}
+
+.table-deltabaryon_uuu {
+    grid-column: 1 / span 1;
+    grid-row: 22 / span 1;
+}
+.table-deltabaryon_uud {
+    grid-column: 2 / span 1;
+    grid-row: 22 / span 1;
+}
+.table-deltabaryon_udd {
+    grid-column: 3 / span 1;
+    grid-row: 22 / span 1;
+}
+.table-deltabaryon_ddd {
+    grid-column: 1 / span 1;
+    grid-row: 23 / span 1;
+}
+
 @media (min-width: 1000px) {
     .table-photon {
         grid-column: 2 / span 2;
@@ -366,6 +393,42 @@
     }
     .table-topsuperquark, .table-topantisuperquark, .table-bottomsuperquark, .table-bottomantisuperquark, .table-supertauon, .table-antisupertauon, .table-tauonsuperneutrino, .table-tauonantisuperneutrino {
         grid-row: 15 / span 1;
+    }
+    .table-proton {
+        grid-column: 4 / span 1;
+        grid-row: 22 / span 1;
+    }
+    .table-antiproton {
+        grid-column: 5 / span 1;
+        grid-row: 22 / span 1;
+    }
+    .table-neutron {
+        grid-column: 6 / span 1;
+        grid-row: 22 / span 1;
+    }
+    .table-antineutron {
+        grid-column: 7 / span 1;
+        grid-row: 22 / span 1;
+    }
+    .table-deltabaryon_uuu {
+        grid-column: 2 / span 1;
+        grid-row: 23 / span 1;
+    }
+    .table-deltaantibaryon_uuu {
+        grid-column: 3 / span 1;
+        grid-row: 23 / span 1;
+    }
+    .table-deltabaryon_uud {
+        grid-column: 4 / span 1;
+        grid-row: 23 / span 1;
+    }
+    .table-deltabaryon_udd {
+        grid-column: 6 / span 1;
+        grid-row: 23 / span 1;
+    }
+    .table-deltabaryon_ddd {
+        grid-column: 8 / span 1;
+        grid-row: 23 / span 1;
     }
 }
 
