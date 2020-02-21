@@ -416,13 +416,21 @@ class Compiler (object):
                     mass = Mass.fromText(line[5:].strip())
 
                     if mass != None:
-                        particle["Mass"] = mass.toDictionary()
+                        if mass == zero:
+                            particle["Mass"] = "0"
+                        else:
+                            particle["Mass"] = mass.toDictionary()
                     else:
                         particle["Mass"] = line[5:].strip()
 
                 if line.startswith("relative charge:"):
                     particle["RelativeCharge"] = line[16:].strip()
-                    particle["Charge"] = Charge.fromText(line[16:].strip()).toDictionary()
+                    charge =  Charge.fromText(line[16:].strip())
+
+                    if charge.number == zero:
+                        particle["Charge"] = "0"
+                    else:
+                        particle["Charge"] = charge.toDictionary()
 
                 if line.startswith("spin:"):
                     particle["Spin"] = line[5:].strip()

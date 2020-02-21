@@ -48,7 +48,13 @@ class Database {
         this._data.Particles.forEach(p => {
             p.U = {};
 
-            if (p.Mass != undefined && p.Mass[0] != undefined) {
+            if (p.Mass != undefined && p.Mass == "0") {
+                p.U.hasMass = false;
+                p.U.mass1 = "0 kg";
+                p.U.mass2 = "0 eV";
+                p.U.mass3 = "0 u";
+            }
+            else if (p.Mass != undefined && p.Mass[0] != undefined) {
                 p.U.hasMass = (p.Mass[0].Significand == "0") ? false : true;
                 p.U.mass1 = p.Mass.filter(m => m.UnitClass == "kg" && m.Rounding == "3sf")[0].HTML;
                 p.U.mass2 = p.Mass.filter(m => m.UnitClass == "eV" && m.Rounding == "3sf")[0].HTML;
@@ -56,7 +62,13 @@ class Database {
             }
 
             p.U.relativeCharge = p.RelativeCharge.replace("-", "&minus;");
-            p.U.charge = p.Charge.filter(c => c.UnitClass == "C" && c.Rounding == "3sf")[0].HTML;
+
+            if (p.Charge == "0") {
+                p.U.charge = "0 C";
+            }
+            else {
+                p.U.charge = p.Charge.filter(c => c.UnitClass == "C" && c.Rounding == "3sf")[0].HTML;
+            }
 
             if (p.MagneticMoment != undefined) {
                 p.U.magneticMoment = p.MagneticMoment.filter(mm => mm.Rounding == "none")[0].HTML;
@@ -175,8 +187,8 @@ application.controller("ParticleController", ["$scope", "$routeParams", "dataSer
 
     $scope.getParticleSymbol = getParticleSymbol;
 
-    $scope.getTagHue = function(c){
-          return ("abcdefghijklmnopqrstuvwxyz".indexOf(c[0]) *360 / 26);
+    $scope.getTagHue = function (c) {
+        return ("abcdefghijklmnopqrstuvwxyz".indexOf(c[0]) * 360 / 26);
     }
 
 }]);

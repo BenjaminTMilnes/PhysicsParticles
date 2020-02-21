@@ -220,28 +220,7 @@
                 }
             ],
             "RelativeCharge": "0",
-            "Charge": [
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "none",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                },
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "3sf",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                }
-            ],
+            "Charge": "0",
             "Spin": "1/2",
             "MeanLifetime": [
                 {
@@ -634,28 +613,7 @@
             "Composition": "none",
             "Mass": "",
             "RelativeCharge": "0",
-            "Charge": [
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "none",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                },
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "3sf",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                }
-            ],
+            "Charge": "0",
             "Spin": "0",
             "YearTheorised": "1977",
             "TheorisedBy": "Roberto Peccei, Helen Quinn",
@@ -1531,28 +1489,7 @@
                 }
             ],
             "RelativeCharge": "0",
-            "Charge": [
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "none",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                },
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "3sf",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                }
-            ],
+            "Charge": "0",
             "Spin": "3/2",
             "Isospin": "3/2",
             "MeanLifetime": [
@@ -2061,28 +1998,7 @@
                 }
             ],
             "RelativeCharge": "0",
-            "Charge": [
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "none",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                },
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "3sf",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                }
-            ],
+            "Charge": "0",
             "Spin": "3/2",
             "Isospin": "3/2",
             "MeanLifetime": [
@@ -2861,28 +2777,7 @@
             "Status": "confirmed",
             "Composition": "none",
             "RelativeCharge": "0",
-            "Charge": [
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "none",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                },
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "3sf",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                }
-            ],
+            "Charge": "0",
             "Spin": "1/2",
             "MonteCarloParticleNumber": "-12",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Neutrino#Antineutrinos",
@@ -2909,28 +2804,7 @@
             "Status": "hypothetical",
             "Composition": "none",
             "RelativeCharge": "0",
-            "Charge": [
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "none",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                },
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "3sf",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                }
-            ],
+            "Charge": "0",
             "Spin": "1",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Supersymmetry"
         },
@@ -2956,28 +2830,7 @@
             "Status": "confirmed",
             "Composition": "none",
             "RelativeCharge": "0",
-            "Charge": [
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "none",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                },
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "3sf",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                }
-            ],
+            "Charge": "0",
             "Spin": "1/2",
             "MonteCarloParticleNumber": "12",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Electron_neutrino",
@@ -3004,28 +2857,7 @@
             "Status": "hypothetical",
             "Composition": "none",
             "RelativeCharge": "0",
-            "Charge": [
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "none",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                },
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "3sf",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                }
-            ],
+            "Charge": "0",
             "Spin": "1",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Supersymmetry"
         },
@@ -3049,28 +2881,7 @@
             "Composition": "none",
             "Mass": "",
             "RelativeCharge": "0",
-            "Charge": [
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "none",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                },
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "3sf",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                }
-            ],
+            "Charge": "0",
             "Spin": "1/2",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Supersymmetry"
         },
@@ -3155,28 +2966,7 @@
                 }
             ],
             "RelativeCharge": "0",
-            "Charge": [
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "none",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                },
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "3sf",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                }
-            ],
+            "Charge": "0",
             "Spin": "1",
             "MonteCarloParticleNumber": "21",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Gluon"
@@ -3201,28 +2991,7 @@
             "Composition": "none",
             "Mass": "",
             "RelativeCharge": "0",
-            "Charge": [
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "none",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                },
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "3sf",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                }
-            ],
+            "Charge": "0",
             "Spin": "3/2",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Supersymmetry"
         },
@@ -3308,28 +3077,7 @@
             ],
             "MeanLifetime": "stable",
             "RelativeCharge": "0",
-            "Charge": [
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "none",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                },
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "3sf",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                }
-            ],
+            "Charge": "0",
             "Spin": "2",
             "MonteCarloParticleNumber": "39",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Graviton"
@@ -3415,28 +3163,7 @@
                 }
             ],
             "RelativeCharge": "0",
-            "Charge": [
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "none",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                },
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "3sf",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                }
-            ],
+            "Charge": "0",
             "Spin": "0",
             "MeanLifetime": [
                 {
@@ -3623,28 +3350,7 @@
             "Status": "confirmed",
             "Composition": "none",
             "RelativeCharge": "0",
-            "Charge": [
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "none",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                },
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "3sf",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                }
-            ],
+            "Charge": "0",
             "Spin": "1/2",
             "MonteCarloParticleNumber": "-14",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Neutrino#Antineutrinos",
@@ -3671,28 +3377,7 @@
             "Status": "hypothetical",
             "Composition": "none",
             "RelativeCharge": "0",
-            "Charge": [
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "none",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                },
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "3sf",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                }
-            ],
+            "Charge": "0",
             "Spin": "1",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Supersymmetry"
         },
@@ -3721,28 +3406,7 @@
             "Status": "confirmed",
             "Composition": "none",
             "RelativeCharge": "0",
-            "Charge": [
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "none",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                },
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "3sf",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                }
-            ],
+            "Charge": "0",
             "Spin": "1/2",
             "MonteCarloParticleNumber": "14",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Muon_neutrino",
@@ -3769,28 +3433,7 @@
             "Status": "hypothetical",
             "Composition": "none",
             "RelativeCharge": "0",
-            "Charge": [
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "none",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                },
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "3sf",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                }
-            ],
+            "Charge": "0",
             "Spin": "1",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Supersymmetry"
         },
@@ -3881,28 +3524,7 @@
                 }
             ],
             "RelativeCharge": "0",
-            "Charge": [
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "none",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                },
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "3sf",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                }
-            ],
+            "Charge": "0",
             "Spin": "1/2",
             "MagneticMoment": [
                 {
@@ -3976,28 +3598,7 @@
             "Composition": "none",
             "Mass": "",
             "RelativeCharge": "0",
-            "Charge": [
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "none",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                },
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "3sf",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                }
-            ],
+            "Charge": "0",
             "Spin": "1/2",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Supersymmetry"
         },
@@ -4081,28 +3682,7 @@
                 }
             ],
             "RelativeCharge": "0",
-            "Charge": [
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "none",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                },
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "3sf",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                }
-            ],
+            "Charge": "0",
             "Spin": "1",
             "MeanLifetime": "stable",
             "MonteCarloParticleNumber": "22",
@@ -5039,28 +4619,7 @@
             "Status": "confirmed",
             "Composition": "none",
             "RelativeCharge": "0",
-            "Charge": [
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "none",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                },
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "3sf",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                }
-            ],
+            "Charge": "0",
             "Spin": "1/2",
             "MonteCarloParticleNumber": "-16",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Neutrino#Antineutrinos",
@@ -5087,28 +4646,7 @@
             "Status": "hypothetical",
             "Composition": "none",
             "RelativeCharge": "0",
-            "Charge": [
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "none",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                },
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "3sf",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                }
-            ],
+            "Charge": "0",
             "Spin": "1",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Supersymmetry"
         },
@@ -5137,28 +4675,7 @@
             "Status": "confirmed",
             "Composition": "none",
             "RelativeCharge": "0",
-            "Charge": [
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "none",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                },
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "3sf",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                }
-            ],
+            "Charge": "0",
             "Spin": "1/2",
             "MonteCarloParticleNumber": "16",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Tau_neutrino",
@@ -5185,28 +4702,7 @@
             "Status": "hypothetical",
             "Composition": "none",
             "RelativeCharge": "0",
-            "Charge": [
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "none",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                },
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "3sf",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                }
-            ],
+            "Charge": "0",
             "Spin": "1",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Supersymmetry"
         },
@@ -6161,28 +5657,7 @@
                 }
             ],
             "RelativeCharge": "0",
-            "Charge": [
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "none",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                },
-                {
-                    "Significand": "0",
-                    "Base": "10",
-                    "Exponent": "0",
-                    "Unit": "C",
-                    "UnitClass": "C",
-                    "Rounding": "3sf",
-                    "HTML": "0",
-                    "LaTeX": "0 \\, \\mathrm{C}"
-                }
-            ],
+            "Charge": "0",
             "Spin": "1",
             "MonteCarloParticleNumber": "23",
             "YearTheorised": "1968",
