@@ -1,15 +1,14 @@
-DeltaBaryon_uud
+DeltaAntibaryon_ddd
 
-Delta Baryon
+Delta Antibaryon
 
 \Delta^{+}
 \Delta^{+}
 
-hadron, baryon, fermion, matter
+antihadron, antibaryon, fermion, antimatter
 
-other names:
 status: confirmed
-composition: uud
+composition: \bar{d} \bar{d} \bar{d}
 mass: 1232 \times 10^{0} MeV
 relative charge: +1
 spin: 3/2

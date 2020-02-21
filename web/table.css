@@ -294,14 +294,17 @@
     grid-column: 1 / span 1;
     grid-row: 22 / span 1;
 }
+
 .table-deltabaryon_uud {
     grid-column: 2 / span 1;
     grid-row: 22 / span 1;
 }
+
 .table-deltabaryon_udd {
     grid-column: 3 / span 1;
     grid-row: 22 / span 1;
 }
+
 .table-deltabaryon_ddd {
     grid-column: 1 / span 1;
     grid-row: 23 / span 1;
@@ -422,12 +425,24 @@
         grid-column: 4 / span 1;
         grid-row: 23 / span 1;
     }
+    .table-deltaantibaryon_uud {
+        grid-column: 5 / span 1;
+        grid-row: 23 / span 1;
+    }
     .table-deltabaryon_udd {
         grid-column: 6 / span 1;
         grid-row: 23 / span 1;
     }
+    .table-deltaantibaryon_udd {
+        grid-column: 7 / span 1;
+        grid-row: 23 / span 1;
+    }
     .table-deltabaryon_ddd {
         grid-column: 8 / span 1;
+        grid-row: 23 / span 1;
+    }
+    .table-deltaantibaryon_ddd {
+        grid-column: 9 / span 1;
         grid-row: 23 / span 1;
     }
 }

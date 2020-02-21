@@ -41,7 +41,7 @@ class Database {
         this._data = data;
 
         var charges = ["+2", "+1", "+2/3", "+1/3", "0", "-1/3", "-2/3", "-1", "-2"];
-        var hues = [335, 350, 5, 20, 110, 170, 195, 215, 245];
+        var hues = [310, 350, 5, 20, 110, 170, 195, 215, 245];
 
         this._particlesObject = {}
 

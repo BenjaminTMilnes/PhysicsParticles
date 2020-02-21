@@ -26,7 +26,7 @@
             <th>Composition:</th>
             <td>
                 <span ng-show="particle.Composition == 'none'" class="fundamental">Fundamental</span>
-                <span ng-show="particle.Composition != 'none'">{{particle.Composition}}</span>
+                <span ng-show="particle.Composition != 'none'"><mathematics content-type="latex" content="{{particle.Composition}}"></mathematics></span>
             </td>
         </tr>
         <tr>
@@ -52,6 +52,10 @@
         <tr>
             <th>Spin:</th>
             <td>{{particle.Spin}}</td>
+        </tr>
+        <tr ng-show="particle.Isospin != undefined">
+            <th>Isospin:</th>
+            <td>{{particle.Isospin}}</td>
         </tr>
         <tr ng-show="particle.MagneticMoment != undefined">
             <th>Magnetic Moment:</th>

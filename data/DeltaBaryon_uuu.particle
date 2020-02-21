@@ -12,6 +12,8 @@ status: confirmed
 composition: uuu
 mass: 1232 \times 10^{0} MeV
 relative charge: +2
+spin: 3/2
+isospin: 3/2
 mean lifetime: 5.63 \times 10^{-24} s
 
 wikipedia: https://en.wikipedia.org/wiki/Delta_baryon

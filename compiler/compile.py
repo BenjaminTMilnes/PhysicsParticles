@@ -426,6 +426,9 @@ class Compiler (object):
 
                 if line.startswith("spin:"):
                     particle["Spin"] = line[5:].strip()
+                    
+                if line.startswith("isospin:"):
+                    particle["Isospin"] = line[8:].strip()
 
                 if line.startswith("magnetic moment:"):
                     particle["MagneticMoment"] = MagneticMoment.fromText(line[16:].strip()).toDictionary()
