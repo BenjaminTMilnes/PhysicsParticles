@@ -3083,6 +3083,28 @@
             "WikipediaURL": "https://en.wikipedia.org/wiki/Graviton"
         },
         {
+            "Reference": "HiggsBosino",
+            "URLReference": "higgsbosino",
+            "URL": "higgsbosino",
+            "Name": "Higgs Bosino",
+            "MainSymbol": "\\tilde{H}^{0}",
+            "Symbol": "\\tilde{H}^{0}",
+            "Classes": [
+                "bosino"
+            ],
+            "Antiparticle": {
+                "Reference": "",
+                "Name": "",
+                "URLReference": ""
+            },
+            "Status": "hypothetical",
+            "Composition": "none",
+            "RelativeCharge": "0",
+            "Charge": "0",
+            "Spin": "1/2",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Higgsino"
+        },
+        {
             "Reference": "HiggsBoson",
             "URLReference": "higgsboson",
             "URL": "higgsboson",
@@ -3188,6 +3210,710 @@
                 }
             ],
             "WikipediaURL": "https://en.wikipedia.org/wiki/Higgs_boson"
+        },
+        {
+            "Reference": "LambdaAntibaryon_udb",
+            "URLReference": "lambdaantibaryon_udb",
+            "URL": "lambdaantibaryon_udb",
+            "Name": "Lambda Antibaryon",
+            "MainSymbol": "\\bar{\\Lambda}^{0}_{b}",
+            "Symbol": "\\bar{\\Lambda}^{0}_{b}",
+            "Classes": [
+                "antihadron",
+                "antibaryon",
+                "fermion",
+                "antimatter"
+            ],
+            "Antiparticle": {
+                "Reference": "",
+                "Name": "",
+                "URLReference": ""
+            },
+            "Status": "confirmed",
+            "Composition": "\\bar{u} \\bar{d} \\bar{b}",
+            "Mass": [
+                {
+                    "Significand": "1.00189165228",
+                    "Base": "10",
+                    "Exponent": "-26",
+                    "Unit": "kg",
+                    "UnitClass": "kg",
+                    "Rounding": "none",
+                    "HTML": "1.00189165228 &times; 10<sup>&minus;26</sup> kg",
+                    "LaTeX": "1.00189165228 \\times 10^{-26} \\, \\mathrm{kg}"
+                },
+                {
+                    "Significand": "1.00",
+                    "Base": "10",
+                    "Exponent": "-26",
+                    "Unit": "kg",
+                    "UnitClass": "kg",
+                    "Rounding": "3sf",
+                    "HTML": "1.00 &times; 10<sup>&minus;26</sup> kg",
+                    "LaTeX": "1.00 \\times 10^{-26} \\, \\mathrm{kg}"
+                },
+                {
+                    "Significand": "5620.2",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "MeV",
+                    "UnitClass": "eV",
+                    "Rounding": "none",
+                    "HTML": "5620.2 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "5620.2 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "5620",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "MeV",
+                    "UnitClass": "eV",
+                    "Rounding": "3sf",
+                    "HTML": "5620 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "5620 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "6.03353255838",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "UnitClass": "u",
+                    "Rounding": "none",
+                    "HTML": "6.03353255838 u",
+                    "LaTeX": "6.03353255838 \\, \\mathrm{u}"
+                },
+                {
+                    "Significand": "6.03",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "UnitClass": "u",
+                    "Rounding": "3sf",
+                    "HTML": "6.03 u",
+                    "LaTeX": "6.03 \\, \\mathrm{u}"
+                }
+            ],
+            "RelativeCharge": "0",
+            "Charge": "0",
+            "Spin": "1/2",
+            "Isospin": "0",
+            "MeanLifetime": [
+                {
+                    "Significand": "1.409",
+                    "Base": "10",
+                    "Exponent": "-12",
+                    "Unit": "s",
+                    "UnitClass": "s",
+                    "Rounding": "none",
+                    "HTML": "1.409 &times; 10<sup>&minus;12</sup> s",
+                    "LaTeX": "1.409 \\times 10^{-12} \\, s"
+                },
+                {
+                    "Significand": "1.41",
+                    "Base": "10",
+                    "Exponent": "-12",
+                    "Unit": "s",
+                    "UnitClass": "s",
+                    "Rounding": "3sf",
+                    "HTML": "1.41 &times; 10<sup>&minus;12</sup> s",
+                    "LaTeX": "1.41 \\times 10^{-12} \\, s"
+                }
+            ],
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Lambda_baryon"
+        },
+        {
+            "Reference": "LambdaAntibaryon_udc",
+            "URLReference": "lambdaantibaryon_udc",
+            "URL": "lambdaantibaryon_udc",
+            "Name": "Lambda Antibaryon",
+            "MainSymbol": "\\bar{\\Lambda}^{-}_{c}",
+            "Symbol": "\\bar{\\Lambda}^{-}_{c}",
+            "Classes": [
+                "antihadron",
+                "antibaryon",
+                "fermion",
+                "antimatter"
+            ],
+            "Antiparticle": {
+                "Reference": "",
+                "Name": "",
+                "URLReference": ""
+            },
+            "Status": "confirmed",
+            "Composition": "\\bar{u} \\bar{d} \\bar{c}",
+            "Mass": [
+                {
+                    "Significand": "4.07598517360",
+                    "Base": "10",
+                    "Exponent": "-27",
+                    "Unit": "kg",
+                    "UnitClass": "kg",
+                    "Rounding": "none",
+                    "HTML": "4.07598517360 &times; 10<sup>&minus;27</sup> kg",
+                    "LaTeX": "4.07598517360 \\times 10^{-27} \\, \\mathrm{kg}"
+                },
+                {
+                    "Significand": "4.08",
+                    "Base": "10",
+                    "Exponent": "-27",
+                    "Unit": "kg",
+                    "UnitClass": "kg",
+                    "Rounding": "3sf",
+                    "HTML": "4.08 &times; 10<sup>&minus;27</sup> kg",
+                    "LaTeX": "4.08 \\times 10^{-27} \\, \\mathrm{kg}"
+                },
+                {
+                    "Significand": "2286.46",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "MeV",
+                    "UnitClass": "eV",
+                    "Rounding": "none",
+                    "HTML": "2286.46 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "2286.46 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "2290",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "MeV",
+                    "UnitClass": "eV",
+                    "Rounding": "3sf",
+                    "HTML": "2290 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "2290 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "2.45461564596",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "UnitClass": "u",
+                    "Rounding": "none",
+                    "HTML": "2.45461564596 u",
+                    "LaTeX": "2.45461564596 \\, \\mathrm{u}"
+                },
+                {
+                    "Significand": "2.45",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "UnitClass": "u",
+                    "Rounding": "3sf",
+                    "HTML": "2.45 u",
+                    "LaTeX": "2.45 \\, \\mathrm{u}"
+                }
+            ],
+            "RelativeCharge": "-1",
+            "Charge": [
+                {
+                    "Significand": "-1.602176634",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "none",
+                    "HTML": "&minus;1.602176634 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "-1.602176634 \\times 10^{-19} \\, \\mathrm{C}"
+                },
+                {
+                    "Significand": "-1.60",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "3sf",
+                    "HTML": "&minus;1.60 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "-1.60 \\times 10^{-19} \\, \\mathrm{C}"
+                }
+            ],
+            "Spin": "1/2",
+            "Isospin": "0",
+            "MeanLifetime": [
+                {
+                    "Significand": "2.00",
+                    "Base": "10",
+                    "Exponent": "-13",
+                    "Unit": "s",
+                    "UnitClass": "s",
+                    "Rounding": "none",
+                    "HTML": "2.00 &times; 10<sup>&minus;13</sup> s",
+                    "LaTeX": "2.00 \\times 10^{-13} \\, s"
+                },
+                {
+                    "Significand": "2.00",
+                    "Base": "10",
+                    "Exponent": "-13",
+                    "Unit": "s",
+                    "UnitClass": "s",
+                    "Rounding": "3sf",
+                    "HTML": "2.00 &times; 10<sup>&minus;13</sup> s",
+                    "LaTeX": "2.00 \\times 10^{-13} \\, s"
+                }
+            ],
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Lambda_baryon"
+        },
+        {
+            "Reference": "LambdaAntibaryon_uds",
+            "URLReference": "lambdaantibaryon_uds",
+            "URL": "lambdaantibaryon_uds",
+            "Name": "Lambda Antibaryon",
+            "MainSymbol": "\\bar{\\Lambda}^{0}",
+            "Symbol": "\\bar{\\Lambda}^{0}",
+            "Classes": [
+                "antihadron",
+                "antibaryon",
+                "fermion",
+                "antimatter"
+            ],
+            "Antiparticle": {
+                "Reference": "",
+                "Name": "",
+                "URLReference": ""
+            },
+            "Status": "confirmed",
+            "Composition": "\\bar{u} \\bar{d} \\bar{s}",
+            "Mass": [
+                {
+                    "Significand": "1.98888559889",
+                    "Base": "10",
+                    "Exponent": "-27",
+                    "Unit": "kg",
+                    "UnitClass": "kg",
+                    "Rounding": "none",
+                    "HTML": "1.98888559889 &times; 10<sup>&minus;27</sup> kg",
+                    "LaTeX": "1.98888559889 \\times 10^{-27} \\, \\mathrm{kg}"
+                },
+                {
+                    "Significand": "1.99",
+                    "Base": "10",
+                    "Exponent": "-27",
+                    "Unit": "kg",
+                    "UnitClass": "kg",
+                    "Rounding": "3sf",
+                    "HTML": "1.99 &times; 10<sup>&minus;27</sup> kg",
+                    "LaTeX": "1.99 \\times 10^{-27} \\, \\mathrm{kg}"
+                },
+                {
+                    "Significand": "1115.683",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "MeV",
+                    "UnitClass": "eV",
+                    "Rounding": "none",
+                    "HTML": "1115.683 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "1115.683 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "1120",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "MeV",
+                    "UnitClass": "eV",
+                    "Rounding": "3sf",
+                    "HTML": "1120 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "1120 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "1.19773490362",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "UnitClass": "u",
+                    "Rounding": "none",
+                    "HTML": "1.19773490362 u",
+                    "LaTeX": "1.19773490362 \\, \\mathrm{u}"
+                },
+                {
+                    "Significand": "1.20",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "UnitClass": "u",
+                    "Rounding": "3sf",
+                    "HTML": "1.20 u",
+                    "LaTeX": "1.20 \\, \\mathrm{u}"
+                }
+            ],
+            "RelativeCharge": "0",
+            "Charge": "0",
+            "Spin": "1/2",
+            "Isospin": "0",
+            "MeanLifetime": [
+                {
+                    "Significand": "2.631",
+                    "Base": "10",
+                    "Exponent": "-10",
+                    "Unit": "s",
+                    "UnitClass": "s",
+                    "Rounding": "none",
+                    "HTML": "2.631 &times; 10<sup>&minus;10</sup> s",
+                    "LaTeX": "2.631 \\times 10^{-10} \\, s"
+                },
+                {
+                    "Significand": "2.63",
+                    "Base": "10",
+                    "Exponent": "-10",
+                    "Unit": "s",
+                    "UnitClass": "s",
+                    "Rounding": "3sf",
+                    "HTML": "2.63 &times; 10<sup>&minus;10</sup> s",
+                    "LaTeX": "2.63 \\times 10^{-10} \\, s"
+                }
+            ],
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Lambda_baryon"
+        },
+        {
+            "Reference": "LambdaBaryon_udb",
+            "URLReference": "lambdabaryon_udb",
+            "URL": "lambdabaryon_udb",
+            "Name": "Lambda Baryon",
+            "MainSymbol": "\\Lambda^{0}_{b}",
+            "Symbol": "\\Lambda^{0}_{b}",
+            "Classes": [
+                "hadron",
+                "baryon",
+                "fermion",
+                "matter"
+            ],
+            "Antiparticle": {
+                "Reference": "",
+                "Name": "",
+                "URLReference": ""
+            },
+            "Status": "confirmed",
+            "Composition": "udb",
+            "Mass": [
+                {
+                    "Significand": "1.00189165228",
+                    "Base": "10",
+                    "Exponent": "-26",
+                    "Unit": "kg",
+                    "UnitClass": "kg",
+                    "Rounding": "none",
+                    "HTML": "1.00189165228 &times; 10<sup>&minus;26</sup> kg",
+                    "LaTeX": "1.00189165228 \\times 10^{-26} \\, \\mathrm{kg}"
+                },
+                {
+                    "Significand": "1.00",
+                    "Base": "10",
+                    "Exponent": "-26",
+                    "Unit": "kg",
+                    "UnitClass": "kg",
+                    "Rounding": "3sf",
+                    "HTML": "1.00 &times; 10<sup>&minus;26</sup> kg",
+                    "LaTeX": "1.00 \\times 10^{-26} \\, \\mathrm{kg}"
+                },
+                {
+                    "Significand": "5620.2",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "MeV",
+                    "UnitClass": "eV",
+                    "Rounding": "none",
+                    "HTML": "5620.2 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "5620.2 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "5620",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "MeV",
+                    "UnitClass": "eV",
+                    "Rounding": "3sf",
+                    "HTML": "5620 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "5620 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "6.03353255838",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "UnitClass": "u",
+                    "Rounding": "none",
+                    "HTML": "6.03353255838 u",
+                    "LaTeX": "6.03353255838 \\, \\mathrm{u}"
+                },
+                {
+                    "Significand": "6.03",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "UnitClass": "u",
+                    "Rounding": "3sf",
+                    "HTML": "6.03 u",
+                    "LaTeX": "6.03 \\, \\mathrm{u}"
+                }
+            ],
+            "RelativeCharge": "0",
+            "Charge": "0",
+            "Spin": "1/2",
+            "Isospin": "0",
+            "MeanLifetime": [
+                {
+                    "Significand": "1.409",
+                    "Base": "10",
+                    "Exponent": "-12",
+                    "Unit": "s",
+                    "UnitClass": "s",
+                    "Rounding": "none",
+                    "HTML": "1.409 &times; 10<sup>&minus;12</sup> s",
+                    "LaTeX": "1.409 \\times 10^{-12} \\, s"
+                },
+                {
+                    "Significand": "1.41",
+                    "Base": "10",
+                    "Exponent": "-12",
+                    "Unit": "s",
+                    "UnitClass": "s",
+                    "Rounding": "3sf",
+                    "HTML": "1.41 &times; 10<sup>&minus;12</sup> s",
+                    "LaTeX": "1.41 \\times 10^{-12} \\, s"
+                }
+            ],
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Lambda_baryon"
+        },
+        {
+            "Reference": "LambdaBaryon_udc",
+            "URLReference": "lambdabaryon_udc",
+            "URL": "lambdabaryon_udc",
+            "Name": "Lambda Baryon",
+            "MainSymbol": "\\Lambda^{+}_{c}",
+            "Symbol": "\\Lambda^{+}_{c}",
+            "Classes": [
+                "hadron",
+                "baryon",
+                "fermion",
+                "matter"
+            ],
+            "Antiparticle": {
+                "Reference": "",
+                "Name": "",
+                "URLReference": ""
+            },
+            "Status": "confirmed",
+            "Composition": "udc",
+            "Mass": [
+                {
+                    "Significand": "4.07598517360",
+                    "Base": "10",
+                    "Exponent": "-27",
+                    "Unit": "kg",
+                    "UnitClass": "kg",
+                    "Rounding": "none",
+                    "HTML": "4.07598517360 &times; 10<sup>&minus;27</sup> kg",
+                    "LaTeX": "4.07598517360 \\times 10^{-27} \\, \\mathrm{kg}"
+                },
+                {
+                    "Significand": "4.08",
+                    "Base": "10",
+                    "Exponent": "-27",
+                    "Unit": "kg",
+                    "UnitClass": "kg",
+                    "Rounding": "3sf",
+                    "HTML": "4.08 &times; 10<sup>&minus;27</sup> kg",
+                    "LaTeX": "4.08 \\times 10^{-27} \\, \\mathrm{kg}"
+                },
+                {
+                    "Significand": "2286.46",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "MeV",
+                    "UnitClass": "eV",
+                    "Rounding": "none",
+                    "HTML": "2286.46 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "2286.46 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "2290",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "MeV",
+                    "UnitClass": "eV",
+                    "Rounding": "3sf",
+                    "HTML": "2290 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "2290 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "2.45461564596",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "UnitClass": "u",
+                    "Rounding": "none",
+                    "HTML": "2.45461564596 u",
+                    "LaTeX": "2.45461564596 \\, \\mathrm{u}"
+                },
+                {
+                    "Significand": "2.45",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "UnitClass": "u",
+                    "Rounding": "3sf",
+                    "HTML": "2.45 u",
+                    "LaTeX": "2.45 \\, \\mathrm{u}"
+                }
+            ],
+            "RelativeCharge": "+1",
+            "Charge": [
+                {
+                    "Significand": "1.602176634",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "none",
+                    "HTML": "1.602176634 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "1.602176634 \\times 10^{-19} \\, \\mathrm{C}"
+                },
+                {
+                    "Significand": "1.60",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "3sf",
+                    "HTML": "1.60 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "1.60 \\times 10^{-19} \\, \\mathrm{C}"
+                }
+            ],
+            "Spin": "1/2",
+            "Isospin": "0",
+            "MeanLifetime": [
+                {
+                    "Significand": "2.00",
+                    "Base": "10",
+                    "Exponent": "-13",
+                    "Unit": "s",
+                    "UnitClass": "s",
+                    "Rounding": "none",
+                    "HTML": "2.00 &times; 10<sup>&minus;13</sup> s",
+                    "LaTeX": "2.00 \\times 10^{-13} \\, s"
+                },
+                {
+                    "Significand": "2.00",
+                    "Base": "10",
+                    "Exponent": "-13",
+                    "Unit": "s",
+                    "UnitClass": "s",
+                    "Rounding": "3sf",
+                    "HTML": "2.00 &times; 10<sup>&minus;13</sup> s",
+                    "LaTeX": "2.00 \\times 10^{-13} \\, s"
+                }
+            ],
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Lambda_baryon"
+        },
+        {
+            "Reference": "LambdaBaryon_uds",
+            "URLReference": "lambdabaryon_uds",
+            "URL": "lambdabaryon_uds",
+            "Name": "Lambda Baryon",
+            "MainSymbol": "\\Lambda^{0}",
+            "Symbol": "\\Lambda^{0}",
+            "Classes": [
+                "hadron",
+                "baryon",
+                "fermion",
+                "matter"
+            ],
+            "Antiparticle": {
+                "Reference": "",
+                "Name": "",
+                "URLReference": ""
+            },
+            "Status": "confirmed",
+            "Composition": "uds",
+            "Mass": [
+                {
+                    "Significand": "1.98888559889",
+                    "Base": "10",
+                    "Exponent": "-27",
+                    "Unit": "kg",
+                    "UnitClass": "kg",
+                    "Rounding": "none",
+                    "HTML": "1.98888559889 &times; 10<sup>&minus;27</sup> kg",
+                    "LaTeX": "1.98888559889 \\times 10^{-27} \\, \\mathrm{kg}"
+                },
+                {
+                    "Significand": "1.99",
+                    "Base": "10",
+                    "Exponent": "-27",
+                    "Unit": "kg",
+                    "UnitClass": "kg",
+                    "Rounding": "3sf",
+                    "HTML": "1.99 &times; 10<sup>&minus;27</sup> kg",
+                    "LaTeX": "1.99 \\times 10^{-27} \\, \\mathrm{kg}"
+                },
+                {
+                    "Significand": "1115.683",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "MeV",
+                    "UnitClass": "eV",
+                    "Rounding": "none",
+                    "HTML": "1115.683 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "1115.683 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "1120",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "MeV",
+                    "UnitClass": "eV",
+                    "Rounding": "3sf",
+                    "HTML": "1120 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "1120 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "1.19773490362",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "UnitClass": "u",
+                    "Rounding": "none",
+                    "HTML": "1.19773490362 u",
+                    "LaTeX": "1.19773490362 \\, \\mathrm{u}"
+                },
+                {
+                    "Significand": "1.20",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "UnitClass": "u",
+                    "Rounding": "3sf",
+                    "HTML": "1.20 u",
+                    "LaTeX": "1.20 \\, \\mathrm{u}"
+                }
+            ],
+            "RelativeCharge": "0",
+            "Charge": "0",
+            "Spin": "1/2",
+            "Isospin": "0",
+            "MeanLifetime": [
+                {
+                    "Significand": "2.631",
+                    "Base": "10",
+                    "Exponent": "-10",
+                    "Unit": "s",
+                    "UnitClass": "s",
+                    "Rounding": "none",
+                    "HTML": "2.631 &times; 10<sup>&minus;10</sup> s",
+                    "LaTeX": "2.631 \\times 10^{-10} \\, s"
+                },
+                {
+                    "Significand": "2.63",
+                    "Base": "10",
+                    "Exponent": "-10",
+                    "Unit": "s",
+                    "UnitClass": "s",
+                    "Rounding": "3sf",
+                    "HTML": "2.63 &times; 10<sup>&minus;10</sup> s",
+                    "LaTeX": "2.63 \\times 10^{-10} \\, s"
+                }
+            ],
+            "YearDiscovered": "1950",
+            "DiscoveredBy": "V. D. Hopper, S. Biswas",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Lambda_baryon"
         },
         {
             "Reference": "Muon",

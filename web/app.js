@@ -188,7 +188,13 @@ application.controller("ParticleController", ["$scope", "$routeParams", "dataSer
     $scope.getParticleSymbol = getParticleSymbol;
 
     $scope.getTagHue = function (c) {
-        return ("abcdefghijklmnopqrstuvwxyz".indexOf(c[0]) * 360 / 26);
+        var n = 0;
+
+        for (var i = 0; i < c.length; i++) {
+            n += "abcdefghijklmnopqrstuvwxyz".indexOf(c[i]) * 360 / 26;
+        }
+
+        return (n);
     }
 
 }]);

@@ -44,22 +44,22 @@
     font-weight: normal;
 }
 
-.table-leptonsheader, .table-chargedleptonsheader, .table-neutralleptonsheader, .table-quarksheader, .table-firstgenerationheader, .table-secondgenerationheader, .table-thirdgenerationheader, .table-vectorbosonsheader, .table-scalarbosonsheader, .table-superleptonsheader, .table-chargedsuperleptonsheader, .table-neutralsuperleptonsheader, .table-superquarksheader, .table-firstgeneration2header, .table-secondgeneration2header, .table-thirdgeneration2header {
+.table-leptonsheader, .table-chargedleptonsheader, .table-neutralleptonsheader, .table-quarksheader, .table-firstgenerationheader, .table-secondgenerationheader, .table-thirdgenerationheader, .table-vectorbosonsheader, .table-scalarbosonsheader, .table-superleptonsheader, .table-chargedsuperleptonsheader, .table-neutralsuperleptonsheader, .table-superquarksheader, .table-firstgeneration2header, .table-secondgeneration2header, .table-thirdgeneration2header, .table-bosinosheader {
     display: none;
 }
 
-.table-fermion, .table-wplusboson, .table-wminusboson, .table-zboson, .table-photon, .table-gluon, .table-higgsboson, .table-axion, .table-graviton, .table-superquark, .table-superlepton, .table-photino, .table-gluino, .table-gravitino {
+.table-fermion, .table-wplusboson, .table-wminusboson, .table-zboson, .table-photon, .table-gluon, .table-higgsboson, .table-axion, .table-graviton, .table-superquark, .table-superlepton, .table-photino, .table-gluino, .table-gravitino, .table-higgsbosino {
     height: 100px;
 }
 
 @media (min-width: 700px) {
-    .table-fermion, .table-wplusboson, .table-wminusboson, .table-zboson, .table-photon, .table-gluon, .table-higgsboson, .table-axion, .table-graviton, .table-superquark, .table-superlepton, .table-photino, .table-gluino, .table-gravitino {
+    .table-fermion, .table-wplusboson, .table-wminusboson, .table-zboson, .table-photon, .table-gluon, .table-higgsboson, .table-axion, .table-graviton, .table-superquark, .table-superlepton, .table-photino, .table-gluino, .table-gravitino, .table-higgsbosino {
         height: 150px;
     }
 }
 
 @media (min-width: 1000px) {
-    .table-leptonsheader, .table-chargedleptonsheader, .table-neutralleptonsheader, .table-quarksheader, .table-firstgenerationheader, .table-secondgenerationheader, .table-thirdgenerationheader, .table-vectorbosonsheader, .table-scalarbosonsheader, .table-superleptonsheader, .table-chargedsuperleptonsheader, .table-neutralsuperleptonsheader, .table-superquarksheader, .table-firstgeneration2header, .table-secondgeneration2header, .table-thirdgeneration2header {
+    .table-leptonsheader, .table-chargedleptonsheader, .table-neutralleptonsheader, .table-quarksheader, .table-firstgenerationheader, .table-secondgenerationheader, .table-thirdgenerationheader, .table-vectorbosonsheader, .table-scalarbosonsheader, .table-superleptonsheader, .table-chargedsuperleptonsheader, .table-neutralsuperleptonsheader, .table-superquarksheader, .table-firstgeneration2header, .table-secondgeneration2header, .table-thirdgeneration2header, .table-bosinosheader {
         display: block;
     }
     .table-leptonsheader {
@@ -126,13 +126,17 @@
         grid-column: 1 / span 1;
         grid-row: 15 / span 1;
     }
+    .table-bosinosheader {
+        grid-column: 1 / span 1;
+        grid-row: 17 / span 4;
+    }
     .table-fermion, .table-superquark, .table-superlepton {
         height: 100px;
     }
     .table-wplusboson, .table-wminusboson, .table-zboson {
         height: 100px;
     }
-    .table-photon, .table-gluon, .table-higgsboson, .table-axion, .table-graviton, .table-photino, .table-gluino, .table-gravitino {
+    .table-photon, .table-gluon, .table-higgsboson, .table-axion, .table-graviton, .table-photino, .table-gluino, .table-gravitino, .table-higgsbosino {
         height: 202px;
     }
 }
@@ -144,7 +148,7 @@
     .table-wplusboson, .table-wminusboson, .table-zboson {
         height: 150px;
     }
-    .table-photon, .table-gluon, .table-higgsboson, .table-axion, .table-graviton, .table-photino, .table-gluino, .table-gravitino {
+    .table-photon, .table-gluon, .table-higgsboson, .table-axion, .table-graviton, .table-photino, .table-gluino, .table-gravitino, .table-higgsbosino {
         height: 302px;
     }
 }
@@ -200,6 +204,11 @@
 }
 
 .table-gravitino {
+    grid-column: 1 / span 1;
+    grid-row: 24 / span 1;
+}
+
+.table-higgsbosino {
     grid-column: 1 / span 1;
     grid-row: 24 / span 1;
 }
@@ -310,6 +319,36 @@
     grid-row: 23 / span 1;
 }
 
+.table-lambdabaryon_uds {
+    grid-column: 1 / span 1;
+    grid-row: 24 / span 1;
+}
+
+.table-lambdaantibaryon_uds {
+    grid-column: 1 / span 1;
+    grid-row: 24 / span 1;
+}
+
+.table-lambdabaryon_udc {
+    grid-column: 1 / span 1;
+    grid-row: 24 / span 1;
+}
+
+.table-lambdaantibaryon_udc {
+    grid-column: 1 / span 1;
+    grid-row: 24 / span 1;
+}
+
+.table-lambdabaryon_udb {
+    grid-column: 1 / span 1;
+    grid-row: 24 / span 1;
+}
+
+.table-lambdaantibaryon_udb {
+    grid-column: 1 / span 1;
+    grid-row: 24 / span 1;
+}
+
 @media (min-width: 1000px) {
     .table-photon {
         grid-column: 2 / span 2;
@@ -354,6 +393,10 @@
     .table-gravitino {
         grid-column: 8 / span 2;
         grid-row: 17 / span 2;
+    }
+    .table-higgsbosino {
+        grid-column: 2 / span 2;
+        grid-row: 19 / span 2;
     }
     .table-electron, .table-muon, .table-tauon, .table-superelectron, .table-supermuon, .table-supertauon {
         grid-column: 2 / span 1;
@@ -444,6 +487,30 @@
     .table-deltaantibaryon_ddd {
         grid-column: 9 / span 1;
         grid-row: 23 / span 1;
+    }
+    .table-lambdabaryon_uds {
+        grid-column: 6 / span 1;
+        grid-row: 24 / span 1;
+    }
+    .table-lambdaantibaryon_uds {
+        grid-column: 7 / span 1;
+        grid-row: 24 / span 1;
+    }
+    .table-lambdabaryon_udc {
+        grid-column: 4 / span 1;
+        grid-row: 24 / span 1;
+    }
+    .table-lambdaantibaryon_udc {
+        grid-column: 5 / span 1;
+        grid-row: 24 / span 1;
+    }
+    .table-lambdabaryon_udb {
+        grid-column: 6 / span 1;
+        grid-row: 25 / span 1;
+    }
+    .table-lambdaantibaryon_udb {
+        grid-column: 7 / span 1;
+        grid-row: 25 / span 1;
     }
 }
 
