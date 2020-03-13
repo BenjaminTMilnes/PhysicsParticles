@@ -3652,6 +3652,10 @@
                 "Name": "",
                 "URLReference": ""
             },
+            "OtherNames": [
+                "bottom lambda baryon",
+                "beautiful lambda baryon"
+            ],
             "Status": "confirmed",
             "Composition": "udb",
             "Mass": [
@@ -3762,6 +3766,9 @@
                 "Name": "",
                 "URLReference": ""
             },
+            "OtherNames": [
+                "charmed lambda baryon"
+            ],
             "Status": "confirmed",
             "Composition": "udc",
             "Mass": [
@@ -3893,6 +3900,9 @@
                 "Name": "",
                 "URLReference": ""
             },
+            "OtherNames": [
+                "strange lambda baryon"
+            ],
             "Status": "confirmed",
             "Composition": "uds",
             "Mass": [
@@ -4005,6 +4015,10 @@
                 "Name": "",
                 "URLReference": ""
             },
+            "OtherNames": [
+                "top lambda baryon",
+                "truthful lambda baryon"
+            ],
             "Status": "expected impossible",
             "Composition": "udt",
             "Mass": "",
