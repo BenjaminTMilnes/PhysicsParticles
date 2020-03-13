@@ -14,7 +14,7 @@
 }
 
 .particleproperties th, .particleproperties td {
-    padding: 10px 10px;
+    padding: 7px 10px;
     width: 50%;
 }
 
@@ -31,11 +31,14 @@
     display: inline-block;
     padding: 2px 7px;
     margin-right: 5px;
-    margin-bottom: 2px;
     border-radius: 2px;
     color: white;
     font-weight: normal;
     text-transform: uppercase;
+}
+
+.particletags .tag {
+    margin-top: 5px;
 }
 
 .confirmed {
