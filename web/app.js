@@ -4,7 +4,8 @@ application.config(function ($routeProvider) {
     $routeProvider
         .when("/", { templateUrl: "table.html", controller: "TableController" })
         .when("/list", { templateUrl: "list.html", controller: "ListController" })
-        .when("/particle/:particleName", { templateUrl: "particle.html", controller: "ParticleController" });
+        .when("/particle/:particleName", { templateUrl: "particle.html", controller: "ParticleController" })
+        .when("/about", { templateUrl: "about.html" });
 });
 
 application.directive("mathematics", function () {
