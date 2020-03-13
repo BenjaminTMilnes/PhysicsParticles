@@ -19,6 +19,7 @@
             <th>Status:</th>
             <td>
                 <span ng-show="particle.Status == 'confirmed'" class="confirmed">{{particle.Status}}</span>
+                <span ng-show="particle.Status == 'expected impossible'" class="expectedimpossible">{{particle.Status}}</span>
                 <span ng-show="particle.Status == 'hypothetical'" class="hypothetical">{{particle.Status}}</span>
             </td>
         </tr>
@@ -26,7 +27,7 @@
             <th>Composition:</th>
             <td>
                 <span ng-show="particle.Composition == 'none'" class="fundamental">Fundamental</span>
-                <span ng-show="particle.Composition != 'none'"><mathematics content-type="latex" content="{{particle.Composition}}"></mathematics></span>
+                <span ng-show="particle.Composition != 'none'" compile="getParticleComposition(particle)"></span>
             </td>
         </tr>
         <tr>

@@ -594,6 +594,30 @@
             "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/lepton.html"
         },
         {
+            "Reference": "Axino",
+            "URLReference": "axino",
+            "URL": "axino",
+            "Name": "Axino",
+            "MainSymbol": "\\tilde{A}^{0}",
+            "Symbol": "\\tilde{A}^{0}",
+            "Classes": [
+                "bosino",
+                "superpartner"
+            ],
+            "Antiparticle": {
+                "Reference": "",
+                "Name": "",
+                "URLReference": ""
+            },
+            "Status": "hypothetical",
+            "Composition": "none",
+            "Mass": "",
+            "RelativeCharge": "0",
+            "Charge": "0",
+            "Spin": "1/2",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Axino"
+        },
+        {
             "Reference": "Axion",
             "URLReference": "axion",
             "URL": "axion",
@@ -3563,6 +3587,54 @@
             "WikipediaURL": "https://en.wikipedia.org/wiki/Lambda_baryon"
         },
         {
+            "Reference": "LambdaAntibaryon_udt",
+            "URLReference": "lambdaantibaryon_udt",
+            "URL": "lambdaantibaryon_udt",
+            "Name": "Lambda Antibaryon",
+            "MainSymbol": "\\bar{\\Lambda}^{-}_{t}",
+            "Symbol": "\\bar{\\Lambda}^{-}_{t}",
+            "Classes": [
+                "antihadron",
+                "antibaryon",
+                "fermion",
+                "antimatter"
+            ],
+            "Antiparticle": {
+                "Reference": "",
+                "Name": "",
+                "URLReference": ""
+            },
+            "Status": "expected impossible",
+            "Composition": "\\bar{u} \\bar{d} \\bar{t}",
+            "Mass": "",
+            "RelativeCharge": "-1",
+            "Charge": [
+                {
+                    "Significand": "-1.602176634",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "none",
+                    "HTML": "&minus;1.602176634 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "-1.602176634 \\times 10^{-19} \\, \\mathrm{C}"
+                },
+                {
+                    "Significand": "-1.60",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "3sf",
+                    "HTML": "&minus;1.60 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "-1.60 \\times 10^{-19} \\, \\mathrm{C}"
+                }
+            ],
+            "Spin": "1/2",
+            "Isospin": "0",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Lambda_baryon"
+        },
+        {
             "Reference": "LambdaBaryon_udb",
             "URLReference": "lambdabaryon_udb",
             "URL": "lambdabaryon_udb",
@@ -3913,6 +3985,54 @@
             ],
             "YearDiscovered": "1950",
             "DiscoveredBy": "V. D. Hopper, S. Biswas",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Lambda_baryon"
+        },
+        {
+            "Reference": "LambdaBaryon_udt",
+            "URLReference": "lambdabaryon_udt",
+            "URL": "lambdabaryon_udt",
+            "Name": "Lambda Baryon",
+            "MainSymbol": "\\Lambda^{+}_{t}",
+            "Symbol": "\\Lambda^{+}_{t}",
+            "Classes": [
+                "hadron",
+                "baryon",
+                "fermion",
+                "matter"
+            ],
+            "Antiparticle": {
+                "Reference": "",
+                "Name": "",
+                "URLReference": ""
+            },
+            "Status": "expected impossible",
+            "Composition": "udt",
+            "Mass": "",
+            "RelativeCharge": "+1",
+            "Charge": [
+                {
+                    "Significand": "1.602176634",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "none",
+                    "HTML": "1.602176634 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "1.602176634 \\times 10^{-19} \\, \\mathrm{C}"
+                },
+                {
+                    "Significand": "1.60",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "3sf",
+                    "HTML": "1.60 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "1.60 \\times 10^{-19} \\, \\mathrm{C}"
+                }
+            ],
+            "Spin": "1/2",
+            "Isospin": "0",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Lambda_baryon"
         },
         {

@@ -91,7 +91,15 @@ class Database {
                 p.U.hue = hues[i] + Math.random() * 80 - 40;
             }
 
-            p.U.style = "background-color: hsl(" + p.U.hue + ", 40%, 50%); background: linear-gradient(140deg, hsl(" + p.U.hue + ", 40%, 55%),  hsl(" + p.U.hue + ", 40%, 45%)); border-color: hsl(" + p.U.hue + ", 40%, 40%); color: hsl(" + p.U.hue + ", 0%, 100%);";
+            p.U.saturation = 45;
+            p.U.lightness = 52.5;
+
+            var h = p.U.hue;
+            var s = p.U.saturation;
+            var l1 = p.U.lightness + 5;
+            var l2 = p.U.lightness - 5;
+
+            p.U.style = "background-color: hsl(" + h + ", " + s + "%, " + l1 + "%); background: linear-gradient(140deg, hsl(" + h + ", " + s + "%, " + l1 + "%),  hsl(" + h + ", " + s + "%, " + l2 + "%)); border-color: hsl(" + h + ", 40%, 40%); color: hsl(" + p.U.hue + ", 0%, 100%);";
 
             this._particlesObject[p.Reference] = p;
         });
@@ -151,6 +159,10 @@ function getParticleSymbol(particle) {
     return (!particle) ? "" : "<mathematics content-type=\"latex\" content=\"" + particle.MainSymbol + "\"></mathematics>"
 }
 
+function getParticleComposition(particle) {
+    return (!particle) ? "" : "<mathematics content-type=\"latex\" content=\"" + particle.Composition + "\"></mathematics>"
+}
+
 application.controller("TableController", ["$scope", "dataService", "$location", function TableController($scope, dataService, $location) {
 
     dataService.getData().then(function (database) {
@@ -158,6 +170,7 @@ application.controller("TableController", ["$scope", "dataService", "$location",
     });
 
     $scope.getParticleSymbol = getParticleSymbol;
+    $scope.getParticleComposition = getParticleComposition;
 
     $scope.goToParticlePage = function (particle) {
         $location.url("/particle/" + particle.URLReference);
@@ -172,6 +185,7 @@ application.controller("ListController", ["$scope", "dataService", "$location", 
     });
 
     $scope.getParticleSymbol = getParticleSymbol;
+    $scope.getParticleComposition = getParticleComposition;
 
     $scope.goToParticlePage = function (particle) {
         $location.url("/particle/" + particle.URLReference);
@@ -186,6 +200,7 @@ application.controller("ParticleController", ["$scope", "$routeParams", "dataSer
     });
 
     $scope.getParticleSymbol = getParticleSymbol;
+    $scope.getParticleComposition = getParticleComposition;
 
     $scope.getTagHue = function (c) {
         var n = 0;

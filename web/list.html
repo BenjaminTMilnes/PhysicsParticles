@@ -22,7 +22,7 @@
             </td>
             <td style="text-align: left;">
                 <span ng-show="particle.Composition == 'none'" class="fundamental">Fundamental</span>
-                <span ng-show="particle.Composition != 'none'">{{particle.Composition}}</span>
+                <span ng-show="particle.Composition != 'none'" compile="getParticleComposition(particle)"></span>
             </td>
             <td compile="particle.U.mass2">
             </td>
