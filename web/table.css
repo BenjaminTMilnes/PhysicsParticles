@@ -311,13 +311,13 @@
     .table-downantiquark, .table-strangeantiquark, .table-bottomantiquark, .table-downantisuperquark, .table-strangeantisuperquark, .table-bottomantisuperquark {
         grid-column: 9 / span 1;
     }
-    .table-electron, .table-positron, .table-electronneutrino, .table-electronantineutrino, .table-upquark, .table-upantiquark, .table-downquark, .table-downantiquark {
+    .table-generation1{
         grid-row: 3 / span 1;
     }
-    .table-muon, .table-antimuon, .table-muonneutrino, .table-muonantineutrino, .table-charmquark, .table-charmantiquark, .table-strangequark, .table-strangeantiquark {
+    .table-generation2{
         grid-row: 4 / span 1;
     }
-    .table-tauon, .table-antitauon, .table-tauonneutrino, .table-tauonantineutrino, .table-topquark, .table-topantiquark, .table-bottomquark, .table-bottomantiquark {
+    .table-generation3{
         grid-row: 5 / span 1;
     }
     .table-upsuperquark, .table-upantisuperquark, .table-downsuperquark, .table-downantisuperquark, .table-superelectron, .table-superpositron, .table-electronsuperneutrino, .table-electronantisuperneutrino {
