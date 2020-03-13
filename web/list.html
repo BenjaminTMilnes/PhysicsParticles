@@ -1,3 +1,5 @@
+<input type="text" class="listsearch" placeholder="search ..." ng-model="searchtext" />
+
 <table class="particlelist">
     <thead>
         <tr>
@@ -9,16 +11,17 @@
             <th>Charge</th>
             <th>Spin</th>
             <th>Mean Lifetime</th>
-            <th>Year Discovered:</th>
+            <th style="display: none;">Year Discovered:</th>
         </tr>
     </thead>
     <tbody>
-        <tr ng-repeat="particle in particles">
+        <tr ng-repeat="particle in particles | filter : searchtext">
             <td style="text-align: left;"><a href="#/particle/{{particle.URLReference}}" title="{{particle.Name}}">{{particle.Name}}</a></td>
-            <td style="text-align: center;" compile="getParticleSymbol(particle)"></td>
+            <td style="text-align: left;" compile="getParticleSymbol(particle)"></td>
             <td style="text-align: left;">
                 <span ng-show="particle.Status == 'confirmed'" class="confirmed">{{particle.Status}}</span>
                 <span ng-show="particle.Status == 'hypothetical'" class="hypothetical">{{particle.Status}}</span>
+                <span ng-show="particle.Status == 'expected impossible'" class="expectedimpossible">{{particle.Status}}</span>
             </td>
             <td style="text-align: left;">
                 <span ng-show="particle.Composition == 'none'" class="fundamental">Fundamental</span>
@@ -33,7 +36,7 @@
             </td>
             <td compile="particle.U.meanLifetime">
             </td>
-            <td>
+            <td style="display: none;">
                 <span ng-show="particle.YearDiscovered != undefined">{{particle.YearDiscovered}}</span>
             </td>
         </tr>

@@ -1,3 +1,22 @@
+.listsearch {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 1;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    font-family: inherit;
+    font-size: 1em;
+    font-weight: inherit;
+    color: inherit;
+    padding: 0.5em;
+    text-align: center;
+    outline: none;
+}
+
+.listsearch:focus {
+    border: 1px solid #105ecc;
+}
+
 .particlelist {
     font-size: 14px;
     border-collapse: collapse;
