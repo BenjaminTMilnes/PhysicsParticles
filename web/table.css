@@ -22,14 +22,14 @@
 @media (min-width: 1000px) {
     .particletable {
         grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
-        grid-template-rows: 40px 40px 100px 100px 100px 20px 100px 100px 100px 100px 40px 40px 100px 100px 100px 20px 100px 100px 100px 100px 20px 100px 100px 100px 100px;
+        grid-template-rows: 40px 40px 100px 100px 100px 20px 100px 100px 100px 100px 40px 40px 100px 100px 100px 20px 100px 100px 100px 100px 20px 100px 100px 100px 100px 100px;
     }
 }
 
 @media (min-width: 1400px) {
     .particletable {
         grid-template-columns: 150px 150px 150px 150px 150px 150px 150px 150px 150px;
-        grid-template-rows: 40px 40px 150px 150px 150px 20px 150px 150px 150px 150px 40px 40px 150px 150px 150px 20px 150px 150px 150px 150px 20px 150px 150px 150px 150px;
+        grid-template-rows: 40px 40px 150px 150px 150px 20px 150px 150px 150px 150px 40px 40px 150px 150px 150px 20px 150px 150px 150px 150px 20px 150px 150px 150px 150px 150px;
         grid-column-gap: 2px;
         grid-row-gap: 2px;
     }
@@ -399,6 +399,22 @@
     .table-lambdaantibaryon_udt {
         grid-column: 5 / span 1;
         grid-row: 25 / span 1;
+    }
+    .table-sigmabaryon_uus {
+        grid-column: 4 / span 1;
+        grid-row: 26 / span 1;
+    }
+    .table-sigmaantibaryon_uus {
+        grid-column: 5 / span 1;
+        grid-row: 26 / span 1;
+    }
+    .table-sigmabaryon_uds {
+        grid-column: 6 / span 1;
+        grid-row: 26 / span 1;
+    }
+    .table-sigmaantibaryon_uds {
+        grid-column: 7 / span 1;
+        grid-row: 26 / span 1;
     }
 }
 
