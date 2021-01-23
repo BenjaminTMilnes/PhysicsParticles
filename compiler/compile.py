@@ -399,6 +399,7 @@ class Compiler (object):
             particle["Classes"] = [c.strip() for c in lines[4].split(",")]
             particle["Antiparticle"] = {}
             particle["Antiparticle"]["Reference"] = ""
+            particle["DecayModes"] = []
 
             lines = lines[5:]
 
@@ -457,6 +458,15 @@ class Compiler (object):
                         particle["MeanLifetime"] = t
                     else:
                         particle["MeanLifetime"] = Time.fromText(t).toDictionary()
+
+                if line.startswith("decay modes:"):
+                    t = line[12:].strip()
+
+                    dms = t.split(";")
+
+                    for dm in dms:
+                        ps =[p.strip() for p in dm.split(",")]
+                        particle["DecayModes"].append(ps)
 
                 if line.startswith("upness:"):
                     particle["Upness"] = line[7:].strip()
