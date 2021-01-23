@@ -14,6 +14,7 @@ mass: 2452.9 \times 10^{0} MeV
 relative charge: -1
 spin: 1/2
 isospin: 1
+decay modes: LambdaAntibaryon_udc, Pion_uu
 
 charm: -1
 

@@ -5430,7 +5430,16 @@
                 "Name": "",
                 "URLReference": ""
             },
-            "DecayModes": [],
+            "DecayModes": [
+                {
+                    "BranchingRatio": "",
+                    "Particles": [
+                        "LambdaAntibaryon_udc",
+                        "Pion_uu"
+                    ],
+                    "Equation": "\\Sigma_{c}^{-} \\rightarrow \\bar{\\Lambda}^{-}_{c} + \\pi^{0}"
+                }
+            ],
             "OtherNames": [
                 ""
             ],
@@ -5661,7 +5670,16 @@
                 "Name": "",
                 "URLReference": ""
             },
-            "DecayModes": [],
+            "DecayModes": [
+                {
+                    "BranchingRatio": "",
+                    "Particles": [
+                        "LambdaAntibaryon_udc",
+                        "Antipion_ud"
+                    ],
+                    "Equation": "\\Sigma_{c}^{--} \\rightarrow \\bar{\\Lambda}^{-}_{c} + \\pi^{-}"
+                }
+            ],
             "OtherNames": [
                 ""
             ],
@@ -6072,7 +6090,16 @@
                 "Name": "",
                 "URLReference": ""
             },
-            "DecayModes": [],
+            "DecayModes": [
+                {
+                    "BranchingRatio": "",
+                    "Particles": [
+                        "LambdaBaryon_udc",
+                        "Pion_uu"
+                    ],
+                    "Equation": "\\Sigma_{c}^{+} \\rightarrow \\Lambda^{+}_{c} + \\pi^{0}"
+                }
+            ],
             "OtherNames": [
                 ""
             ],
@@ -6303,7 +6330,16 @@
                 "Name": "",
                 "URLReference": ""
             },
-            "DecayModes": [],
+            "DecayModes": [
+                {
+                    "BranchingRatio": "",
+                    "Particles": [
+                        "LambdaBaryon_udc",
+                        "Pion_ud"
+                    ],
+                    "Equation": "\\Sigma_{c}^{++} \\rightarrow \\Lambda^{+}_{c} + \\pi^{+}"
+                }
+            ],
             "OtherNames": [
                 ""
             ],

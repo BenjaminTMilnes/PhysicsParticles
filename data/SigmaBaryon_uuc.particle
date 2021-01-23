@@ -15,6 +15,7 @@ relative charge: +2
 spin: 1/2
 isospin: 1
 mean lifetime: 3.5 \times 10^{-22} s
+decay modes: LambdaBaryon_udc, Pion_ud
 
 charm: +1
 

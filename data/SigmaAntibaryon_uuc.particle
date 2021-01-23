@@ -14,7 +14,8 @@ mass: 2453.97 \times 10^{0} MeV
 relative charge: -2
 spin: 1/2
 isospin: 1
-mean lifetime: 3.5 \times 10^{-22} s
+mean lifetime: 3.5 \times 10^{-22} s 
+decay modes: LambdaAntibaryon_udc, Antipion_ud
 
 charm: -1
 
