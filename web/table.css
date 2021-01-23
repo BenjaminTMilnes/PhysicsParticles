@@ -416,6 +416,22 @@
         grid-column: 7 / span 1;
         grid-row: 26 / span 1;
     }
+    .table-sigmabaryon_dds {
+        grid-column: 8 / span 1;
+        grid-row: 26 / span 1;
+    }
+    .table-sigmaantibaryon_dds {
+        grid-column: 9 / span 1;
+        grid-row: 26 / span 1;
+    }
+    .table-sigmabaryon_uuc {
+        grid-column: 2 / span 1;
+        grid-row: 27 / span 1;
+    }
+    .table-sigmaantibaryon_uuc {
+        grid-column: 3 / span 1;
+        grid-row: 27 / span 1;
+    }
 }
 
 .particle {
