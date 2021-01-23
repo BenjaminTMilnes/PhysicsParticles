@@ -269,7 +269,16 @@
                 "Name": "",
                 "URLReference": ""
             },
-            "DecayModes": [],
+            "DecayModes": [
+                {
+                    "BranchingRatio": "",
+                    "Particles": [
+                        "Muon",
+                        "MuonAntineutrino"
+                    ],
+                    "Equation": "\\pi^{-} \\rightarrow \\mu^{-} + \\bar{\\nu}_{\\mu}"
+                }
+            ],
             "OtherNames": [
                 ""
             ],
@@ -4756,7 +4765,16 @@
                 "Name": "",
                 "URLReference": ""
             },
-            "DecayModes": [],
+            "DecayModes": [
+                {
+                    "BranchingRatio": "",
+                    "Particles": [
+                        "Antimuon",
+                        "MuonNeutrino"
+                    ],
+                    "Equation": "\\pi^{+} \\rightarrow \\mu^{+} + \\nu_{\\mu}"
+                }
+            ],
             "OtherNames": [
                 ""
             ],

@@ -66,6 +66,10 @@
             <th>Mean Lifetime:</th>
             <td compile="particle.U.meanLifetime"></td>
         </tr>
+        <tr ng-show="particle.DecayModes.length > 0">
+            <th>Decay Modes:</th>
+            <td compile="getParticleDecayModes(particle)"></td>
+        </tr>
         <tr ng-show="particle.Generation != undefined">
             <th>Generation:</th>
             <td>{{particle.U.generation}}</td>

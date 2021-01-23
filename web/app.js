@@ -82,6 +82,8 @@ class Database {
                 p.U.meanLifetime = p.MeanLifetime;
             }
 
+            p.U.decayModes = p.DecayModes.map(dm => dm.Equation).join(", ");
+
             p.U.generation = ["First", "Second", "Third"][parseInt(p.Generation) - 1];
 
             var i = charges.indexOf(p.RelativeCharge);
@@ -164,6 +166,10 @@ function getParticleComposition(particle) {
     return (!particle) ? "" : "<mathematics content-type=\"latex\" content=\"" + particle.Composition + "\"></mathematics>"
 }
 
+function getParticleDecayModes(particle) {
+    return (!particle) ? "" : "<mathematics content-type=\"latex\" content=\"" + particle.DecayModes.map(dm => dm.Equation).join(", ") + "\"></mathematics>"
+}
+
 application.controller("TableController", ["$scope", "dataService", "$location", function TableController($scope, dataService, $location) {
 
     dataService.getData().then(function (database) {
@@ -172,6 +178,7 @@ application.controller("TableController", ["$scope", "dataService", "$location",
 
     $scope.getParticleSymbol = getParticleSymbol;
     $scope.getParticleComposition = getParticleComposition;
+    $scope.getParticleDecayModes = getParticleDecayModes;
 
     $scope.goToParticlePage = function (particle) {
         $location.url("/particle/" + particle.URLReference);
@@ -187,6 +194,7 @@ application.controller("ListController", ["$scope", "dataService", "$location", 
 
     $scope.getParticleSymbol = getParticleSymbol;
     $scope.getParticleComposition = getParticleComposition;
+    $scope.getParticleDecayModes = getParticleDecayModes;
 
     $scope.goToParticlePage = function (particle) {
         $location.url("/particle/" + particle.URLReference);
@@ -202,6 +210,7 @@ application.controller("ParticleController", ["$scope", "$routeParams", "dataSer
 
     $scope.getParticleSymbol = getParticleSymbol;
     $scope.getParticleComposition = getParticleComposition;
+    $scope.getParticleDecayModes = getParticleDecayModes;
 
     $scope.getTagHue = function (c) {
         var n = 0;
