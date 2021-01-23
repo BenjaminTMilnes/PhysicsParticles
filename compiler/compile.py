@@ -466,7 +466,7 @@ class Compiler (object):
 
                     for dm in dms:
                         ps =[p.strip() for p in dm.split(",")]
-                        particle["DecayModes"].append(ps)
+                        particle["DecayModes"].append({ "BranchingRatio": "", "Particles": ps})
 
                 if line.startswith("upness:"):
                     particle["Upness"] = line[7:].strip()
@@ -512,15 +512,25 @@ class Compiler (object):
 
         particles = [self.compileParticle(filePath) for filePath in particleFilePaths]
 
-        for particle in particles:
-            antiparticles = [p for p in particles if p["Reference"] == particle["Antiparticle"]["Reference"]]
+        ps = {particle["Reference"]: particle for particle in particles}
 
-            if len(antiparticles) > 0:
-                particle["Antiparticle"]["Name"] = antiparticles[0]["Name"]
-                particle["Antiparticle"]["URLReference"] = antiparticles[0]["URLReference"]
+        for particle in particles:
+            antiparticle = ps.get( particle["Antiparticle"]["Reference"], None)
+
+            if antiparticle != None:
+                particle["Antiparticle"]["Name"] = antiparticle["Name"]
+                particle["Antiparticle"]["URLReference"] = antiparticle["URLReference"]
             else:
                 particle["Antiparticle"]["Name"] = ""
                 particle["Antiparticle"]["URLReference"] = ""
+
+            for decayMode in particle["DecayModes"]:
+                equation = particle["MainSymbol"] + " \\rightarrow "
+                pss = [ps[p]["MainSymbol"] for p in decayMode["Particles"]]
+
+                equation += " + ".join(pss)
+
+                decayMode["Equation"] = equation
 
         data = {}
 
