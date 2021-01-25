@@ -167,7 +167,7 @@ function getParticleComposition(particle) {
 }
 
 function getParticleDecayModes(particle) {
-    return (!particle) ? "" : "<mathematics content-type=\"latex\" content=\"" + particle.DecayModes.map(dm => dm.Equation).join(", ") + "\"></mathematics>"
+    return (!particle) ? "" :  particle.DecayModes.map(dm => "<mathematics content-type=\"latex\" content=\"" + dm.Equation + "\"></mathematics> " + ((dm.BranchingRatio !== undefined)? "(" + dm.BranchingRatio + "%)": "")).join("<br />") 
 }
 
 application.controller("TableController", ["$scope", "dataService", "$location", function TableController($scope, dataService, $location) {

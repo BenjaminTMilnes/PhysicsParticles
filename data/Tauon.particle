@@ -15,6 +15,18 @@ relative charge: -1
 spin: 1/2
 antiparticle: Antitauon
 mean lifetime: 2.903 \times 10^{-13} s
+
+decay modes: 
+
+Electron, TauonNeutrino, ElectronAntineutrino (17.82%)
+Muon, TauonNeutrino, MuonAntineutrino (17.39%)
+Antipion_ud, TauonNeutrino (10.82%)
+Antipion_ud, Pion_uu, TauonNeutrino (25.49%)
+Antipion_ud, 2 Pion_uu, TauonNeutrino (9.26%)
+Antipion_ud, 3 Pion_uu, TauonNeutrino (1.04%)
+2 Antipion_ud, Pion_ud, TauonNeutrino (8.99%)
+2 Antipion_ud, Pion_ud, Pion_uu, TauonNeutrino (2.74%)
+
 generation: 3
 monte carlo particle number: 15
 

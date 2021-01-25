@@ -402,107 +402,137 @@ class Compiler (object):
             particle["DecayModes"] = []
 
             lines = lines[5:]
+            section = "main"
 
             for line in lines:
-                if line.startswith("other names:"):
-                    particle["OtherNames"] = [n.strip() for n in line[12:].strip().split(",")]
+                if section == "decaymodes":
+                    m = re.match(r"[A-Za-z\s]+:", line)
 
-                if line.startswith("status:"):
-                    particle["Status"] = line[7:].strip()
+                    if not m:
+                        if line != "":
+                            decayMode = {}
 
-                if line.startswith("composition:"):
-                    particle["Composition"] = line[12:].strip()
+                            if line.find("(") >= 0:
+                                i1 = line.find("(")
+                                i2 = line.find(")")
 
-                if line.startswith("mass:"):
-                    mass = Mass.fromText(line[5:].strip())
+                                decayMode["BranchingRatio"] = line[i1 + 1: i2 - 1]
 
-                    if mass != None:
-                        if mass == zero:
-                            particle["Mass"] = "0"
+                                line = line[:i1]
+                                
+                            ps1 =[p.strip() for p in line.split(",")]
+                            ps2 = []
+
+                            for p in ps1:
+                                m = re.match("(\d+)\s+([A-Za-z_]+)", p)
+
+                                if m:
+                                    n = int(m.group(1))
+                                    r = m.group(2)
+
+                                    ps2 += [r] * n 
+                                else:
+                                    ps2 += [p] 
+
+                            decayMode["Particles"] = ps2
+
+                            particle["DecayModes"].append(decayMode)
+                    else:
+                        section = "main"
+                if section == "main":
+                    if line.startswith("other names:"):
+                        particle["OtherNames"] = [n.strip() for n in line[12:].strip().split(",")]
+
+                    if line.startswith("status:"):
+                        particle["Status"] = line[7:].strip()
+
+                    if line.startswith("composition:"):
+                        particle["Composition"] = line[12:].strip()
+
+                    if line.startswith("mass:"):
+                        mass = Mass.fromText(line[5:].strip())
+
+                        if mass != None:
+                            if mass == zero:
+                                particle["Mass"] = "0"
+                            else:
+                                particle["Mass"] = mass.toDictionary()
                         else:
-                            particle["Mass"] = mass.toDictionary()
-                    else:
-                        particle["Mass"] = line[5:].strip()
+                            particle["Mass"] = line[5:].strip()
 
-                if line.startswith("relative charge:"):
-                    particle["RelativeCharge"] = line[16:].strip()
-                    charge =  Charge.fromText(line[16:].strip())
+                    if line.startswith("relative charge:"):
+                        particle["RelativeCharge"] = line[16:].strip()
+                        charge =  Charge.fromText(line[16:].strip())
 
-                    if charge.number == zero:
-                        particle["Charge"] = "0"
-                    else:
-                        particle["Charge"] = charge.toDictionary()
+                        if charge.number == zero:
+                            particle["Charge"] = "0"
+                        else:
+                            particle["Charge"] = charge.toDictionary()
 
-                if line.startswith("spin:"):
-                    particle["Spin"] = line[5:].strip()
-                    
-                if line.startswith("isospin:"):
-                    particle["Isospin"] = line[8:].strip()
+                    if line.startswith("spin:"):
+                        particle["Spin"] = line[5:].strip()
+                        
+                    if line.startswith("isospin:"):
+                        particle["Isospin"] = line[8:].strip()
 
-                if line.startswith("magnetic moment:"):
-                    particle["MagneticMoment"] = MagneticMoment.fromText(line[16:].strip()).toDictionary()
+                    if line.startswith("magnetic moment:"):
+                        particle["MagneticMoment"] = MagneticMoment.fromText(line[16:].strip()).toDictionary()
 
-                if line.startswith("antiparticle:"):
-                    particle["Antiparticle"]["Reference"] = line[13:].strip()
+                    if line.startswith("antiparticle:"):
+                        particle["Antiparticle"]["Reference"] = line[13:].strip()
 
-                if line.startswith("generation:"):
-                    particle["Generation"] = line[11:].strip()
+                    if line.startswith("generation:"):
+                        particle["Generation"] = line[11:].strip()
 
-                if line.startswith("monte carlo particle number:"):
-                    particle["MonteCarloParticleNumber"] = line[28:].strip()
+                    if line.startswith("monte carlo particle number:"):
+                        particle["MonteCarloParticleNumber"] = line[28:].strip()
 
-                if line.startswith("mean lifetime:"):
-                    t = line[14:].strip()
+                    if line.startswith("mean lifetime:"):
+                        t = line[14:].strip()
 
-                    if t == "stable":
-                        particle["MeanLifetime"] = t
-                    else:
-                        particle["MeanLifetime"] = Time.fromText(t).toDictionary()
+                        if t == "stable":
+                            particle["MeanLifetime"] = t
+                        else:
+                            particle["MeanLifetime"] = Time.fromText(t).toDictionary()
 
-                if line.startswith("decay modes:"):
-                    t = line[12:].strip()
+                    if line.startswith("decay modes:"):
+                        section = "decaymodes"
 
-                    dms = t.split(";")
+                    if line.startswith("upness:"):
+                        particle["Upness"] = line[7:].strip()
 
-                    for dm in dms:
-                        ps =[p.strip() for p in dm.split(",")]
-                        particle["DecayModes"].append({ "BranchingRatio": "", "Particles": ps})
+                    if line.startswith("downness:"):
+                        particle["Downness"] = line[9:].strip()
 
-                if line.startswith("upness:"):
-                    particle["Upness"] = line[7:].strip()
+                    if line.startswith("charm:"):
+                        particle["Charm"] = line[6:].strip()
 
-                if line.startswith("downness:"):
-                    particle["Downness"] = line[9:].strip()
+                    if line.startswith("strangeness:"):
+                        particle["Strangeness"] = line[12:].strip()
 
-                if line.startswith("charm:"):
-                    particle["Charm"] = line[6:].strip()
+                    if line.startswith("topness:"):
+                        particle["Topness"] = line[8:].strip()
 
-                if line.startswith("strangeness:"):
-                    particle["Strangeness"] = line[12:].strip()
+                    if line.startswith("bottomness:"):
+                        particle["Bottomness"] = line[11:].strip()
 
-                if line.startswith("topness:"):
-                    particle["Topness"] = line[8:].strip()
+                    if line.startswith("year theorised:"):
+                        particle["YearTheorised"] = line[15:].strip()
 
-                if line.startswith("bottomness:"):
-                    particle["Bottomness"] = line[11:].strip()
+                    if line.startswith("theorised by:"):
+                        particle["TheorisedBy"] = line[13:].strip()
 
-                if line.startswith("year theorised:"):
-                    particle["YearTheorised"] = line[15:].strip()
+                    if line.startswith("year discovered:"):
+                        particle["YearDiscovered"] = line[16:].strip()
 
-                if line.startswith("theorised by:"):
-                    particle["TheorisedBy"] = line[13:].strip()
+                    if line.startswith("discovered by:"):
+                        particle["DiscoveredBy"] = line[14:].strip()
 
-                if line.startswith("year discovered:"):
-                    particle["YearDiscovered"] = line[16:].strip()
+                    if line.startswith("wikipedia:"):
+                        particle["WikipediaURL"] = line[10:].strip()
 
-                if line.startswith("discovered by:"):
-                    particle["DiscoveredBy"] = line[14:].strip()
-
-                if line.startswith("wikipedia:"):
-                    particle["WikipediaURL"] = line[10:].strip()
-
-                if line.startswith("hyperphysics:"):
-                    particle["HyperphysicsURL"] = line[13:].strip()
+                    if line.startswith("hyperphysics:"):
+                        particle["HyperphysicsURL"] = line[13:].strip()
 
             return particle
 

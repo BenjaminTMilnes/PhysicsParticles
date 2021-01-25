@@ -14,7 +14,10 @@ mass: 134.9766 \times 10^{0} MeV
 relative charge: 0
 spin: 0
 mean lifetime: 8.4 \times 10^{-17} s
-decay modes: Photon, Photon
+
+decay modes: 
+
+Photon, Photon
 
 wikipedia: https://en.wikipedia.org/wiki/Pion
 hyperphysics: http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/hadron.html#c2

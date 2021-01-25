@@ -18,7 +18,16 @@
                 "Name": "Muon",
                 "URLReference": "muon"
             },
-            "DecayModes": [],
+            "DecayModes": [
+                {
+                    "Particles": [
+                        "Positron",
+                        "MuonAntineutrino",
+                        "ElectronNeutrino"
+                    ],
+                    "Equation": "\\mu^{+} \\rightarrow e^{+} + \\bar{\\nu}_{\\mu} + \\nu_{e}"
+                }
+            ],
             "OtherNames": [
                 "mu antilepton",
                 "anti mu"
@@ -271,7 +280,6 @@
             },
             "DecayModes": [
                 {
-                    "BranchingRatio": "",
                     "Particles": [
                         "Muon",
                         "MuonAntineutrino"
@@ -4258,7 +4266,16 @@
                 "Name": "Antimuon",
                 "URLReference": "antimuon"
             },
-            "DecayModes": [],
+            "DecayModes": [
+                {
+                    "Particles": [
+                        "Electron",
+                        "MuonNeutrino",
+                        "ElectronAntineutrino"
+                    ],
+                    "Equation": "\\mu^{-} \\rightarrow e^{-} + \\nu_{\\mu} + \\bar{\\nu}_{e}"
+                }
+            ],
             "OtherNames": [
                 "mu lepton",
                 "mu"
@@ -4767,7 +4784,6 @@
             },
             "DecayModes": [
                 {
-                    "BranchingRatio": "",
                     "Particles": [
                         "Antimuon",
                         "MuonNeutrino"
@@ -4911,7 +4927,6 @@
             },
             "DecayModes": [
                 {
-                    "BranchingRatio": "",
                     "Particles": [
                         "Photon",
                         "Photon"
@@ -5432,7 +5447,6 @@
             },
             "DecayModes": [
                 {
-                    "BranchingRatio": "",
                     "Particles": [
                         "LambdaAntibaryon_udc",
                         "Pion_uu"
@@ -5672,7 +5686,6 @@
             },
             "DecayModes": [
                 {
-                    "BranchingRatio": "",
                     "Particles": [
                         "LambdaAntibaryon_udc",
                         "Antipion_ud"
@@ -6092,7 +6105,6 @@
             },
             "DecayModes": [
                 {
-                    "BranchingRatio": "",
                     "Particles": [
                         "LambdaBaryon_udc",
                         "Pion_uu"
@@ -6332,7 +6344,6 @@
             },
             "DecayModes": [
                 {
-                    "BranchingRatio": "",
                     "Particles": [
                         "LambdaBaryon_udc",
                         "Pion_ud"
@@ -7131,7 +7142,85 @@
                 "Name": "Antitauon",
                 "URLReference": "antitauon"
             },
-            "DecayModes": [],
+            "DecayModes": [
+                {
+                    "BranchingRatio": "17.82",
+                    "Particles": [
+                        "Electron",
+                        "TauonNeutrino",
+                        "ElectronAntineutrino"
+                    ],
+                    "Equation": "\\tau^{-} \\rightarrow e^{-} + \\nu_{\\tau} + \\bar{\\nu}_{e}"
+                },
+                {
+                    "BranchingRatio": "17.39",
+                    "Particles": [
+                        "Muon",
+                        "TauonNeutrino",
+                        "MuonAntineutrino"
+                    ],
+                    "Equation": "\\tau^{-} \\rightarrow \\mu^{-} + \\nu_{\\tau} + \\bar{\\nu}_{\\mu}"
+                },
+                {
+                    "BranchingRatio": "10.82",
+                    "Particles": [
+                        "Antipion_ud",
+                        "TauonNeutrino"
+                    ],
+                    "Equation": "\\tau^{-} \\rightarrow \\pi^{-} + \\nu_{\\tau}"
+                },
+                {
+                    "BranchingRatio": "25.49",
+                    "Particles": [
+                        "Antipion_ud",
+                        "Pion_uu",
+                        "TauonNeutrino"
+                    ],
+                    "Equation": "\\tau^{-} \\rightarrow \\pi^{-} + \\pi^{0} + \\nu_{\\tau}"
+                },
+                {
+                    "BranchingRatio": "9.26",
+                    "Particles": [
+                        "Antipion_ud",
+                        "Pion_uu",
+                        "Pion_uu",
+                        "TauonNeutrino"
+                    ],
+                    "Equation": "\\tau^{-} \\rightarrow \\pi^{-} + \\pi^{0} + \\pi^{0} + \\nu_{\\tau}"
+                },
+                {
+                    "BranchingRatio": "1.04",
+                    "Particles": [
+                        "Antipion_ud",
+                        "Pion_uu",
+                        "Pion_uu",
+                        "Pion_uu",
+                        "TauonNeutrino"
+                    ],
+                    "Equation": "\\tau^{-} \\rightarrow \\pi^{-} + \\pi^{0} + \\pi^{0} + \\pi^{0} + \\nu_{\\tau}"
+                },
+                {
+                    "BranchingRatio": "8.99",
+                    "Particles": [
+                        "Antipion_ud",
+                        "Antipion_ud",
+                        "Pion_ud",
+                        "TauonNeutrino"
+                    ],
+                    "Equation": "\\tau^{-} \\rightarrow \\pi^{-} + \\pi^{-} + \\pi^{+} + \\nu_{\\tau}"
+                },
+                {
+                    "BranchingRatio": "2.74",
+                    "Particles": [
+                        "Antipion_ud",
+                        "Antipion_ud",
+                        "Pion_ud",
+                        "Pion_uu",
+                        "TauonNeutrino"
+                    ],
+                    "Equation": "\\tau^{-} \\rightarrow \\pi^{-} + \\pi^{-} + \\pi^{+} + \\pi^{0} + \\nu_{\\tau}"
+                }
+            ],
             "OtherNames": [
                 "tau lepton",
                 "tau particle",
