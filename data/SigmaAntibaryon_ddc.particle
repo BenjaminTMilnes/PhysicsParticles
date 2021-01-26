@@ -1,0 +1,27 @@
+SigmaAntibaryon_ddc
+
+Charmed Sigma Antibaryon
+
+\bar{\Sigma}_{c}^{0}
+\bar{\Sigma}_{c}^{0}
+
+antihadron, antibaryon, fermion, antimatter
+
+other names:
+status: confirmed
+composition: \bar{d} \bar{d} \bar{c}
+mass: 2453.75 \times 10^{0} MeV
+relative charge: 0
+spin: 1/2
+isospin: 1
+
+decay modes: 
+
+LambdaAntibaryon_udc, Pion_ud
+
+charm: -1
+
+wikipedia: https://en.wikipedia.org/wiki/Sigma_baryon
+hyperphysics: http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/sigma.html
+
+rating: *****

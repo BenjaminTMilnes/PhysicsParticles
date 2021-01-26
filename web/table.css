@@ -440,6 +440,22 @@
         grid-column: 5 / span 1;
         grid-row: 27 / span 1;
     }
+    .table-sigmabaryon_ddc {
+        grid-column: 6 / span 1;
+        grid-row: 27 / span 1;
+    }
+    .table-sigmaantibaryon_ddc {
+        grid-column: 7 / span 1;
+        grid-row: 27 / span 1;
+    }
+    .table-sigmabaryon_uub {
+        grid-column: 4 / span 1;
+        grid-row: 28 / span 1;
+    }
+    .table-sigmaantibaryon_uub {
+        grid-column: 5 / span 1;
+        grid-row: 28 / span 1;
+    }
 }
 
 .particle {

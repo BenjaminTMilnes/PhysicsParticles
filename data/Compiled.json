@@ -5291,6 +5291,108 @@
             "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/proton.html"
         },
         {
+            "Reference": "SigmaAntibaryon_ddc",
+            "URLReference": "sigmaantibaryon_ddc",
+            "URL": "sigmaantibaryon_ddc",
+            "Name": "Charmed Sigma Antibaryon",
+            "MainSymbol": "\\bar{\\Sigma}_{c}^{0}",
+            "Symbol": "\\bar{\\Sigma}_{c}^{0}",
+            "Classes": [
+                "antihadron",
+                "antibaryon",
+                "fermion",
+                "antimatter"
+            ],
+            "Antiparticle": {
+                "Reference": "",
+                "Name": "",
+                "URLReference": ""
+            },
+            "DecayModes": [
+                {
+                    "Particles": [
+                        "LambdaAntibaryon_udc",
+                        "Pion_ud"
+                    ],
+                    "Equation": "\\bar{\\Sigma}_{c}^{0} \\rightarrow \\bar{\\Lambda}^{-}_{c} + \\pi^{+}"
+                }
+            ],
+            "OtherNames": [
+                ""
+            ],
+            "Status": "confirmed",
+            "Composition": "\\bar{d} \\bar{d} \\bar{c}",
+            "Mass": [
+                {
+                    "Significand": "4.37420668620",
+                    "Base": "10",
+                    "Exponent": "-27",
+                    "Unit": "kg",
+                    "UnitClass": "kg",
+                    "Rounding": "none",
+                    "HTML": "4.37420668620 &times; 10<sup>&minus;27</sup> kg",
+                    "LaTeX": "4.37420668620 \\times 10^{-27} \\, \\mathrm{kg}"
+                },
+                {
+                    "Significand": "4.37",
+                    "Base": "10",
+                    "Exponent": "-27",
+                    "Unit": "kg",
+                    "UnitClass": "kg",
+                    "Rounding": "3sf",
+                    "HTML": "4.37 &times; 10<sup>&minus;27</sup> kg",
+                    "LaTeX": "4.37 \\times 10^{-27} \\, \\mathrm{kg}"
+                },
+                {
+                    "Significand": "2453.75",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "MeV",
+                    "UnitClass": "eV",
+                    "Rounding": "none",
+                    "HTML": "2453.75 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "2453.75 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "2450",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "MeV",
+                    "UnitClass": "eV",
+                    "Rounding": "3sf",
+                    "HTML": "2450 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "2450 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "2.63420883867",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "UnitClass": "u",
+                    "Rounding": "none",
+                    "HTML": "2.63420883867 u",
+                    "LaTeX": "2.63420883867 \\, \\mathrm{u}"
+                },
+                {
+                    "Significand": "2.63",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "UnitClass": "u",
+                    "Rounding": "3sf",
+                    "HTML": "2.63 u",
+                    "LaTeX": "2.63 \\, \\mathrm{u}"
+                }
+            ],
+            "RelativeCharge": "0",
+            "Charge": "0",
+            "Spin": "1/2",
+            "Isospin": "1",
+            "Charm": "-1",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Sigma_baryon",
+            "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/sigma.html"
+        },
+        {
             "Reference": "SigmaAntibaryon_dds",
             "URLReference": "sigmaantibaryon_dds",
             "URL": "sigmaantibaryon_dds",
@@ -5667,6 +5769,143 @@
             "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/sigma.html"
         },
         {
+            "Reference": "SigmaAntibaryon_uub",
+            "URLReference": "sigmaantibaryon_uub",
+            "URL": "sigmaantibaryon_uub",
+            "Name": "Bottom Sigma Antibaryon",
+            "MainSymbol": "\\bar{\\Sigma}_{b}^{-}",
+            "Symbol": "\\bar{\\Sigma}_{b}^{-}",
+            "Classes": [
+                "antihadron",
+                "antibaryon",
+                "fermion",
+                "antimatter"
+            ],
+            "Antiparticle": {
+                "Reference": "",
+                "Name": "",
+                "URLReference": ""
+            },
+            "DecayModes": [],
+            "OtherNames": [
+                ""
+            ],
+            "Status": "confirmed",
+            "Composition": "\\bar{u} \\bar{u} \\bar{b}",
+            "Mass": [
+                {
+                    "Significand": "1.03582640459",
+                    "Base": "10",
+                    "Exponent": "-26",
+                    "Unit": "kg",
+                    "UnitClass": "kg",
+                    "Rounding": "none",
+                    "HTML": "1.03582640459 &times; 10<sup>&minus;26</sup> kg",
+                    "LaTeX": "1.03582640459 \\times 10^{-26} \\, \\mathrm{kg}"
+                },
+                {
+                    "Significand": "1.04",
+                    "Base": "10",
+                    "Exponent": "-26",
+                    "Unit": "kg",
+                    "UnitClass": "kg",
+                    "Rounding": "3sf",
+                    "HTML": "1.04 &times; 10<sup>&minus;26</sup> kg",
+                    "LaTeX": "1.04 \\times 10^{-26} \\, \\mathrm{kg}"
+                },
+                {
+                    "Significand": "5810.56",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "MeV",
+                    "UnitClass": "eV",
+                    "Rounding": "none",
+                    "HTML": "5810.56 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "5810.56 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "5810",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "MeV",
+                    "UnitClass": "eV",
+                    "Rounding": "3sf",
+                    "HTML": "5810 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "5810 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "6.23789241352",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "UnitClass": "u",
+                    "Rounding": "none",
+                    "HTML": "6.23789241352 u",
+                    "LaTeX": "6.23789241352 \\, \\mathrm{u}"
+                },
+                {
+                    "Significand": "6.24",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "UnitClass": "u",
+                    "Rounding": "3sf",
+                    "HTML": "6.24 u",
+                    "LaTeX": "6.24 \\, \\mathrm{u}"
+                }
+            ],
+            "RelativeCharge": "-1",
+            "Charge": [
+                {
+                    "Significand": "-1.602176634",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "none",
+                    "HTML": "&minus;1.602176634 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "-1.602176634 \\times 10^{-19} \\, \\mathrm{C}"
+                },
+                {
+                    "Significand": "-1.60",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "3sf",
+                    "HTML": "&minus;1.60 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "-1.60 \\times 10^{-19} \\, \\mathrm{C}"
+                }
+            ],
+            "Spin": "1/2",
+            "Isospin": "1",
+            "MeanLifetime": [
+                {
+                    "Significand": "1.31",
+                    "Base": "10",
+                    "Exponent": "-22",
+                    "Unit": "s",
+                    "UnitClass": "s",
+                    "Rounding": "none",
+                    "HTML": "1.31 &times; 10<sup>&minus;22</sup> s",
+                    "LaTeX": "1.31 \\times 10^{-22} \\, s"
+                },
+                {
+                    "Significand": "1.31",
+                    "Base": "10",
+                    "Exponent": "-22",
+                    "Unit": "s",
+                    "UnitClass": "s",
+                    "Rounding": "3sf",
+                    "HTML": "1.31 &times; 10<sup>&minus;22</sup> s",
+                    "LaTeX": "1.31 \\times 10^{-22} \\, s"
+                }
+            ],
+            "Bottomness": "+1",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Sigma_baryon",
+            "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/sigma.html"
+        },
+        {
             "Reference": "SigmaAntibaryon_uuc",
             "URLReference": "sigmaantibaryon_uuc",
             "URL": "sigmaantibaryon_uuc",
@@ -5945,6 +6184,108 @@
                 }
             ],
             "Strangeness": "+1",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Sigma_baryon",
+            "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/sigma.html"
+        },
+        {
+            "Reference": "SigmaBaryon_ddc",
+            "URLReference": "sigmabaryon_ddc",
+            "URL": "sigmabaryon_ddc",
+            "Name": "Charmed Sigma Baryon",
+            "MainSymbol": "\\Sigma_{c}^{0}",
+            "Symbol": "\\Sigma_{c}^{0}",
+            "Classes": [
+                "hadron",
+                "baryon",
+                "fermion",
+                "matter"
+            ],
+            "Antiparticle": {
+                "Reference": "",
+                "Name": "",
+                "URLReference": ""
+            },
+            "DecayModes": [
+                {
+                    "Particles": [
+                        "LambdaBaryon_udc",
+                        "Antipion_ud"
+                    ],
+                    "Equation": "\\Sigma_{c}^{0} \\rightarrow \\Lambda^{+}_{c} + \\pi^{-}"
+                }
+            ],
+            "OtherNames": [
+                ""
+            ],
+            "Status": "confirmed",
+            "Composition": "ddc",
+            "Mass": [
+                {
+                    "Significand": "4.37420668620",
+                    "Base": "10",
+                    "Exponent": "-27",
+                    "Unit": "kg",
+                    "UnitClass": "kg",
+                    "Rounding": "none",
+                    "HTML": "4.37420668620 &times; 10<sup>&minus;27</sup> kg",
+                    "LaTeX": "4.37420668620 \\times 10^{-27} \\, \\mathrm{kg}"
+                },
+                {
+                    "Significand": "4.37",
+                    "Base": "10",
+                    "Exponent": "-27",
+                    "Unit": "kg",
+                    "UnitClass": "kg",
+                    "Rounding": "3sf",
+                    "HTML": "4.37 &times; 10<sup>&minus;27</sup> kg",
+                    "LaTeX": "4.37 \\times 10^{-27} \\, \\mathrm{kg}"
+                },
+                {
+                    "Significand": "2453.75",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "MeV",
+                    "UnitClass": "eV",
+                    "Rounding": "none",
+                    "HTML": "2453.75 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "2453.75 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "2450",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "MeV",
+                    "UnitClass": "eV",
+                    "Rounding": "3sf",
+                    "HTML": "2450 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "2450 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "2.63420883867",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "UnitClass": "u",
+                    "Rounding": "none",
+                    "HTML": "2.63420883867 u",
+                    "LaTeX": "2.63420883867 \\, \\mathrm{u}"
+                },
+                {
+                    "Significand": "2.63",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "UnitClass": "u",
+                    "Rounding": "3sf",
+                    "HTML": "2.63 u",
+                    "LaTeX": "2.63 \\, \\mathrm{u}"
+                }
+            ],
+            "RelativeCharge": "0",
+            "Charge": "0",
+            "Spin": "1/2",
+            "Isospin": "1",
+            "Charm": "+1",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Sigma_baryon",
             "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/sigma.html"
         },
@@ -6321,6 +6662,143 @@
                 }
             ],
             "Strangeness": "-1",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Sigma_baryon",
+            "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/sigma.html"
+        },
+        {
+            "Reference": "SigmaBaryon_uub",
+            "URLReference": "sigmabaryon_uub",
+            "URL": "sigmabaryon_uub",
+            "Name": "Bottom Sigma Baryon",
+            "MainSymbol": "\\Sigma_{b}^{+}",
+            "Symbol": "\\Sigma_{b}^{+}",
+            "Classes": [
+                "hadron",
+                "baryon",
+                "fermion",
+                "matter"
+            ],
+            "Antiparticle": {
+                "Reference": "",
+                "Name": "",
+                "URLReference": ""
+            },
+            "DecayModes": [],
+            "OtherNames": [
+                ""
+            ],
+            "Status": "confirmed",
+            "Composition": "uub",
+            "Mass": [
+                {
+                    "Significand": "1.03582640459",
+                    "Base": "10",
+                    "Exponent": "-26",
+                    "Unit": "kg",
+                    "UnitClass": "kg",
+                    "Rounding": "none",
+                    "HTML": "1.03582640459 &times; 10<sup>&minus;26</sup> kg",
+                    "LaTeX": "1.03582640459 \\times 10^{-26} \\, \\mathrm{kg}"
+                },
+                {
+                    "Significand": "1.04",
+                    "Base": "10",
+                    "Exponent": "-26",
+                    "Unit": "kg",
+                    "UnitClass": "kg",
+                    "Rounding": "3sf",
+                    "HTML": "1.04 &times; 10<sup>&minus;26</sup> kg",
+                    "LaTeX": "1.04 \\times 10^{-26} \\, \\mathrm{kg}"
+                },
+                {
+                    "Significand": "5810.56",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "MeV",
+                    "UnitClass": "eV",
+                    "Rounding": "none",
+                    "HTML": "5810.56 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "5810.56 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "5810",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "MeV",
+                    "UnitClass": "eV",
+                    "Rounding": "3sf",
+                    "HTML": "5810 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "5810 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "6.23789241352",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "UnitClass": "u",
+                    "Rounding": "none",
+                    "HTML": "6.23789241352 u",
+                    "LaTeX": "6.23789241352 \\, \\mathrm{u}"
+                },
+                {
+                    "Significand": "6.24",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "UnitClass": "u",
+                    "Rounding": "3sf",
+                    "HTML": "6.24 u",
+                    "LaTeX": "6.24 \\, \\mathrm{u}"
+                }
+            ],
+            "RelativeCharge": "+1",
+            "Charge": [
+                {
+                    "Significand": "1.602176634",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "none",
+                    "HTML": "1.602176634 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "1.602176634 \\times 10^{-19} \\, \\mathrm{C}"
+                },
+                {
+                    "Significand": "1.60",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "3sf",
+                    "HTML": "1.60 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "1.60 \\times 10^{-19} \\, \\mathrm{C}"
+                }
+            ],
+            "Spin": "1/2",
+            "Isospin": "1",
+            "MeanLifetime": [
+                {
+                    "Significand": "1.31",
+                    "Base": "10",
+                    "Exponent": "-22",
+                    "Unit": "s",
+                    "UnitClass": "s",
+                    "Rounding": "none",
+                    "HTML": "1.31 &times; 10<sup>&minus;22</sup> s",
+                    "LaTeX": "1.31 \\times 10^{-22} \\, s"
+                },
+                {
+                    "Significand": "1.31",
+                    "Base": "10",
+                    "Exponent": "-22",
+                    "Unit": "s",
+                    "UnitClass": "s",
+                    "Rounding": "3sf",
+                    "HTML": "1.31 &times; 10<sup>&minus;22</sup> s",
+                    "LaTeX": "1.31 \\times 10^{-22} \\, s"
+                }
+            ],
+            "Bottomness": "-1",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Sigma_baryon",
             "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/sigma.html"
         },

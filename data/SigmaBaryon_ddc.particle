@@ -1,0 +1,27 @@
+SigmaBaryon_ddc
+
+Charmed Sigma Baryon
+
+\Sigma_{c}^{0}
+\Sigma_{c}^{0}
+
+hadron, baryon, fermion, matter
+
+other names:
+status: confirmed
+composition: ddc
+mass: 2453.75 \times 10^{0} MeV
+relative charge: 0
+spin: 1/2
+isospin: 1
+
+decay modes: 
+
+LambdaBaryon_udc, Antipion_ud
+
+charm: +1
+
+wikipedia: https://en.wikipedia.org/wiki/Sigma_baryon
+hyperphysics: http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/sigma.html
+
+rating: *****
