@@ -456,6 +456,10 @@
         grid-column: 5 / span 1;
         grid-row: 28 / span 1;
     }
+    .table-sigmabaryon_udb {
+        grid-column: 6 / span 1;
+        grid-row: 28 / span 1;
+    }
 }
 
 .particle {
