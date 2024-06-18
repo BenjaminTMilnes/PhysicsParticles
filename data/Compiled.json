@@ -6427,6 +6427,38 @@
             "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/sigma.html"
         },
         {
+            "Reference": "SigmaBaryon_udb",
+            "URLReference": "sigmabaryon_udb",
+            "URL": "sigmabaryon_udb",
+            "Name": "Bottom Sigma Baryon",
+            "MainSymbol": "\\Sigma_{b}^{0}",
+            "Symbol": "\\Sigma_{b}^{0}",
+            "Classes": [
+                "hadron",
+                "baryon",
+                "fermion",
+                "matter"
+            ],
+            "Antiparticle": {
+                "Reference": "",
+                "Name": "",
+                "URLReference": ""
+            },
+            "DecayModes": [],
+            "OtherNames": [
+                ""
+            ],
+            "Status": "confirmed",
+            "Composition": "udb",
+            "RelativeCharge": "0",
+            "Charge": "0",
+            "Spin": "1/2",
+            "Isospin": "1",
+            "Bottomness": "-1",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Sigma_baryon",
+            "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/sigma.html"
+        },
+        {
             "Reference": "SigmaBaryon_udc",
             "URLReference": "sigmabaryon_udc",
             "URL": "sigmabaryon_udc",
