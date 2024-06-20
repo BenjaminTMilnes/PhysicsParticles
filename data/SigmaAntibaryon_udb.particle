@@ -1,21 +1,21 @@
-SigmaBaryon_udb
+SigmaAntibaryon_udb
 
-Bottom Sigma Baryon
+Bottom Sigma Antibaryon
 
-\Sigma_{b}^{0}
-\Sigma_{b}^{0}
+\bar{\Sigma}_{b}^{0}
+\bar{\Sigma}_{b}^{0}
 
-hadron, baryon, fermion, matter
+antihadron, antibaryon, fermion, antimatter
 
 other names:
 status: confirmed
-composition: udb
+composition: \bar{u} \bar{d} \bar{b}
 relative charge: 0
 spin: 1/2
 isospin: 1
-antiparticle: SigmaAntibaryon_udb
+antiparticle: SigmaBaryon_udb
 
-bottomness: -1
+bottomness: +1
 
 wikipedia: https://en.wikipedia.org/wiki/Sigma_baryon
 hyperphysics: http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/sigma.html
