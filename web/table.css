@@ -472,6 +472,17 @@
         grid-column: 9 / span 1;
         grid-row: 28 / span 1;
     }
+
+
+    
+    .table-xibaryon_uss {
+        grid-column: 6 / span 1;
+        grid-row: 29 / span 1;
+    }
+    .table-xiantibaryon_uss {
+        grid-column: 7 / span 1;
+        grid-row: 29 / span 1;
+    }
 }
 
 .particle {
