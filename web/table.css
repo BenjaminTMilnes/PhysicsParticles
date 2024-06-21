@@ -464,6 +464,14 @@
         grid-column: 7 / span 1;
         grid-row: 28 / span 1;
     }
+    .table-sigmabaryon_ddb {
+        grid-column: 8 / span 1;
+        grid-row: 28 / span 1;
+    }
+    .table-sigmaantibaryon_ddb {
+        grid-column: 9 / span 1;
+        grid-row: 28 / span 1;
+    }
 }
 
 .particle {

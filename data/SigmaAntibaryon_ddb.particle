@@ -1,0 +1,25 @@
+SigmaAntibaryon_ddb
+
+Bottom Sigma Antibaryon
+
+\bar{\Sigma}_{b}^{+}
+\bar{\Sigma}_{b}^{+}
+
+antihadron, antibaryon, fermion, antimatter
+
+other names:
+status: confirmed
+composition: \bar{d} \bar{d} \bar{b}
+mass: 5815.64 \times 10^{0} MeV
+relative charge: +1
+spin: 1/2
+isospin: 1
+antiparticle: SigmaBaryon_ddb
+mean lifetime: 1.24 \times 10^{-22} s
+
+bottomness: +1
+
+wikipedia: https://en.wikipedia.org/wiki/Sigma_baryon
+hyperphysics: http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/sigma.html
+
+rating: *****
