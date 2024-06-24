@@ -1,0 +1,25 @@
+XiAntibaryon_dss
+
+Xi Antibaryon
+
+\bar{\Xi}^{+}
+\bar{\Xi}^{+}
+
+antihadron, antibaryon, fermion, antimatter
+
+other names:
+status: confirmed
+composition: \bar{d} \bar{s} \bar{s}
+mass: 1321.71 \times 10^{0} MeV
+relative charge: +1
+spin: 1/2
+isospin: 1/2
+antiparticle: XiBaryon_dss
+mean lifetime: 1.639 \times 10^{-10} s
+
+strangeness: +2
+
+wikipedia: https://en.wikipedia.org/wiki/Xi_baryon
+hyperphysics: http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/xi.html
+
+rating: *****
