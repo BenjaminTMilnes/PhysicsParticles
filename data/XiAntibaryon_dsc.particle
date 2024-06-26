@@ -1,0 +1,26 @@
+XiAntibaryon_dsc
+
+Charmed Xi Antibaryon
+
+\bar{\Xi}_{c}^{0}
+\bar{\Xi}_{c}^{0}
+
+antihadron, antibaryon, fermion, antimatter
+
+other names:
+status: confirmed
+composition: \bar{d} \bar{s} \bar{c}
+mass: 2470.90 \times 10^{0} MeV
+relative charge: 0
+spin: 1/2
+isospin: 1/2
+antiparticle: XiBaryon_dsc
+mean lifetime: 1.53 \times 10^{-13} s
+
+strangeness: +1
+charm: -1
+
+wikipedia: https://en.wikipedia.org/wiki/Xi_baryon
+hyperphysics: http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/xi.html
+
+rating: *****
