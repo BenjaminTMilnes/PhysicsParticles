@@ -1,0 +1,24 @@
+XiAntibaryon_ucc
+
+Double-Charmed Xi Antibaryon
+
+\Xi_{cc}^{--}
+\Xi_{cc}^{--}
+
+antihadron, antibaryon, fermion, antimatter
+
+other names:
+status: confirmed
+composition: \bar{u} \bar{c} \bar{c}
+mass: 3621.2 \times 10^{0} MeV
+relative charge: -2
+spin: 1/2
+isospin: 1/2
+antiparticle: XiBaryon_ucc
+
+charm: -2
+
+wikipedia: https://en.wikipedia.org/wiki/Xi_baryon
+hyperphysics: http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/xi.html
+
+rating: *****

@@ -1,0 +1,24 @@
+XiBaryon_ucc
+
+Double-Charmed Xi Baryon
+
+\Xi_{cc}^{++}
+\Xi_{cc}^{++}
+
+hadron, baryon, fermion, matter
+
+other names:
+status: confirmed
+composition: ucc
+mass: 3621.2 \times 10^{0} MeV
+relative charge: +2
+spin: 1/2
+isospin: 1/2
+antiparticle: XiAntibaryon_ucc
+
+charm: +2
+
+wikipedia: https://en.wikipedia.org/wiki/Xi_baryon
+hyperphysics: http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/xi.html
+
+rating: *****
