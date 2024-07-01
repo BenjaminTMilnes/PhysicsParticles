@@ -1,0 +1,23 @@
+XiBaryon_dcc
+
+Double-Charmed Xi Baryon
+
+\Xi_{cc}^{+}
+\Xi_{cc}^{+}
+
+hadron, baryon, fermion, matter
+
+other names:
+status: confirmed
+composition: dcc
+relative charge: +1
+spin: 1/2
+isospin: 1/2
+antiparticle: XiAntibaryon_dcc
+
+charm: +2
+
+wikipedia: https://en.wikipedia.org/wiki/Xi_baryon
+hyperphysics: http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/xi.html
+
+rating: *****
