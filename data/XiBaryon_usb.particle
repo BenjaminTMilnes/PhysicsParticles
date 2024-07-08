@@ -1,0 +1,26 @@
+XiBaryon_usb
+
+Bottom Xi Baryon
+
+\Xi_{b}^{0}
+\Xi_{b}^{0}
+
+hadron, baryon, fermion, matter
+
+other names:
+status: confirmed
+composition: usb
+relative charge: 0
+spin: 1/2
+isospin: 1/2
+antiparticle: XiAntibaryon_usb
+mass: 5791.9 \times 10^{0} MeV
+mean lifetime: 1.48 \times 10^{-12} s
+
+strangeness: -1
+bottomness: -1
+
+wikipedia: https://en.wikipedia.org/wiki/Xi_baryon
+hyperphysics: http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/xi.html
+
+rating: *****

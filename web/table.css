@@ -529,6 +529,17 @@
         grid-column: 5 / span 1;
         grid-row: 31 / span 1;
     }
+
+
+    
+    .table-xibaryon_usb {
+        grid-column: 4 / span 1;
+        grid-row: 32 / span 1;
+    }
+    .table-xiantibaryon_usb {
+        grid-column: 5 / span 1;
+        grid-row: 32 / span 1;
+    }
 }
 
 .particle {

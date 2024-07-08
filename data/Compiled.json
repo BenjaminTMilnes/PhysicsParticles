@@ -9575,6 +9575,123 @@
             "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/xi.html"
         },
         {
+            "Reference": "XiAntibaryon_usb",
+            "URLReference": "xiantibaryon_usb",
+            "URL": "xiantibaryon_usb",
+            "Name": "Bottom Xi Antibaryon",
+            "MainSymbol": "\\bar{\\Xi}_{b}^{0}",
+            "Symbol": "\\bar{\\Xi}_{b}^{0}",
+            "Classes": [
+                "antihadron",
+                "antibaryon",
+                "fermion",
+                "antimatter"
+            ],
+            "Antiparticle": {
+                "Reference": "XiBaryon_usb",
+                "Name": "Bottom Xi Baryon",
+                "URLReference": "xibaryon_usb"
+            },
+            "DecayModes": [],
+            "OtherNames": [
+                ""
+            ],
+            "Status": "confirmed",
+            "Composition": "\\bar{u} \\bar{s} \\bar{b}",
+            "RelativeCharge": "0",
+            "Charge": "0",
+            "Spin": "1/2",
+            "Isospin": "1/2",
+            "Mass": [
+                {
+                    "Significand": "1.03249995744",
+                    "Base": "10",
+                    "Exponent": "-26",
+                    "Unit": "kg",
+                    "UnitClass": "kg",
+                    "Rounding": "none",
+                    "HTML": "1.03249995744 &times; 10<sup>&minus;26</sup> kg",
+                    "LaTeX": "1.03249995744 \\times 10^{-26} \\, \\mathrm{kg}"
+                },
+                {
+                    "Significand": "1.03",
+                    "Base": "10",
+                    "Exponent": "-26",
+                    "Unit": "kg",
+                    "UnitClass": "kg",
+                    "Rounding": "3sf",
+                    "HTML": "1.03 &times; 10<sup>&minus;26</sup> kg",
+                    "LaTeX": "1.03 \\times 10^{-26} \\, \\mathrm{kg}"
+                },
+                {
+                    "Significand": "5791.9",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "MeV",
+                    "UnitClass": "eV",
+                    "Rounding": "none",
+                    "HTML": "5791.9 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "5791.9 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "5790",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "MeV",
+                    "UnitClass": "eV",
+                    "Rounding": "3sf",
+                    "HTML": "5790 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "5790 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "6.21786008055",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "UnitClass": "u",
+                    "Rounding": "none",
+                    "HTML": "6.21786008055 u",
+                    "LaTeX": "6.21786008055 \\, \\mathrm{u}"
+                },
+                {
+                    "Significand": "6.22",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "UnitClass": "u",
+                    "Rounding": "3sf",
+                    "HTML": "6.22 u",
+                    "LaTeX": "6.22 \\, \\mathrm{u}"
+                }
+            ],
+            "MeanLifetime": [
+                {
+                    "Significand": "1.48",
+                    "Base": "10",
+                    "Exponent": "-12",
+                    "Unit": "s",
+                    "UnitClass": "s",
+                    "Rounding": "none",
+                    "HTML": "1.48 &times; 10<sup>&minus;12</sup> s",
+                    "LaTeX": "1.48 \\times 10^{-12} \\, s"
+                },
+                {
+                    "Significand": "1.48",
+                    "Base": "10",
+                    "Exponent": "-12",
+                    "Unit": "s",
+                    "UnitClass": "s",
+                    "Rounding": "3sf",
+                    "HTML": "1.48 &times; 10<sup>&minus;12</sup> s",
+                    "LaTeX": "1.48 \\times 10^{-12} \\, s"
+                }
+            ],
+            "Strangeness": "-1",
+            "Bottomness": "-1",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Xi_baryon",
+            "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/xi.html"
+        },
+        {
             "Reference": "XiAntibaryon_usc",
             "URLReference": "xiantibaryon_usc",
             "URL": "xiantibaryon_usc",
@@ -10247,6 +10364,123 @@
             "Spin": "1/2",
             "Isospin": "1/2",
             "Charm": "+2",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Xi_baryon",
+            "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/xi.html"
+        },
+        {
+            "Reference": "XiBaryon_usb",
+            "URLReference": "xibaryon_usb",
+            "URL": "xibaryon_usb",
+            "Name": "Bottom Xi Baryon",
+            "MainSymbol": "\\Xi_{b}^{0}",
+            "Symbol": "\\Xi_{b}^{0}",
+            "Classes": [
+                "hadron",
+                "baryon",
+                "fermion",
+                "matter"
+            ],
+            "Antiparticle": {
+                "Reference": "XiAntibaryon_usb",
+                "Name": "Bottom Xi Antibaryon",
+                "URLReference": "xiantibaryon_usb"
+            },
+            "DecayModes": [],
+            "OtherNames": [
+                ""
+            ],
+            "Status": "confirmed",
+            "Composition": "usb",
+            "RelativeCharge": "0",
+            "Charge": "0",
+            "Spin": "1/2",
+            "Isospin": "1/2",
+            "Mass": [
+                {
+                    "Significand": "1.03249995744",
+                    "Base": "10",
+                    "Exponent": "-26",
+                    "Unit": "kg",
+                    "UnitClass": "kg",
+                    "Rounding": "none",
+                    "HTML": "1.03249995744 &times; 10<sup>&minus;26</sup> kg",
+                    "LaTeX": "1.03249995744 \\times 10^{-26} \\, \\mathrm{kg}"
+                },
+                {
+                    "Significand": "1.03",
+                    "Base": "10",
+                    "Exponent": "-26",
+                    "Unit": "kg",
+                    "UnitClass": "kg",
+                    "Rounding": "3sf",
+                    "HTML": "1.03 &times; 10<sup>&minus;26</sup> kg",
+                    "LaTeX": "1.03 \\times 10^{-26} \\, \\mathrm{kg}"
+                },
+                {
+                    "Significand": "5791.9",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "MeV",
+                    "UnitClass": "eV",
+                    "Rounding": "none",
+                    "HTML": "5791.9 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "5791.9 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "5790",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "MeV",
+                    "UnitClass": "eV",
+                    "Rounding": "3sf",
+                    "HTML": "5790 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "5790 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "6.21786008055",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "UnitClass": "u",
+                    "Rounding": "none",
+                    "HTML": "6.21786008055 u",
+                    "LaTeX": "6.21786008055 \\, \\mathrm{u}"
+                },
+                {
+                    "Significand": "6.22",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "UnitClass": "u",
+                    "Rounding": "3sf",
+                    "HTML": "6.22 u",
+                    "LaTeX": "6.22 \\, \\mathrm{u}"
+                }
+            ],
+            "MeanLifetime": [
+                {
+                    "Significand": "1.48",
+                    "Base": "10",
+                    "Exponent": "-12",
+                    "Unit": "s",
+                    "UnitClass": "s",
+                    "Rounding": "none",
+                    "HTML": "1.48 &times; 10<sup>&minus;12</sup> s",
+                    "LaTeX": "1.48 \\times 10^{-12} \\, s"
+                },
+                {
+                    "Significand": "1.48",
+                    "Base": "10",
+                    "Exponent": "-12",
+                    "Unit": "s",
+                    "UnitClass": "s",
+                    "Rounding": "3sf",
+                    "HTML": "1.48 &times; 10<sup>&minus;12</sup> s",
+                    "LaTeX": "1.48 \\times 10^{-12} \\, s"
+                }
+            ],
+            "Strangeness": "-1",
+            "Bottomness": "-1",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Xi_baryon",
             "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/xi.html"
         },
