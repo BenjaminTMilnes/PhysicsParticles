@@ -1,0 +1,23 @@
+XiAntibaryon_ubb
+
+Double Bottom Xi Antibaryon
+
+\bar{\Xi}_{bb}^{0}
+\bar{\Xi}_{bb}^{0}
+
+antihadron, antibaryon, fermion, antimatter
+
+other names:
+status: confirmed
+composition: \bar{u} \bar{b} \bar{b}
+relative charge: 0
+spin: 1/2
+isospin: 1/2
+antiparticle: XiBaryon_ubb
+
+bottomness: +2
+
+wikipedia: https://en.wikipedia.org/wiki/Xi_baryon
+hyperphysics: http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/xi.html
+
+rating: *****

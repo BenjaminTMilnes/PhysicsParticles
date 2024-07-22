@@ -548,6 +548,17 @@
         grid-column: 9 / span 1;
         grid-row: 32 / span 1;
     }
+
+
+    
+    .table-xibaryon_ubb {
+        grid-column: 6 / span 1;
+        grid-row: 33 / span 1;
+    }
+    .table-xiantibaryon_ubb {
+        grid-column: 7 / span 1;
+        grid-row: 33 / span 1;
+    }
 }
 
 .particle {

@@ -9598,6 +9598,38 @@
             "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/xi.html"
         },
         {
+            "Reference": "XiAntibaryon_ubb",
+            "URLReference": "xiantibaryon_ubb",
+            "URL": "xiantibaryon_ubb",
+            "Name": "Double Bottom Xi Antibaryon",
+            "MainSymbol": "\\bar{\\Xi}_{bb}^{0}",
+            "Symbol": "\\bar{\\Xi}_{bb}^{0}",
+            "Classes": [
+                "antihadron",
+                "antibaryon",
+                "fermion",
+                "antimatter"
+            ],
+            "Antiparticle": {
+                "Reference": "XiBaryon_ubb",
+                "Name": "Double Bottom Xi Baryon",
+                "URLReference": "xibaryon_ubb"
+            },
+            "DecayModes": [],
+            "OtherNames": [
+                ""
+            ],
+            "Status": "confirmed",
+            "Composition": "\\bar{u} \\bar{b} \\bar{b}",
+            "RelativeCharge": "0",
+            "Charge": "0",
+            "Spin": "1/2",
+            "Isospin": "1/2",
+            "Bottomness": "+2",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Xi_baryon",
+            "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/xi.html"
+        },
+        {
             "Reference": "XiAntibaryon_ucc",
             "URLReference": "xiantibaryon_ucc",
             "URL": "xiantibaryon_ucc",
@@ -10525,6 +10557,38 @@
                 }
             ],
             "Strangeness": "-2",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Xi_baryon",
+            "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/xi.html"
+        },
+        {
+            "Reference": "XiBaryon_ubb",
+            "URLReference": "xibaryon_ubb",
+            "URL": "xibaryon_ubb",
+            "Name": "Double Bottom Xi Baryon",
+            "MainSymbol": "\\Xi_{bb}^{0}",
+            "Symbol": "\\Xi_{bb}^{0}",
+            "Classes": [
+                "hadron",
+                "baryon",
+                "fermion",
+                "matter"
+            ],
+            "Antiparticle": {
+                "Reference": "XiAntibaryon_ubb",
+                "Name": "Double Bottom Xi Antibaryon",
+                "URLReference": "xiantibaryon_ubb"
+            },
+            "DecayModes": [],
+            "OtherNames": [
+                ""
+            ],
+            "Status": "confirmed",
+            "Composition": "ubb",
+            "RelativeCharge": "0",
+            "Charge": "0",
+            "Spin": "1/2",
+            "Isospin": "1/2",
+            "Bottomness": "-2",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Xi_baryon",
             "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/xi.html"
         },
