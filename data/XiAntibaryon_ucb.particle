@@ -1,0 +1,24 @@
+XiAntibaryon_ucb
+
+Charmed Bottom Xi Antibaryon
+
+\Xi_{cb}^{-}
+\Xi_{cb}^{-}
+
+antihadron, antibaryon, fermion, antimatter
+
+other names:
+status: confirmed
+composition: \bar{u} \bar{c} \bar{b}
+relative charge: -1
+spin: 1/2
+isospin: 1/2
+antiparticle: XiBaryon_ucb
+
+charm: -1
+bottomness: +1
+
+wikipedia: https://en.wikipedia.org/wiki/Xi_baryon
+hyperphysics: http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/xi.html
+
+rating: *****
