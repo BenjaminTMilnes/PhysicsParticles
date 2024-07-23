@@ -9153,6 +9153,59 @@
             "WikipediaURL": "https://en.wikipedia.org/wiki/W_and_Z_bosons"
         },
         {
+            "Reference": "XiAntibaryon_dbb",
+            "URLReference": "xiantibaryon_dbb",
+            "URL": "xiantibaryon_dbb",
+            "Name": "Double Bottom Xi Antibaryon",
+            "MainSymbol": "\\Xi_{bb}^{+}",
+            "Symbol": "\\Xi_{bb}^{+}",
+            "Classes": [
+                "antihadron",
+                "antibaryon",
+                "fermion",
+                "antimatter"
+            ],
+            "Antiparticle": {
+                "Reference": "XiBaryon_dbb",
+                "Name": "Double Bottom Xi Baryon",
+                "URLReference": "xibaryon_dbb"
+            },
+            "DecayModes": [],
+            "OtherNames": [
+                ""
+            ],
+            "Status": "confirmed",
+            "Composition": "\\bar{d} \\bar{b} \\bar{b}",
+            "RelativeCharge": "+1",
+            "Charge": [
+                {
+                    "Significand": "1.602176634",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "none",
+                    "HTML": "1.602176634 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "1.602176634 \\times 10^{-19} \\, \\mathrm{C}"
+                },
+                {
+                    "Significand": "1.60",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "3sf",
+                    "HTML": "1.60 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "1.60 \\times 10^{-19} \\, \\mathrm{C}"
+                }
+            ],
+            "Spin": "1/2",
+            "Isospin": "1/2",
+            "Bottomness": "+2",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Xi_baryon",
+            "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/xi.html"
+        },
+        {
             "Reference": "XiAntibaryon_dcc",
             "URLReference": "xiantibaryon_dcc",
             "URL": "xiantibaryon_dcc",
@@ -10112,6 +10165,59 @@
                 }
             ],
             "Strangeness": "+2",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Xi_baryon",
+            "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/xi.html"
+        },
+        {
+            "Reference": "XiBaryon_dbb",
+            "URLReference": "xibaryon_dbb",
+            "URL": "xibaryon_dbb",
+            "Name": "Double Bottom Xi Baryon",
+            "MainSymbol": "\\Xi_{bb}^{-}",
+            "Symbol": "\\Xi_{bb}^{-}",
+            "Classes": [
+                "hadron",
+                "baryon",
+                "fermion",
+                "matter"
+            ],
+            "Antiparticle": {
+                "Reference": "XiAntibaryon_dbb",
+                "Name": "Double Bottom Xi Antibaryon",
+                "URLReference": "xiantibaryon_dbb"
+            },
+            "DecayModes": [],
+            "OtherNames": [
+                ""
+            ],
+            "Status": "confirmed",
+            "Composition": "dbb",
+            "RelativeCharge": "-1",
+            "Charge": [
+                {
+                    "Significand": "-1.602176634",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "none",
+                    "HTML": "&minus;1.602176634 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "-1.602176634 \\times 10^{-19} \\, \\mathrm{C}"
+                },
+                {
+                    "Significand": "-1.60",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "3sf",
+                    "HTML": "&minus;1.60 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "-1.60 \\times 10^{-19} \\, \\mathrm{C}"
+                }
+            ],
+            "Spin": "1/2",
+            "Isospin": "1/2",
+            "Bottomness": "-2",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Xi_baryon",
             "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/xi.html"
         },
