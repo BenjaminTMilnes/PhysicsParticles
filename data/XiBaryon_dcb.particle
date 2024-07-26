@@ -1,0 +1,24 @@
+XiBaryon_dcb
+
+Charmed Bottom Xi Baryon
+
+\Xi_{cb}^{0}
+\Xi_{cb}^{0}
+
+hadron, baryon, fermion, matter
+
+other names:
+status: confirmed
+composition: dcb
+relative charge: 0
+spin: 1/2
+isospin: 1/2
+antiparticle: XiAntibaryon_dcb
+
+charm: 1
+bottomness: -1
+
+wikipedia: https://en.wikipedia.org/wiki/Xi_baryon
+hyperphysics: http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/xi.html
+
+rating: *****

@@ -9206,6 +9206,39 @@
             "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/xi.html"
         },
         {
+            "Reference": "XiAntibaryon_dcb",
+            "URLReference": "xiantibaryon_dcb",
+            "URL": "xiantibaryon_dcb",
+            "Name": "Charmed Bottom Xi Antibaryon",
+            "MainSymbol": "\\bar{\\Xi}_{cb}^{0}",
+            "Symbol": "\\bar{\\Xi}_{cb}^{0}",
+            "Classes": [
+                "antihadron",
+                "antibaryon",
+                "fermion",
+                "antimatter"
+            ],
+            "Antiparticle": {
+                "Reference": "XiBaryon_dcb",
+                "Name": "Charmed Bottom Xi Baryon",
+                "URLReference": "xibaryon_dcb"
+            },
+            "DecayModes": [],
+            "OtherNames": [
+                ""
+            ],
+            "Status": "confirmed",
+            "Composition": "\\bar{d} \\bar{c} \\bar{b}",
+            "RelativeCharge": "0",
+            "Charge": "0",
+            "Spin": "1/2",
+            "Isospin": "1/2",
+            "Charm": "-1",
+            "Bottomness": "+1",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Xi_baryon",
+            "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/xi.html"
+        },
+        {
             "Reference": "XiAntibaryon_dcc",
             "URLReference": "xiantibaryon_dcc",
             "URL": "xiantibaryon_dcc",
@@ -10272,6 +10305,39 @@
             "Spin": "1/2",
             "Isospin": "1/2",
             "Bottomness": "-2",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Xi_baryon",
+            "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/xi.html"
+        },
+        {
+            "Reference": "XiBaryon_dcb",
+            "URLReference": "xibaryon_dcb",
+            "URL": "xibaryon_dcb",
+            "Name": "Charmed Bottom Xi Baryon",
+            "MainSymbol": "\\Xi_{cb}^{0}",
+            "Symbol": "\\Xi_{cb}^{0}",
+            "Classes": [
+                "hadron",
+                "baryon",
+                "fermion",
+                "matter"
+            ],
+            "Antiparticle": {
+                "Reference": "XiAntibaryon_dcb",
+                "Name": "Charmed Bottom Xi Antibaryon",
+                "URLReference": "xiantibaryon_dcb"
+            },
+            "DecayModes": [],
+            "OtherNames": [
+                ""
+            ],
+            "Status": "confirmed",
+            "Composition": "dcb",
+            "RelativeCharge": "0",
+            "Charge": "0",
+            "Spin": "1/2",
+            "Isospin": "1/2",
+            "Charm": "1",
+            "Bottomness": "-1",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Xi_baryon",
             "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/xi.html"
         },
