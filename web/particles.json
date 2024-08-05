@@ -4653,6 +4653,238 @@
             "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/proton.html#Neutron"
         },
         {
+            "Reference": "OmegaAntibaryon_ssc",
+            "URLReference": "omegaantibaryon_ssc",
+            "URL": "omegaantibaryon_ssc",
+            "Name": "Charmed Omega Antibaryon",
+            "MainSymbol": "\\bar{\\Omega}_{c}^{0}",
+            "Symbol": "\\bar{\\Omega}_{c}^{0}",
+            "Classes": [
+                "antihadron",
+                "antibaryon",
+                "fermion",
+                "antimatter"
+            ],
+            "Antiparticle": {
+                "Reference": "OmegaBaryon_ssc",
+                "Name": "Charmed Omega Baryon",
+                "URLReference": "omegabaryon_ssc"
+            },
+            "DecayModes": [],
+            "OtherNames": [
+                ""
+            ],
+            "Status": "confirmed",
+            "Composition": "\\bar{s} \\bar{s} \\bar{c}",
+            "RelativeCharge": "0",
+            "Charge": "0",
+            "Spin": "1/2",
+            "Isospin": "0",
+            "Mass": [
+                {
+                    "Significand": "4.80463040678",
+                    "Base": "10",
+                    "Exponent": "-27",
+                    "Unit": "kg",
+                    "UnitClass": "kg",
+                    "Rounding": "none",
+                    "HTML": "4.80463040678 &times; 10<sup>&minus;27</sup> kg",
+                    "LaTeX": "4.80463040678 \\times 10^{-27} \\, \\mathrm{kg}"
+                },
+                {
+                    "Significand": "4.80",
+                    "Base": "10",
+                    "Exponent": "-27",
+                    "Unit": "kg",
+                    "UnitClass": "kg",
+                    "Rounding": "3sf",
+                    "HTML": "4.80 &times; 10<sup>&minus;27</sup> kg",
+                    "LaTeX": "4.80 \\times 10^{-27} \\, \\mathrm{kg}"
+                },
+                {
+                    "Significand": "2695.2",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "MeV",
+                    "UnitClass": "eV",
+                    "Rounding": "none",
+                    "HTML": "2695.2 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "2695.2 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "2700",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "MeV",
+                    "UnitClass": "eV",
+                    "Rounding": "3sf",
+                    "HTML": "2700 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "2700 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "2.89341606194",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "UnitClass": "u",
+                    "Rounding": "none",
+                    "HTML": "2.89341606194 u",
+                    "LaTeX": "2.89341606194 \\, \\mathrm{u}"
+                },
+                {
+                    "Significand": "2.89",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "UnitClass": "u",
+                    "Rounding": "3sf",
+                    "HTML": "2.89 u",
+                    "LaTeX": "2.89 \\, \\mathrm{u}"
+                }
+            ],
+            "MeanLifetime": [
+                {
+                    "Significand": "2.68",
+                    "Base": "10",
+                    "Exponent": "-13",
+                    "Unit": "s",
+                    "UnitClass": "s",
+                    "Rounding": "none",
+                    "HTML": "2.68 &times; 10<sup>&minus;13</sup> s",
+                    "LaTeX": "2.68 \\times 10^{-13} \\, s"
+                },
+                {
+                    "Significand": "2.68",
+                    "Base": "10",
+                    "Exponent": "-13",
+                    "Unit": "s",
+                    "UnitClass": "s",
+                    "Rounding": "3sf",
+                    "HTML": "2.68 &times; 10<sup>&minus;13</sup> s",
+                    "LaTeX": "2.68 \\times 10^{-13} \\, s"
+                }
+            ],
+            "Strangeness": "2",
+            "Charm": "-1",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Omega_baryon"
+        },
+        {
+            "Reference": "OmegaBaryon_ssc",
+            "URLReference": "omegabaryon_ssc",
+            "URL": "omegabaryon_ssc",
+            "Name": "Charmed Omega Baryon",
+            "MainSymbol": "\\Omega_{c}^{0}",
+            "Symbol": "\\Omega_{c}^{0}",
+            "Classes": [
+                "hadron",
+                "baryon",
+                "fermion",
+                "matter"
+            ],
+            "Antiparticle": {
+                "Reference": "OmegaAntibaryon_ssc",
+                "Name": "Charmed Omega Antibaryon",
+                "URLReference": "omegaantibaryon_ssc"
+            },
+            "DecayModes": [],
+            "OtherNames": [
+                ""
+            ],
+            "Status": "confirmed",
+            "Composition": "ssc",
+            "RelativeCharge": "0",
+            "Charge": "0",
+            "Spin": "1/2",
+            "Isospin": "0",
+            "Mass": [
+                {
+                    "Significand": "4.80463040678",
+                    "Base": "10",
+                    "Exponent": "-27",
+                    "Unit": "kg",
+                    "UnitClass": "kg",
+                    "Rounding": "none",
+                    "HTML": "4.80463040678 &times; 10<sup>&minus;27</sup> kg",
+                    "LaTeX": "4.80463040678 \\times 10^{-27} \\, \\mathrm{kg}"
+                },
+                {
+                    "Significand": "4.80",
+                    "Base": "10",
+                    "Exponent": "-27",
+                    "Unit": "kg",
+                    "UnitClass": "kg",
+                    "Rounding": "3sf",
+                    "HTML": "4.80 &times; 10<sup>&minus;27</sup> kg",
+                    "LaTeX": "4.80 \\times 10^{-27} \\, \\mathrm{kg}"
+                },
+                {
+                    "Significand": "2695.2",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "MeV",
+                    "UnitClass": "eV",
+                    "Rounding": "none",
+                    "HTML": "2695.2 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "2695.2 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "2700",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "MeV",
+                    "UnitClass": "eV",
+                    "Rounding": "3sf",
+                    "HTML": "2700 MeV / <span style=\"font-style: italic;\">c</span><sup>2</sup>",
+                    "LaTeX": "2700 \\, \\mathrm{MeV} / c^{2}"
+                },
+                {
+                    "Significand": "2.89341606194",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "UnitClass": "u",
+                    "Rounding": "none",
+                    "HTML": "2.89341606194 u",
+                    "LaTeX": "2.89341606194 \\, \\mathrm{u}"
+                },
+                {
+                    "Significand": "2.89",
+                    "Base": "10",
+                    "Exponent": "0",
+                    "Unit": "u",
+                    "UnitClass": "u",
+                    "Rounding": "3sf",
+                    "HTML": "2.89 u",
+                    "LaTeX": "2.89 \\, \\mathrm{u}"
+                }
+            ],
+            "MeanLifetime": [
+                {
+                    "Significand": "2.68",
+                    "Base": "10",
+                    "Exponent": "-13",
+                    "Unit": "s",
+                    "UnitClass": "s",
+                    "Rounding": "none",
+                    "HTML": "2.68 &times; 10<sup>&minus;13</sup> s",
+                    "LaTeX": "2.68 \\times 10^{-13} \\, s"
+                },
+                {
+                    "Significand": "2.68",
+                    "Base": "10",
+                    "Exponent": "-13",
+                    "Unit": "s",
+                    "UnitClass": "s",
+                    "Rounding": "3sf",
+                    "HTML": "2.68 &times; 10<sup>&minus;13</sup> s",
+                    "LaTeX": "2.68 \\times 10^{-13} \\, s"
+                }
+            ],
+            "Strangeness": "-2",
+            "Charm": "1",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/Omega_baryon"
+        },
+        {
             "Reference": "Photino",
             "URLReference": "photino",
             "URL": "photino",

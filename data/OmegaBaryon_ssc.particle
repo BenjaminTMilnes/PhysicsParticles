@@ -1,0 +1,25 @@
+OmegaBaryon_ssc
+
+Charmed Omega Baryon
+
+\Omega_{c}^{0}
+\Omega_{c}^{0}
+
+hadron, baryon, fermion, matter
+
+other names:
+status: confirmed
+composition: ssc
+relative charge: 0
+spin: 1/2
+isospin: 0
+antiparticle: OmegaAntibaryon_ssc
+mass: 2695.2 \times 10^{0} MeV
+mean lifetime: 2.68 \times 10^{-13} s
+
+strangeness: -2
+charm: 1
+
+wikipedia: https://en.wikipedia.org/wiki/Omega_baryon
+
+rating: *****
