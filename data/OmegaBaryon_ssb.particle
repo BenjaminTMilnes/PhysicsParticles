@@ -1,0 +1,25 @@
+OmegaBaryon_ssb
+
+Bottom Omega Baryon
+
+\Omega_{b}^{-}
+\Omega_{b}^{-}
+
+hadron, baryon, fermion, matter
+
+other names:
+status: confirmed
+composition: ssb
+relative charge: -1
+spin: 0
+isospin: 1/2
+antiparticle: OmegaAntibaryon_ssb
+mass: 6046.1 \times 10^{0} MeV
+mean lifetime: 1.64 \times 10^{-12} s
+
+strangeness: -2
+bottomness: -1
+
+wikipedia: https://en.wikipedia.org/wiki/Omega_baryon
+
+rating: *****
