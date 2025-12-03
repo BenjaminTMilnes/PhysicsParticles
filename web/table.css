@@ -616,6 +616,14 @@
         grid-column: 5 / span 1;
         grid-row: 36 / span 1;
     }
+    .table-omegabaryon_scb {
+        grid-column: 6 / span 1;
+        grid-row: 36 / span 1;
+    }
+    .table-omegaantibaryon_scb {
+        grid-column: 7 / span 1;
+        grid-row: 36 / span 1;
+    }
 }
 
 .particle {

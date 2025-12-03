@@ -4653,6 +4653,39 @@
             "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/proton.html#Neutron"
         },
         {
+            "Reference": "OmegaAntibaryon_scb",
+            "URLReference": "omegaantibaryon_scb",
+            "URL": "omegaantibaryon_scb",
+            "Name": "Charmed Bottom Omega Antibaryon",
+            "MainSymbol": "\\bar{\\Omega}_{cb}^{0}",
+            "Symbol": "\\bar{\\Omega}_{cb}^{0}",
+            "Classes": [
+                "antihadron",
+                "antibaryon",
+                "fermion",
+                "antimatter"
+            ],
+            "Antiparticle": {
+                "Reference": "OmegaBaryon_scb",
+                "Name": "Charmed Bottom Omega Baryon",
+                "URLReference": "omegabaryon_scb"
+            },
+            "DecayModes": [],
+            "OtherNames": [
+                ""
+            ],
+            "Status": "hypothetical",
+            "Composition": "\\bar{s} \\bar{c} \\bar{b}",
+            "RelativeCharge": "0",
+            "Charge": "0",
+            "Spin": "1/2",
+            "Isospin": "0",
+            "Strangeness": "1",
+            "Charm": "-1",
+            "Bottomness": "1",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/List_of_baryons"
+        },
+        {
             "Reference": "OmegaAntibaryon_scc",
             "URLReference": "omegaantibaryon_scc",
             "URL": "omegaantibaryon_scc",
@@ -4957,6 +4990,39 @@
             "Strangeness": "2",
             "Charm": "-1",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Omega_baryon"
+        },
+        {
+            "Reference": "OmegaBaryon_scb",
+            "URLReference": "omegabaryon_scb",
+            "URL": "omegabaryon_scb",
+            "Name": "Charmed Bottom Omega Baryon",
+            "MainSymbol": "\\Omega_{cb}^{0}",
+            "Symbol": "\\Omega_{cb}^{0}",
+            "Classes": [
+                "hadron",
+                "baryon",
+                "fermion",
+                "matter"
+            ],
+            "Antiparticle": {
+                "Reference": "OmegaAntibaryon_scb",
+                "Name": "Charmed Bottom Omega Antibaryon",
+                "URLReference": "omegaantibaryon_scb"
+            },
+            "DecayModes": [],
+            "OtherNames": [
+                ""
+            ],
+            "Status": "hypothetical",
+            "Composition": "scb",
+            "RelativeCharge": "0",
+            "Charge": "0",
+            "Spin": "1/2",
+            "Isospin": "0",
+            "Strangeness": "-1",
+            "Charm": "+1",
+            "Bottomness": "+1",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/List_of_baryons"
         },
         {
             "Reference": "OmegaBaryon_scc",
