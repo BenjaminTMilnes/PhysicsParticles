@@ -13,9 +13,7 @@ composition: \bar{s} \bar{c} \bar{c}
 relative charge: -1
 spin: 1/2
 isospin: 0
-antiparticle: OmegaBaryon_scc
-mass: 
-mean lifetime: 
+antiparticle: OmegaBaryon_scc 
 
 strangeness: 1
 charm: -2
