@@ -4653,6 +4653,60 @@
             "HyperphysicsURL": "http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/proton.html#Neutron"
         },
         {
+            "Reference": "OmegaAntibaryon_sbb",
+            "URLReference": "omegaantibaryon_sbb",
+            "URL": "omegaantibaryon_sbb",
+            "Name": "Double Bottom Omega Antibaryon",
+            "MainSymbol": "\\bar{\\Omega}_{bb}^{+}",
+            "Symbol": "\\bar{\\Omega}_{bb}^{+}",
+            "Classes": [
+                "antihadron",
+                "antibaryon",
+                "fermion",
+                "antimatter"
+            ],
+            "Antiparticle": {
+                "Reference": "OmegaBaryon_sbb",
+                "Name": "Double Bottom Omega Baryon",
+                "URLReference": "omegabaryon_sbb"
+            },
+            "DecayModes": [],
+            "OtherNames": [
+                ""
+            ],
+            "Status": "hypothetical",
+            "Composition": "\\bar{s} \\bar{b} \\bar{b}",
+            "RelativeCharge": "+1",
+            "Charge": [
+                {
+                    "Significand": "1.602176634",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "none",
+                    "HTML": "1.602176634 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "1.602176634 \\times 10^{-19} \\, \\mathrm{C}"
+                },
+                {
+                    "Significand": "1.60",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "3sf",
+                    "HTML": "1.60 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "1.60 \\times 10^{-19} \\, \\mathrm{C}"
+                }
+            ],
+            "Spin": "1/2",
+            "Isospin": "0",
+            "Strangeness": "1",
+            "Charm": "0",
+            "Bottomness": "2",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/List_of_baryons"
+        },
+        {
             "Reference": "OmegaAntibaryon_scb",
             "URLReference": "omegaantibaryon_scb",
             "URL": "omegaantibaryon_scb",
@@ -4990,6 +5044,60 @@
             "Strangeness": "2",
             "Charm": "-1",
             "WikipediaURL": "https://en.wikipedia.org/wiki/Omega_baryon"
+        },
+        {
+            "Reference": "OmegaBaryon_sbb",
+            "URLReference": "omegabaryon_sbb",
+            "URL": "omegabaryon_sbb",
+            "Name": "Double Bottom Omega Baryon",
+            "MainSymbol": "\\Omega_{bb}^{-}",
+            "Symbol": "\\Omega_{bb}^{-}",
+            "Classes": [
+                "hadron",
+                "baryon",
+                "fermion",
+                "matter"
+            ],
+            "Antiparticle": {
+                "Reference": "OmegaAntibaryon_sbb",
+                "Name": "Double Bottom Omega Antibaryon",
+                "URLReference": "omegaantibaryon_sbb"
+            },
+            "DecayModes": [],
+            "OtherNames": [
+                ""
+            ],
+            "Status": "hypothetical",
+            "Composition": "sbb",
+            "RelativeCharge": "-1",
+            "Charge": [
+                {
+                    "Significand": "-1.602176634",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "none",
+                    "HTML": "&minus;1.602176634 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "-1.602176634 \\times 10^{-19} \\, \\mathrm{C}"
+                },
+                {
+                    "Significand": "-1.60",
+                    "Base": "10",
+                    "Exponent": "-19",
+                    "Unit": "C",
+                    "UnitClass": "C",
+                    "Rounding": "3sf",
+                    "HTML": "&minus;1.60 &times; 10<sup>&minus;19</sup> C",
+                    "LaTeX": "-1.60 \\times 10^{-19} \\, \\mathrm{C}"
+                }
+            ],
+            "Spin": "1/2",
+            "Isospin": "0",
+            "Strangeness": "-1",
+            "Charm": "0",
+            "Bottomness": "-2",
+            "WikipediaURL": "https://en.wikipedia.org/wiki/List_of_baryons"
         },
         {
             "Reference": "OmegaBaryon_scb",
